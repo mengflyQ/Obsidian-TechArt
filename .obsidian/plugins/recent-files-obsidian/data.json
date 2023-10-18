@@ -1,16 +1,24 @@
 {
   "recentFiles": [
     {
+      "basename": "《编辑器扩展》",
+      "path": "引擎Unity3D/1 Unity精粹/《编辑器扩展》.md"
+    },
+    {
+      "basename": "次表面散射SSS",
+      "path": "技术美术/2 着色器/次表面散射SSS.md"
+    },
+    {
+      "basename": "大数定律与中心极限定理",
+      "path": "Math/概率论/大数定律与中心极限定理.md"
+    },
+    {
       "basename": "URP 渲染优化总结",
       "path": "引擎Unity3D/2 Shader精粹/《渲染优化》/URP 渲染优化总结.md"
     },
     {
       "basename": "1 批处理总结",
       "path": "引擎Unity3D/2 Shader精粹/《渲染优化》/1 批处理总结.md"
-    },
-    {
-      "basename": "《编辑器扩展》",
-      "path": "引擎Unity3D/1 Unity精粹/《编辑器扩展》.md"
     },
     {
       "basename": "04 纹理",
@@ -191,14 +199,6 @@
     {
       "basename": "Pasted image 20230901192944",
       "path": "引擎Unreal/03 Gameplay/assets/Pasted image 20230901192944.jpg"
-    },
-    {
-      "basename": "Pasted image 20230901192924",
-      "path": "引擎Unreal/03 Gameplay/assets/Pasted image 20230901192924.png"
-    },
-    {
-      "basename": "Pasted image 20230901172151",
-      "path": "引擎Unreal/03 Gameplay/assets/Pasted image 20230901172151.png"
     }
   ],
   "omittedPaths": [],

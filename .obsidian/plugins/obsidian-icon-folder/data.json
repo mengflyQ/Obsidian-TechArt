@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": "#bfbfbf",
     "recentlyUsedIcons": [
+      "SiAirbnb",
       "IbStar",
       "SiBlender",
       "TiGraph",
-      "🖼",
-      "FabDelicious"
+      "🖼"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -36,5 +36,6 @@
   "zip/AI": "SiPython",
   "zip/留学": "TiSchool",
   "DCC/02 Blender": "SiBlender",
-  "引擎Unreal": "SiUnrealengine"
+  "引擎Unreal": "SiUnrealengine",
+  "AI": "SiAirbnb"
 }

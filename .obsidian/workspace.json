@@ -29,7 +29,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "引擎Unity3D/2 Shader精粹/《渲染优化》/URP 渲染优化总结.md",
+                "file": "技术美术/2 着色器/次表面散射SSS.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -80,7 +80,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "引擎Unity3D/2 Shader精粹/《渲染优化》/URP 渲染优化总结.md"
+                "file": "技术美术/2 着色器/次表面散射SSS.md"
               }
             }
           },
@@ -90,7 +90,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "引擎Unity3D/2 Shader精粹/《渲染优化》/URP 渲染优化总结.md"
+                "file": "技术美术/2 着色器/次表面散射SSS.md"
               }
             }
           },
@@ -141,7 +141,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "引擎Unity3D/2 Shader精粹/《渲染优化》/URP 渲染优化总结.md",
+                "file": "技术美术/2 着色器/次表面散射SSS.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -185,7 +185,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "引擎Unity3D/2 Shader精粹/《渲染优化》/URP 渲染优化总结.md",
+                "file": "技术美术/2 着色器/次表面散射SSS.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -220,6 +220,8 @@
   },
   "active": "03df1de692fe8ee3",
   "lastOpenFiles": [
+    "Math/概率论/大数定律与中心极限定理.md",
+    "引擎Unity3D/2 Shader精粹/《渲染优化》/URP 渲染优化总结.md",
     "引擎Unity3D/2 Shader精粹/《渲染优化》/1 批处理总结.md",
     "引擎Unity3D/1 Unity精粹/《编辑器扩展》.md",
     "图形学/1 图形系统/04 纹理.md",
@@ -261,11 +263,9 @@
     "引擎Unity3D/2 Shader精粹/《渲染优化》/性能分析/assets",
     "引擎Unity3D/2 Shader精粹/《渲染优化》/移动游戏性能优化通用技法.md",
     "引擎Unity3D/2 Shader精粹/《渲染优化》/性能分析",
-    "引擎Unity3D/2 Shader精粹/《渲染优化》/URP 渲染优化总结.md",
     "引擎Unity3D/2 Shader精粹/《渲染优化》/DrawCall，Batches，SetPass calls.md",
     "引擎Unity3D/2 Shader精粹/《渲染优化》/4 场景剔除.md",
     "引擎Unity3D/2 Shader精粹/《渲染优化》/3 OverDraw.md",
-    "引擎Unity3D/2 Shader精粹/《渲染优化》/2 GPU Instance深入浅出.md",
     "引擎Unreal/03 Gameplay/UE画布.canvas",
     "图形学/2 图形API/DX12/龙书/DX12脑图.canvas"
   ]
