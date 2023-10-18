@@ -29,7 +29,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "图形学/1 图形系统/04 纹理.md",
+                "file": "引擎Unity3D/2 Shader精粹/《渲染优化》/URP 渲染优化总结.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -80,7 +80,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "图形学/1 图形系统/04 纹理.md"
+                "file": "引擎Unity3D/2 Shader精粹/《渲染优化》/URP 渲染优化总结.md"
               }
             }
           },
@@ -90,7 +90,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "图形学/1 图形系统/04 纹理.md"
+                "file": "引擎Unity3D/2 Shader精粹/《渲染优化》/URP 渲染优化总结.md"
               }
             }
           },
@@ -141,7 +141,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "图形学/1 图形系统/04 纹理.md",
+                "file": "引擎Unity3D/2 Shader精粹/《渲染优化》/URP 渲染优化总结.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -185,7 +185,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "图形学/1 图形系统/04 纹理.md",
+                "file": "引擎Unity3D/2 Shader精粹/《渲染优化》/URP 渲染优化总结.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -218,8 +218,11 @@
       "obsidian-excalidraw-plugin:新建绘图文件": false
     }
   },
-  "active": "638af3f7231b161a",
+  "active": "03df1de692fe8ee3",
   "lastOpenFiles": [
+    "引擎Unity3D/2 Shader精粹/《渲染优化》/1 批处理总结.md",
+    "引擎Unity3D/1 Unity精粹/《编辑器扩展》.md",
+    "图形学/1 图形系统/04 纹理.md",
     "引擎Unity3D/3 URP精粹/ComputeShader/草地渲染/assets/fecd909a3d02820cb778318604361e1b_MD5.jpg",
     "引擎Unity3D/3 URP精粹/ComputeShader/草地渲染/assets/f14116b0b659e124c10c09ea21cdfcaf_MD5.jpg",
     "引擎Unity3D/3 URP精粹/ComputeShader/草地渲染/assets/ee947035721acf8ad4b420355426da72_MD5.jpg",
@@ -230,7 +233,6 @@
     "引擎Unity3D/3 URP精粹/ComputeShader/草地渲染/assets/d8d7f3b84df779e0de837c069ecb981a_MD5.gif",
     "引擎Unity3D/3 URP精粹/ComputeShader/草地渲染/assets/d5cdc4da65e65e8a85cec9a0b2287b35_MD5.jpg",
     "引擎Unity3D/3 URP精粹/ComputeShader/草地渲染/assets/d245c98cce2521181c714b44e4e652f1_MD5.jpg",
-    "引擎Unity3D/3 URP精粹/ComputeShader/草地渲染/assets/cf2b8007c1efe009d2d0c48046ee51d1_MD5.jpg",
     "引擎Unity3D/3 URP精粹/ComputeShader/草地渲染/【Unity】使用 Compute Shader 实现 Hi-z 遮挡剔除（Occlusion Culling）.md",
     "引擎Unity3D/3 URP精粹/ComputeShader/草地渲染/Compute Shader 进阶应用： 结合 Hi-Z 剔除海量草渲染.md",
     "引擎Unity3D/3 URP精粹/ComputeShader/草地渲染/Unity 中使用 ComputeShader 做视锥剔除（View Frustum Culling）.md",
@@ -264,8 +266,6 @@
     "引擎Unity3D/2 Shader精粹/《渲染优化》/4 场景剔除.md",
     "引擎Unity3D/2 Shader精粹/《渲染优化》/3 OverDraw.md",
     "引擎Unity3D/2 Shader精粹/《渲染优化》/2 GPU Instance深入浅出.md",
-    "引擎Unity3D/2 Shader精粹/《渲染优化》/1 批处理总结.md",
-    "引擎Unity3D/2 Shader精粹/《Built-in》/CG shaderlab.md",
     "引擎Unreal/03 Gameplay/UE画布.canvas",
     "图形学/2 图形API/DX12/龙书/DX12脑图.canvas"
   ]

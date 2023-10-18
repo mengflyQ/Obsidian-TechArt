@@ -1,6 +1,18 @@
 {
   "recentFiles": [
     {
+      "basename": "URP 渲染优化总结",
+      "path": "引擎Unity3D/2 Shader精粹/《渲染优化》/URP 渲染优化总结.md"
+    },
+    {
+      "basename": "1 批处理总结",
+      "path": "引擎Unity3D/2 Shader精粹/《渲染优化》/1 批处理总结.md"
+    },
+    {
+      "basename": "《编辑器扩展》",
+      "path": "引擎Unity3D/1 Unity精粹/《编辑器扩展》.md"
+    },
+    {
       "basename": "04 纹理",
       "path": "图形学/1 图形系统/04 纹理.md"
     },
@@ -187,18 +199,6 @@
     {
       "basename": "Pasted image 20230901172151",
       "path": "引擎Unreal/03 Gameplay/assets/Pasted image 20230901172151.png"
-    },
-    {
-      "basename": "Pasted image 20230901171937",
-      "path": "引擎Unreal/03 Gameplay/assets/Pasted image 20230901171937.jpg"
-    },
-    {
-      "basename": "Pasted image 20230901171714",
-      "path": "引擎Unreal/03 Gameplay/assets/Pasted image 20230901171714.png"
-    },
-    {
-      "basename": "UE画布",
-      "path": "引擎Unreal/03 Gameplay/UE画布.canvas"
     }
   ],
   "omittedPaths": [],
