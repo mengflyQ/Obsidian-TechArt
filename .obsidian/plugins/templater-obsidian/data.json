@@ -1,6 +1,6 @@
 {
   "command_timeout": 5,
-  "templates_folder": "zip/templates",
+  "templates_folder": "zip/Templates",
   "templates_pairs": [
     [
       "",
@@ -22,7 +22,7 @@
   "syntax_highlighting": true,
   "syntax_highlighting_mobile": false,
   "enabled_templates_hotkeys": [
-    ""
+    "zip/Templates/跳转到主库.md"
   ],
   "startup_templates": [
     ""

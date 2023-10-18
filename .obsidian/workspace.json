@@ -29,7 +29,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "技术美术/2 着色器/次表面散射SSS.md",
+                "file": "引擎Unity3D/1 Unity精粹/《编辑器扩展》.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -80,7 +80,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "技术美术/2 着色器/次表面散射SSS.md"
+                "file": "引擎Unity3D/1 Unity精粹/《编辑器扩展》.md"
               }
             }
           },
@@ -90,7 +90,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "技术美术/2 着色器/次表面散射SSS.md"
+                "file": "引擎Unity3D/1 Unity精粹/《编辑器扩展》.md"
               }
             }
           },
@@ -141,7 +141,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "技术美术/2 着色器/次表面散射SSS.md",
+                "file": "引擎Unity3D/1 Unity精粹/《编辑器扩展》.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -185,7 +185,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "技术美术/2 着色器/次表面散射SSS.md",
+                "file": "引擎Unity3D/1 Unity精粹/《编辑器扩展》.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -214,8 +214,7 @@
       "obsidian-focus-mode:Toggle Focus Mode (Shift + Click to show active pane only)": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
       "pdf-to-markdown-plugin:PDF to Markdown": false,
-      "templater-obsidian:Templater": false,
-      "obsidian-excalidraw-plugin:新建绘图文件": false
+      "templater-obsidian:Templater": false
     }
   },
   "active": "03df1de692fe8ee3",
