@@ -1,0 +1,11 @@
+{
+  "types": {
+    "aliases": "aliases",
+    "cssclasses": "multitext",
+    "tags": "tags",
+    "create_time": "text",
+    "reference": "multitext",
+    "uid": "text",
+    "banner": "text"
+  }
+}

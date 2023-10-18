@@ -1,0 +1,17 @@
+{
+  "height": 400,
+  "style": "solid",
+  "showInInternalEmbed": true,
+  "showInPopover": true,
+  "bannerDragModifier": "None",
+  "enableDragInInternalEmbed": false,
+  "enableDragInPopover": false,
+  "enableLockButton": true,
+  "headerSize": "2.5em",
+  "headerDecor": "shadow",
+  "headerHorizontalAlignment": "center",
+  "headerVerticalAlignment": "center",
+  "useTwemoji": true,
+  "showPreviewInLocalModal": true,
+  "version": "1.3.3"
+}

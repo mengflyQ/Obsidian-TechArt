@@ -1,0 +1,207 @@
+{
+  "recentFiles": [
+    {
+      "basename": "04 纹理",
+      "path": "图形学/1 图形系统/04 纹理.md"
+    },
+    {
+      "basename": "01 渲染管线",
+      "path": "图形学/1 图形系统/01 渲染管线.md"
+    },
+    {
+      "basename": "git入门",
+      "path": "Tools/Git/git入门.md"
+    },
+    {
+      "basename": "1 C++ Primer",
+      "path": "编程/1 C++/1 C++ Primer.md"
+    },
+    {
+      "basename": "插件流",
+      "path": "Tools/Obsidian/插件流.md"
+    },
+    {
+      "basename": "yaml_Banner",
+      "path": "zip/templates/yaml_Banner.md"
+    },
+    {
+      "basename": "工具流",
+      "path": "Tools/工具流.md"
+    },
+    {
+      "basename": "GAS精粹",
+      "path": "引擎Unreal/03 Gameplay/GAS/GAS精粹.md"
+    },
+    {
+      "basename": "02 Unity操作指南",
+      "path": "引擎Unity3D/1 Unity精粹/02 Unity操作指南.md"
+    },
+    {
+      "basename": "GASRPG 笔记",
+      "path": "引擎Unreal/03 Gameplay/GAS/GASRPG 笔记.md"
+    },
+    {
+      "basename": "2 问题汇总",
+      "path": "引擎Unreal/01 指南/2 问题汇总.md"
+    },
+    {
+      "basename": "1 UE指南",
+      "path": "引擎Unreal/01 指南/1 UE指南.md"
+    },
+    {
+      "basename": "UE4-Niagara - 致敬死亡搁浅 - 扫描仪（上）",
+      "path": "引擎Unreal/10 教程剪藏/UE4-Niagara - 致敬死亡搁浅 - 扫描仪（上）/UE4-Niagara - 致敬死亡搁浅 - 扫描仪（上）.md"
+    },
+    {
+      "basename": "Nerf将场景表示为用于视图合成的神经辐射场",
+      "path": "zip/AI/论文/Nerf/Nerf将场景表示为用于视图合成的神经辐射场.md"
+    },
+    {
+      "basename": "01 三维旋转",
+      "path": "图形学/0 3D数学/公式推导/01 三维旋转.md"
+    },
+    {
+      "basename": "《鱼书》",
+      "path": "zip/AI/深度学习/《鱼书》.md"
+    },
+    {
+      "basename": "《线性代数的本质》",
+      "path": "Math/线性代数/《线性代数的本质》.md"
+    },
+    {
+      "basename": "少前 2 克罗丽科 NPR+PBR 渲染小试",
+      "path": "技术美术/6 NPR/少前 2 克罗丽科 NPR+PBR 渲染小试.md"
+    },
+    {
+      "basename": "UE5_0 与 5_1 中动画系统更新内容的整理（猫都能看懂!）",
+      "path": "引擎Unreal/04 动画/UE5_0 与 5_1 中动画系统更新内容的整理（猫都能看懂!）.md"
+    },
+    {
+      "basename": "01 持久化对象",
+      "path": "引擎Unity3D/Catlike Coding/15 Object管理/01 持久化对象.md"
+    },
+    {
+      "basename": "6 脚本",
+      "path": "引擎Unity3D/3 URP精粹/6 脚本.md"
+    },
+    {
+      "basename": "《CS Primer》",
+      "path": "引擎Unity3D/1 Unity精粹/《CS Primer》.md"
+    },
+    {
+      "basename": "《数据持久化》",
+      "path": "引擎Unity3D/1 Unity精粹/《数据持久化》.md"
+    },
+    {
+      "basename": "02 空间变换",
+      "path": "图形学/0 3D数学/公式推导/02 空间变换.md"
+    },
+    {
+      "basename": "11 曲线曲面几何",
+      "path": "图形学/1 图形系统/11 曲线曲面几何.md"
+    },
+    {
+      "basename": "游戏开发面试题答案篇（三） -- 图形学篇",
+      "path": "zip/Legacy/面经/游戏开发面试题答案篇（三） -- 图形学篇.md"
+    },
+    {
+      "basename": "Three_js 进阶之旅：Shader 着色器入门",
+      "path": "zip/Legacy/Threejs/Three_js 进阶之旅：Shader 着色器入门.md"
+    },
+    {
+      "basename": "位置编码 Positional Encoding",
+      "path": "zip/AI/论文/知识库/位置编码 Positional Encoding.md"
+    },
+    {
+      "basename": "axis轴",
+      "path": "zip/AI/Python/axis轴.md"
+    },
+    {
+      "basename": "数据结构",
+      "path": "编程/2 算法/数据结构.md"
+    },
+    {
+      "basename": "常用噪声算法",
+      "path": "图形学/0 3D数学/常用噪声算法.md"
+    },
+    {
+      "basename": "参数化曲线",
+      "path": "图形学/0 3D数学/参数化曲线.md"
+    },
+    {
+      "basename": "3D数学",
+      "path": "图形学/0 3D数学/3D数学.md"
+    },
+    {
+      "basename": "05 射线相交",
+      "path": "图形学/0 3D数学/公式推导/05 射线相交.md"
+    },
+    {
+      "basename": "04 纹理映射",
+      "path": "图形学/0 3D数学/公式推导/04 纹理映射.md"
+    },
+    {
+      "basename": "03 光照向量",
+      "path": "图形学/0 3D数学/公式推导/03 光照向量.md"
+    },
+    {
+      "basename": "Pasted image 20230109001000",
+      "path": "assets/Pasted image 20230109001000.jpg"
+    },
+    {
+      "basename": "README",
+      "path": "图形学/4 书籍/《RTR3》/第十一章 · 非真实感渲染(NPR)/README.md"
+    },
+    {
+      "basename": "1 Gameplay架构",
+      "path": "引擎Unreal/03 Gameplay/《insider UE》/1 Gameplay架构.md"
+    },
+    {
+      "basename": "Pasted image 20230929170757",
+      "path": "引擎Unreal/03 Gameplay/《insider UE》/assets/Pasted image 20230929170757.png"
+    },
+    {
+      "basename": "6 定时器",
+      "path": "引擎Unreal/02 UE++/6 定时器.md"
+    },
+    {
+      "basename": "Pasted image 20230928152605",
+      "path": "引擎Unreal/02 UE++/assets/Pasted image 20230928152605.png"
+    },
+    {
+      "basename": "Pasted image 20230901192952",
+      "path": "引擎Unreal/03 Gameplay/assets/Pasted image 20230901192952.jpg"
+    },
+    {
+      "basename": "Pasted image 20230901192948",
+      "path": "引擎Unreal/03 Gameplay/assets/Pasted image 20230901192948.jpg"
+    },
+    {
+      "basename": "Pasted image 20230901192944",
+      "path": "引擎Unreal/03 Gameplay/assets/Pasted image 20230901192944.jpg"
+    },
+    {
+      "basename": "Pasted image 20230901192924",
+      "path": "引擎Unreal/03 Gameplay/assets/Pasted image 20230901192924.png"
+    },
+    {
+      "basename": "Pasted image 20230901172151",
+      "path": "引擎Unreal/03 Gameplay/assets/Pasted image 20230901172151.png"
+    },
+    {
+      "basename": "Pasted image 20230901171937",
+      "path": "引擎Unreal/03 Gameplay/assets/Pasted image 20230901171937.jpg"
+    },
+    {
+      "basename": "Pasted image 20230901171714",
+      "path": "引擎Unreal/03 Gameplay/assets/Pasted image 20230901171714.png"
+    },
+    {
+      "basename": "UE画布",
+      "path": "引擎Unreal/03 Gameplay/UE画布.canvas"
+    }
+  ],
+  "omittedPaths": [],
+  "maxLength": null,
+  "openType": "tab"
+}

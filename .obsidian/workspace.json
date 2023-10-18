@@ -1,0 +1,272 @@
+{
+  "main": {
+    "id": "0b7e167bde9c02bc",
+    "type": "split",
+    "children": [
+      {
+        "id": "e46b70956e47c0a7",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "9f3748ed4fb0e932",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          },
+          {
+            "id": "57c7b1de5d0a3f79",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          },
+          {
+            "id": "03df1de692fe8ee3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "图形学/1 图形系统/04 纹理.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          }
+        ],
+        "currentTab": 2
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "a67566f3d324d3f8",
+    "type": "split",
+    "children": [
+      {
+        "id": "253c969ce5fb6548",
+        "type": "tabs",
+        "dimension": 48.84615384615385,
+        "children": [
+          {
+            "id": "2c1f62ffea7ea3be",
+            "type": "leaf",
+            "state": {
+              "type": "quiet-outline",
+              "state": {}
+            }
+          },
+          {
+            "id": "644549f2ea441a29",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "14cd0c34760b50ea",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "图形学/1 图形系统/04 纹理.md"
+              }
+            }
+          },
+          {
+            "id": "75009b2db7754dcc",
+            "type": "leaf",
+            "state": {
+              "type": "file-properties",
+              "state": {
+                "file": "图形学/1 图形系统/04 纹理.md"
+              }
+            }
+          },
+          {
+            "id": "786d1c4841c9aca6",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 4
+      },
+      {
+        "id": "94c661e581975ba3",
+        "type": "tabs",
+        "dimension": 21.923076923076923,
+        "children": [
+          {
+            "id": "8ec62a486c3cf93c",
+            "type": "leaf",
+            "state": {
+              "type": "recent-files",
+              "state": {}
+            }
+          }
+        ]
+      },
+      {
+        "id": "1a1c14cc2d989318",
+        "type": "tabs",
+        "dimension": 29.230769230769234,
+        "children": [
+          {
+            "id": "638af3f7231b161a",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "0eeee6cb746b8d79",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "图形学/1 图形系统/04 纹理.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "a75214c48f91274b",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 367.5
+  },
+  "right": {
+    "id": "bd3717a50a592ecf",
+    "type": "split",
+    "children": [
+      {
+        "id": "1dda417a43e9388b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "43d6eee44d8da175",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency"
+              }
+            }
+          },
+          {
+            "id": "ed5fcf71da89a3f4",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "图形学/1 图形系统/04 纹理.md",
+                "collapseAll": true,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 317.5,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "canvas:新建白板": false,
+      "command-palette:打开命令面板": false,
+      "oz-clear-unused-images:Clear Unused Images": false,
+      "obsidian-local-images-plus:Local Images Plus  0.15.8\r\nLocalize attachments (plugin folder)": false,
+      "omnisearch:Omnisearch": false,
+      "markdown-table-editor:Open Markdown Table Editor": false,
+      "obsidian-focus-mode:Toggle Focus Mode (Shift + Click to show active pane only)": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "pdf-to-markdown-plugin:PDF to Markdown": false,
+      "templater-obsidian:Templater": false,
+      "obsidian-excalidraw-plugin:新建绘图文件": false
+    }
+  },
+  "active": "03df1de692fe8ee3",
+  "lastOpenFiles": [
+    "图形学/1 图形系统/01 渲染管线.md",
+    "编程/1 C++/1 C++ Primer.md",
+    "Tools/Obsidian/插件流.md",
+    "zip/templates/yaml_Banner.md",
+    "Tools/工具流.md",
+    "Tools/Git/git入门.md",
+    "引擎Unreal/03 Gameplay/GAS/GAS精粹.md",
+    "引擎Unity3D/1 Unity精粹/02 Unity操作指南.md",
+    "1681573991806.md",
+    "引擎Unreal/03 Gameplay/GAS/GASRPG 笔记.md",
+    "引擎Unreal/01 指南/2 问题汇总.md",
+    "引擎Unreal/01 指南/1 UE指南.md",
+    "consistency-report.md",
+    "引擎Unreal/10 教程剪藏/UE4-Niagara - 致敬死亡搁浅 - 扫描仪（上）/UE4-Niagara - 致敬死亡搁浅 - 扫描仪（上）.md",
+    "zip/AI/论文/Nerf/Nerf将场景表示为用于视图合成的神经辐射场.md",
+    "图形学/0 3D数学/公式推导/04 纹理映射.md",
+    "图形学/0 3D数学/公式推导/01 三维旋转.md",
+    "zip/AI/深度学习/《鱼书》.md",
+    "Math/线性代数/《线性代数的本质》.md",
+    "技术美术/6 NPR/少前 2 克罗丽科 NPR+PBR 渲染小试.md",
+    "引擎Unreal/04 动画/UE5_0 与 5_1 中动画系统更新内容的整理（猫都能看懂!）.md",
+    "引擎Unity3D/Catlike Coding/15 Object管理/01 持久化对象.md",
+    "引擎Unity3D/3 URP精粹/6 脚本.md",
+    "引擎Unity3D/1 Unity精粹/《CS Primer》.md",
+    "引擎Unity3D/1 Unity精粹/《数据持久化》.md",
+    "图形学/0 3D数学/公式推导/02 空间变换.md",
+    "assets/Pasted image 20230109001000.jpg",
+    "zip/images/title.jpg",
+    "引擎Unreal/03 Gameplay/《insider UE》/assets/Pasted image 20230929170757.png",
+    "引擎Unreal/02 UE++/assets/Pasted image 20230928152605.png",
+    "引擎Unreal/03 Gameplay/assets/Pasted image 20230901192952.jpg",
+    "引擎Unreal/03 Gameplay/assets/Pasted image 20230901192948.jpg",
+    "引擎Unreal/03 Gameplay/assets/Pasted image 20230901192944.jpg",
+    "引擎Unreal/03 Gameplay/assets/Pasted image 20230901192924.png",
+    "引擎Unreal/03 Gameplay/assets/Pasted image 20230901172151.png",
+    "引擎Unreal/03 Gameplay/assets/Pasted image 20230901171937.jpg",
+    "引擎Unreal/03 Gameplay/UE画布.canvas",
+    "图形学/2 图形API/OpenGL/assets",
+    "图形学/2 图形API/DX12/龙书/DX12脑图.canvas",
+    "图形学/0 3D数学/assets/assets",
+    "编程/1 C++/Effective C++中文版（第三版）.pdf",
+    "DCC/01 百人计划美术向/二、模型/assets",
+    "DCC/01 百人计划美术向/assets",
+    "DCC/02 Blender/assets",
+    "DCC/03 Maya/assets",
+    "DCC/04 SP/assets",
+    "DCC/06 Zbush/assets",
+    "DCC/展UV/assets"
+  ]
+}

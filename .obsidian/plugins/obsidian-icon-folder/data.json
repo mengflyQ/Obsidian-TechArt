@@ -1,0 +1,40 @@
+{
+  "settings": {
+    "migrated": 3,
+    "iconPacksPath": "zip/icons",
+    "fontSize": 16,
+    "emojiStyle": "native",
+    "iconColor": "#bfbfbf",
+    "recentlyUsedIcons": [
+      "IbStar",
+      "SiBlender",
+      "TiGraph",
+      "🖼",
+      "FabDelicious"
+    ],
+    "recentlyUsedIconsSize": 5,
+    "rules": [],
+    "extraMargin": {
+      "top": 0,
+      "right": 4,
+      "bottom": 0,
+      "left": 0
+    },
+    "iconInTabsEnabled": true,
+    "iconsBackgroundCheckEnabled": false
+  },
+  "Tools": "SiObsidian",
+  "编程": "SiVisualstudio",
+  "技术美术": "SiArtstation",
+  "DCC": "SiAdobe",
+  "Math": "SiMatrix",
+  "zBuffer": "SiBuffer",
+  "zip": "SiAmp",
+  "图形学": "FabDelicious",
+  "README.md": "LiGamepad2",
+  "引擎Unity3D": "SiUnity",
+  "zip/AI": "SiPython",
+  "zip/留学": "TiSchool",
+  "DCC/02 Blender": "SiBlender",
+  "引擎Unreal": "SiUnrealengine"
+}

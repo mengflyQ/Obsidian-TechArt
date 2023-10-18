@@ -1,0 +1,29 @@
+{
+  "items": [
+    {
+      "type": "file",
+      "title": "DirectXMath",
+      "path": "图形学/DX12/DirectXMath.md"
+    },
+    {
+      "type": "file",
+      "title": "HLSL语法",
+      "path": "图形学/DX12/HLSL语法.md"
+    },
+    {
+      "type": "file",
+      "title": "DX12理论",
+      "path": "图形学/DX12/龙书/DX12理论.md"
+    },
+    {
+      "type": "file",
+      "title": "3D数学",
+      "path": "Math/3D数学/3D数学.md"
+    },
+    {
+      "type": "file",
+      "title": "《C++ Primer 5th》",
+      "path": "编程/C++/《C++ Primer 5th》.md"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "pluginList": [
+    "akaalias/obsidian-extract-pdf",
+    "eightHundreds/obsidian-kity-mind",
+    "Stardusten/ob-table-enhancer"
+  ],
+  "pluginSubListFrozenVersion": [],
+  "themesList": [],
+  "updateAtStartup": false,
+  "updateThemesAtStartup": false,
+  "ribbonIconEnabled": false,
+  "loggingEnabled": false,
+  "loggingPath": "BRAT-log",
+  "loggingVerboseEnabled": false,
+  "debuggingMode": true,
+  "notificationsEnabled": true
+}

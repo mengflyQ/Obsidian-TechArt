@@ -1,0 +1,11 @@
+/* 图标缩放 */
+svg.oz-folder-toggle path {
+    scale: 0.8;
+}
+
+
+.oz-folder-block {
+    display: flex;
+    flex-grow: 1;
+    padding-top: 0px;
+}

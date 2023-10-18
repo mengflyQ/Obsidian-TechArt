@@ -1,0 +1,42 @@
+{
+  "confirmDeletion": true,
+  "showAddCommand": true,
+  "debug": false,
+  "editorMenu": [],
+  "fileMenu": [],
+  "leftRibbon": [],
+  "rightRibbon": [],
+  "titleBar": [],
+  "statusBar": [],
+  "pageHeader": [
+    {
+      "id": "consistent-attachments-and-links:collect-attachments-current-note",
+      "icon": "activity",
+      "name": "Consistent Attachments and Links: Collect Attachments in Current Note",
+      "mode": "any"
+    },
+    {
+      "id": "obsidian-link-converter:convert-md-to-wikis-in-active-file",
+      "icon": "alert-octagon",
+      "name": "Obsidian Link Converter: Active File: Links to Wiki",
+      "mode": "any"
+    }
+  ],
+  "macros": [],
+  "explorer": [],
+  "hide": {
+    "statusbar": [],
+    "leftRibbon": []
+  },
+  "spacing": 8,
+  "advancedToolbar": {
+    "rowHeight": 48,
+    "rowCount": 1,
+    "spacing": 0,
+    "buttonWidth": 48,
+    "columnLayout": false,
+    "mappedIcons": [],
+    "tooltips": false,
+    "heightOffset": 0
+  }
+}

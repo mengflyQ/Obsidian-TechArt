@@ -1,0 +1,102 @@
+/* 首行缩进 */
+/* not选择忽略的部分 */
+.markdown-source-view.mod-cm6.is-readable-line-width .cm-line:not(
+.HyperMD-table-row,                     /* 忽略列表 */
+.mod-cm6 .cm-editor .HyperMD-header-1,  /* 标题1~6 */
+.mod-cm6 .cm-editor .HyperMD-header-2,
+.mod-cm6 .cm-editor .HyperMD-header-3,
+.mod-cm6 .cm-editor .HyperMD-header-4,
+.mod-cm6 .cm-editor .HyperMD-header-5,
+.mod-cm6 .cm-editor .HyperMD-header-6,
+.HyperMD-codeblock                      /* 忽略代码块 */
+) 
+{
+    text-indent: 2em;
+}
+
+
+/* callout首行缩进 */
+/* p {
+    text-indent: 2em;
+} */
+/* 修改p块的缩进导致quiet-outline插件文本也发生了缩进，这里让其归0 */
+/* .quiet-outline .n-tree-node-content__text p {
+    text-indent: 0em;
+} */
+
+
+/* 标题行高 */
+.cm-header-1 {
+    line-height: 2em;
+    color: rgb(0, 0, 0); /*字体颜色*/
+    
+    background-color: #f7060640; /*背景颜色--*/
+    
+    border-radius: 5px; /*四边倒圆角--*/
+    
+    padding: 5px 5px; /*文字距边缘的距离--*/
+   
+    /* 底部彩虹条 */
+    /* border-bottom: 2px solid;
+    border-image: linear-gradient(to right, #ef5350, #f48fb1, #7e57c2, #2196f3, #26c6da, #43a047, #eeff41, #f9a825, #ff5722) 5; */
+}
+
+.cm-header-2 {
+    line-height: 2em;
+    color: rgb(0, 0, 0);
+    /*--------字体颜色--*/
+    background-color: #f7cb0640;
+    /*--------背景颜色--*/
+    border-radius: 5px;
+    /*--------四边倒圆角--*/
+    padding: 5px 5px;
+    /*--------文字距边缘的距离--*/
+}
+
+.cm-header-3 {
+    line-height: 2em;
+    color: rgb(0, 0, 0);
+    /*--------字体颜色--*/
+    background-color: #06aff740;
+    /*--------背景颜色--*/
+    border-radius: 5px;
+    /*--------四边倒圆角--*/
+    padding: 5px 5px;
+    /*--------文字距边缘的距离--*/
+}
+
+.cm-header-4 {
+    line-height: 2em;
+    color: rgb(0, 0, 0);
+    /*--------字体颜色--*/
+    background-color: #5ef70640;
+    /*--------背景颜色--*/
+    border-radius: 5px;
+    /*--------四边倒圆角--*/
+    padding: 5px 5px;
+    /*--------文字距边缘的距离--*/
+}
+
+.cm-header-5 {
+    line-height: 2em;
+    color: rgb(0, 0, 0);
+    /*--------字体颜色--*/
+    background-color: #1e06f740;
+    /*--------背景颜色--*/
+    border-radius: 5px;
+    /*--------四边倒圆角--*/
+    padding: 5px 5px;
+    /*--------文字距边缘的距离--*/
+}
+
+.cm-header-6 {
+    line-height: 2em;
+    color: rgb(0, 0, 0);
+    /*--------字体颜色--*/
+    background-color: #8706f740;
+    /*--------背景颜色--*/
+    border-radius: 5px;
+    /*--------四边倒圆角--*/
+    padding: 5px 5px;
+    /*--------文字距边缘的距离--*/
+}

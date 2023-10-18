@@ -1,0 +1,511 @@
+{
+  "main": {
+    "id": "0b7e167bde9c02bc",
+    "type": "split",
+    "children": [
+      {
+        "id": "53328e7b1084d576",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "1668127e98158116",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "技术美术/百人计划/第三章 进阶应用.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "d57b699142090e4b",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {}
+            }
+          },
+          {
+            "id": "9ed6210f1cf0abed",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "技术美术/百人计划/第三章 进阶应用.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "142a51fd10c32bdf",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "技术美术/毛星云/PBR白皮书/content/1 .PBR总览/README.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "817442674d207d98",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "技术美术/百人计划/第五章 物理世界.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "70d17bd6624c11f1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "技术美术/百人计划/第五章 物理世界.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "3e339cc347a40869",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "技术美术/百人计划/第五章 物理世界.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "06e1c8b1146295a4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "技术美术/百人计划/第三章 进阶应用.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "40a6414372e1e870",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          },
+          {
+            "id": "6842d4c56a5f3358",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "技术美术/庄懂/AP01.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "98f254a9f68655d0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "技术美术/百人计划/第二章 光照基础.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "8a7ff11c4bb5d6ee",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "UE/斯坦福C++&UE/课程.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "75760c454d23383d",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          },
+          {
+            "id": "0396f6796520fd20",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "技术美术/毛星云/PBR白皮书/content/1 .PBR总览/README.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "0ddba6b803c41b90",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "技术美术/百人计划/第二章 光照基础.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "b513baadab93a771",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "技术美术/庄懂/AP01.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "3c33b0b7811b5926",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          },
+          {
+            "id": "a283e423111d9d56",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          },
+          {
+            "id": "8eb2f22c140d8b5f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "技术美术/百人计划/第五章 物理世界.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "71e4cbb912e0b356",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "技术美术/百人计划/第五章 物理世界.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "37568e026780318e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "技术美术/毛星云/《Real-Time Rendering 3rd》/第六章 · 纹理贴图及相关技术/README.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "5c1d2bf5bf04bdef",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "技术美术/毛星云/《Real-Time Rendering 3rd》/第六章 · 纹理贴图及相关技术/README.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "d10c78ae3752c45f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "技术美术/百人计划/第二章 光照基础.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "0175a7ebcd1684c7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "技术美术/百人计划/第二章 光照基础.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "70cd7916ff51cdbd",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "技术美术/百人计划/第二章 光照基础.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "8f7d0b4cf7a8b76e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "技术美术/百人计划/第二章 光照基础.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "29710be77957c6a6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "技术美术/百人计划/第二章 光照基础.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "90841f70507346e1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "技术美术/百人计划/第二章 光照基础.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "0f158c2a62284aad",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "UE/TT老师/UE5.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "ed07843f962b1bad",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          },
+          {
+            "id": "1132fde782ae3563",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "技术美术/TA101/技术美术101.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "d806d64d7e6accd1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "技术美术/百人计划/第二章 光照基础.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "47fe76d61f3c2c7f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "技术美术/OpenGL/LearnOpenGL.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "a67566f3d324d3f8",
+    "type": "split",
+    "children": [
+      {
+        "id": "253c969ce5fb6548",
+        "type": "tabs",
+        "dimension": 48.90350877192983,
+        "children": [
+          {
+            "id": "57bea8de5faabd02",
+            "type": "leaf",
+            "state": {
+              "type": "quiet-outline",
+              "state": {}
+            }
+          },
+          {
+            "id": "ed5fcf71da89a3f4",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "技术美术/百人计划/第三章 进阶应用.md",
+                "collapseAll": true,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": false
+              }
+            }
+          },
+          {
+            "id": "644549f2ea441a29",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "14cd0c34760b50ea",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "技术美术/百人计划/第三章 进阶应用.md"
+              }
+            }
+          }
+        ],
+        "currentTab": 3
+      },
+      {
+        "id": "1a1c14cc2d989318",
+        "type": "tabs",
+        "dimension": 51.09649122807017,
+        "children": [
+          {
+            "id": "638af3f7231b161a",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "0eeee6cb746b8d79",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "技术美术/百人计划/第三章 进阶应用.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "a75214c48f91274b",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 301.5
+  },
+  "right": {
+    "id": "bd3717a50a592ecf",
+    "type": "split",
+    "children": [],
+    "direction": "horizontal",
+    "width": 188.5,
+    "collapsed": true
+  },
+  "active": "1668127e98158116",
+  "lastOpenFiles": [
+    "Unity/C#基础.md",
+    "Unity/URP/URP屏幕后处理.md",
+    "技术美术/百人计划/第三章 进阶应用.md",
+    "技术美术/百人计划/第五章 物理世界.md",
+    "技术美术/百人计划/第二章 光照基础.md",
+    "技术美术/TA101/技术美术101.md",
+    "技术美术/庄懂/AP01.md",
+    "技术美术/TA101/ASE.md",
+    "技术美术/毛星云/PBR白皮书/content/1 .PBR总览/README.md",
+    "技术美术/毛星云/PBR白皮书/content/2. PBR核心理论与渲染光学原理总结/README.md"
+  ]
+}

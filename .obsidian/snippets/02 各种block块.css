@@ -1,0 +1,58 @@
+
+/* 搜索选中框 */
+.cm-s-obsidian span.obsidian-search-match-highlight {
+    box-shadow: 0 0 0px 3px rgb(255, 0, 0);
+    background-color: #ffffff;
+    mix-blend-mode: var(--highlight-max-blend-mode);
+    border-radius: 5px;
+}
+
+/* 代码块 */
+/* 行内代码块 */
+.cm-s-obsidian span.cm-inline-code:not(.cm-formatting):not(.cm-hmd-indented-code):not(.obsidian-search-match-highlight) {
+    background-color: #f9f2f4;  /* 背景颜色 */
+    color: rgb(199,37,78); /* 字体颜色 */
+   /*  box-shadow: 0 0 0px 1px rgb(172, 172, 148);  */ /* 边框 */
+    vertical-align: baseline;
+    padding: 2px 4px; /*文字距边缘的距离*/
+    border-radius: 5px; /* 边缘 */
+}
+
+/* 标注callout中的代码块 */
+.markdown-rendered code {
+    background-color: #e0d6ed;
+        /* 背景颜色 */
+        color: rgb(140, 0, 254);
+        /* 字体颜色 */
+        /*  box-shadow: 0 0 0px 1px rgb(172, 172, 148);  */
+        /* 边框 */
+        vertical-align: baseline;
+        padding: 2px 4px;
+        /*文字距边缘的距离*/
+        border-radius: 5px;
+        /* 边缘 */
+}
+
+/* 数学公式块 */
+body.unified-cm-highlighting[class*="theme-"] .cm-s-obsidian .cm-math {
+    /* 边框 */
+    background-color: #313641;
+    /*文字距边缘的距离*/
+    padding: 5px 5px;
+}
+
+/* codeblock */
+/* 去圆角 */
+/* body.unified-cm-highlighting[class*="theme-"] .cm-s-obsidian div.HyperMD-codeblock-bg
+{
+    border-radius: 0;
+} */
+
+/* 行号栏颜色 */
+.markdown-source-view .codeblock-customizer-line-number {
+    background-color: #1F232A;
+}
+/* 标题栏和代码块对齐 */
+.markdown-source-view.mod-cm6 .cm-content>* {
+    margin: auto !important;
+}

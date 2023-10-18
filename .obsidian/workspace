@@ -1,0 +1,142 @@
+{
+  "main": {
+    "id": "0b7e167bde9c02bc",
+    "type": "split",
+    "children": [
+      {
+        "id": "b8cdbdccd5168559",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Unity/Shader入门精要.md",
+            "mode": "source",
+            "source": false
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "a67566f3d324d3f8",
+    "type": "split",
+    "children": [
+      {
+        "id": "253c969ce5fb6548",
+        "type": "tabs",
+        "dimension": 54.41176470588235,
+        "children": [
+          {
+            "id": "2c1f62ffea7ea3be",
+            "type": "leaf",
+            "state": {
+              "type": "quiet-outline",
+              "state": {}
+            }
+          },
+          {
+            "id": "ed5fcf71da89a3f4",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Unity/Shader入门精要.md",
+                "collapseAll": true,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": false
+              }
+            }
+          },
+          {
+            "id": "644549f2ea441a29",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "14cd0c34760b50ea",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Unity/Shader入门精要.md"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "1a1c14cc2d989318",
+        "type": "tabs",
+        "dimension": 45.58823529411765,
+        "children": [
+          {
+            "id": "638af3f7231b161a",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "0eeee6cb746b8d79",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Unity/Shader入门精要.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "a75214c48f91274b",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 199
+  },
+  "right": {
+    "id": "bd3717a50a592ecf",
+    "type": "split",
+    "children": [],
+    "direction": "horizontal",
+    "width": 188.5,
+    "collapsed": true
+  },
+  "active": "b8cdbdccd5168559",
+  "lastOpenFiles": [
+    "TA/2022minigame.md",
+    "TA/URP/URP渲染管线.md",
+    "TA/URP/DrawCall，Batches，SetPass calls.md",
+    "TA/URP/URP屏幕后处理.md",
+    "TA/URP/URPShader.md",
+    "TA/技术美术101.md",
+    "Unity/Shader入门精要.md",
+    "Unity/常用插件.md",
+    "TA/贾天源技美学习大纲.md",
+    "TA/图形学奇点.md"
+  ]
+}
