@@ -1,5 +1,6 @@
 {
   "pluginList": [
+    "Otto-J/sync-to-xlog",
     "akaalias/obsidian-extract-pdf",
     "eightHundreds/obsidian-kity-mind",
     "Stardusten/ob-table-enhancer"

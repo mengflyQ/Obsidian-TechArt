@@ -1,9 +1,9 @@
 {
-  "moveAttachmentsWithNote": true,
-  "deleteAttachmentsWithNote": true,
-  "updateLinks": true,
-  "deleteEmptyFolders": true,
-  "deleteExistFilesWhenMoveNote": true,
+  "moveAttachmentsWithNote": false,
+  "deleteAttachmentsWithNote": false,
+  "updateLinks": false,
+  "deleteEmptyFolders": false,
+  "deleteExistFilesWhenMoveNote": false,
   "changeNoteBacklinksAlt": false,
   "ignoreFolders": [
     ".git/",

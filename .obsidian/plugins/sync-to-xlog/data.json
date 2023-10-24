@@ -1,0 +1,14 @@
+{
+  "enable": true,
+  "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhZGRyZXNzIjoiMHg2YTNlNjVkNDJkZmE3YzExNmY0YmUwMjM5NGI5NDM2M2Q4YTI1ZTYyIiwiaWF0IjoxNjk4MTYzNTU4LCJleHAiOjIwMTM1MjM1NTh9.ADhiina5H1zAkLJ5ruzLlFOOKzLXZIuBTIlc92cjSC0",
+  "charactorID": 59498,
+  "autoUpload": true,
+  "debugger": false,
+  "isMultiCharactor": false,
+  "charactorList": [
+    {
+      "name": "xn--5nxq9d-2250(59498)",
+      "value": 59498
+    }
+  ]
+}

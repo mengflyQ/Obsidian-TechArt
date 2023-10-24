@@ -42,5 +42,7 @@
   "obsidian-banners",
   "pdf-to-markdown-plugin",
   "templater-obsidian",
-  "obsidian-git"
+  "obsidian-git",
+  "consistent-attachments-and-links",
+  "sync-to-xlog"
 ]
