@@ -29,7 +29,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "图形学/0 3D数学/公式推导/01 三维旋转.md",
+                "file": "AI/Python/Python基础.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -80,7 +80,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "图形学/0 3D数学/公式推导/01 三维旋转.md"
+                "file": "AI/Python/Python基础.md"
               }
             }
           },
@@ -90,7 +90,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "图形学/0 3D数学/公式推导/01 三维旋转.md"
+                "file": "AI/Python/Python基础.md"
               }
             }
           },
@@ -141,7 +141,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "图形学/0 3D数学/公式推导/01 三维旋转.md",
+                "file": "AI/Python/Python基础.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -185,7 +185,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "图形学/0 3D数学/公式推导/01 三维旋转.md",
+                "file": "AI/Python/Python基础.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -217,8 +217,12 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "03df1de692fe8ee3",
+  "active": "638af3f7231b161a",
   "lastOpenFiles": [
+    "AI/深度学习/动手学pytorch.md",
+    "AI/论文/Nerf/Nerf将场景表示为用于视图合成的神经辐射场.md",
+    "AI/深度学习/《鱼书》.md",
+    "AI/Python/Python基础.md",
     "引擎Unity3D/1 Unity精粹/《编辑器扩展》.md",
     "Math/概率论/大数定律与中心极限定理.md",
     "引擎Unity3D/2 Shader精粹/《渲染优化》/URP 渲染优化总结.md",
@@ -260,11 +264,7 @@
     "引擎Unity3D/2 Shader精粹/《渲染优化》/性能分析/Unity 游戏性能分析最终指南 02.md",
     "引擎Unity3D/2 Shader精粹/《渲染优化》/性能分析/Unity 游戏性能分析最终指南 01.md",
     "引擎Unity3D/2 Shader精粹/《渲染优化》/性能分析/assets",
-    "引擎Unity3D/2 Shader精粹/《渲染优化》/移动游戏性能优化通用技法.md",
     "引擎Unity3D/2 Shader精粹/《渲染优化》/性能分析",
-    "引擎Unity3D/2 Shader精粹/《渲染优化》/DrawCall，Batches，SetPass calls.md",
-    "引擎Unity3D/2 Shader精粹/《渲染优化》/4 场景剔除.md",
-    "引擎Unity3D/2 Shader精粹/《渲染优化》/3 OverDraw.md",
     "引擎Unreal/03 Gameplay/UE画布.canvas",
     "图形学/2 图形API/DX12/龙书/DX12脑图.canvas"
   ]
