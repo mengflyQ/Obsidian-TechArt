@@ -48,9 +48,22 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "c824d1e0e1ff26ed",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "DCC/01 百人计划美术向/二、模型/2.5 模型常见问题及其规范.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -93,7 +106,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "引擎Unity3D/2 Shader精粹/《Built-in》/庄懂AP01.md"
+                "file": "DCC/01 百人计划美术向/二、模型/2.5 模型常见问题及其规范.md"
               }
             }
           },
@@ -103,7 +116,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "引擎Unity3D/2 Shader精粹/《Built-in》/庄懂AP01.md"
+                "file": "DCC/01 百人计划美术向/二、模型/2.5 模型常见问题及其规范.md"
               }
             }
           },
@@ -154,7 +167,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "引擎Unity3D/2 Shader精粹/《Built-in》/庄懂AP01.md",
+                "file": "DCC/01 百人计划美术向/二、模型/2.5 模型常见问题及其规范.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -198,7 +211,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "引擎Unity3D/2 Shader精粹/《Built-in》/庄懂AP01.md",
+                "file": "DCC/01 百人计划美术向/二、模型/2.5 模型常见问题及其规范.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -230,8 +243,9 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "f2f585b1e5555e8d",
+  "active": "c824d1e0e1ff26ed",
   "lastOpenFiles": [
+    "引擎Unity3D/2 Shader精粹/《Built-in》/庄懂AP01.md",
     "AI/Python/Python基础.md",
     "AI/深度学习/动手学pytorch.md",
     "AI/论文/Nerf/Nerf将场景表示为用于视图合成的神经辐射场.md",
@@ -275,7 +289,6 @@
     "引擎Unity3D/2 Shader精粹/《渲染优化》/性能分析/Unity 游戏性能分析最终指南 03.md",
     "引擎Unity3D/2 Shader精粹/《渲染优化》/性能分析/Unity 游戏性能分析最终指南 04.md",
     "引擎Unity3D/2 Shader精粹/《渲染优化》/性能分析/Unity 游戏性能分析最终指南 02.md",
-    "引擎Unity3D/2 Shader精粹/《渲染优化》/性能分析/Unity 游戏性能分析最终指南 01.md",
     "引擎Unity3D/2 Shader精粹/《渲染优化》/性能分析/assets",
     "引擎Unity3D/2 Shader精粹/《渲染优化》/性能分析",
     "引擎Unreal/03 Gameplay/UE画布.canvas",

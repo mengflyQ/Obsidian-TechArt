@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "2.5 模型常见问题及其规范",
+      "path": "DCC/01 百人计划美术向/二、模型/2.5 模型常见问题及其规范.md"
+    },
+    {
       "basename": "庄懂AP01",
       "path": "引擎Unity3D/2 Shader精粹/《Built-in》/庄懂AP01.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "1 Gameplay架构",
       "path": "引擎Unreal/03 Gameplay/《insider UE》/1 Gameplay架构.md"
-    },
-    {
-      "basename": "Pasted image 20230929170757",
-      "path": "引擎Unreal/03 Gameplay/《insider UE》/assets/Pasted image 20230929170757.png"
     }
   ],
   "omittedPaths": [],
