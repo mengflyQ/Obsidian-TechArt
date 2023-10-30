@@ -35,9 +35,22 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "f2f585b1e5555e8d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "引擎Unity3D/2 Shader精粹/《Built-in》/庄懂AP01.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -80,7 +93,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "AI/Python/Python基础.md"
+                "file": "引擎Unity3D/2 Shader精粹/《Built-in》/庄懂AP01.md"
               }
             }
           },
@@ -90,7 +103,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "AI/Python/Python基础.md"
+                "file": "引擎Unity3D/2 Shader精粹/《Built-in》/庄懂AP01.md"
               }
             }
           },
@@ -141,7 +154,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "AI/Python/Python基础.md",
+                "file": "引擎Unity3D/2 Shader精粹/《Built-in》/庄懂AP01.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -185,7 +198,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "AI/Python/Python基础.md",
+                "file": "引擎Unity3D/2 Shader精粹/《Built-in》/庄懂AP01.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -217,12 +230,12 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "638af3f7231b161a",
+  "active": "f2f585b1e5555e8d",
   "lastOpenFiles": [
+    "AI/Python/Python基础.md",
     "AI/深度学习/动手学pytorch.md",
     "AI/论文/Nerf/Nerf将场景表示为用于视图合成的神经辐射场.md",
     "AI/深度学习/《鱼书》.md",
-    "AI/Python/Python基础.md",
     "引擎Unity3D/1 Unity精粹/《编辑器扩展》.md",
     "Math/概率论/大数定律与中心极限定理.md",
     "引擎Unity3D/2 Shader精粹/《渲染优化》/URP 渲染优化总结.md",

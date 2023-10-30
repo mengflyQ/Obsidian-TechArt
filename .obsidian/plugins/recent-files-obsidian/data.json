@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "庄懂AP01",
+      "path": "引擎Unity3D/2 Shader精粹/《Built-in》/庄懂AP01.md"
+    },
+    {
       "basename": "Python基础",
       "path": "AI/Python/Python基础.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "Pasted image 20230929170757",
       "path": "引擎Unreal/03 Gameplay/《insider UE》/assets/Pasted image 20230929170757.png"
-    },
-    {
-      "basename": "6 定时器",
-      "path": "引擎Unreal/02 UE++/6 定时器.md"
     }
   ],
   "omittedPaths": [],
