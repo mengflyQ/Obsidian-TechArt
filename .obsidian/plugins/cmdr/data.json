@@ -18,14 +18,8 @@
   "pageHeader": [
     {
       "id": "consistent-attachments-and-links:collect-attachments-current-note",
-      "icon": "activity",
+      "icon": "at-sign",
       "name": "Consistent Attachments and Links: Collect Attachments in Current Note",
-      "mode": "any"
-    },
-    {
-      "id": "obsidian-link-converter:convert-md-to-wikis-in-active-file",
-      "icon": "alert-octagon",
-      "name": "Obsidian Link Converter: Active File: Links to Wiki",
       "mode": "any"
     }
   ],

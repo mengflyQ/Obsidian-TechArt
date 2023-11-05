@@ -1,84 +1,35 @@
 {
   "main": {
-    "id": "0b7e167bde9c02bc",
+    "id": "61cd782a76e20275",
     "type": "split",
     "children": [
       {
-        "id": "e46b70956e47c0a7",
+        "id": "dde96d853cf70b21",
         "type": "tabs",
         "children": [
           {
-            "id": "9f3748ed4fb0e932",
+            "id": "e1b546b72e185e6e",
             "type": "leaf",
             "state": {
               "type": "empty",
               "state": {}
-            }
-          },
-          {
-            "id": "57c7b1de5d0a3f79",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
-            }
-          },
-          {
-            "id": "03df1de692fe8ee3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "AI/Python/Python基础.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "f2f585b1e5555e8d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "引擎Unity3D/2 Shader精粹/《Built-in》/庄懂AP01.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "c824d1e0e1ff26ed",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "图形学/3 全局光照GI/01 辐射度量学.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "vertical"
   },
   "left": {
-    "id": "a67566f3d324d3f8",
+    "id": "9bd8ce8f75ac3b6a",
     "type": "split",
     "children": [
       {
-        "id": "253c969ce5fb6548",
+        "id": "8cb567a84fd74f78",
         "type": "tabs",
-        "dimension": 48.84615384615385,
         "children": [
           {
-            "id": "2c1f62ffea7ea3be",
+            "id": "e2ab25dcda4c975e",
             "type": "leaf",
             "state": {
               "type": "quiet-outline",
@@ -86,7 +37,15 @@
             }
           },
           {
-            "id": "644549f2ea441a29",
+            "id": "aeb0443812d77d7f",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {}
+            }
+          },
+          {
+            "id": "6d57c2cf774fe47a",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -101,30 +60,18 @@
             }
           },
           {
-            "id": "14cd0c34760b50ea",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-                "file": "图形学/3 全局光照GI/01 辐射度量学.md"
-              }
-            }
-          },
-          {
-            "id": "75009b2db7754dcc",
-            "type": "leaf",
-            "state": {
-              "type": "file-properties",
-              "state": {
-                "file": "图形学/3 全局光照GI/01 辐射度量学.md"
-              }
-            }
-          },
-          {
-            "id": "786d1c4841c9aca6",
+            "id": "32912902d89e5c6d",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
+              "state": {}
+            }
+          },
+          {
+            "id": "bca03089e022db86",
+            "type": "leaf",
+            "state": {
+              "type": "file-properties",
               "state": {}
             }
           }
@@ -132,12 +79,11 @@
         "currentTab": 4
       },
       {
-        "id": "94c661e581975ba3",
+        "id": "86c1fb5dd4a1903e",
         "type": "tabs",
-        "dimension": 21.923076923076923,
         "children": [
           {
-            "id": "8ec62a486c3cf93c",
+            "id": "3bd810f453370271",
             "type": "leaf",
             "state": {
               "type": "recent-files",
@@ -147,12 +93,11 @@
         ]
       },
       {
-        "id": "1a1c14cc2d989318",
+        "id": "174e81578cacda94",
         "type": "tabs",
-        "dimension": 29.230769230769234,
         "children": [
           {
-            "id": "638af3f7231b161a",
+            "id": "84dc87271b3246ef",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -160,43 +105,23 @@
                 "sortOrder": "alphabetical"
               }
             }
-          },
-          {
-            "id": "0eeee6cb746b8d79",
-            "type": "leaf",
-            "state": {
-              "type": "outgoing-link",
-              "state": {
-                "file": "图形学/3 全局光照GI/01 辐射度量学.md",
-                "linksCollapsed": false,
-                "unlinkedCollapsed": true
-              }
-            }
-          },
-          {
-            "id": "a75214c48f91274b",
-            "type": "leaf",
-            "state": {
-              "type": "starred",
-              "state": {}
-            }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 367.5
+    "width": 300
   },
   "right": {
-    "id": "bd3717a50a592ecf",
+    "id": "22f3fbdf8409cb1f",
     "type": "split",
     "children": [
       {
-        "id": "1dda417a43e9388b",
+        "id": "53d68b414f38e87e",
         "type": "tabs",
         "children": [
           {
-            "id": "43d6eee44d8da175",
+            "id": "053e88a94601ef52",
             "type": "leaf",
             "state": {
               "type": "all-properties",
@@ -206,92 +131,86 @@
             }
           },
           {
-            "id": "ed5fcf71da89a3f4",
+            "id": "7ccb0980ed8fbeda",
+            "type": "leaf",
+            "state": {
+              "type": "git-history-view",
+              "state": {}
+            }
+          },
+          {
+            "id": "5ecb59b39c81c776",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "图形学/3 全局光照GI/01 辐射度量学.md",
-                "collapseAll": true,
+                "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
                 "searchQuery": "",
                 "backlinkCollapsed": false,
-                "unlinkedCollapsed": false
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "646b9c089fc5abf3",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 317.5,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
+      "obsidian-local-images-plus:Local Images Plus  0.15.9\r\nLocalize attachments (plugin folder)": false,
       "canvas:新建白板": false,
-      "command-palette:打开命令面板": false,
+      "command-palette:打开命令面板": true,
+      "table-editor-obsidian:Advanced Tables Toolbar": true,
       "oz-clear-unused-images:Clear Unused Images": false,
-      "obsidian-local-images-plus:Local Images Plus  0.15.8\r\nLocalize attachments (plugin folder)": false,
-      "omnisearch:Omnisearch": false,
-      "markdown-table-editor:Open Markdown Table Editor": false,
-      "obsidian-focus-mode:Toggle Focus Mode (Shift + Click to show active pane only)": false,
-      "table-editor-obsidian:Advanced Tables Toolbar": false,
-      "pdf-to-markdown-plugin:PDF to Markdown": false,
-      "templater-obsidian:Templater": false
+      "obsidian-focus-mode:Toggle Focus Mode (Shift + Click to show active pane only)": true,
+      "markdown-table-editor:Open Markdown Table Editor": true,
+      "templater-obsidian:Templater": false,
+      "omnisearch:Omnisearch": true,
+      "pdf-to-markdown-plugin:PDF to Markdown": true
     }
   },
-  "active": "c824d1e0e1ff26ed",
+  "active": "e1b546b72e185e6e",
   "lastOpenFiles": [
-    "图形学/6 软渲染器/软光栅/透视矫正插值.md",
-    "图形学/2 图形API/DX12/HLSL语法.md",
-    "图形学/2 图形API/DX12/Windows编程.md",
-    "图形学/2 图形API/DX12/DirectXMath.md",
-    "引擎Unity3D/2 Shader精粹/《Built-in》/庄懂AP01.md",
-    "AI/Python/Python基础.md",
-    "AI/深度学习/动手学pytorch.md",
-    "AI/论文/Nerf/Nerf将场景表示为用于视图合成的神经辐射场.md",
-    "AI/深度学习/《鱼书》.md",
-    "引擎Unity3D/1 Unity精粹/《编辑器扩展》.md",
-    "Math/概率论/大数定律与中心极限定理.md",
-    "引擎Unity3D/2 Shader精粹/《渲染优化》/URP 渲染优化总结.md",
-    "引擎Unity3D/2 Shader精粹/《渲染优化》/1 批处理总结.md",
-    "图形学/1 图形系统/04 纹理.md",
-    "引擎Unity3D/3 URP精粹/ComputeShader/草地渲染/assets/fecd909a3d02820cb778318604361e1b_MD5.jpg",
-    "引擎Unity3D/3 URP精粹/ComputeShader/草地渲染/assets/f14116b0b659e124c10c09ea21cdfcaf_MD5.jpg",
-    "引擎Unity3D/3 URP精粹/ComputeShader/草地渲染/assets/ee947035721acf8ad4b420355426da72_MD5.jpg",
-    "引擎Unity3D/3 URP精粹/ComputeShader/草地渲染/assets/ed4606609c0bc99282983f9ac1527b35_MD5.jpg",
-    "引擎Unity3D/3 URP精粹/ComputeShader/草地渲染/assets/e860fb2b1ea3ea26dde09e2bf835558a_MD5.gif",
-    "引擎Unity3D/3 URP精粹/ComputeShader/草地渲染/assets/df4883a31bee7ec8cf6cbcfb4c2ec958_MD5.jpg",
-    "引擎Unity3D/3 URP精粹/ComputeShader/草地渲染/assets/dea4282762bb290461886bd55b930a3f_MD5.gif",
-    "引擎Unity3D/3 URP精粹/ComputeShader/草地渲染/assets/d8d7f3b84df779e0de837c069ecb981a_MD5.gif",
-    "引擎Unity3D/3 URP精粹/ComputeShader/草地渲染/assets/d5cdc4da65e65e8a85cec9a0b2287b35_MD5.jpg",
-    "引擎Unity3D/3 URP精粹/ComputeShader/草地渲染/assets/d245c98cce2521181c714b44e4e652f1_MD5.jpg",
-    "引擎Unity3D/3 URP精粹/ComputeShader/草地渲染/【Unity】使用 Compute Shader 实现 Hi-z 遮挡剔除（Occlusion Culling）.md",
-    "引擎Unity3D/3 URP精粹/ComputeShader/草地渲染/Compute Shader 进阶应用： 结合 Hi-Z 剔除海量草渲染.md",
-    "引擎Unity3D/3 URP精粹/ComputeShader/草地渲染/Unity 中使用 ComputeShader 做视锥剔除（View Frustum Culling）.md",
-    "引擎Unity3D/3 URP精粹/ComputeShader/草地渲染/assets",
-    "引擎Unity3D/3 URP精粹/源码/URP 源码学习：速通框架，只讲重点（含 URP 后处理例子）.md",
-    "引擎Unity3D/3 URP精粹/源码/URP 代码结构以及 GPU 架构（万字长文）.md",
-    "引擎Unity3D/3 URP精粹/源码/URP PBR 源码剖析.md",
-    "引擎Unity3D/3 URP精粹/源码/Lit.shader源码.md",
-    "引擎Unity3D/3 URP精粹/源码/assets",
-    "引擎Unity3D/3 URP精粹/ComputeShader/草地渲染",
-    "引擎Unity3D/3 URP精粹/ComputeShader/ComputeShader语法.md",
-    "引擎Unity3D/3 URP精粹/ComputeShader/assets",
-    "引擎Unity3D/3 URP精粹/源码",
-    "引擎Unity3D/3 URP精粹/ComputeShader",
-    "引擎Unity3D/3 URP精粹/assets",
-    "引擎Unity3D/3 URP精粹/6 脚本.md",
-    "引擎Unity3D/3 URP精粹/5 CommandBuffer.md",
-    "引擎Unity3D/3 URP精粹/3 Renderer Feature.md",
-    "引擎Unity3D/3 URP精粹/2 URP.md",
-    "引擎Unity3D/3 URP精粹",
-    "引擎Unity3D/2 Shader精粹/《渲染优化》/性能分析/assets",
-    "引擎Unity3D/2 Shader精粹/《渲染优化》/性能分析",
-    "引擎Unreal/03 Gameplay/UE画布.canvas",
-    "图形学/2 图形API/DX12/龙书/DX12脑图.canvas"
+    "虚幻引擎/03 Gameplay/GAS/GAS精粹.md",
+    "虚幻引擎/03 Gameplay/GAS/GAS杂项.md",
+    "Tools/Obsidian/发布方案.md",
+    "Tools/Obsidian/插件流.md",
+    "python/Python基础.md",
+    "zip/Templates/yaml_Banner.md",
+    "Tools/工具流.md",
+    "Tools/Git/git入门.md",
+    "Tools/Git/Git 子仓库.md",
+    "虚幻引擎/01 指南/1 UE指南.md",
+    "虚幻引擎/03 Gameplay/《大象无形》/02 模块基础.md",
+    "编程/4 IDE/assets/c784f1fb15398a200f6d6fcd68c738b1_MD5.png",
+    "编程/4 IDE/assets/884d88951a19414ffa0f72a3f262f5f0_MD5.png",
+    "编程/4 IDE/assets/7a0eb8d4f690158eb91e33f8e0d9ca0f_MD5.png",
+    "编程/4 IDE/assets/76c6d12b953cccf1ca95c816b3999d46_MD5.png",
+    "编程/4 IDE/assets/6ca138710f511447206117d288f2d42d_MD5.png",
+    "编程/4 IDE/assets/62dab419bef612b16384392bbb8ccde0_MD5.png",
+    "编程/4 IDE/assets/58c4a59bfbb4a2d86111a00bfe64a374_MD5.png",
+    "编程/4 IDE/assets/21c10d268237ddc86b8768c42fe391f4_MD5.png",
+    "编程/4 IDE/assets/085282c1d2d8be08e333a3f6c97e6060_MD5.png",
+    "编程/4 IDE/assets/0328af45955834dfa9d80a27b51aff8a_MD5.png",
+    "编程/4 IDE/IDEA 的 LeetCode 力扣插件设置与使用（超详细）_idea leetcode 插件_准程序员的博客 - CSDN 博客.md",
+    "zip/Templates/yaml_论文.md",
+    "zip/Templates/yaml_原生.md"
   ]
 }

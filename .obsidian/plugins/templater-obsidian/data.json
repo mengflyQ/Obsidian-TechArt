@@ -22,7 +22,11 @@
   "syntax_highlighting": true,
   "syntax_highlighting_mobile": false,
   "enabled_templates_hotkeys": [
-    "zip/Templates/跳转到主库.md"
+    "zip/Templates/跳转到主库.md",
+    "zip/Templates/yaml_Banner.md",
+    "zip/Templates/yaml_noBanner.md",
+    "zip/Templates/markmap脑图.md",
+    "zip/Templates/mermaid流图.md"
   ],
   "startup_templates": [
     ""

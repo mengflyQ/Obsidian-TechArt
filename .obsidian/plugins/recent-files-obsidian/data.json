@@ -1,92 +1,24 @@
 {
   "recentFiles": [
     {
-      "basename": "01 辐射度量学",
-      "path": "图形学/3 全局光照GI/01 辐射度量学.md"
+      "basename": "GAS精粹",
+      "path": "虚幻引擎/03 Gameplay/GAS/GAS精粹.md"
     },
     {
-      "basename": "透视矫正插值",
-      "path": "图形学/6 软渲染器/软光栅/透视矫正插值.md"
+      "basename": "GAS杂项",
+      "path": "虚幻引擎/03 Gameplay/GAS/GAS杂项.md"
     },
     {
-      "basename": "HLSL语法",
-      "path": "图形学/2 图形API/DX12/HLSL语法.md"
-    },
-    {
-      "basename": "Windows编程",
-      "path": "图形学/2 图形API/DX12/Windows编程.md"
-    },
-    {
-      "basename": "DirectXMath",
-      "path": "图形学/2 图形API/DX12/DirectXMath.md"
-    },
-    {
-      "basename": "2.5 模型常见问题及其规范",
-      "path": "DCC/01 百人计划美术向/二、模型/2.5 模型常见问题及其规范.md"
-    },
-    {
-      "basename": "庄懂AP01",
-      "path": "引擎Unity3D/2 Shader精粹/《Built-in》/庄懂AP01.md"
-    },
-    {
-      "basename": "Python基础",
-      "path": "AI/Python/Python基础.md"
-    },
-    {
-      "basename": "动手学pytorch",
-      "path": "AI/深度学习/动手学pytorch.md"
-    },
-    {
-      "basename": "Nerf将场景表示为用于视图合成的神经辐射场",
-      "path": "AI/论文/Nerf/Nerf将场景表示为用于视图合成的神经辐射场.md"
-    },
-    {
-      "basename": "《鱼书》",
-      "path": "AI/深度学习/《鱼书》.md"
-    },
-    {
-      "basename": "01 三维旋转",
-      "path": "图形学/0 3D数学/公式推导/01 三维旋转.md"
-    },
-    {
-      "basename": "《编辑器扩展》",
-      "path": "引擎Unity3D/1 Unity精粹/《编辑器扩展》.md"
-    },
-    {
-      "basename": "次表面散射SSS",
-      "path": "技术美术/2 着色器/次表面散射SSS.md"
-    },
-    {
-      "basename": "大数定律与中心极限定理",
-      "path": "Math/概率论/大数定律与中心极限定理.md"
-    },
-    {
-      "basename": "URP 渲染优化总结",
-      "path": "引擎Unity3D/2 Shader精粹/《渲染优化》/URP 渲染优化总结.md"
-    },
-    {
-      "basename": "1 批处理总结",
-      "path": "引擎Unity3D/2 Shader精粹/《渲染优化》/1 批处理总结.md"
-    },
-    {
-      "basename": "04 纹理",
-      "path": "图形学/1 图形系统/04 纹理.md"
-    },
-    {
-      "basename": "01 渲染管线",
-      "path": "图形学/1 图形系统/01 渲染管线.md"
-    },
-    {
-      "basename": "git入门",
-      "path": "Tools/Git/git入门.md"
-    },
-    {
-      "basename": "1 C++ Primer",
-      "path": "编程/1 C++/1 C++ Primer.md"
+      "basename": "发布方案",
+      "path": "Tools/Obsidian/发布方案.md"
     },
     {
       "basename": "插件流",
       "path": "Tools/Obsidian/插件流.md"
+    },
+    {
+      "basename": "Python基础",
+      "path": "python/Python基础.md"
     },
     {
       "basename": "yaml_Banner",
@@ -97,108 +29,176 @@
       "path": "Tools/工具流.md"
     },
     {
-      "basename": "GAS精粹",
-      "path": "引擎Unreal/03 Gameplay/GAS/GAS精粹.md"
+      "basename": "git入门",
+      "path": "Tools/Git/git入门.md"
     },
     {
-      "basename": "02 Unity操作指南",
-      "path": "引擎Unity3D/1 Unity精粹/02 Unity操作指南.md"
-    },
-    {
-      "basename": "GASRPG 笔记",
-      "path": "引擎Unreal/03 Gameplay/GAS/GASRPG 笔记.md"
-    },
-    {
-      "basename": "2 问题汇总",
-      "path": "引擎Unreal/01 指南/2 问题汇总.md"
+      "basename": "Git 子仓库",
+      "path": "Tools/Git/Git 子仓库.md"
     },
     {
       "basename": "1 UE指南",
-      "path": "引擎Unreal/01 指南/1 UE指南.md"
+      "path": "虚幻引擎/01 指南/1 UE指南.md"
     },
     {
-      "basename": "UE4-Niagara - 致敬死亡搁浅 - 扫描仪（上）",
-      "path": "引擎Unreal/10 教程剪藏/UE4-Niagara - 致敬死亡搁浅 - 扫描仪（上）/UE4-Niagara - 致敬死亡搁浅 - 扫描仪（上）.md"
+      "basename": "02 模块基础",
+      "path": "虚幻引擎/03 Gameplay/《大象无形》/02 模块基础.md"
     },
     {
-      "basename": "Nerf将场景表示为用于视图合成的神经辐射场",
-      "path": "zip/AI/论文/Nerf/Nerf将场景表示为用于视图合成的神经辐射场.md"
+      "basename": "3 容器",
+      "path": "虚幻引擎/02 UE++/3 容器.md"
     },
     {
-      "basename": "《鱼书》",
-      "path": "zip/AI/深度学习/《鱼书》.md"
+      "basename": "2 STL标准库",
+      "path": "编程/1 C++/2 STL标准库.md"
     },
     {
-      "basename": "《线性代数的本质》",
-      "path": "Math/线性代数/《线性代数的本质》.md"
+      "basename": "2 问题汇总",
+      "path": "虚幻引擎/01 指南/2 问题汇总.md"
     },
     {
-      "basename": "少前 2 克罗丽科 NPR+PBR 渲染小试",
-      "path": "技术美术/6 NPR/少前 2 克罗丽科 NPR+PBR 渲染小试.md"
+      "basename": "2 类型",
+      "path": "虚幻引擎/02 UE++/2 类型.md"
     },
     {
-      "basename": "UE5_0 与 5_1 中动画系统更新内容的整理（猫都能看懂!）",
-      "path": "引擎Unreal/04 动画/UE5_0 与 5_1 中动画系统更新内容的整理（猫都能看懂!）.md"
+      "basename": "1 UE网络精粹",
+      "path": "虚幻引擎/06 网络/1 UE网络精粹.md"
     },
     {
-      "basename": "01 持久化对象",
-      "path": "引擎Unity3D/Catlike Coding/15 Object管理/01 持久化对象.md"
+      "basename": "1 GamePlay精粹",
+      "path": "虚幻引擎/02 UE++/1 GamePlay精粹.md"
     },
     {
-      "basename": "6 脚本",
-      "path": "引擎Unity3D/3 URP精粹/6 脚本.md"
+      "basename": "1 Gameplay架构",
+      "path": "虚幻引擎/03 Gameplay/《insider UE》/1 Gameplay架构.md"
     },
     {
-      "basename": "《CS Primer》",
-      "path": "引擎Unity3D/1 Unity精粹/《CS Primer》.md"
+      "basename": "1 C++ Primer",
+      "path": "编程/1 C++/1 C++ Primer.md"
     },
     {
-      "basename": "《数据持久化》",
-      "path": "引擎Unity3D/1 Unity精粹/《数据持久化》.md"
+      "basename": "01 虚幻类",
+      "path": "虚幻引擎/03 Gameplay/《大象无形》/01 虚幻类.md"
     },
     {
-      "basename": "02 空间变换",
-      "path": "图形学/0 3D数学/公式推导/02 空间变换.md"
+      "basename": "0 蓝图精粹",
+      "path": "虚幻引擎/02 UE++/0 蓝图精粹.md"
     },
     {
-      "basename": "11 曲线曲面几何",
-      "path": "图形学/1 图形系统/11 曲线曲面几何.md"
+      "basename": "Mermaid流图",
+      "path": "Tools/Obsidian/Mermaid流图.md"
     },
     {
-      "basename": "游戏开发面试题答案篇（三） -- 图形学篇",
-      "path": "zip/Legacy/面经/游戏开发面试题答案篇（三） -- 图形学篇.md"
+      "basename": "101 材质大师",
+      "path": "虚幻引擎/07 渲染 & VFX/101 材质大师.md"
     },
     {
-      "basename": "Three_js 进阶之旅：Shader 着色器入门",
-      "path": "zip/Legacy/Threejs/Three_js 进阶之旅：Shader 着色器入门.md"
+      "basename": "4 现代C++语法",
+      "path": "编程/1 C++/4 现代C++语法.md"
     },
     {
-      "basename": "位置编码 Positional Encoding",
-      "path": "zip/AI/论文/知识库/位置编码 Positional Encoding.md"
+      "basename": "程序运行原理",
+      "path": "编程/1 C++/程序运行原理.md"
     },
     {
-      "basename": "axis轴",
-      "path": "zip/AI/Python/axis轴.md"
+      "basename": "3 Effective C++",
+      "path": "编程/1 C++/3 Effective C++.md"
     },
     {
-      "basename": "数据结构",
-      "path": "编程/2 算法/数据结构.md"
+      "basename": "3 模板",
+      "path": "编程/1 C++/3 模板.md"
     },
     {
-      "basename": "常用噪声算法",
-      "path": "图形学/0 3D数学/常用噪声算法.md"
+      "basename": "README",
+      "path": "README.md"
     },
     {
-      "basename": "参数化曲线",
-      "path": "图形学/0 3D数学/参数化曲线.md"
+      "basename": "yaml_noBanner",
+      "path": "zip/Templates/yaml_noBanner.md"
     },
     {
-      "basename": "3D数学",
-      "path": "图形学/0 3D数学/3D数学.md"
+      "basename": "GASRPG 笔记",
+      "path": "虚幻引擎/03 Gameplay/GAS/GASRPG 笔记.md"
     },
     {
-      "basename": "05 射线相交",
-      "path": "图形学/0 3D数学/公式推导/05 射线相交.md"
+      "basename": "markmap脑图",
+      "path": "zip/Templates/markmap脑图.md"
+    },
+    {
+      "basename": "yaml_论文",
+      "path": "zip/Templates/yaml_论文.md"
+    },
+    {
+      "basename": "yaml_原生",
+      "path": "zip/Templates/yaml_原生.md"
+    },
+    {
+      "basename": "跳转到主库",
+      "path": "zip/Templates/跳转到主库.md"
+    },
+    {
+      "basename": "callout分栏",
+      "path": "zip/Templates/callout分栏.md"
+    },
+    {
+      "basename": "mermaid流图",
+      "path": "zip/Templates/mermaid流图.md"
+    },
+    {
+      "basename": "1 解包",
+      "path": "虚幻引擎/01 指南/插件使用/1 解包.md"
+    },
+    {
+      "basename": "游戏编程模式",
+      "path": "编程/3 设计模式/游戏编程模式.md"
+    },
+    {
+      "basename": "3 BUG",
+      "path": "虚幻引擎/01 指南/3 BUG.md"
+    },
+    {
+      "basename": "IDEA 的 LeetCode 力扣插件设置与使用（超详细）_idea leetcode 插件_准程序员的博客 - CSDN 博客",
+      "path": "编程/4 IDE/IDEA 的 LeetCode 力扣插件设置与使用（超详细）_idea leetcode 插件_准程序员的博客 - CSDN 博客.md"
+    },
+    {
+      "basename": "3 Vorid",
+      "path": "虚幻引擎/01 指南/插件使用/3 Vorid.md"
+    },
+    {
+      "basename": "重定向",
+      "path": "虚幻引擎/04 动画/重定向.md"
+    },
+    {
+      "basename": "动画蓝图",
+      "path": "虚幻引擎/04 动画/动画蓝图.md"
+    },
+    {
+      "basename": "4 CelShader",
+      "path": "虚幻引擎/01 指南/插件使用/4 CelShader.md"
+    },
+    {
+      "basename": "simpread-【Unreal】虚幻 GAS 系统快速入门",
+      "path": "虚幻引擎/03 Gameplay/GAS/simpread-【Unreal】虚幻 GAS 系统快速入门.md"
+    },
+    {
+      "basename": "2 Blender到UE",
+      "path": "虚幻引擎/01 指南/插件使用/2 Blender到UE.md"
+    },
+    {
+      "basename": " (1)- 初始设置",
+      "path": "虚幻引擎/03 Gameplay/GAS/入门合集/ (1)- 初始设置.md"
+    },
+    {
+      "basename": "4 委托",
+      "path": "虚幻引擎/02 UE++/4 委托.md"
+    },
+    {
+      "basename": "303 实时渲染",
+      "path": "虚幻引擎/07 渲染 & VFX/303 实时渲染.md"
+    },
+    {
+      "basename": "202 材质教程",
+      "path": "虚幻引擎/07 渲染 & VFX/202 材质教程.md"
     }
   ],
   "omittedPaths": [],
