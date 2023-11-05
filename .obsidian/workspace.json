@@ -55,7 +55,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DCC/01 百人计划美术向/二、模型/2.5 模型常见问题及其规范.md",
+                "file": "图形学/3 全局光照GI/01 辐射度量学.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -106,7 +106,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DCC/01 百人计划美术向/二、模型/2.5 模型常见问题及其规范.md"
+                "file": "图形学/3 全局光照GI/01 辐射度量学.md"
               }
             }
           },
@@ -116,7 +116,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "DCC/01 百人计划美术向/二、模型/2.5 模型常见问题及其规范.md"
+                "file": "图形学/3 全局光照GI/01 辐射度量学.md"
               }
             }
           },
@@ -167,7 +167,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "DCC/01 百人计划美术向/二、模型/2.5 模型常见问题及其规范.md",
+                "file": "图形学/3 全局光照GI/01 辐射度量学.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -211,7 +211,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DCC/01 百人计划美术向/二、模型/2.5 模型常见问题及其规范.md",
+                "file": "图形学/3 全局光照GI/01 辐射度量学.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -245,6 +245,10 @@
   },
   "active": "c824d1e0e1ff26ed",
   "lastOpenFiles": [
+    "图形学/6 软渲染器/软光栅/透视矫正插值.md",
+    "图形学/2 图形API/DX12/HLSL语法.md",
+    "图形学/2 图形API/DX12/Windows编程.md",
+    "图形学/2 图形API/DX12/DirectXMath.md",
     "引擎Unity3D/2 Shader精粹/《Built-in》/庄懂AP01.md",
     "AI/Python/Python基础.md",
     "AI/深度学习/动手学pytorch.md",
@@ -284,11 +288,7 @@
     "引擎Unity3D/3 URP精粹/5 CommandBuffer.md",
     "引擎Unity3D/3 URP精粹/3 Renderer Feature.md",
     "引擎Unity3D/3 URP精粹/2 URP.md",
-    "引擎Unity3D/3 URP精粹/1 ShaderLab.md",
     "引擎Unity3D/3 URP精粹",
-    "引擎Unity3D/2 Shader精粹/《渲染优化》/性能分析/Unity 游戏性能分析最终指南 03.md",
-    "引擎Unity3D/2 Shader精粹/《渲染优化》/性能分析/Unity 游戏性能分析最终指南 04.md",
-    "引擎Unity3D/2 Shader精粹/《渲染优化》/性能分析/Unity 游戏性能分析最终指南 02.md",
     "引擎Unity3D/2 Shader精粹/《渲染优化》/性能分析/assets",
     "引擎Unity3D/2 Shader精粹/《渲染优化》/性能分析",
     "引擎Unreal/03 Gameplay/UE画布.canvas",
