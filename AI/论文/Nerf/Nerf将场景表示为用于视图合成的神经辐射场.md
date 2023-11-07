@@ -215,8 +215,9 @@ $$
 
 # 6 Results
 
-我们定量地 (quantitatively)（表 1）和定性地（qualitatively）（图 8 和 6）表明，我们的方法优于先前的工作，并提供了广泛的消融研究（ablation studies）来验证我们的设计选择（表 2）。我们敦促读者观看我们的补充视频，以更好地理解我们的方法在渲染新视图的平滑路径时相对于对照方法（baseline methods）的显著改进。 
-- ? 消融研究（ablation studies）?
+我们定量地 (quantitatively)（表 1）和定性地（qualitatively）（图 8 和 6）表明，我们的方法优于先前的工作，并提供了广泛的消融实验（ablation studies）来验证我们的设计选择（表 2）。我们敦促读者观看我们的补充视频，以更好地理解我们的方法在渲染新视图的平滑路径时相对于对照方法（baseline methods）的显著改进。 
+- ? 消融实验（ablation studies）?
+[一文搞懂什么是ablation study (消融实验） - 知乎 (zhihu.com)](https://zhuanlan.zhihu.com/p/644502891)
 
 ## 6.1 Datasets
 **Synthetic renderings of objects（物体的合成渲染）** 
