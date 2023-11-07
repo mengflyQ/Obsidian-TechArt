@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "Nerf将场景表示为用于视图合成的神经辐射场",
+      "path": "AI/论文/Nerf/Nerf将场景表示为用于视图合成的神经辐射场.md"
+    },
+    {
+      "basename": "可微渲染、NeRF 相关技术概念急速入门",
+      "path": "AI/论文/Nerf/可微渲染、NeRF 相关技术概念急速入门.md"
+    },
+    {
       "basename": "GAS精粹",
       "path": "虚幻引擎/03 Gameplay/GAS/GAS精粹.md"
     },
@@ -191,14 +199,6 @@
     {
       "basename": "4 委托",
       "path": "虚幻引擎/02 UE++/4 委托.md"
-    },
-    {
-      "basename": "303 实时渲染",
-      "path": "虚幻引擎/07 渲染 & VFX/303 实时渲染.md"
-    },
-    {
-      "basename": "202 材质教程",
-      "path": "虚幻引擎/07 渲染 & VFX/202 材质教程.md"
     }
   ],
   "omittedPaths": [],
