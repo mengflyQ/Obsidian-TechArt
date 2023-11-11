@@ -11,8 +11,13 @@
             "id": "b3a16d92f85152cc",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "AI/环境配置/Anaconda配置.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
             }
           }
         ]
@@ -42,7 +47,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "AI/环境配置/Anaconda配置.md"
+              }
             }
           },
           {
@@ -73,7 +80,9 @@
             "type": "leaf",
             "state": {
               "type": "file-properties",
-              "state": {}
+              "state": {
+                "file": "AI/环境配置/Anaconda配置.md"
+              }
             }
           }
         ],
@@ -147,6 +156,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "AI/环境配置/Anaconda配置.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -163,6 +173,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "AI/环境配置/Anaconda配置.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }

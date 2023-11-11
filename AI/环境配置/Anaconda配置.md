@@ -45,11 +45,11 @@
 # 3. 配置环境变量
 
 ```
-D:\Anaconda
-D:\Anaconda\Scripts
+C:\ProgramData\anaconda3
+C:\ProgramData\anaconda3\Scripts
 ```
 
-将如上路径添加到系统 path，不会的参考下面步骤
+将如上路径（根据安装位置）添加到系统 path，不会的参考下面步骤
 
 电脑右键选择属性，选择高级系统设置
 
@@ -131,19 +131,18 @@ activate noti
 # 9. 其他命令
 
 如下命令自行按需索取吧
-
-*   conda list：查看环境中的所有包
-*   conda install XXX：安装 XXX 包
-*   conda remove XXX：删除 XXX 包
-*   conda env list：列出所有环境
-*   conda create -n XXX：创建名为 XXX 的环境
-*   conda create -n env_name jupyter notebook ：创建虚拟环境
-*   activate noti（或 source activate noti）：启用 / 激活环境
-*   conda env remove -n noti：删除指定环境
-*   deactivate（或 source deactivate）：退出环境
-*   jupyter notebook ：打开 Jupyter Notebook
-*   conda config --remove-key channels ：换回默认源
-
+```
+conda list：查看环境中的所有包
+conda install XXX：安装 XXX 包
+conda remove XXX：删除 XXX 包
+conda env list：列出所有环境
+conda create -n XXX：创建名为 XXX 的环境
+conda create -n env_name jupyter notebook ：创建虚拟环境
+conda env remove -n noti：删除指定环境
+deactivate（或 source deactivate）：退出环境
+jupyter notebook ：打开 Jupyter Notebook
+conda config --remove-key channels ：换回默认源
+```
 最后祝大家都能安装成功
 
 
@@ -155,13 +154,12 @@ conda remove -n octopus --all
 
 
 **复制环境**: [[16条消息) 复制Anaconda虚拟环境_conda 复制环境_马大哈先生的博客-CSDN博客](https://blog.csdn.net/qq_37764129/article/details/102496746|(16条消息) 复制Anaconda虚拟环境_conda 复制环境_马大哈先生的博客-CSDN博客]]
-
 # 10 Pytorch
 
 安装 Anaconda：[Index of /anaconda/archive/ | 清华大学开源软件镜像站 | Tsinghua Open Source Mirror](https://mirrors.tuna.tsinghua.edu.cn/anaconda/archive/?C=M&O=D)
 Pytorch 环境创建：
 ```python nums
-conda create -n pytorch Python=3.11.3
+conda create -n pytorch Python=3.11.5
 ```
 
 ![[Pasted image 20230414225103.png]]
