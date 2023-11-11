@@ -4786,6 +4786,7 @@ oaql
 okgm
 ouKi
 okxLm
+overfitting
 OneDrive
 Obsidian
 Office
@@ -10615,6 +10616,8 @@ OjXt
 OMep
 ORd
 OFW
+OmniGraffle
+Oregon
 codeup
 clash
 ctrl
@@ -16416,6 +16419,16 @@ cswaqs
 cmqs
 cVgg
 cpI
+classification
+classifier
+convolutional
+concatenate
+continous
+corpus
+chmod
+cuda
+createpr
+conv
 github
 grey
 green
@@ -21403,6 +21416,14 @@ gMs
 gegz
 gev
 gegm
+generalization
+gated
+gradients
+gram
+gluon
+gdata
+gutils
+gihub
 typora
 todo
 tooltip
@@ -26723,6 +26744,11 @@ tsr
 tsuk
 tUh
 tjk
+tokenizer
+tokenize
+trigram
+tune
+terminology
 markdown
 matter
 mod
@@ -32205,6 +32231,11 @@ mKNh
 mVHn
 mZuK
 mzY
+multilayer
+minimization
+mxnet
+mdash
+machines
 windows
 win
 width
@@ -42225,6 +42256,11 @@ uTX
 uIdTP
 uokg
 uiO
+underfitting
+upsample
+unbiased
+unigram
+ubuntu
 everything
 ea
 ede
@@ -47399,6 +47435,11 @@ eYfM
 eTvU
 eoqyi
 eKbJ
+encoder
+embedding
+empirical
+eigenvalue
+epochs
 VPN
 Verge
 VS
@@ -52312,6 +52353,7 @@ VNSh
 VCYV
 VJew
 VSUW
+Volta
 verge
 vPdIt
 vertical
@@ -57025,6 +57067,8 @@ vWT
 vCJkuD
 vMkg
 vkzlV
+vocabulary
+vanishing
 AA
 AppData
 AIRDyuVH
@@ -62859,6 +62903,10 @@ AGPL
 AppStore
 AcTU
 AuVNA
+Aiken
+Amazon
+Amari
+Ampere
 URL
 Utools
 Users
@@ -73388,6 +73436,10 @@ aywmse
 aBcJV
 afZ
 aGuv
+accuracy
+alphabetically
+astonzhang
+alexnet
 Roaming
 RegWorkshop
 Release
@@ -79333,6 +79385,7 @@ RNRjQtFb
 RKMWQ
 RZOIj
 RyVL
+Review
 Microsoft
 Menu
 MicaForEveryone
@@ -85535,6 +85588,9 @@ MGUuY
 MBg
 MNyu
 MuwW
+MXNet
+Miniconda
+Mechanical
 Windows
 Win
 World
@@ -97307,6 +97363,17 @@ StjB
 SsH
 SGgq
 SOoq
+StickArrow
+STIXGeneral
+Schölkopf
+STYLE
+SageMaker
+Stopping
+SIFT
+SURF
+Shun
+Schmidhuber
+Sutskever
 Programs
 POP
 PC
@@ -103070,6 +103137,9 @@ PmtG
 PGqw
 PMSW
 PZAa
+PingFang
+Propose
+PaddlePaddle
 ContextMenuManager
 ClashVerge
 Clash
@@ -109082,6 +109152,8 @@ Cydgs
 CovmP
 CpV
 CbMX
+CBOW
+Central
 ImTip
 IMAP
 ID
@@ -114754,6 +114826,7 @@ IKnm
 IofU
 Iyqu
 IjVk
+Ilya
 qq
 qyi
 quad
@@ -125619,6 +125692,9 @@ pQeb
 pIGq
 pfh
 pQx
+pooling
+perceptron
+perplexity
 nodesCatch
 nobr
 navy
@@ -130514,6 +130590,9 @@ nbXm
 noth
 nfMSY
 ngI
+namescope
+numref
+newpr
 bf
 bc
 black
@@ -135510,6 +135589,7 @@ beN
 byxPX
 bEtm
 bop
+bigram
 fe
 front
 fill
@@ -140585,6 +140665,7 @@ fwbI
 fDPe
 fxEg
 fPHX
+frontpage
 dd
 dcc
 data
@@ -146299,6 +146380,11 @@ duWVQ
 dzAL
 dvif
 dxOH
+dense
+dropout
+diverge
+dive
+disk
 TFvYZOKeHL
 TAB
 TeX
@@ -151950,6 +152036,9 @@ Tjeb
 TfJD
 ToxY
 TRTl
+TERMINOLOGY
+Terminating
+TFlops
 io
 ipad
 it
@@ -157799,6 +157888,9 @@ iText
 iTextSharp
 iCWn
 iZQt
+identically
+infinite
+ichi
 shift
 svg
 sf
@@ -163912,6 +164004,10 @@ sMVP
 snne
 sLli
 swG
+subsample
+sentiment
+sequential
+spaCy
 local
 list
 left
@@ -168918,6 +169014,10 @@ laln
 lmJ
 lvqD
 lMZF
+labels
+librsvg
+launching
+linux
 YAML
 You
 YEBAYGhURFRofHx
@@ -173796,6 +173896,7 @@ YYhv
 Yxju
 YuH
 YEyP
+Yoshua
 header
 hidden
 height
@@ -178916,6 +179017,10 @@ hczj
 hrHN
 hdZC
 hQxC
+hyperparameter
+hypothesis
+hiddens
+highly
 rgb
 right
 rm
@@ -184440,6 +184545,8 @@ rDVJ
 rpdS
 rUhT
 rhYVpk
+regression
+risk
 XXXXXX
 XXX
 XML
@@ -199859,6 +199966,9 @@ BNtc
 BmKB
 BcYGf
 BavyP
+BFFF
+Bernhard
+Bengio
 Fraktur
 Frame
 Foo
@@ -205767,6 +205877,7 @@ FpOaQ
 FoZX
 FMzK
 FMKUKm
+Fashion
 Element
 Entity
 Enity
@@ -216493,6 +216604,8 @@ xRais
 xwRi
 xFDvP
 xIBk
+xelatex
+xlarge
 yellow
 your
 you
@@ -226628,6 +226741,7 @@ DAPF
 DfWF
 DRaGi
 DRzr
+Dive
 LNK
 Log
 Linux
@@ -232096,6 +232210,8 @@ LUjn
 LGoo
 LMdi
 LpTh
+LSTM
+Limits
 Getx
 GetX
 GetName
@@ -238252,6 +238368,9 @@ Gfob
 Gwao
 Godblessme
 GHrd
+Gluon
+GUIDE
+Geoff
 NULL
 Native
 NormalMap
@@ -248987,6 +249106,7 @@ ZIes
 ZEoa
 ZCCmvU
 ZCxh
+Zipf
 Quote
 Quiet
 Quick
@@ -259714,6 +259834,7 @@ JEoo
 JMWE
 JWicU
 JioA
+Juergen
 Ke
 KjpKWmp
 KYW
@@ -264778,6 +264899,7 @@ KnwP
 KNS
 Kgcq
 KFFV
+Kepler
 key
 kSC
 keaXj
@@ -269911,6 +270033,7 @@ kass
 kYh
 kkkxK
 kEZY
+keypair
 zoom
 zw
 zaG

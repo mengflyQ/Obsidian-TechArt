@@ -8,19 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "e1b546b72e185e6e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "AI/深度学习/动手学pytorch.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
             "id": "b3a16d92f85152cc",
             "type": "leaf",
             "state": {
@@ -55,9 +42,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "AI/深度学习/动手学pytorch.md"
-              }
+              "state": {}
             }
           },
           {
@@ -88,9 +73,7 @@
             "type": "leaf",
             "state": {
               "type": "file-properties",
-              "state": {
-                "file": "AI/深度学习/动手学pytorch.md"
-              }
+              "state": {}
             }
           }
         ],
@@ -164,7 +147,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "AI/深度学习/动手学pytorch.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -181,7 +163,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "AI/深度学习/动手学pytorch.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -209,46 +190,53 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "e1b546b72e185e6e",
+  "active": "b3a16d92f85152cc",
   "lastOpenFiles": [
-    "AI/Python/Python基础.md",
-    "AI/Python/Numpy+Matplotlib.md",
-    "AI/Python/axis轴.md",
-    "AI/深度学习/快速入门.md",
-    "AI/深度学习/《鱼书》.md",
-    "zip/Templates/yaml_Banner.md",
+    "AI/动手学深度学习/chapter_convolutional-modern/alexnet.md",
+    "AI/动手学深度学习/chapter_convolutional-neural-networks/channels.md",
+    "AI/动手学深度学习/chapter_appendix-tools-for-deep-learning/d2l.md",
+    "AI/动手学深度学习/chapter_appendix-tools-for-deep-learning/contributing.md",
+    "AI/动手学深度学习/chapter_appendix-tools-for-deep-learning/aws.md",
+    "AI/动手学深度学习/STYLE_GUIDE.md",
+    "AI/动手学深度学习/README.md",
+    "AI/动手学深度学习/index.md",
+    "AI/动手学深度学习/INFO.md",
+    "AI/动手学深度学习/TERMINOLOGY.md",
     "AI/深度学习/动手学pytorch.md",
-    "AI/深度学习/assets/Pasted image 20231111101628.png",
-    "AI/深度学习/assets/Pasted image 20231111095054.png",
-    "AI/深度学习/assets/Pasted image 20231111094711.png",
-    "AI/深度学习/assets/Pasted image 20231111094555.png",
-    "AI/深度学习/assets/Pasted image 20231111094458.png",
-    "AI/深度学习/assets/Pasted image 20231111094252.png",
-    "AI/深度学习/assets/Pasted image 20231111093459.png",
-    "zip/Templates/跳转到主库.md",
-    "zip/Templates/yaml_论文.md",
-    "zip/Templates/yaml_原生.md",
-    "zip/Templates/yaml_noBanner.md",
-    "zip/Templates/mermaid流图.md",
-    "zip/Templates/markmap脑图.md",
-    "zip/Templates/callout分栏.md",
-    "zip/Templates",
-    "AI/深度学习/assets/Pasted image 20231111093129.png",
-    "AI/深度学习/鱼书pdf.pdf",
-    "AI/深度学习/assets/Pasted image 20231107154749.png",
-    "AI/深度学习/assets/Pasted image 20231107154520.png",
-    "1681573992016.md",
-    "AI/论文/Nerf/转mesh工作.md",
-    "AI/深度学习/研究生自救指南.pdf",
-    "AI/论文/Nerf/Nerf将场景表示为用于视图合成的神经辐射场.md",
-    "AI/论文/Nerf/可微渲染、NeRF 相关技术概念急速入门.md",
-    "虚幻引擎/03 Gameplay/GAS/GAS精粹.md",
-    "虚幻引擎/03 Gameplay/GAS/GAS杂项.md",
-    "Tools/Obsidian/发布方案.md",
-    "Tools/Obsidian/插件流.md",
-    "python/Python基础.md",
-    "Tools/工具流.md",
-    "Tools/Git/git入门.md",
-    "Tools/Git/Git 子仓库.md"
+    "AI/动手学深度学习/static/frontpage/_images/sales/jd-202303-all-ai-zh-6-full.png",
+    "AI/动手学深度学习/static/frontpage/_images/sales/jd-allsales-AI-202302-zh-6.png",
+    "AI/动手学深度学习/static/frontpage/_images/sales/jd-202302-zh-3.png",
+    "AI/动手学深度学习/static/frontpage/_images/sales/jd-202304-all-ai-zh-6.png",
+    "AI/动手学深度学习/static/frontpage/_images/sales/jd-202304-all-ai-zh-4.png",
+    "AI/动手学深度学习/static/frontpage/_images/sales/jd-202303-zh-6.png",
+    "AI/动手学深度学习/static/frontpage/_images/sales/jd-202303-all-ai-zh-6.png",
+    "AI/动手学深度学习/static/frontpage/_images/sales/jd-202303-all-ai-zh-4.png",
+    "AI/动手学深度学习/static/frontpage/_images/sales/jd-20230208-zh-6.png",
+    "AI/动手学深度学习/static/frontpage/_images/sales/jd-20230208-zh-5(day).png",
+    "AI/动手学深度学习/contrib/to-rm-mx-contrib-text/d2lzh/text/__init__.py",
+    "AI/动手学深度学习/contrib/to-rm-mx-contrib-text/d2lzh/text/vocab.py",
+    "AI/动手学深度学习/contrib/to-rm-mx-contrib-text/d2lzh/text/embedding.py",
+    "AI/动手学深度学习/static/frontpage/_images/sales",
+    "AI/动手学深度学习/static/frontpage/_images/notebook.mp4",
+    "AI/动手学深度学习/static/frontpage/_images/logos",
+    "AI/动手学深度学习/static/frontpage/_images/forum.mp4",
+    "AI/动手学深度学习/static/frontpage/attachments/sagemaker.txt",
+    "AI/动手学深度学习/graffle/performance/mobo.graffle/image1.tiff",
+    "AI/动手学深度学习/static/frontpage/attachments/hardcopy.txt",
+    "AI/动手学深度学习/contrib/to-rm-mx-contrib-text/chapter_natural-language-processing/similarity-analogy.md",
+    "AI/动手学深度学习/contrib/to-rm-mx-contrib-text/chapter_natural-language-processing/sentiment-analysis-cnn.md",
+    "AI/动手学深度学习/contrib/to-rm-mx-contrib-text/chapter_natural-language-processing/sentiment-analysis-rnn.md",
+    "AI/动手学深度学习/contrib/to-rm-mx-contrib-text/chapter_natural-language-processing/machine-translation.md",
+    "AI/动手学深度学习/contrib/chapter_recommender-systems/movielens.md",
+    "AI/动手学深度学习/contrib/chapter_recommender-systems/mf.md",
+    "AI/动手学深度学习/contrib/chapter_recommender-systems/index.md",
+    "AI/动手学深度学习/contrib/chapter_recommender-systems/fm.md",
+    "AI/动手学深度学习/contrib/chapter_recommender-systems/ctr.md",
+    "AI/动手学深度学习/contrib/chapter_recommender-systems/autorec.md",
+    "AI/动手学深度学习/chapter_preliminaries/autograd.md",
+    "AI/动手学深度学习/chapter_preliminaries/probability.md",
+    "AI/动手学深度学习/chapter_preliminaries/pandas.md",
+    "AI/动手学深度学习/chapter_preliminaries/ndarray.md",
+    "AI/动手学深度学习/chapter_preliminaries/lookup-api.md"
   ]
 }

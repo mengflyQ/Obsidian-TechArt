@@ -167,26 +167,6 @@
     {
       "basename": "yaml_原生",
       "path": "zip/Templates/yaml_原生.md"
-    },
-    {
-      "basename": "跳转到主库",
-      "path": "zip/Templates/跳转到主库.md"
-    },
-    {
-      "basename": "1 解包",
-      "path": "虚幻引擎/01 指南/插件使用/1 解包.md"
-    },
-    {
-      "basename": "游戏编程模式",
-      "path": "编程/3 设计模式/游戏编程模式.md"
-    },
-    {
-      "basename": "3 BUG",
-      "path": "虚幻引擎/01 指南/3 BUG.md"
-    },
-    {
-      "basename": "IDEA 的 LeetCode 力扣插件设置与使用（超详细）_idea leetcode 插件_准程序员的博客 - CSDN 博客",
-      "path": "编程/4 IDE/IDEA 的 LeetCode 力扣插件设置与使用（超详细）_idea leetcode 插件_准程序员的博客 - CSDN 博客.md"
     }
   ],
   "omittedPaths": [],
