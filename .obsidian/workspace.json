@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "zip/Templates/yaml_Banner.md",
+                "file": "AI/深度学习/动手学pytorch.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -56,7 +56,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "zip/Templates/yaml_Banner.md"
+                "file": "AI/深度学习/动手学pytorch.md"
               }
             }
           },
@@ -89,7 +89,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "zip/Templates/yaml_Banner.md"
+                "file": "AI/深度学习/动手学pytorch.md"
               }
             }
           }
@@ -164,7 +164,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "zip/Templates/yaml_Banner.md",
+                "file": "AI/深度学习/动手学pytorch.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -181,7 +181,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "zip/Templates/yaml_Banner.md",
+                "file": "AI/深度学习/动手学pytorch.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -211,7 +211,12 @@
   },
   "active": "e1b546b72e185e6e",
   "lastOpenFiles": [
+    "AI/Python/Python基础.md",
+    "AI/Python/Numpy+Matplotlib.md",
+    "AI/Python/axis轴.md",
+    "AI/深度学习/快速入门.md",
     "AI/深度学习/《鱼书》.md",
+    "zip/Templates/yaml_Banner.md",
     "AI/深度学习/动手学pytorch.md",
     "AI/深度学习/assets/Pasted image 20231111101628.png",
     "AI/深度学习/assets/Pasted image 20231111095054.png",
@@ -220,7 +225,6 @@
     "AI/深度学习/assets/Pasted image 20231111094458.png",
     "AI/深度学习/assets/Pasted image 20231111094252.png",
     "AI/深度学习/assets/Pasted image 20231111093459.png",
-    "zip/Templates/yaml_Banner.md",
     "zip/Templates/跳转到主库.md",
     "zip/Templates/yaml_论文.md",
     "zip/Templates/yaml_原生.md",
@@ -230,8 +234,6 @@
     "zip/Templates/callout分栏.md",
     "zip/Templates",
     "AI/深度学习/assets/Pasted image 20231111093129.png",
-    "AI/深度学习/快速入门.md",
-    "AI/Python/Python基础.md",
     "AI/深度学习/鱼书pdf.pdf",
     "AI/深度学习/assets/Pasted image 20231107154749.png",
     "AI/深度学习/assets/Pasted image 20231107154520.png",
@@ -247,7 +249,6 @@
     "python/Python基础.md",
     "Tools/工具流.md",
     "Tools/Git/git入门.md",
-    "Tools/Git/Git 子仓库.md",
-    "虚幻引擎/01 指南/1 UE指南.md"
+    "Tools/Git/Git 子仓库.md"
   ]
 }

@@ -1,24 +1,28 @@
 {
   "recentFiles": [
     {
-      "basename": "yaml_Banner",
-      "path": "zip/Templates/yaml_Banner.md"
-    },
-    {
-      "basename": "《鱼书》",
-      "path": "AI/深度学习/《鱼书》.md"
-    },
-    {
       "basename": "动手学pytorch",
       "path": "AI/深度学习/动手学pytorch.md"
+    },
+    {
+      "basename": "Python基础",
+      "path": "AI/Python/Python基础.md"
+    },
+    {
+      "basename": "Numpy+Matplotlib",
+      "path": "AI/Python/Numpy+Matplotlib.md"
     },
     {
       "basename": "快速入门",
       "path": "AI/深度学习/快速入门.md"
     },
     {
-      "basename": "Python基础",
-      "path": "AI/Python/Python基础.md"
+      "basename": "《鱼书》",
+      "path": "AI/深度学习/《鱼书》.md"
+    },
+    {
+      "basename": "yaml_Banner",
+      "path": "zip/Templates/yaml_Banner.md"
     },
     {
       "basename": "鱼书pdf",
