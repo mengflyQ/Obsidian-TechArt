@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AI/深度学习/Pytorch精粹.md",
+                "file": "AI/Python/Pytorch精粹.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -21,15 +21,15 @@
             }
           },
           {
-            "id": "fdfe5be943796dc8",
+            "id": "cc5ddef1a9af175f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "zip/Templates/yaml_Banner.md",
+                "file": "AI/Python/Python基础.md",
                 "mode": "source",
                 "backlinks": false,
-                "source": true
+                "source": false
               }
             }
           }
@@ -61,7 +61,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "AI/深度学习/Pytorch精粹.md"
+                "file": "AI/Python/Pytorch精粹.md"
               }
             }
           },
@@ -94,12 +94,11 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "AI/深度学习/Pytorch精粹.md"
+                "file": "AI/Python/Pytorch精粹.md"
               }
             }
           }
-        ],
-        "currentTab": 4
+        ]
       },
       {
         "id": "86c1fb5dd4a1903e",
@@ -169,7 +168,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "AI/深度学习/Pytorch精粹.md",
+                "file": "AI/Python/Pytorch精粹.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -186,7 +185,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "AI/深度学习/Pytorch精粹.md",
+                "file": "AI/Python/Pytorch精粹.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -216,14 +215,18 @@
   },
   "active": "b3a16d92f85152cc",
   "lastOpenFiles": [
+    "AI/Python/Python基础.md",
+    "AI/Python/Pytorch精粹.md",
+    "AI/Python/assets/Pasted image 20231111173516.png",
+    "AI/Python/assets/Pasted image 20231111173514.png",
+    "1681573992016.md",
+    "AI/Python/assets/Pasted image 20231111172946.jpg",
+    "zip/Templates/yaml_Banner.md",
     "zBuffer/2_1_ 数据操作 — 动手学深度学习 2_0_0 documentation.md",
-    "AI/深度学习/Pytorch精粹.md",
     "AI/深度学习/assets/Pasted image 20231111164335.png",
     "AI/深度学习/动手学DL.md",
-    "zip/Templates/yaml_Banner.md",
     "AI/Python/Numpy+Matplotlib.md",
     "AI/深度学习/PyTorch入门.md",
-    "AI/Python/Python基础.md",
     "AI/深度学习/快速入门.md",
     "zBuffer",
     "AI/环境配置/Anaconda配置.md",
@@ -243,9 +246,6 @@
     "AI/动手学深度学习/static/frontpage/_images/sales/jd-202304-all-ai-zh-6.png",
     "AI/动手学深度学习/static/frontpage/_images/sales/jd-202304-all-ai-zh-4.png",
     "AI/动手学深度学习/static/frontpage/_images/sales/jd-202303-zh-6.png",
-    "AI/动手学深度学习/static/frontpage/_images/sales/jd-202303-all-ai-zh-6.png",
-    "AI/动手学深度学习/static/frontpage/_images/sales/jd-202303-all-ai-zh-4.png",
-    "AI/动手学深度学习/static/frontpage/_images/sales/jd-20230208-zh-6.png",
     "AI/动手学深度学习/contrib/to-rm-mx-contrib-text/d2lzh/text/__init__.py",
     "AI/动手学深度学习/contrib/to-rm-mx-contrib-text/d2lzh/text/vocab.py",
     "AI/动手学深度学习/contrib/to-rm-mx-contrib-text/d2lzh/text/embedding.py",
@@ -259,7 +259,6 @@
     "AI/动手学深度学习/contrib/to-rm-mx-contrib-text/chapter_natural-language-processing/sentiment-analysis-cnn.md",
     "AI/动手学深度学习/contrib/to-rm-mx-contrib-text/chapter_natural-language-processing/sentiment-analysis-rnn.md",
     "AI/动手学深度学习/contrib/to-rm-mx-contrib-text/chapter_natural-language-processing/machine-translation.md",
-    "AI/动手学深度学习/contrib/chapter_recommender-systems/movielens.md",
-    "AI/动手学深度学习/contrib/chapter_recommender-systems/mf.md"
+    "AI/动手学深度学习/contrib/chapter_recommender-systems/movielens.md"
   ]
 }

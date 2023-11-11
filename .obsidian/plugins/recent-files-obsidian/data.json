@@ -2,15 +2,19 @@
   "recentFiles": [
     {
       "basename": "Pytorch精粹",
-      "path": "AI/深度学习/Pytorch精粹.md"
+      "path": "AI/Python/Pytorch精粹.md"
     },
     {
-      "basename": "动手学DL",
-      "path": "AI/深度学习/动手学DL.md"
+      "basename": "Python基础",
+      "path": "AI/Python/Python基础.md"
     },
     {
       "basename": "yaml_Banner",
       "path": "zip/Templates/yaml_Banner.md"
+    },
+    {
+      "basename": "动手学DL",
+      "path": "AI/深度学习/动手学DL.md"
     },
     {
       "basename": "Numpy+Matplotlib",
@@ -19,10 +23,6 @@
     {
       "basename": "PyTorch入门",
       "path": "AI/深度学习/PyTorch入门.md"
-    },
-    {
-      "basename": "Python基础",
-      "path": "AI/Python/Python基础.md"
     },
     {
       "basename": "快速入门",
@@ -39,10 +39,6 @@
     {
       "basename": "鱼书pdf",
       "path": "AI/深度学习/鱼书pdf.pdf"
-    },
-    {
-      "basename": "1681573992016",
-      "path": "1681573992016.md"
     },
     {
       "basename": "转mesh工作",
