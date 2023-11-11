@@ -11,10 +11,21 @@
             "id": "e1b546b72e185e6e",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "AI/深度学习/鱼书pdf.pdf"
+                "file": "zip/Templates/yaml_Banner.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
               }
+            }
+          },
+          {
+            "id": "b3a16d92f85152cc",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -29,6 +40,7 @@
       {
         "id": "8cb567a84fd74f78",
         "type": "tabs",
+        "dimension": 45.95323741007194,
         "children": [
           {
             "id": "e2ab25dcda4c975e",
@@ -44,7 +56,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "AI/深度学习/鱼书pdf.pdf"
+                "file": "zip/Templates/yaml_Banner.md"
               }
             }
           },
@@ -77,7 +89,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "AI/深度学习/鱼书pdf.pdf"
+                "file": "zip/Templates/yaml_Banner.md"
               }
             }
           }
@@ -87,6 +99,7 @@
       {
         "id": "86c1fb5dd4a1903e",
         "type": "tabs",
+        "dimension": 17.985611510791365,
         "children": [
           {
             "id": "3bd810f453370271",
@@ -101,6 +114,7 @@
       {
         "id": "174e81578cacda94",
         "type": "tabs",
+        "dimension": 36.061151079136685,
         "children": [
           {
             "id": "84dc87271b3246ef",
@@ -116,7 +130,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 402.5
   },
   "right": {
     "id": "22f3fbdf8409cb1f",
@@ -150,7 +164,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "AI/深度学习/鱼书pdf.pdf",
+                "file": "zip/Templates/yaml_Banner.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -167,7 +181,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "AI/深度学习/鱼书pdf.pdf",
+                "file": "zip/Templates/yaml_Banner.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -191,27 +205,39 @@
       "obsidian-local-images-plus:Local Images Plus  0.15.9\r\nLocalize attachments (plugin folder)": false,
       "markdown-table-editor:Open Markdown Table Editor": false,
       "pdf-to-markdown-plugin:PDF to Markdown": false,
-      "omnisearch:Omnisearch": false,
-      "templater-obsidian:Templater": false
+      "templater-obsidian:Templater": false,
+      "omnisearch:Omnisearch": false
     }
   },
   "active": "e1b546b72e185e6e",
   "lastOpenFiles": [
     "AI/深度学习/《鱼书》.md",
+    "AI/深度学习/动手学pytorch.md",
+    "AI/深度学习/assets/Pasted image 20231111101628.png",
+    "AI/深度学习/assets/Pasted image 20231111095054.png",
+    "AI/深度学习/assets/Pasted image 20231111094711.png",
+    "AI/深度学习/assets/Pasted image 20231111094555.png",
+    "AI/深度学习/assets/Pasted image 20231111094458.png",
+    "AI/深度学习/assets/Pasted image 20231111094252.png",
+    "AI/深度学习/assets/Pasted image 20231111093459.png",
+    "zip/Templates/yaml_Banner.md",
+    "zip/Templates/跳转到主库.md",
+    "zip/Templates/yaml_论文.md",
+    "zip/Templates/yaml_原生.md",
+    "zip/Templates/yaml_noBanner.md",
+    "zip/Templates/mermaid流图.md",
+    "zip/Templates/markmap脑图.md",
+    "zip/Templates/callout分栏.md",
+    "zip/Templates",
+    "AI/深度学习/assets/Pasted image 20231111093129.png",
+    "AI/深度学习/快速入门.md",
+    "AI/Python/Python基础.md",
     "AI/深度学习/鱼书pdf.pdf",
     "AI/深度学习/assets/Pasted image 20231107154749.png",
     "AI/深度学习/assets/Pasted image 20231107154520.png",
     "1681573992016.md",
-    "AI/深度学习/assets/Pasted image 20231107154340.png",
-    "AI/深度学习/assets/Pasted image 20231107153842.png",
-    "AI/深度学习/assets/Pasted image 20231107153505.png",
-    "AI/深度学习/assets/Pasted image 20231107153325.png",
-    "AI/深度学习/assets/Pasted image 20231107153247.png",
-    "AI/深度学习/assets/Pasted image 20231107153216.png",
-    "AI/深度学习/动手学pytorch.md",
     "AI/论文/Nerf/转mesh工作.md",
     "AI/深度学习/研究生自救指南.pdf",
-    "AI/深度学习/快速入门.md",
     "AI/论文/Nerf/Nerf将场景表示为用于视图合成的神经辐射场.md",
     "AI/论文/Nerf/可微渲染、NeRF 相关技术概念急速入门.md",
     "虚幻引擎/03 Gameplay/GAS/GAS精粹.md",
@@ -219,16 +245,9 @@
     "Tools/Obsidian/发布方案.md",
     "Tools/Obsidian/插件流.md",
     "python/Python基础.md",
-    "zip/Templates/yaml_Banner.md",
     "Tools/工具流.md",
     "Tools/Git/git入门.md",
     "Tools/Git/Git 子仓库.md",
-    "虚幻引擎/01 指南/1 UE指南.md",
-    "虚幻引擎/03 Gameplay/《大象无形》/02 模块基础.md",
-    "编程/4 IDE/assets/c784f1fb15398a200f6d6fcd68c738b1_MD5.png",
-    "编程/4 IDE/assets/884d88951a19414ffa0f72a3f262f5f0_MD5.png",
-    "编程/4 IDE/IDEA 的 LeetCode 力扣插件设置与使用（超详细）_idea leetcode 插件_准程序员的博客 - CSDN 博客.md",
-    "zip/Templates/yaml_论文.md",
-    "zip/Templates/yaml_原生.md"
+    "虚幻引擎/01 指南/1 UE指南.md"
   ]
 }

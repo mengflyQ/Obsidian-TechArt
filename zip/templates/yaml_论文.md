@@ -2,12 +2,17 @@
 title: <% tp.file.title %>
 uid: "<% tp.date.now("YYYYMMDDHHmm") %>"
 create_time: <% tp.file.creation_date() %>
-reference: 
+title translation: 
+grade: 
+author: 
+date: 
+DOI: 
+url: []
 banner: "[[]]"
-banner_header: 
-banner_lock: true
 ---
 
-
-
-
+> [!abstract] 
+>**摘要**
+> 
+>**Keywords:** 
+>**关键词：**

@@ -1,7 +1,7 @@
 ---
-title: " {{title}} "
-create_time: " {{date:YYYY-MM-DD HH:mm}} "
-uid: "{{date:YYYYMMDDHHmm}}"
-reference: []
+title: <% tp.file.title %>
+uid: "<% tp.date.now("YYYYMMDDHHmm") %>"
+create_time: <% tp.file.creation_date() %>
+reference:
 ---
 

@@ -1,20 +1,32 @@
 {
   "recentFiles": [
     {
-      "basename": "鱼书pdf",
-      "path": "AI/深度学习/鱼书pdf.pdf"
+      "basename": "yaml_Banner",
+      "path": "zip/Templates/yaml_Banner.md"
     },
     {
       "basename": "《鱼书》",
       "path": "AI/深度学习/《鱼书》.md"
     },
     {
-      "basename": "1681573992016",
-      "path": "1681573992016.md"
-    },
-    {
       "basename": "动手学pytorch",
       "path": "AI/深度学习/动手学pytorch.md"
+    },
+    {
+      "basename": "快速入门",
+      "path": "AI/深度学习/快速入门.md"
+    },
+    {
+      "basename": "Python基础",
+      "path": "AI/Python/Python基础.md"
+    },
+    {
+      "basename": "鱼书pdf",
+      "path": "AI/深度学习/鱼书pdf.pdf"
+    },
+    {
+      "basename": "1681573992016",
+      "path": "1681573992016.md"
     },
     {
       "basename": "转mesh工作",
@@ -23,10 +35,6 @@
     {
       "basename": "研究生自救指南",
       "path": "AI/深度学习/研究生自救指南.pdf"
-    },
-    {
-      "basename": "快速入门",
-      "path": "AI/深度学习/快速入门.md"
     },
     {
       "basename": "Nerf将场景表示为用于视图合成的神经辐射场",
@@ -55,10 +63,6 @@
     {
       "basename": "Python基础",
       "path": "python/Python基础.md"
-    },
-    {
-      "basename": "yaml_Banner",
-      "path": "zip/Templates/yaml_Banner.md"
     },
     {
       "basename": "工具流",
@@ -149,16 +153,8 @@
       "path": "README.md"
     },
     {
-      "basename": "yaml_noBanner",
-      "path": "zip/Templates/yaml_noBanner.md"
-    },
-    {
       "basename": "GASRPG 笔记",
       "path": "虚幻引擎/03 Gameplay/GAS/GASRPG 笔记.md"
-    },
-    {
-      "basename": "markmap脑图",
-      "path": "zip/Templates/markmap脑图.md"
     },
     {
       "basename": "yaml_论文",
@@ -171,14 +167,6 @@
     {
       "basename": "跳转到主库",
       "path": "zip/Templates/跳转到主库.md"
-    },
-    {
-      "basename": "callout分栏",
-      "path": "zip/Templates/callout分栏.md"
-    },
-    {
-      "basename": "mermaid流图",
-      "path": "zip/Templates/mermaid流图.md"
     },
     {
       "basename": "1 解包",
@@ -195,10 +183,6 @@
     {
       "basename": "IDEA 的 LeetCode 力扣插件设置与使用（超详细）_idea leetcode 插件_准程序员的博客 - CSDN 博客",
       "path": "编程/4 IDE/IDEA 的 LeetCode 力扣插件设置与使用（超详细）_idea leetcode 插件_准程序员的博客 - CSDN 博客.md"
-    },
-    {
-      "basename": "3 Vorid",
-      "path": "虚幻引擎/01 指南/插件使用/3 Vorid.md"
     }
   ],
   "omittedPaths": [],
