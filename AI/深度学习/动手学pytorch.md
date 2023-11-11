@@ -1,1 +1,0 @@
-https://tangshusen.me/Dive-into-DL-PyTorch/#/chapter05_CNN/5.6_alexnet
