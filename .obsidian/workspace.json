@@ -13,10 +13,23 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AI/深度学习/动手学DL.md",
+                "file": "AI/深度学习/Pytorch精粹.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
+              }
+            }
+          },
+          {
+            "id": "fdfe5be943796dc8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "zip/Templates/yaml_Banner.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": true
               }
             }
           }
@@ -48,7 +61,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "AI/深度学习/动手学DL.md"
+                "file": "AI/深度学习/Pytorch精粹.md"
               }
             }
           },
@@ -81,12 +94,12 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "AI/深度学习/动手学DL.md"
+                "file": "AI/深度学习/Pytorch精粹.md"
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 4
       },
       {
         "id": "86c1fb5dd4a1903e",
@@ -156,7 +169,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "AI/深度学习/动手学DL.md",
+                "file": "AI/深度学习/Pytorch精粹.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -173,7 +186,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "AI/深度学习/动手学DL.md",
+                "file": "AI/深度学习/Pytorch精粹.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -203,6 +216,16 @@
   },
   "active": "b3a16d92f85152cc",
   "lastOpenFiles": [
+    "zBuffer/2_1_ 数据操作 — 动手学深度学习 2_0_0 documentation.md",
+    "AI/深度学习/Pytorch精粹.md",
+    "AI/深度学习/assets/Pasted image 20231111164335.png",
+    "AI/深度学习/动手学DL.md",
+    "zip/Templates/yaml_Banner.md",
+    "AI/Python/Numpy+Matplotlib.md",
+    "AI/深度学习/PyTorch入门.md",
+    "AI/Python/Python基础.md",
+    "AI/深度学习/快速入门.md",
+    "zBuffer",
     "AI/环境配置/Anaconda配置.md",
     "AI/动手学深度学习/chapter_convolutional-modern/alexnet.md",
     "AI/动手学深度学习/chapter_convolutional-neural-networks/channels.md",
@@ -214,7 +237,6 @@
     "AI/动手学深度学习/index.md",
     "AI/动手学深度学习/INFO.md",
     "AI/动手学深度学习/TERMINOLOGY.md",
-    "AI/深度学习/动手学DL.md",
     "AI/动手学深度学习/static/frontpage/_images/sales/jd-202303-all-ai-zh-6-full.png",
     "AI/动手学深度学习/static/frontpage/_images/sales/jd-allsales-AI-202302-zh-6.png",
     "AI/动手学深度学习/static/frontpage/_images/sales/jd-202302-zh-3.png",
@@ -224,7 +246,6 @@
     "AI/动手学深度学习/static/frontpage/_images/sales/jd-202303-all-ai-zh-6.png",
     "AI/动手学深度学习/static/frontpage/_images/sales/jd-202303-all-ai-zh-4.png",
     "AI/动手学深度学习/static/frontpage/_images/sales/jd-20230208-zh-6.png",
-    "AI/动手学深度学习/static/frontpage/_images/sales/jd-20230208-zh-5(day).png",
     "AI/动手学深度学习/contrib/to-rm-mx-contrib-text/d2lzh/text/__init__.py",
     "AI/动手学深度学习/contrib/to-rm-mx-contrib-text/d2lzh/text/vocab.py",
     "AI/动手学深度学习/contrib/to-rm-mx-contrib-text/d2lzh/text/embedding.py",
@@ -234,20 +255,11 @@
     "AI/动手学深度学习/static/frontpage/_images/forum.mp4",
     "AI/动手学深度学习/static/frontpage/attachments/sagemaker.txt",
     "AI/动手学深度学习/graffle/performance/mobo.graffle/image1.tiff",
-    "AI/动手学深度学习/static/frontpage/attachments/hardcopy.txt",
     "AI/动手学深度学习/contrib/to-rm-mx-contrib-text/chapter_natural-language-processing/similarity-analogy.md",
     "AI/动手学深度学习/contrib/to-rm-mx-contrib-text/chapter_natural-language-processing/sentiment-analysis-cnn.md",
     "AI/动手学深度学习/contrib/to-rm-mx-contrib-text/chapter_natural-language-processing/sentiment-analysis-rnn.md",
     "AI/动手学深度学习/contrib/to-rm-mx-contrib-text/chapter_natural-language-processing/machine-translation.md",
     "AI/动手学深度学习/contrib/chapter_recommender-systems/movielens.md",
-    "AI/动手学深度学习/contrib/chapter_recommender-systems/mf.md",
-    "AI/动手学深度学习/contrib/chapter_recommender-systems/index.md",
-    "AI/动手学深度学习/contrib/chapter_recommender-systems/fm.md",
-    "AI/动手学深度学习/contrib/chapter_recommender-systems/ctr.md",
-    "AI/动手学深度学习/contrib/chapter_recommender-systems/autorec.md",
-    "AI/动手学深度学习/chapter_preliminaries/autograd.md",
-    "AI/动手学深度学习/chapter_preliminaries/probability.md",
-    "AI/动手学深度学习/chapter_preliminaries/pandas.md",
-    "AI/动手学深度学习/chapter_preliminaries/ndarray.md"
+    "AI/动手学深度学习/contrib/chapter_recommender-systems/mf.md"
   ]
 }

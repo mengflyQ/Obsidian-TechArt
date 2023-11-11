@@ -47440,6 +47440,7 @@ embedding
 empirical
 eigenvalue
 epochs
+elementwise
 VPN
 Verge
 VS
@@ -103140,6 +103141,7 @@ PZAa
 PingFang
 Propose
 PaddlePaddle
+Permalink
 ContextMenuManager
 ClashVerge
 Clash
@@ -109154,6 +109156,7 @@ CpV
 CbMX
 CBOW
 Central
+Colab
 ImTip
 IMAP
 ID
@@ -125695,6 +125698,9 @@ pQx
 pooling
 perceptron
 perplexity
+pyth
+ppython
+pythonhhon
 nodesCatch
 nobr
 navy
@@ -135590,6 +135596,7 @@ byxPX
 bEtm
 bop
 bigram
+broadcasting
 fe
 front
 fill
@@ -164008,6 +164015,7 @@ subsample
 sentiment
 sequential
 spaCy
+subsec
 local
 list
 left

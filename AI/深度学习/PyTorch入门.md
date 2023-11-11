@@ -1,68 +1,4 @@
-PyTorch 是由 Facebook 开发，基于 **Torch** 开发，从并不常用的 Lua 语言转为 Python 语言开发的深度学习框架，Torch 是 TensorFlow 开源前非常出名的一个深度学习框架，而 PyTorch 在开源后由于其使用简单，动态计算图的特性得到非常多的关注，并且成为了 TensorFlow 的 最大竞争对手。目前其 Github 也有 2w8+ 关注。  
-Github 地址： [https://github.com/pytorch/pytorch](https://github.com/pytorch/pytorch)  
-官网： [https://pytorch.org/](https://pytorch.org/)  
-论坛：[https://discuss.pytorch.org/](https://discuss.pytorch.org/)
 
-本文是翻译自官方版教程 --[DEEP LEARNING WITH PYTORCH: A 60 MINUTE BLITZ](https://pytorch.org/tutorials/beginner/deep_learning_60min_blitz.html)，一份 60 分钟带你快速入门 PyTorch 的官方教程。
-
-![[1681487155789.png]]
-
-# 1. Pytorch 是什么
-
-Pytorch 是一个基于 Python 的科学计算库，它面向以下两种人群：
-
-*   希望将其代替 Numpy 来利用 GPUs 的威力；
-*   一个可以提供更加灵活和快速的深度学习研究平台。
-
-## 安装
-
-pytorch 的安装可以直接查看官网教程，如下所示，官网地址：[https://pytorch.org/get-started/locally/](https://pytorch.org/get-started/locally/)
-
-![[1681487155822.png]]
-
-根据提示分别选择系统 (Linux、Mac 或者 Windows)，安装方式 (Conda，Pip，LibTorch 或者源码安装)、使用的编程语言 (Python 2.7 或者 Python 3.5,3.6,3.7 或者是 C++)，如果是 GPU 版本，就需要选择 CUDA 的 版本，所以，如果如上图所示选择，安装的命令是：
-
-```
-conda install pytorch torchvision cudatoolkit=9.0 -c pytorch
-```
-
-这里推荐采用 Conda 安装，即使用 Anaconda，主要是可以设置不同环境配置不同的设置，关于 Anaconda 可以查看我之前写的 [Python 基础入门 -- 简介和环境配置](https://mp.weixin.qq.com/s/DrGr8eiZXj_wTnyDaKFpbg)。
-
-当然这里会安装最新版本的 Pytorch，也就是 1.1 版本，如果希望安装之前的版本，可以点击下面的网址：
-
-[http://pytorch.org/get-started/previous-versions/](http://pytorch.org/get-started/previous-versions/)
-
-如下图所示，安装 0.4.1 版本的 pytorch，在不同版本的 CUDA 以及没有 CUDA 的情况。
-
-![[1681487155913.png]]
-
-然后还有其他的安装方式，具体可以自己点击查看。
-
-安装后，输入下列命令：
-
-```python
-from __future__ import print_function
-import torch
-x = torch.rand(5, 3)
-print(x)
-```
-
-输出结果类似下面的结果即安装成功：
-
-```python
-tensor([[0.3380, 0.3845, 0.3217],
-        [0.8337, 0.9050, 0.2650],
-        [0.2979, 0.7141, 0.9069],
-        [0.1449, 0.1132, 0.1375],
-        [0.4675, 0.3947, 0.1426]])
-```
-
-然后是验证能否正确运行在 GPU 上，输入下列代码，这份代码中 `cuda.is_available()` 主要是用于检测是否可以使用当前的 GPU 显卡，如果返回 True，当然就可以运行，否则就不能。
-
-```python
-import torch
-torch.cuda.is_available()
-```
 
 ## 张量 (Tensors)
 
@@ -71,7 +7,6 @@ Pytorch 的一大作用就是可以代替 Numpy 库，所以首先介绍 Tensors
 首先导入必须的库，主要是 torch
 
 ```python
-from __future__ import print_function
 import torch
 ```
 
