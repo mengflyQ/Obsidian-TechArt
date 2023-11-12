@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AI/Python/Pytorch精粹.md",
+                "file": "AI/Python/Python基础.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -26,14 +26,28 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AI/Python/Python基础.md",
+                "file": "AI/Python/Pytorch精粹.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "17339c949dbbf04c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Math/概率论/概率论与数理统计.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -213,10 +227,15 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "b3a16d92f85152cc",
+  "active": "cc5ddef1a9af175f",
   "lastOpenFiles": [
+    "AI/Python/assets/Pasted image 20231111233332.png",
     "AI/Python/Python基础.md",
+    "Math/概率论/概率论与数理统计.md",
     "AI/Python/Pytorch精粹.md",
+    "AI/论文/Nerf/Nerf将场景表示为用于视图合成的神经辐射场.md",
+    "AI/Python/assets/Pasted image 20231111213813.png",
+    "AI/Python/assets/Pasted image 20231111205452.png",
     "AI/Python/assets/Pasted image 20231111173516.png",
     "AI/Python/assets/Pasted image 20231111173514.png",
     "1681573992016.md",
@@ -244,8 +263,6 @@
     "AI/动手学深度学习/static/frontpage/_images/sales/jd-allsales-AI-202302-zh-6.png",
     "AI/动手学深度学习/static/frontpage/_images/sales/jd-202302-zh-3.png",
     "AI/动手学深度学习/static/frontpage/_images/sales/jd-202304-all-ai-zh-6.png",
-    "AI/动手学深度学习/static/frontpage/_images/sales/jd-202304-all-ai-zh-4.png",
-    "AI/动手学深度学习/static/frontpage/_images/sales/jd-202303-zh-6.png",
     "AI/动手学深度学习/contrib/to-rm-mx-contrib-text/d2lzh/text/__init__.py",
     "AI/动手学深度学习/contrib/to-rm-mx-contrib-text/d2lzh/text/vocab.py",
     "AI/动手学深度学习/contrib/to-rm-mx-contrib-text/d2lzh/text/embedding.py",
@@ -257,8 +274,6 @@
     "AI/动手学深度学习/graffle/performance/mobo.graffle/image1.tiff",
     "AI/动手学深度学习/contrib/to-rm-mx-contrib-text/chapter_natural-language-processing/similarity-analogy.md",
     "AI/动手学深度学习/contrib/to-rm-mx-contrib-text/chapter_natural-language-processing/sentiment-analysis-cnn.md",
-    "AI/动手学深度学习/contrib/to-rm-mx-contrib-text/chapter_natural-language-processing/sentiment-analysis-rnn.md",
-    "AI/动手学深度学习/contrib/to-rm-mx-contrib-text/chapter_natural-language-processing/machine-translation.md",
-    "AI/动手学深度学习/contrib/chapter_recommender-systems/movielens.md"
+    "AI/动手学深度学习/contrib/to-rm-mx-contrib-text/chapter_natural-language-processing/sentiment-analysis-rnn.md"
   ]
 }

@@ -62908,6 +62908,7 @@ Aiken
 Amazon
 Amari
 Ampere
+Alley
 URL
 Utools
 Users
@@ -103142,6 +103143,7 @@ PingFang
 Propose
 PaddlePaddle
 Permalink
+Pave
 ContextMenuManager
 ClashVerge
 Clash
@@ -135597,6 +135599,7 @@ bEtm
 bop
 bigram
 broadcasting
+backpropagate
 fe
 front
 fill
@@ -194858,6 +194861,7 @@ HDlh
 HexC
 HOXo
 HAZn
+Hadamard
 Bbb
 Bear
 Base
@@ -205886,6 +205890,7 @@ FoZX
 FMzK
 FMKUKm
 Fashion
+Frobenius
 Element
 Entity
 Enity
