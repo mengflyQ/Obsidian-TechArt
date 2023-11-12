@@ -9,12 +9,16 @@
       "path": "AI/Python/Python基础.md"
     },
     {
+      "basename": "概率论与数理统计",
+      "path": "Math/概率论/概率论与数理统计.md"
+    },
+    {
       "basename": "《鱼书》",
       "path": "AI/深度学习/《鱼书》.md"
     },
     {
-      "basename": "概率论与数理统计",
-      "path": "Math/概率论/概率论与数理统计.md"
+      "basename": "参数估计 (二)_ 最大似然估计",
+      "path": "zBuffer/参数估计 (二)_ 最大似然估计.md"
     },
     {
       "basename": "pytorch 函数 mm() mul() matmul() 区别_pytorch mm_还能坚持的博客 - CSDN 博客",

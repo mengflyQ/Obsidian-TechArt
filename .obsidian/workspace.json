@@ -125,8 +125,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
         "id": "86c1fb5dd4a1903e",
@@ -244,10 +243,15 @@
   "active": "17339c949dbbf04c",
   "lastOpenFiles": [
     "AI/Python/Python基础.md",
-    "AI/深度学习/《鱼书》.md",
-    "AI/Python/Pytorch精粹.md",
-    "AI/Python/assets/output_softmax-regression-concise_75d138_66_0.svg",
     "Math/概率论/概率论与数理统计.md",
+    "AI/深度学习/《鱼书》.md",
+    "AI/深度学习/assets/Pasted image 20231112212615.png",
+    "AI/Python/Pytorch精粹.md",
+    "zBuffer/参数估计 (二)_ 最大似然估计.md",
+    "AI/深度学习/assets/Pasted image 20231112210802.png",
+    "AI/环境配置/Anaconda配置.md",
+    "AI/Python/assets/Pasted image 20231112205941.png",
+    "AI/Python/assets/output_softmax-regression-concise_75d138_66_0.svg",
     "AI/Python/assets/singleneuron.svg",
     "AI/Python/assets/c444f333ec274e2816b2f839e2404f43_MD5.png",
     "AI/Python/assets/e78d4960fb31324a695d44fc9d98f086_MD5.png",
@@ -255,13 +259,9 @@
     "AI/Python/assets/eeb7173e2f99224584f25504227c0685_MD5.png",
     "zBuffer/pytorch 函数 mm() mul() matmul() 区别_pytorch mm_还能坚持的博客 - CSDN 博客.md",
     "AI/论文/方向.md",
-    "AI/环境配置/Anaconda配置.md",
     "Math/概率论/assets/Pasted image 20231112115439.png",
     "AI/深度学习/动手学DL.md",
-    "AI/Python/assets/Pasted image 20231111233332.png",
     "AI/论文/Nerf/Nerf将场景表示为用于视图合成的神经辐射场.md",
-    "AI/Python/assets/Pasted image 20231111213813.png",
-    "AI/Python/assets/Pasted image 20231111205452.png",
     "1681573992016.md",
     "zip/Templates/yaml_Banner.md",
     "zBuffer/2_1_ 数据操作 — 动手学深度学习 2_0_0 documentation.md",
@@ -278,7 +278,6 @@
     "AI/动手学深度学习/README.md",
     "AI/动手学深度学习/index.md",
     "AI/动手学深度学习/INFO.md",
-    "AI/动手学深度学习/TERMINOLOGY.md",
     "AI/动手学深度学习/contrib/to-rm-mx-contrib-text/d2lzh/text/__init__.py",
     "AI/动手学深度学习/contrib/to-rm-mx-contrib-text/d2lzh/text/vocab.py",
     "AI/动手学深度学习/contrib/to-rm-mx-contrib-text/d2lzh/text/embedding.py",
