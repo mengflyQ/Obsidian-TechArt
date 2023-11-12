@@ -139,6 +139,7 @@ X.sum()
 ###
 tensor(66.)
 ```
+
 ### 03 广播
 在上面的部分是在相同形状的两个张量上执行按元素操作。在某些情况下，**即使<mark style="background: #FF5582A6;">形状不同</mark>，我们仍然可以通过调用广播机制（broadcasting mechanism）来执行按元素操作**。
 
@@ -146,7 +147,7 @@ tensor(66.)
 1. 通过适当复制元素来扩展一个或两个数组，以便在转换之后，两个张量具有相同的形状；
 2. 对生成的数组执行按元素操作。
 
-在大多数情况下，我们将沿着数组中长度为1的轴进行广播，如下例子：
+**在大多数情况下，我们将沿着数组中长度为1的轴进行广播，如下例子：**
 ```python
 a = torch.arange(3).reshape((3, 1))
 b = torch.arange(2).reshape((1, 2))
@@ -399,15 +400,14 @@ array([[ 0.,  1.,  2.,  3.],
 ```
 
 - **矩阵的转置**：`A.T`
-#### 矩阵乘法
-### 矩阵-向量积
+#### 矩阵-向量积
 在代码中使用张量表示矩阵-向量积，我们使用 `mv` 函数。当我们为矩阵 `A` 和向量 `x` 调用 `torch.mv(A, x)` 时，会执行矩阵-向量积。注意，`A` 的列维数（沿轴 1 的长度）必须与 `x` 的维数（其长度）相同。 
 ```python
 torch.mv(A, x)
 ```
 
-### 矩阵-矩阵积
-#### torch.mul ()
+#### 矩阵-矩阵积
+##### torch.mul ()
 
 *   `torch.mul(a, b)` 是矩阵 a 和 b `对应位相乘`
 *   `torch.mul(a, b)中a和b的维度相等`，但是，对应维度上的数字可以不同，可以用利用广播机制扩展到相同的形状，再进行点乘操作
@@ -435,7 +435,7 @@ tensor([[1., 1., 1., 1.],
        [3., 3., 3., 3.]])
 ```
 
-#### torch.mm ()
+##### torch.mm ()
 
 *   `torch.mm(a, b)` 是矩阵 a 和 b 矩阵相乘，比如 a 的维度是 (3, 4)，b 的维度是 (4, 2)，返回的就是 (3, 2) 的矩阵 
 * torch.mm (a, b)**针对二维矩阵**
@@ -451,16 +451,16 @@ tensor([[4., 4.],
 
 `mm()是mutmul()的简称？`
 
-#### torch.matmul ()
+##### torch.matmul ()
 
 *   `torch.matmul(a, b)` 也是一种类似于矩阵相乘操作的 tensor 联乘操作，一般是高维矩阵 a 和 b 相乘，但是它可以利用 python 中的广播机制，处理一些维度不同的 tensor 结构进行相乘操作。
 
-##### 3.1 输入都是二维
+###### 3.1 输入都是二维
 
 *   当输入都是二维时，就是普通的矩阵乘法，和`tensor.mm()` 函数用法相同。  
     
     ![[eeb7173e2f99224584f25504227c0685_MD5.png]]
-##### 3.2 输入都是三维
+###### 3.2 输入都是三维
 
 *   下面看一个两个都是 3 维的例子：  
     
@@ -468,7 +468,7 @@ tensor([[4., 4.],
     
     将 b 的第 0 维 1broadcast 成 2 提出来，后两维做矩阵乘法即可。
 
-##### 3.3 输入的维度不同
+###### 3.3 输入的维度不同
 
 *   当输入有多维时，把多出的一维作为 batch 提出来，其他部分做矩阵乘法。  
     
@@ -550,7 +550,7 @@ a + X
 #### 降维
 ##### 求和
 计算张量元素的总和, 张量可以为任意形状
-默认情况下，调用求和函数会沿所有的轴降低张量的维度，使它变为一个标量。
+**默认情况下，调用求和函数会沿所有的轴降低张量的维度，使它变为一个标量。**
 
 ```python
 x = torch.arange(4, dtype=torch.float32)
@@ -563,7 +563,7 @@ x.sum()
 tensor(6.))
 ```
 
-**我们还可以指定张量沿哪一个轴来通过求和降低维度**。以矩阵为例，为了通过求和所有行的元素来降维（轴0，即 x 轴），可以在调用函数时指定 `axis=0`。**由于输入矩阵沿0轴降维以生成输出向量，因此输入轴0的维数在输出形状中消失。**
+**我们还可以指定张量沿哪一个轴来通过求和降低维度**。以矩阵为例，为了通过求和所有行的元素来降维（轴0，即 x 轴），可以在调用函数时指定 `axis=0`。**由于输入矩阵沿0轴降维以生成输出向量，因此行的维数在输出形状中消失。**（在水平方向将矩阵压扁。）
 ```python
 A  = (tensor([[ 0.,  1.,  2.,  3.],
          [ 4.,  5.,  6.,  7.],
@@ -572,7 +572,7 @@ A  = (tensor([[ 0.,  1.,  2.,  3.],
          [16., 17., 18., 19.]]),
          
 ###
-A_sum_axis0 = A.sum(axis=0) #沿0轴（x轴）求和,列相加
+A_sum_axis0 = A.sum(axis=0) #沿0轴（x轴）求和
 (tensor([40., 45., 50., 55.])
 
  ###
@@ -580,7 +580,7 @@ A_sum_axis0, A_sum_axis0.shape
 torch.Size([4]))
 ```
 
-同理，指定 `axis=1` 将通过汇总所有列的元素降维（轴1，即 y 轴）。因此，输入轴1的维数在输出形状中消失。
+同理，指定 `axis=1` 将通过汇总所有列的元素降维（轴1，即 y 轴）。因此，列的的维数在输出形状中消失。（在竖直方向将矩阵压扁）
 ```python
 ###
 A_sum_axis1 = A.sum(axis=1)
@@ -602,6 +602,19 @@ A.sum(axis=[0, 1])  # 结果和A.sum()相同
 tensor(190.)
 ```
 
+可以指定保持在原始张量的轴数 `keepdim=True`，而不折叠求和的维度:
+```python
+X = torch.tensor([[1.0, 2.0, 3.0],
+                  [4.0, 5.0, 6.0]]) #形状为（2, 3），二维
+X.sum(0) # tensor([5., 7., 9.])  形状为(3,)，降维到1维
+X.sum(0, keepdim=True)  # tensor([[5., 7., 9.]])  形状为（1, 3） ，仍是二维
+
+X.sum(1) #tensor([ 6., 15.])  形状为(2,)，降维到1维
+X.sum(1, keepdim=True)
+# tensor([[ 6.],
+#        [15.]])
+#  形状为（2, 1），仍是二维
+```
 ##### 求平均
  - 调用 `mean()` 函数来计算任意形状张量的平均值。
 - 通过将总和除以元素总数来计算平均值。
@@ -1171,9 +1184,143 @@ b的估计误差： tensor([-0.0003])
 ```
 ### 04 图像分类数据集 Fashion-MNIST
 MNIST 数据集 ([LeCun _et al._, 1998]( http://zh.d2l.ai/chapter_references/zreferences.html#id90 "LeCun, Y., Bottou, L., Bengio, Y., Haffner, P., & others. (1998). Gradient-based learning applied to document recognition. Proceedings of the IEEE, 86(11), 2278–2324.")) 是图像分类中广泛使用的数据集之一，但作为基准数据集过于简单。我们将使用类似但更复杂的 Fashion-MNIST 数据集 ([Xiao _et al._, 2017]( http://zh.d2l.ai/chapter_references/zreferences.html#id189 "Xiao, H., Rasul, K., & Vollgraf, R. (2017). Fashion-mnist: a novel image dataset for benchmarking machine learning algorithms. arXiv preprint arXiv: 1708.07747."))。
+Fashion-MNIST 是一个服装分类数据集，由10个类别的图像组成。我们将在后续章节中使用此数据集来评估各种分类算法。
+#### 读取数据集
+我们可以通过框架中的内置函数将 Fashion-MNIST 数据集下载并读取到内存中。
 
+```python
+import torch
+import torchvision
+from torch.utils import data
+from torchvision import transforms
+from d2l import torch as d2l
 
-### 04 Softmax 回归的实现
+d2l.use_svg_display()
+
+# 通过ToTensor实例将图像数据从PIL类型变换成32位浮点数格式，
+# 并除以255使得所有像素的数值均在0～1之间
+trans = transforms.ToTensor()
+mnist_train = torchvision.datasets.FashionMNIST(
+    root="../data", train=True, transform=trans, download=True)
+mnist_test = torchvision.datasets.FashionMNIST(
+    root="../data", train=False, transform=trans, download=True)
+#train=True：训练数据集
+#transform=trans：转换成张量
+#download=True 下载
+```
+
+Fashion-MNIST 由10个类别的图像组成，每个类别由训练数据集（train dataset）中的6000张图像和测试数据集（test dataset）中的1000张图像组成。
+因此，训练集和测试集分别包含60000和10000张图像。测试数据集不会用于训练，只用于评估模型性能。
+```python
+len(mnist_train), len(mnist_test)
+###
+(60000, 10000)
+```
+
+每个输入图像的高度和宽度均为28像素。数据集由灰度图像组成，其通道数为1。**为了简洁起见，本书将高度 $h$ 像素、宽度 $w$ 像素图像的形状记为 $h×w$ 或 $(h,w)$ **
+```python
+mnist_train[0][0].shape
+
+###
+torch.Size([1, 28, 28])
+```
+
+Fashion-MNIST 中包含的10个类别，分别为 t-shirt（T 恤）、trouser（裤子）、pullover（套衫）、dress（连衣裙）、coat（外套）、sandal（凉鞋）、shirt（衬衫）、sneaker（运动鞋）、bag（包）和 ankle boot（短靴）。**以下函数用于在数字标签索引及其文本名称之间进行转换**
+```python
+def get_fashion_mnist_labels(labels):  
+    """返回Fashion-MNIST数据集的文本标签"""
+    text_labels = ['t-shirt', 'trouser', 'pullover', 'dress', 'coat',
+                   'sandal', 'shirt', 'sneaker', 'bag', 'ankle boot']
+    return [text_labels[int(i)] for i in labels]
+```
+
+我们现在可以创建一个函数来可视化这些样本。
+```python
+def show_images(imgs, num_rows, num_cols, titles=None, scale=1.5):  #@save
+    """绘制图像列表"""
+    figsize = (num_cols * scale, num_rows * scale)
+    _, axes = d2l.plt.subplots(num_rows, num_cols, figsize=figsize)
+    axes = axes.flatten()
+    for i, (ax, img) in enumerate(zip(axes, imgs)):
+        if torch.is_tensor(img):
+            # 图片张量
+            ax.imshow(img.numpy())
+        else:
+            # PIL图片
+            ax.imshow(img)
+        ax.axes.get_xaxis().set_visible(False)
+        ax.axes.get_yaxis().set_visible(False)
+        if titles:
+            ax.set_title(titles[i])
+    return axes
+```
+
+以下是训练数据集中前几个样本的图像及其相应的标签。
+```python
+X, y = next(iter(data.DataLoader(mnist_train, batch_size=18)))
+show_images(X.reshape(18, 28, 28), 2, 9, titles=get_fashion_mnist_labels(y));
+```
+![[output_image-classification-dataset_e45669_83_0.svg]]
+#### 读取小批量
+为了使我们在读取训练集和测试集时更容易，我们使用内置的数据迭代器，数据迭代器是获得更高性能的关键组件。依靠实现良好的数据迭代器，利用高性能计算来避免减慢训练过程。
+
+`DataLoader` 每次都会读取一小批量数据，大小为 `batch_size`。通过内置数据迭代器，我们可以随机打乱了所有样本，从而无偏见地读取小批量。
+
+```python
+batch_size = 256
+
+def get_dataloader_workers():  #@save
+    """使用4个进程来读取数据"""
+    return 4
+
+train_iter = data.DataLoader(mnist_train, batch_size, shuffle=True,num_workers=get_dataloader_workers())
+```
+
+我们看一下读取训练数据所需的时间。
+```python
+timer = d2l.Timer()
+for X, y in train_iter:
+    continue
+f'{timer.stop():.2f} sec'
+
+###
+'3.37 sec'
+```
+
+#### 整合所有组件
+现在我们定义 `load_data_fashion_mnist` 函数，**用于获取和读取 Fashion-MNIST 数据集。这个函数返回训练集和验证集的数据迭代器（迭代器用于按小批量读取一遍完整数据 `for X, y in train_iter`）**。此外，这个函数还接受一个可选参数 `resize`，用来将图像大小调整为另一种形状。
+```python
+def load_data_fashion_mnist(batch_size, resize=None):  #@save
+    """下载Fashion-MNIST数据集，然后将其加载到内存中"""
+    trans = [transforms.ToTensor()]
+    if resize:
+        trans.insert(0, transforms.Resize(resize))
+    trans = transforms.Compose(trans)
+    mnist_train = torchvision.datasets.FashionMNIST(
+        root="../data", train=True, transform=trans, download=True)
+    mnist_test = torchvision.datasets.FashionMNIST(
+        root="../data", train=False, transform=trans, download=True)
+    return (data.DataLoader(mnist_train, batch_size, shuffle=True,
+                            num_workers=get_dataloader_workers()),
+            data.DataLoader(mnist_test, batch_size, shuffle=False,
+                            num_workers=get_dataloader_workers()))
+```
+
+下面，我们通过指定 `resize` 参数来测试 `load_data_fashion_mnist` 函数的图像大小调整功能。
+
+```python
+train_iter, test_iter = load_data_fashion_mnist(32, resize=64)
+for X, y in train_iter:
+    print(X.shape, X.dtype, y.shape, y.dtype)
+    break
+    
+###
+torch.Size([32, 1, 64, 64]) torch.float32 torch.Size([32]) torch.int64
+```
+
+我们现在已经准备好使用Fashion-MNIST数据集，便于下面的章节调用来评估各种分类算法。
+
+### 05 Softmax 回归的实现
 #### 从回归到分类
 ![[Pasted image 20231112205941.png]]
 - 回归估计的是一个连续值

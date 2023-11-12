@@ -26755,6 +26755,7 @@ torchmul
 torchmm
 torchmatmul
 tuning
+trouser
 markdown
 matter
 mod
@@ -52362,6 +52363,7 @@ VCYV
 VJew
 VSUW
 Volta
+Vollgraf
 verge
 vPdIt
 vertical
@@ -73449,6 +73451,7 @@ accuracy
 alphabetically
 astonzhang
 alexnet
+ankle
 Roaming
 RegWorkshop
 Release
@@ -79395,6 +79398,7 @@ RKMWQ
 RZOIj
 RyVL
 Review
+Rasul
 Microsoft
 Menu
 MicaForEveryone
@@ -125710,6 +125714,8 @@ perplexity
 pyth
 ppython
 pythonhhon
+preprint
+pullover
 nodesCatch
 nobr
 navy
@@ -135608,6 +135614,7 @@ bigram
 broadcasting
 backpropagate
 broadcat
+benchmarking
 fe
 front
 fill
@@ -164027,6 +164034,8 @@ sentiment
 sequential
 spaCy
 subsec
+sandal
+sneaker
 local
 list
 left
@@ -189407,6 +189416,7 @@ Xmlt
 XoSYqry
 XmaA
 XNdU
+Xiao
 HTML
 HasPtr
 Hello
@@ -194871,6 +194881,7 @@ HexC
 HOXo
 HAZn
 Hadamard
+Haffner
 Bbb
 Bear
 Base
@@ -199990,6 +200001,7 @@ BavyP
 BFFF
 Bernhard
 Bengio
+Bottou
 Fraktur
 Frame
 Foo
