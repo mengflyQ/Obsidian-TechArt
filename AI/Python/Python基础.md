@@ -2005,7 +2005,6 @@ tt.climb()
 **（1）`self`**：Python 的 `self` 相当于 C++ 的`this`指针
 
 由同一个类可以生成无数个对象，这些对象长得都很相似，因为他们都是来源于同一个类的属性和方法，当一个对象的方法被调用的时候，**对象会将自身作为第一个参数传给 `self` 参数**，接收到 `self` 的时候，Python 就知道是哪一个对象在调用方法了。
-asd 
 
 eg：
 
@@ -2051,7 +2050,7 @@ __init__(self, param1, param2...)
 
 **（3）公有和私有**
 
-默认来说，对象的属性和方法都是公有的，可以通过 `.` 操作符进行访问。  
+**默认来说，对象的属性和方法都是公有的**，可以通过 `.` 操作符进行访问。  
 
 为了实现类似私有变量的特征，Python内部采用了一种叫Name Mangling（名字改编）的技术，在 Python 中**定义私有变量只需要在变量名或函数名前加上 “`__`” 两个下划线**
 ```python nums
@@ -2106,7 +2105,7 @@ class 子类(父类):
 import random as r
 
 class Fish:
-    def __int__(self):
+    def __init__(self):
         self.x = r.randint(0, 10)
         self.y = r.randint(0, 10)
 
@@ -2263,9 +2262,9 @@ class Pool:
 ```python nums
 >>>class C:
    count = 0
->>> a = c()
->>> b =C ()
->>> c = C()
+>>> a =C()
+>>> b =C()
+>>> c =C()
 >>> print(a.count, b.count, c.count)
 0 0 0
 >>> c.count +=10
@@ -2287,7 +2286,7 @@ class Pool:
 >>> class C:
     def x(self):
     print ( 'x-man ' ) 
->>> C= C()
+>>> c= C()
 >>> c.x()
 X-man
 >>>C.x =1
@@ -2785,33 +2784,6 @@ C
 `__iter__()`  ：一个容器如果是迭代器，那就必须实现 `_ _iter_ _()` 魔法方法，这个方法实际上就是返回迭代器本身。
 `__next__()`：决定了迭代的规则
 
-**eg：斐波那契数列**
-
-```python nums
->>> class Fibs:
-	def __init__(self, n=10):
-		self.a = 0
-		self.b = 1
-		self.n = n
-	def __iter__(self):
-		return self
-	def __next__(self):
-		self.a, self.b = self.b, self.a + self.b
-		if self.a > self.n:
-			raise StopIteration			# 用raise语句来引发一个异常
-		return self.a
-
-	
->>> fibs = Fibs()
->>> for each in fibs:
-	print(each)
-
-	
-
->>> fibs = Fibs(50)
->>> for each in fibs:
-	print(each)
-```
 
 ## 8 生成器
 
@@ -2856,25 +2828,7 @@ StopIteration #当函数结束时，一个StopIteration异常就会被抛出。
 2
 ```
 
-eg：斐波那契数列
 
-```python nums
->>> def fibs():
-	a = 0
-	b = 1
-	while True:
-		a, b = b, a + b
-		yield a
-
-		
->>> for each in fibs():
-	if each > 20:
-		break
-	print(each, end = ' ')
-
-	
-1 1 2 3 5 8 13
-```
 ## 9 生成器表达式
 *   **列表推导式**：
 

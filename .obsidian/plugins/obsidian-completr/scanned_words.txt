@@ -16429,6 +16429,7 @@ chmod
 cuda
 createpr
 conv
+covariate
 github
 grey
 green
@@ -21424,6 +21425,7 @@ gluon
 gdata
 gutils
 gihub
+grad
 typora
 todo
 tooltip
@@ -26749,6 +26751,10 @@ tokenize
 trigram
 tune
 terminology
+torchmul
+torchmm
+torchmatmul
+tuning
 markdown
 matter
 mod
@@ -32236,6 +32242,7 @@ minimization
 mxnet
 mdash
 machines
+matmul
 windows
 win
 width
@@ -135600,6 +135607,7 @@ bop
 bigram
 broadcasting
 backpropagate
+broadcat
 fe
 front
 fill
