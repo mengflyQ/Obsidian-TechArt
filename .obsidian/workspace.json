@@ -47,11 +47,16 @@
             }
           },
           {
-            "id": "7a31140ca9948ff0",
+            "id": "70abcef3c36c3bd9",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "AI/深度学习/《鱼书》.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
             }
           }
         ],
@@ -156,7 +161,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 312.5
+    "width": 200
   },
   "right": {
     "id": "22f3fbdf8409cb1f",
@@ -231,16 +236,16 @@
       "obsidian-local-images-plus:Local Images Plus  0.15.9\r\nLocalize attachments (plugin folder)": false,
       "markdown-table-editor:Open Markdown Table Editor": false,
       "pdf-to-markdown-plugin:PDF to Markdown": false,
-      "templater-obsidian:Templater": false,
-      "omnisearch:Omnisearch": false
+      "omnisearch:Omnisearch": false,
+      "templater-obsidian:Templater": false
     }
   },
   "active": "17339c949dbbf04c",
   "lastOpenFiles": [
-    "AI/深度学习/《鱼书》.md",
-    "AI/Python/Pytorch精粹.md",
     "AI/Python/Python基础.md",
     "Math/概率论/概率论与数理统计.md",
+    "AI/深度学习/《鱼书》.md",
+    "AI/Python/Pytorch精粹.md",
     "AI/Python/assets/output_image-classification-dataset_e45669_83_0.svg",
     "AI/深度学习/assets/Pasted image 20231112212615.png",
     "zBuffer/参数估计 (二)_ 最大似然估计.md",

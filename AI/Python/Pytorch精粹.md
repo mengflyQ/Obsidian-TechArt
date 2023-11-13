@@ -11,7 +11,7 @@ banner_lock: true
 
 # 一、基础
 ## 1 数据操作
-### 01 张量
+### 01 张量是
 ```python
 import torch
 ```
