@@ -11,7 +11,7 @@ banner_lock: true
 
 # 一、基础
 ## 1 数据操作
-### 01 张量是
+### 01 张量
 ```python
 import torch
 ```
@@ -984,7 +984,7 @@ d = a + b
 
 第二种方法比第一种方法快得多。矢量化代码通常会带来数量级的加速。
 
-### 03 线性回归的实现
+## 2 线性回归的实现
 - 我们可以使用 PyTorch 的高级 API 更简洁地实现模型。
 - 在PyTorch中，`data`模块提供了数据处理工具，`nn`模块定义了大量的神经网络层和常见损失函数。
 - 我们可以通过 `_` 结尾的方法将参数替换，从而初始化参数。
@@ -1184,7 +1184,7 @@ print('b的估计误差：', true_b - b)
 w的估计误差： tensor([-0.0010, -0.0003])
 b的估计误差： tensor([-0.0003])
 ```
-### 04 图像分类数据集 Fashion-MNIST
+## 3 图像分类数据集 Fashion-MNIST
 MNIST 数据集 ([LeCun _et al._, 1998]( http://zh.d2l.ai/chapter_references/zreferences.html#id90 "LeCun, Y., Bottou, L., Bengio, Y., Haffner, P., & others. (1998). Gradient-based learning applied to document recognition. Proceedings of the IEEE, 86(11), 2278–2324.")) 是图像分类中广泛使用的数据集之一，但作为基准数据集过于简单。我们将使用类似但更复杂的 Fashion-MNIST 数据集 ([Xiao _et al._, 2017]( http://zh.d2l.ai/chapter_references/zreferences.html#id189 "Xiao, H., Rasul, K., & Vollgraf, R. (2017). Fashion-mnist: a novel image dataset for benchmarking machine learning algorithms. arXiv preprint arXiv: 1708.07747."))。
 Fashion-MNIST 是一个服装分类数据集，由10个类别的图像组成。我们将在后续章节中使用此数据集来评估各种分类算法。
 #### 读取数据集
@@ -1322,7 +1322,7 @@ torch.Size([32, 1, 64, 64]) torch.float32 torch.Size([32]) torch.int64
 
 我们现在已经准备好使用Fashion-MNIST数据集，便于下面的章节调用来评估各种分类算法。
 
-### 05 Softmax 回归的实现
+## 4 Softmax 回归的实现
 #### 从回归到分类
 ![[Pasted image 20231112205941.png]]
 - 回归估计的是一个连续值
@@ -1548,3 +1548,129 @@ d2l.train_ch3(net, train_iter, test_iter, loss, num_epochs, trainer)
 
 ![[output_softmax-regression-concise_75d138_66_0.svg]]
 
+# 三、多层感知机
+## 激活函数
+- 多层感知机在输出层和输入层之间增加一个或多个全连接隐藏层，并通过激活函数转换隐藏层的输出。
+- 常用的激活函数包括ReLU函数、sigmoid函数和tanh函数。
+
+**激活函数**（activation function）通过计算加权和并加上偏置来确定神经元是否应该被激活，它们将输入信号转换为输出的可微运算。大多数激活函数都是非线性的。**激活函数的输出称作活性值**：
+由于激活函数是深度学习的基础，下面简要介绍一些常见的激活函数。
+```python
+import torch
+from d2l import torch as d2l
+```
+### RELU 函数
+最受欢迎的激活函数是**修正线性单元（Rectified linear unit，ReLU）**，因为它实现简单，同时在各种预测任务中表现良好。
+ReLU 提供了一种非常简单的非线性变换。给定元素 $x$，ReLU 函数被定义为该元素与 0 的最大值：
+$$
+ReLU(x)=\max(x,0)
+$$ 
+通俗地说，ReLU 函数通过将相应的活性值设为0，仅保留正元素并丢弃所有负元素。如图所示，激活函数是分段线性的。
+```python
+x = torch.arange(-8.0, 8.0, 0.1, requires_grad=True)
+y = torch.relu(x) #ReLU函数
+y.backward(torch.ones_like(x), retain_graph=True) #对ReLU求导
+```
+
+![[output_mlp_76f463_21_0.svg|327]]![[output_mlp_76f463_36_0.svg|340]]
+当输入为负时，ReLU 函数的导数为0，而当输入为正时，ReLU 函数的导数为1。注意，当输入值精确等于0时，ReLU 函数不可导。在此时，我们默认使用左侧的导数，即当输入为0时导数为0。**我们可以忽略这种情况，因为输入可能永远都不会是0。**
+
+**使用 ReLU 的原因是，它求导表现得特别好**：要么让参数消失，要么让参数通过。这使得优化表现得更好，并且 ReLU 减轻了困扰以往神经网络的梯度消失问题。
+
+**注意，ReLU 函数有许多变体**，包括参数化 ReLU（Parameterized ReLU，pReLU） 函数 ([He _et al._, 2015]( http://zh.d2l.ai/chapter_references/zreferences.html#id59 "He, K., Zhang, X., Ren, S., & Sun, J. (2015). Delving deep into rectifiers: surpassing human-level performance on imagenet classification. Proceedings of the IEEE international conference on computer vision (pp. 1026–1034)."))。该变体为 ReLU 添加了一个线性项，因此即使参数是负的，某些信息仍然可以通过：
+$$pReLU (x)=\max (x, 0)+\alpha \min(0,x)$$
+### Sigmoid 函数
+对于一个定义域在 $\mathbb{R}$ 中的输入， sigmoid 函数将输入变换为区间 $(0, 1)$ 上的输出。因此，sigmoid 通常称为**挤压函数**（squashing function）： 它将范围 $(-inf, inf)$ 中的任意输入压缩到区间 $(0, 1)$ 中的某个值：
+$$
+\operatorname{sigmoid}(x) = \frac{1}{1 + \exp(-x)}
+$$
+当人们逐渐关注到到基于梯度的学习时， sigmoid 函数是一个自然的选择，因为它是一个平滑的、可微的阈值单元近似。 
+- 当我们想要将输出视作二元分类问题的概率时， sigmoid 仍然被广泛用作输出单元上的激活函数 （sigmoid 可以视为 softmax 的特例）。
+- sigmoid 在隐藏层中已经较少使用，它在大部分时候被更简单、更容易训练的 ReLU 所取代。
+
+
+```python
+y = torch.sigmoid(x) #sigmoid函数
+
+# 清除以前的梯度
+x.grad.data.zero_()
+y.backward(torch.ones_like(x),retain_graph=True) #导数
+```
+![[output_mlp_76f463_51_0.svg]] 
+>注意，当输入接近 0 时，sigmoid 函数接近线性变换。
+
+**sigmoid 函数的导数**为下面的公式：
+$$
+\frac{d}{dx} \operatorname{sigmoid}(x) = \frac{\exp(-x)}{(1 + \exp(-x))^2} = \operatorname{sigmoid}(x)\left(1-\operatorname{sigmoid}(x)\right).
+$$
+sigmoid 函数的导数图像如下所示。注意，当输入为0时，sigmoid 函数的导数达到最大值0.25；而输入在任一方向上越远离0点时，导数越接近0。
+![[output_mlp_76f463_66_0.svg]]
+### tanh 函数
+与 sigmoid 函数类似， **tanh(双曲正切)函数**也能将其输入压缩转换到区间(-1, 1)上。 tanh 函数的公式如下：
+$$
+\operatorname{tanh}(x) = \frac{1 - \exp(-2x)}{1 + \exp(-2x)}
+$$ ![[output_mlp_76f463_81_0.svg]]
+注意，当输入在0附近时，tanh 函数接近线性变换。函数的形状类似于 sigmoid 函数，不同的是 tanh 函数关于坐标系原点中心对称。
+
+tanh 函数的导数是：
+$$
+\frac{d}{dx} \operatorname{tanh}(x) = 1 - \operatorname{tanh}^2(x)
+$$
+tanh函数的导数图像如下所示。 当输入接近0时，tanh函数的导数接近最大值1。 与我们在sigmoid函数图像中看到的类似， 输入在任一方向上越远离0点，导数越接近0。
+
+```python
+y = torch.tanh(x)
+
+# 清除以前的梯度
+x.grad.data.zero_()
+y.backward(torch.ones_like(x),retain_graph=True) #倒数
+```
+
+![[output_mlp_76f463_96_0.svg]]
+
+## 多层感知机的实现
+- 对于相同的分类问题，多层感知机的实现与 softmax 回归的实现相同，只是多层感知机的实现里增加了带有激活函数的隐藏层。
+
+为了与之前softmax回归（ [3.6节](http://zh.d2l.ai/chapter_linear-networks/softmax-regression-scratch.html#sec-softmax-scratch) ） 获得的结果进行比较， 我们将继续使用Fashion-MNIST图像分类数据集 （ [3.5节](http://zh.d2l.ai/chapter_linear-networks/image-classification-dataset.html#sec-fashion-mnist)）。
+```python
+import torch
+from torch import nn
+from d2l import torch as d2l
+
+batch_size = 256
+train_iter, test_iter = d2l.load_data_fashion_mnist(batch_size)
+```
+
+### 定义模型 `net()`
+
+回想一下，Fashion-MNIST 中的每个图像由 $28×28=784$ 个灰度像素值组成。所有图像共分为 $10$ 个类别。忽略像素之间的空间结构，我们可以将每个图像视为具有 $784$ 个输入特征和 $10$ 个类的简单分类数据集。
+**首先，我们将实现一个具有单隐藏层的多层感知机，它包含 $256$ 个隐藏单元**。注意，我们可以将这两个变量都视为**超参数**。**通常，我们选择 $2$ 的若干次幂作为层的宽度。因为内存在硬件中的分配和寻址方式，这么做往往可以在计算上更高效。** 
+
+与 softmax 回归的实现相比，唯一的区别是我们添加了2个全连接层（之前我们只添加了1个全连接层）。
+- 第一层是隐藏层，它包含256个隐藏单元，并使用了 ReLU 激活函数。
+- 第二层是输出层。
+
+```python
+net = nn.Sequential(nn.Flatten(),
+                    nn.Linear(784, 256),
+                    nn.ReLU(), #激活函数
+                    nn.Linear(256, 10))
+
+def init_weights(m):
+    if type(m) == nn.Linear:
+        nn.init.normal_(m.weight, std=0.01)
+
+net.apply(init_weights);
+```
+### 训练
+训练过程的实现与我们实现 softmax 回归时完全相同，可以直接调用 `d2l` 包的 `train_ch3` 函数（参见 [3.6节](http://zh.d2l.ai/chapter_linear-networks/softmax-regression-scratch.html#sec-softmax-scratch) ），将迭代周期数设置为10，并将学习率设置为0.1。
+这种模块化设计使我们能够将与模型架构有关的内容独立出来。
+
+```python
+batch_size, lr, num_epochs = 256, 0.1, 10
+loss = nn.CrossEntropyLoss(reduction='none') #损失函数：交叉熵损失
+trainer = torch.optim.SGD(net.parameters(), lr=lr) #优化算法
+
+train_iter, test_iter = d2l.load_data_fashion_mnist(batch_size)
+d2l.train_ch3(net, train_iter, test_iter, loss, num_epochs, trainer)
+```
