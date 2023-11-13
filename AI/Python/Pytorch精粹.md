@@ -1029,7 +1029,7 @@ true_b = 4.2 # 定义真实的偏置
 # labels中的每一行都包含一维标签值（一个标量），作为真实值
 features, labels = synthetic_data(true_w, true_b, 1000)
 ```
-#### (2) 读取数据集
+#### (2) 读取数据集 `data_iter`
 我们可以调用框架中现有的 API 来读取数据。我们将 `features` 和 `labels` 作为 API 的参数传递，并通过数据迭代器指定 `batch_size`。此外，布尔值 `is_train` 表示是否希望数据迭代器对象在每个迭代周期内打乱数据。 
 
 当我们运行迭代时，我们会连续地获得不同的小批量，直至遍历完整个数据集。
@@ -1070,7 +1070,7 @@ next(iter(data_iter))
          [ 8.0441],
          [ 2.6943]])]
 ```
-#### (3) 定义模型
+#### (3) 定义模型 `net()`
 定义模型，将模型的输入和参数同模型的输出关联起来
 
 **对于标准深度学习模型，我们可以使用框架的预定义好的层。这使我们只需关注使用哪些层来构造模型，而不必关注层的实现细节。** 
@@ -1107,7 +1107,7 @@ tensor([0.])
 在初始化参数之后，我们的任务是更新这些参数，直到这些参数足够拟合我们的数据。每次更新都需要计算损失函数关于模型参数的梯度。有了这个梯度，我们就可以向减小损失的方向更新每个参数。
 >因为手动计算梯度很枯燥而且容易出错，所以没有人会手动计算梯度。我们使用自动微分来计算梯度。
 
-#### (5) 定义损失函数
+#### (5) 定义损失函数 `loss()`
 因为需要计算损失函数的梯度，所以我们应该先定义损失函数
 
 这里损失函数采用**均方误差（MSE，mean square error）**
@@ -1116,7 +1116,7 @@ tensor([0.])
 loss = nn.MSELoss()
 ```
 
-#### (6) 定义优化算法
+#### (6) 定义优化算法 `SGD`
 小批量：mini-batch
 随机梯度下降：SGD，Stochastic Gradient Descent
 
@@ -1327,9 +1327,9 @@ torch.Size([32, 1, 64, 64]) torch.float32 torch.Size([32]) torch.int64
 - 分类预测一个离散类别
 
 通常，机器学习实践者用分类这个词来描述两个有微妙差别的问题： 
-1. 我们只对样本的“硬性”类别感兴趣，即属于哪个类别；
-2. 我们希望得到“软性”类别，即得到属于每个类别的概率。 
-这两者的界限往往很模糊。其中的一个原因是：即使我们只关心硬类别，我们仍然使用软类别的模型。
+1. 我们只对样本的“**硬性”类别**感兴趣，即**属于哪个类别**；
+2. 我们希望得到“**软性”类别**，即得到**属于每个类别的概率**。 
+这两者的界限往往很模糊。其中的一个原因是：**即使我们只关心硬类别，我们仍然使用软类别的模型。**
 
 **Softmax 函数具有以下特征：**
 - softmax 函数的输出是 0.0 到 1.0 之间的实数。  
@@ -1348,23 +1348,29 @@ batch_size = 256
 train_iter, test_iter = d2l.load_data_fashion_mnist(batch_size)
 ```
 
-#### (2) 初始化模型参数
+#### (2) 定义模型 `net()`，初始化模型参数
+和之前线性回归的例子一样，这里的每个样本都将用固定长度的向量表示。原始数据集中的每个样本都是28×28的图像。**本节将展平每个图像，把它们看作长度为784的向量**。在后面的章节中，我们将讨论能够利用图像空间结构的特征，但现在我们**暂时只把每个像素位置看作一个特征。**
+**在 softmax 回归中，我们的输出与类别一样多**。因为我们的数据集有**10个类别，所以网络输出维度为10**。因此，权重将构成一个 $784×10$ 的矩阵，偏置将构成一个 $1×10$ 的行向量。与线性回归一样，我们将使用正态分布初始化我们的权重 `W`，偏置初始化为0。
 
-softmax 回归的输出层是一个全连接层。因此，为了实现我们的模型，我们只需在 `Sequential` 中添加一个带有10个输出的全连接层。同样，在这里 `Sequential` 并不是必要的，但它是实现深度模型的基础。我们仍然以均值0和标准差0.01随机初始化权重。
+**Softmax 回归的输出层是一个全连接层**。因此，为了实现我们的模型，我们**只需在 `Sequential` 中添加一个带有10个输出的全连接层**。同样，在这里 `Sequential` 并不是必要的，但它是实现深度模型的基础。我们仍然以均值0和标准差0.01随机初始化权重。
 
 ```python
-# PyTorch不会隐式地调整输入的形状。因此，
-# 我们在线性层前定义了展平层（flatten），来调整网络输入的形状
+# PyTorch不会隐式地调整输入的形状。因此，我们在线性层前定义了展平层（flatten），来调整网络输入的形状
 net = nn.Sequential(nn.Flatten(), nn.Linear(784, 10))
+#nn.Flatten()用于将输入的多维张量展平为一维张量，这里用于将输入的图像展平为一维向量。
+#nn.Linear(784, 10)定义了一个线性层，输入维度为784，输出维度为10，这里用于将展平后的图像向量映射为10个类别的得分。
 
+
+#如果是线性层，则对其权重进行正态分布初始化。
 def init_weights(m):
     if type(m) == nn.Linear:
         nn.init.normal_(m.weight, std=0.01)
 
-net.apply(init_weights);
+#将init_weights函数应用到net的每一层，从而实现对权重的初始化。
+net.apply(init_weights); 
 ```
 
-#### (3) 定义损失函数
+#### (3) 定义损失函数 `loss()`
 Softmax 函数：
 $$
 \hat{y}_j=\frac{\exp(o_j)}{\sum_k\exp(o_k)}
@@ -1392,15 +1398,61 @@ loss = nn.CrossEntropyLoss(reduction='none')
 ```
 
 ![[《鱼书》#交叉熵]]
-#### (4) 优化算法
-在这里，我们使用学习率为0.1的小批量随机梯度下降作为优化算法。这与我们在线性回归例子中的相同，这说明了优化器的普适性。
+#### (4) 优化算法 SGD
+在这里，我们**使用学习率为0.1的小批量随机梯度下降作为优化算法**。这与我们在线性回归例子中的相同，这说明了优化器的普适性。
 
 ```python
 trainer = torch.optim.SGD(net.parameters(), lr=0.1)
 ```
+#### (5) 分类精度
+给定预测概率分布 `y_hat`，当我们必须输出硬性预测（即属于哪个类别）时，我们**通常选择预测概率最高的类。**
 
-#### (5) 训练
-在我们看过线性回归实现， softmax 回归的训练过程代码应该看起来非常眼熟。在这里，我们重构训练过程的实现以使其可重复使用。首先，我们定义一个函数来训练一个迭代周期。请注意，`updater` 是更新模型参数的常用函数，它接受批量大小作为参数。它可以是 `d2l.sgd` 函数，也可以是框架的内置优化函数。
+**当预测与标签分类`y`一致时，即是正确的。 分类精度即正确预测数量与总预测数量之比。** 虽然直接优化精度可能很困难（因为精度的计算不可导）， 但**精度通常是我们最关心的性能衡量标准，我们在训练分类器时几乎总会关注它。**
+
+为了计算精度，我们执行以下操作。首先，如果 `y_hat`（预测值）是矩阵，那么**假定第二个维度存储每个类的预测分数**。我们使用 `argmax` 获得每行中最大元素的索引来获得预测类别。然后我们将预测类别与真实 `y` 元素进行比较。由于等式运算符“`==`”对数据类型很敏感，因此我们将 `y_hat` 的数据类型转换为与 `y` 的数据类型一致。结果是一个包含0（错）和1（对）的张量。最后，我们求和会**得到正确预测的数量。**
+```python
+def accuracy(y_hat, y): 
+    """计算预测正确的数量"""
+    if len(y_hat.shape) > 1 and y_hat.shape[1] > 1:
+        y_hat = y_hat.argmax(axis=1)
+    cmp = y_hat.type(y.dtype) == y
+    return float(cmp.type(y.dtype).sum())
+```
+
+**同样，对于任意数据迭代器 `data_iter` 可访问的数据集，我们可以评估在任意模型 `net` 的精度。**
+```python
+def evaluate_accuracy(net, data_iter):  #@save
+    """计算在指定数据集上模型的精度"""
+    if isinstance(net, torch.nn.Module):
+        net.eval()  # 将模型设置为评估模式
+    metric = Accumulator(2)  # 正确预测数、预测总数
+    with torch.no_grad():
+        for X, y in data_iter:
+            metric.add(accuracy(net(X), y), y.numel()) # 正确预测数、预测总数添加到metric
+            #numel()方法返回张量中元素的总数
+    return metric[0] / metric[1] ## 正确预测数/预测总数 = 精度
+```
+
+**这里定义一个实用程序类 `Accumulator`，用于对多个变量进行累加。** 在上面的 `evaluate_accuracy` 函数中，我们在 `Accumulator` 实例中创建了2个变量，分别用于存储正确预测的数量和预测的总数量。当我们遍历数据集时，两者都将随着时间的推移而累加。
+
+```python
+class Accumulator:  #@save
+    """在n个变量上累加"""
+    def __init__(self, n):
+        self.data = [0.0] * n
+
+    def add(self, *args):
+        self.data = [a + float(b) for a, b in zip(self.data, args)]
+
+    def reset(self):
+        self.data = [0.0] * len(self.data)
+
+    def __getitem__(self, idx):
+        return self.data[idx]
+```
+#### (6) 训练
+在我们看过线性回归实现， softmax 回归的训练过程代码应该看起来非常眼熟。
+在这里，我们重构训练过程的实现以使其可重复使用。首先，我们定义一个函数来训练一个迭代周期。**请注意，`updater` 是更新模型参数的常用函数，它接受批量大小作为参数。它可以是 `d2l.sgd` 函数，也可以是框架的内置优化函数。**
 
 ```python
 def train_epoch_ch3(net, train_iter, loss, updater):  #@save
@@ -1475,11 +1527,10 @@ class Animator:  #@save
 ```python
 def train_ch3(net, train_iter, test_iter, loss, num_epochs, updater):  #@save
     """训练模型（定义见第3章）"""
-    animator = Animator(xlabel='epoch', xlim=[1, num_epochs], ylim=[0.3, 0.9],
-                        legend=['train loss', 'train acc', 'test acc'])
+    animator = Animator(xlabel='epoch', xlim=[1, num_epochs], ylim=[0.3, 0.9], legend=['train loss', 'train acc', 'test acc'])
     for epoch in range(num_epochs):
-        train_metrics = train_epoch_ch3(net, train_iter, loss, updater)
-        test_acc = evaluate_accuracy(net, test_iter)
+        train_metrics = train_epoch_ch3(net, train_iter, loss, updater) #训练损失和训练精度
+        test_acc = evaluate_accuracy(net, test_iter)  #计算在指定数据集上模型的精度
         animator.add(epoch + 1, train_metrics + (test_acc,))
     train_loss, train_acc = train_metrics
     assert train_loss < 0.5, train_loss
