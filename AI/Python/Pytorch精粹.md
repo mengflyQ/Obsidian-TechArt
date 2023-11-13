@@ -2,7 +2,9 @@
 title: Pytorch精粹
 uid: "202311111641"
 create_time: 2023-11-11 16:39
-reference: 
+reference:
+  - http://zh.d2l.ai/index.html
+  - https://www.bilibili.com/list/1567748478?sid=358497&spm_id_from=333.999.0.0&desc=1&oid=289532467&bvid=BV1if4y147hS
 banner: "[[Pasted image 20231111164335.png]]"
 banner_lock: true
 ---
