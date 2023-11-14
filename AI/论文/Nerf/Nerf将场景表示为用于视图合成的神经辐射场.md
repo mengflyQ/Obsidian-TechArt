@@ -203,7 +203,7 @@ $$\hat{C}_c(\mathbf{r})=\sum_{i=1}^{N_c}w_ic_i,\quad w_i=T_i(1-\exp(-\sigma_i\de
 ## 5.3 Implementation details
 
 我们为每个场景优化了一个单独的神经连续体积表示网络。这只需要**一个捕捉的场景的 RGB 图像的数据集，相应的相机位姿（camera poses）和内在（intrinsic）参数，以及场景的边界（scene bounds）(我们对合成数据使用真实（ground truth）相机位姿、内在参数和边界。并使用 COLMAP 运动结构包（COLMAP structure-from-motion package） [39] 来估计真实数据的这些参数）**。
-在每次优化迭代中，我们从数据集中所有像素的集合中随机采样一批（batch）相机光线，然后按照第 5.2 节中描述的分层采样，从 coarse 网络中查询 $N_c$ 样本，从细网洛中查询 $N_c+N_f$ 个样本。然后，我们使用第 4 节中描述的体渲染过程来渲染两组 (both sets of 是两组的意思) 样本中每条光线的颜色。我们的损失只是 coarse 渲染和 fine 渲染的渲染像素颜色和真实像素颜色之间的总平方误差： 
+在每次优化迭代中，我们从数据集中所有像素的集合中随机采样一批（batch）相机光线，然后按照第 5.2 节中描述的分层采样，从 coarse 网络中查询 $N_c$ 样本，从细网络中查询 $N_c+N_f$ 个样本。然后，我们使用第 4 节中描述的体渲染过程来渲染两组 (both sets of 是两组的意思) 样本中每条光线的颜色。我们的损失只是 coarse 渲染和 fine 渲染的渲染像素颜色和真实像素颜色之间的总平方误差： 
 $$
 \mathcal L=\sum_{\mathbf{r}\in\mathcal{R}}\left[\left\lVert\hat{C}_{c}(\mathbf{r})-C(\mathbf{r})\right\rVert_{2}^{2}+\left\lVert\hat{C}_{f}(\mathbf{r})-C(\mathbf{r})\right\rVert_{2}^{2}\right]\tag{6}
 $$

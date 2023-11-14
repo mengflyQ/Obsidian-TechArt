@@ -52,7 +52,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AI/深度学习/《鱼书》.md",
+                "file": "AI/论文/Nerf/Nerf将场景表示为用于视图合成的神经辐射场.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -60,7 +60,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -88,7 +88,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "AI/Python/Pytorch精粹.md"
+                "file": "AI/论文/Nerf/Nerf将场景表示为用于视图合成的神经辐射场.md"
               }
             }
           },
@@ -121,7 +121,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "AI/Python/Pytorch精粹.md"
+                "file": "AI/论文/Nerf/Nerf将场景表示为用于视图合成的神经辐射场.md"
               }
             }
           }
@@ -195,7 +195,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "AI/Python/Pytorch精粹.md",
+                "file": "AI/论文/Nerf/Nerf将场景表示为用于视图合成的神经辐射场.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -212,14 +212,14 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "AI/Python/Pytorch精粹.md",
+                "file": "AI/论文/Nerf/Nerf将场景表示为用于视图合成的神经辐射场.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -240,8 +240,15 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "17339c949dbbf04c",
+  "active": "70abcef3c36c3bd9",
   "lastOpenFiles": [
+    "AI/论文/Nerf/学习论.md",
+    "AI/论文/Nerf/可微渲染、NeRF 相关技术概念急速入门.md",
+    "AI/Python/Pytorch精粹.md",
+    "AI/Python/assets/output_dropout_1110bf_96_0.svg",
+    "AI/Python/assets/dropout2.svg",
+    "AI/Python/assets/capacity-vs-error.svg",
+    "Math/概率论/概率论与数理统计.md",
     "AI/Python/assets/output_mlp_76f463_96_0.svg",
     "AI/Python/assets/output_mlp_76f463_81_0.svg",
     "AI/Python/assets/output_mlp_76f463_66_0.svg",
@@ -250,15 +257,9 @@
     "AI/Python/assets/output_mlp_76f463_21_0.svg",
     "AI/Python/assets/mlp.svg",
     "AI/Python/Python基础.md",
-    "Math/概率论/概率论与数理统计.md",
     "AI/深度学习/《鱼书》.md",
-    "AI/Python/Pytorch精粹.md",
-    "AI/Python/assets/output_image-classification-dataset_e45669_83_0.svg",
-    "AI/深度学习/assets/Pasted image 20231112212615.png",
     "zBuffer/参数估计 (二)_ 最大似然估计.md",
-    "AI/深度学习/assets/Pasted image 20231112210802.png",
     "AI/环境配置/Anaconda配置.md",
-    "AI/Python/assets/Pasted image 20231112205941.png",
     "zBuffer/pytorch 函数 mm() mul() matmul() 区别_pytorch mm_还能坚持的博客 - CSDN 博客.md",
     "AI/论文/方向.md",
     "AI/深度学习/动手学DL.md",
@@ -278,7 +279,6 @@
     "AI/动手学深度学习/STYLE_GUIDE.md",
     "AI/动手学深度学习/README.md",
     "AI/动手学深度学习/index.md",
-    "AI/动手学深度学习/INFO.md",
     "AI/动手学深度学习/contrib/to-rm-mx-contrib-text/d2lzh/text/__init__.py",
     "AI/动手学深度学习/contrib/to-rm-mx-contrib-text/d2lzh/text/vocab.py",
     "AI/动手学深度学习/contrib/to-rm-mx-contrib-text/d2lzh/text/embedding.py",
