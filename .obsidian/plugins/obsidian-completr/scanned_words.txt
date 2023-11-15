@@ -47449,6 +47449,7 @@ empirical
 eigenvalue
 epochs
 elementwise
+exploding
 VPN
 Verge
 VS
@@ -73453,6 +73454,7 @@ alphabetically
 astonzhang
 alexnet
 ankle
+assumption
 Roaming
 RegWorkshop
 Release
@@ -184584,6 +184586,7 @@ rhYVpk
 regression
 risk
 rectifiers
+regularization
 XXXXXX
 XXX
 XML

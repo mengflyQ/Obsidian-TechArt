@@ -1,6 +1,42 @@
 {
   "recentFiles": [
     {
+      "basename": "Pytorch精粹",
+      "path": "AI/Python/Pytorch精粹.md"
+    },
+    {
+      "basename": "概率论与数理统计",
+      "path": "Math/概率论/概率论与数理统计.md"
+    },
+    {
+      "basename": "ta101卡渲",
+      "path": "技术美术/6 NPR/ta101卡渲.md"
+    },
+    {
+      "basename": "NPR渲染管线概述",
+      "path": "技术美术/6 NPR/NPR渲染管线概述.md"
+    },
+    {
+      "basename": "【03】Unity URP 卡通渲染 原神角色渲染记录 - Function-Based Light and Shadow： Emission + SDF 脸部阴影",
+      "path": "技术美术/6 NPR/原神/【03】Unity URP 卡通渲染 原神角色渲染记录 - Function-Based Light and Shadow： Emission + SDF 脸部阴影.md"
+    },
+    {
+      "basename": "少前 2 克罗丽科 NPR+PBR 渲染小试",
+      "path": "技术美术/6 NPR/少前 2 克罗丽科 NPR+PBR 渲染小试.md"
+    },
+    {
+      "basename": "Python基础",
+      "path": "AI/Python/Python基础.md"
+    },
+    {
+      "basename": "【01】Unity URP 卡通渲染 原神角色渲染记录 - Diffuse： Ramp + AO + Double Shadow",
+      "path": "技术美术/6 NPR/原神/【01】Unity URP 卡通渲染 原神角色渲染记录 - Diffuse： Ramp + AO + Double Shadow.md"
+    },
+    {
+      "basename": "【游戏开发实战】下载原神模型，PMX 转 FBX，导入到 Unity 中，卡通渲染，绑定人形动画（附 Demo 工程）_林新发的博客 - CSDN 博客",
+      "path": "技术美术/6 NPR/【游戏开发实战】下载原神模型，PMX 转 FBX，导入到 Unity 中，卡通渲染，绑定人形动画（附 Demo 工程）_林新发的博客 - CSDN 博客.md"
+    },
+    {
       "basename": "Nerf将场景表示为用于视图合成的神经辐射场",
       "path": "AI/论文/Nerf/Nerf将场景表示为用于视图合成的神经辐射场.md"
     },
@@ -11,18 +47,6 @@
     {
       "basename": "可微渲染、NeRF 相关技术概念急速入门",
       "path": "AI/论文/Nerf/可微渲染、NeRF 相关技术概念急速入门.md"
-    },
-    {
-      "basename": "Pytorch精粹",
-      "path": "AI/Python/Pytorch精粹.md"
-    },
-    {
-      "basename": "概率论与数理统计",
-      "path": "Math/概率论/概率论与数理统计.md"
-    },
-    {
-      "basename": "Python基础",
-      "path": "AI/Python/Python基础.md"
     },
     {
       "basename": "《鱼书》",
@@ -175,26 +199,6 @@
     {
       "basename": "3 Effective C++",
       "path": "编程/1 C++/3 Effective C++.md"
-    },
-    {
-      "basename": "3 模板",
-      "path": "编程/1 C++/3 模板.md"
-    },
-    {
-      "basename": "README",
-      "path": "README.md"
-    },
-    {
-      "basename": "GASRPG 笔记",
-      "path": "虚幻引擎/03 Gameplay/GAS/GASRPG 笔记.md"
-    },
-    {
-      "basename": "yaml_论文",
-      "path": "zip/Templates/yaml_论文.md"
-    },
-    {
-      "basename": "yaml_原生",
-      "path": "zip/Templates/yaml_原生.md"
     }
   ],
   "omittedPaths": [],
