@@ -2055,7 +2055,8 @@ tensor([[-0.0970],
 
 ### 参数访问
 我们从已有模型中访问参数。 **当通过 `Sequential` 类定义模型时，我们可以通过索引来访问模型的任意层**。这就像模型是一个列表一样，每层的参数都在其属性中。
-如下所示，我们可以检查第二个全连接层的参数。
+
+如下所示，我们可以**检查第二个全连接层的参数。**
 
 ```python
 print(net[2].state_dict())
@@ -2066,9 +2067,9 @@ OrderedDict([('weight', tensor([[-0.0427, -0.2939, -0.1894,  0.0220, -0.1709, -0
 
 输出的结果告诉我们一些重要的事情： 首先，这个全连接层包含两个参数，分别是该层的权重和偏置。两者都存储为单精度浮点数（float32）。注意，参数名称允许唯一标识每个参数，即使在包含数百个层的网络中也是如此。
 
-### 目标参数
+#### 目标参数
 **注意，每个参数都表示为参数类的一个实例。要对参数执行任何操作，首先我们需要访问底层的数值**。有几种方法可以做到这一点。有些比较简单，而另一些则比较通用。 
-下面的代码从第二个全连接层（即第三个神经网络层）提取偏置，提取后返回的是一个参数类实例，并进一步访问该参数的值。
+下面的代码从第二个全连接层（即第三个神经网络层）提取偏置，提取后返回的是一个参数类实例，并进一步**访问该参数的值**。
 
 ```python
 print(type(net[2].bias))
@@ -2084,7 +2085,7 @@ tensor([0.0887])
 
 参数是复合的对象，包含值、梯度和额外信息。这就是我们需要显式参数值的原因。
 
-除了值之外，我们还可以访问每个参数的梯度。在上面这个网络中，由于我们还没有调用反向传播，所以参数的梯度处于初始状态。
+除了值之外，我们还可以**访问每个参数的梯度**。在上面这个网络中，由于我们还没有调用反向传播，所以参数的梯度处于初始状态。
 
 ```python
 net[2].weight.grad == None
@@ -2092,3 +2093,585 @@ net[2].weight.grad == None
 ###
 True
 ```
+
+#### 一次性访问所有参数
+当我们处理更复杂的块（例如，嵌套块）时，情况可能会变得特别复杂，因为我们需要递归整个树来提取每个子块的参数。
+
+下面，我们将通过演示来**比较访问第一个全连接层的参数和访问所有层。**
+
+```python
+# 访问第一个全连接层
+print(*[(name, param.shape) for name, param in net[0].named_parameters()])
+###
+('weight', torch.Size([8, 4])) ('bias', torch.Size([8]))
+
+#访问所有层
+print(*[(name, param.shape) for name, param in net.named_parameters()])
+###
+('0.weight', torch.Size([8, 4])) ('0.bias', torch.Size([8])) ('2.weight', torch.Size([1, 8])) ('2.bias', torch.Size([1]))
+```
+
+>自动给权重和编制编号 `x.`
+
+这为我们提供了另一种访问网络参数的方式，如下所示。
+
+```python
+net.state_dict()['2.bias'].data
+
+tensor([0.0887])
+```
+
+#### 从嵌套块收集参数
+如果我们将多个块相互嵌套，参数命名约定是如何工作的？
+
+我们首先定义一个生成块的函数（可以说是“块工厂”），然后将这些块组合到更大的块中。
+```python
+def block1():
+    return nn.Sequential(nn.Linear(4, 8), nn.ReLU(),
+                         nn.Linear(8, 4), nn.ReLU())
+
+def block2():
+    net = nn.Sequential()
+    for i in range(4):
+        # 在这里嵌套
+        net.add_module(f'block {i}', block1())
+    return net
+
+rgnet = nn.Sequential(block2(), nn.Linear(4, 1))
+rgnet(X)
+
+###
+tensor([[0.2596],
+        [0.2596]], grad_fn=<AddmmBackward0>)
+```
+
+设计了网络后，我们看看它是如何工作的。
+```python
+print(rgnet)
+
+###
+Sequential(
+  (0): Sequential(
+    (block 0): Sequential(
+      (0): Linear(in_features=4, out_features=8, bias=True)
+      (1): ReLU()
+      (2): Linear(in_features=8, out_features=4, bias=True)
+      (3): ReLU()
+    )
+    (block 1): Sequential(
+      (0): Linear(in_features=4, out_features=8, bias=True)
+      (1): ReLU()
+      (2): Linear(in_features=8, out_features=4, bias=True)
+      (3): ReLU()
+    )
+    (block 2): Sequential(
+      (0): Linear(in_features=4, out_features=8, bias=True)
+      (1): ReLU()
+      (2): Linear(in_features=8, out_features=4, bias=True)
+      (3): ReLU()
+    )
+    (block 3): Sequential(
+      (0): Linear(in_features=4, out_features=8, bias=True)
+      (1): ReLU()
+      (2): Linear(in_features=8, out_features=4, bias=True)
+      (3): ReLU()
+    )
+  )
+  (1): Linear(in_features=4, out_features=1, bias=True)
+)
+```
+
+因为层是分层嵌套的，所以我们也可以像通过嵌套列表索引一样访问它们。下面，我们访问第一个主要的块中、第二个子块的第一层的偏置项。
+
+```python
+rgnet[0][1][0].bias.data
+
+###
+tensor([ 0.1999, -0.4073, -0.1200, -0.2033, -0.1573,  0.3546, -0.2141, -0.2483])
+```
+
+### 参数初始化
+深度学习框架提供默认随机初始化，也允许我们创建自定义初始化方法，满足我们通过其他规则实现初始化权重。
+
+**默认情况下，PyTorch 会根据一个范围均匀地初始化权重和偏置矩阵，这个范围是根据输入和输出维度计算出的。 PyTorch 的 `nn.init` 模块提供了多种预置初始化方法。**
+#### 内置初始化
+让我们首先调用内置的初始化器。下面的代码**将所有权重参数初始化为标准差为0.01的高斯随机变量，且将偏置参数设置为0。**
+
+```python
+def init_normal(m):
+    if type(m) == nn.Linear:
+        nn.init.normal_(m.weight, mean=0, std=0.01)
+        nn.init.zeros_(m.bias)
+net.apply(init_normal)
+net[0].weight.data[0], net[0].bias.data[0]
+
+###
+(tensor([-0.0214, -0.0015, -0.0100, -0.0058]), tensor(0.))
+```
+
+我们还可以**将所有参数初始化为给定的常数，比如初始化为1。**
+```python
+def init_constant(m):
+    if type(m) == nn.Linear:
+        nn.init.constant_(m.weight, 1)
+        nn.init.zeros_(m.bias)
+net.apply(init_constant)
+net[0].weight.data[0], net[0].bias.data[0]
+
+###
+(tensor([1., 1., 1., 1.]), tensor(0.))
+```
+
+
+我们还可以**对某些块应用不同的初始化方法**。例如，下面我们使用 **Xavier 初始化**方法初始化第一个神经网络层，然后将第三个神经网络层初始化为常量值42。
+
+```python
+def init_xavier(m):
+    if type(m) == nn.Linear:
+        nn.init.xavier_uniform_(m.weight)
+def init_42(m):
+    if type(m) == nn.Linear:
+        nn.init.constant_(m.weight, 42)
+
+net[0].apply(init_xavier)
+net[2].apply(init_42)
+print(net[0].weight.data[0])
+print(net[2].weight.data)
+
+###
+tensor([ 0.5236,  0.0516, -0.3236,  0.3794])
+tensor([[42., 42., 42., 42., 42., 42., 42., 42.]])
+```
+
+#### 自定义初始化
+有时，深度学习框架没有提供我们需要的初始化方法。在下面的例子中，我们使用以下的分布为任意权重参数 $w$ 定义初始化方法：
+$$
+\begin{split}\begin{aligned}
+    w \sim \begin{cases}
+        U(5, 10) & \text{ 可能性 } \frac{1}{4} \\
+            0    & \text{ 可能性 } \frac{1}{2} \\
+        U(-10, -5) & \text{ 可能性 } \frac{1}{4}
+    \end{cases}
+\end{aligned}\end{split}
+$$
+同样，我们实现了一个 `my_init` 函数来应用到 `net`。
+
+```python
+def my_init(m):
+    if type(m) == nn.Linear:
+        print("Init", *[(name, param.shape)
+                        for name, param in m.named_parameters()][0])
+        nn.init.uniform_(m.weight, -10, 10)
+        m.weight.data *= m.weight.data.abs() >= 5
+
+net.apply(my_init)
+net[0].weight[:2]
+
+###
+Init weight torch.Size([8, 4])
+Init weight torch.Size([1, 8])
+
+tensor([[5.4079, 9.3334, 5.0616, 8.3095],
+        [0.0000, 7.2788, -0.0000, -0.0000]], grad_fn=<SliceBackward0>)
+```
+
+注意，我们始终可以直接设置参数。
+
+```python
+net[0].weight.data[:] += 1
+net[0].weight.data[0, 0] = 42
+net[0].weight.data[0]
+
+###
+tensor([42.0000, 10.3334,  6.0616,  9.3095])
+```
+
+### 参数绑定
+有时我们希望在多个层间共享参数： **我们可以定义一个稠密层，然后使用它的参数来设置另一个层的参数。**
+
+```python
+# 我们需要给共享层一个名称，以便可以引用它的参数
+shared = nn.Linear(8, 8)
+net = nn.Sequential(nn.Linear(4, 8), nn.ReLU(),
+                    shared, nn.ReLU(),
+                    shared, nn.ReLU(),
+                    nn.Linear(8, 1))
+net(X)
+# 检查参数是否相同
+print(net[2].weight.data[0] == net[4].weight.data[0])
+
+# 确保它们实际上是同一个对象，而不只是有相同的值
+net[2].weight.data[0, 0] = 100 #修改2的时候，也会修改4
+print(net[2].weight.data[0] == net[4].weight.data[0])
+
+###
+tensor([True, True, True, True, True, True, True, True])
+tensor([True, True, True, True, True, True, True, True])
+```
+
+**这个例子表明第三个和第五个神经网络层的参数是绑定的。它们不仅值相等，而且由相同的张量表示**。因此，如果我们改变其中一个参数，另一个参数也会改变。 
+
+这里有一个问题：**当参数绑定时，梯度会发生什么情况？ 答案是由于模型参数包含梯度，因此在反向传播期间第二个隐藏层 （即第三个神经网络层）和第三个隐藏层（即第五个神经网络层）的梯度会加在一起。**
+## 3 延后初始化
+到目前为止，我们忽略了建立网络时需要做的以下这些事情：
+- 我们定义了网络架构，但没有指定输入维度。
+- 我们添加层时没有指定前一层的输出维度。
+- 我们在初始化参数时，甚至没有足够的信息来确定模型应该包含多少参数。
+
+有些读者可能会对我们的代码能运行感到惊讶。 毕竟，深度学习框架无法判断网络的输入维度是什么。 **这里的诀窍是框架的延后初始化（defers initialization）， 即直到数据第一次通过模型传递时，框架才会动态地推断出每个层的大小。**
+
+**在以后，当使用卷积神经网络时，由于输入维度（即图像的分辨率）将影响每个后续层的维数，有了该技术将更加方便。现在我们在编写代码时无须知道维度是什么就可以设置参数，这种能力可以大大简化定义和修改模型的任务。** 
+
+## 4 自定义层
+深度学习成功背后的一个因素是神经网络的灵活性： 我们可以用创造性的方式组合不同的层，从而设计出适用于各种任务的架构。
+有时我们会遇到或要自己发明一个现在在深度学习框架中还不存在的层。在这些情况下，必须构建自定义层。本节将展示如何构建自定义层。
+
+### 不带参数的层
+首先，我们构造一个没有任何参数的自定义层。回忆一下在 [5.1节](http://zh.d2l.ai/chapter_deep-learning-computation/model-construction.html#sec-model-construction)对块的介绍，这应该看起来很眼熟。
+
+下面的 `CenteredLayer` 类要从其输入中减去均值。要构建它，我们只需继承 `nn.Module` 基础层类并实现前向传播功能。
+
+```python
+import torch
+import torch.nn.functional as F
+from torch import nn
+
+
+class CenteredLayer(nn.Module):
+    def __init__(self):
+        super().__init__()
+
+    def forward(self, X):
+        return X - X.mean()
+```
+
+让我们向该层提供一些数据，验证它是否能按预期工作。
+```python
+layer = CenteredLayer()
+layer(torch.FloatTensor([1, 2, 3, 4, 5]))
+
+###
+tensor([-2., -1.,  0.,  1.,  2.])
+```
+
+现在，我们可以将层作为组件合并到更复杂的模型中。
+
+```python
+net = nn.Sequential(nn.Linear(8, 128), CenteredLayer())
+```
+
+作为额外的健全性检查，我们可以在向该网络发送随机数据后，检查均值是否为0。由于我们处理的是浮点数，因为存储精度的原因，我们仍然可能会看到一个非常小的非零数。
+```python
+Y = net(torch.rand(4, 8))
+Y.mean()
+
+###
+tensor(7.4506e-09, grad_fn=<MeanBackward0>)
+```
+
+### 带参数的层
+下面我们继续定义具有参数的层，**这些参数可以通过训练进行调整**。
+**我们可以使用内置函数来创建参数，这些函数提供一些基本的管理功能。比如管理访问、初始化、共享、保存和加载模型参数。这样做的好处之一是：我们不需要为每个自定义层编写自定义的序列化程序。**
+
+现在，让我们实现自定义版本的全连接层。回想一下，该层需要两个参数，一个用于表示权重，另一个用于表示偏置项。在此实现中，我们使用 ReLU 激活函数。该层需要**输入参数**：`in_units` 和 `units`，分别**表示输入数和输出数**。
+```python
+class MyLinear(nn.Module):
+    def __init__(self, in_units, units):
+        super().__init__()
+        self.weight = nn.Parameter(torch.randn(in_units, units))
+        self.bias = nn.Parameter(torch.randn(units,))
+    def forward(self, X):
+        linear = torch.matmul(X, self.weight.data) + self.bias.data
+        return F.relu(linear)
+    
+```
+
+接下来，我们实例化 `MyLinear` 类并访问其模型参数。
+
+```python
+linear = MyLinear(5, 3)
+linear.weight
+
+###
+Parameter containing:
+tensor([[ 0.1775, -1.4539,  0.3972],
+        [-0.1339,  0.5273,  1.3041],
+        [-0.3327, -0.2337, -0.6334],
+        [ 1.2076, -0.3937,  0.6851],
+        [-0.4716,  0.0894, -0.9195]], requires_grad=True)
+```
+
+我们可以使用自定义层直接执行前向传播计算。
+
+```python
+linear(torch.rand(2, 5))
+
+###
+tensor([[0., 0., 0.],
+        [0., 0., 0.]])
+```
+
+我们还可以使用自定义层构建模型，就像使用内置的全连接层一样使用自定义层。
+
+```python
+net = nn.Sequential(MyLinear(64, 8), MyLinear(8, 1))
+net(torch.rand(2, 64))
+
+###
+tensor([[0.],
+        [0.]])
+```
+
+## 5 读写文件
+有时我们希望保存训练的模型，以备将来在各种环境中使用（比如在部署中进行预测）。此外，**当运行一个耗时较长的训练过程时，最佳的做法是定期保存中间结果，以确保在服务器电源被不小心断掉时，我们不会损失几天的计算结果**。因此，现在是时候学习如何加载和存储权重向量和整个模型了。
+
+### 保存和加载向量
+
+对于**单个张量**，我们可以直接调用 `load` 和 `save` 函数分别读写它们。这两个函数都要求我们提供一个名称，`save` 要求将要保存的变量作为输入。
+
+```python
+import torch
+from torch import nn
+from torch.nn import functional as F
+
+x = torch.arange(4)
+torch.save(x, 'x-file')
+```
+
+我们现在可以将存储在文件中的数据读回内存。
+
+```python
+x2 = torch.load('x-file')
+
+###
+tensor([0, 1, 2, 3])
+```
+
+我们可以存储一个**张量列表**，然后把它们读回内存。
+```python
+y = torch.zeros(4)
+torch.save([x, y],'x-files')
+
+x2, y2 = torch.load('x-files')
+(x2, y2)
+```
+
+我们甚至可以写入或读取**从字符串映射到张量的字典**。当我们要读取或写入模型中的所有权重时，这很方便。
+```python
+mydict = {'x': x, 'y': y}
+torch.save(mydict, 'mydict')
+
+mydict2 = torch.load('mydict')
+mydict2
+```
+
+### 加载和保存模型参数
+保存单个权重向量（或其他张量）确实有用，但是如果我们想保存整个模型，并在以后加载它们，单独保存每个向量则会变得很麻烦。毕竟，我们可能有数百个参数散布在各处。
+因此，**深度学习框架提供了内置函数来保存和加载整个网络**。需要注意的一个重要细节是，这将**保存模型的参数而不是保存整个模型**。例如，如果我们有一个3层多层感知机，我们需要单独指定架构。因为模型本身可以包含任意代码，所以模型本身难以序列化。**因此，为了恢复模型，我们需要用代码生成架构，然后从磁盘加载参数。**
+
+让我们从熟悉的多层感知机开始尝试一下。
+
+```python
+class MLP(nn.Module):
+    def __init__(self):
+        super().__init__()
+        self.hidden = nn.Linear(20, 256)
+        self.output = nn.Linear(256, 10)
+
+    def forward(self, x):
+        return self.output(F.relu(self.hidden(x)))
+
+net = MLP()
+X = torch.randn(size=(2, 20))
+Y = net(X)
+```
+
+接下来，我们将模型的参数存储在一个叫做“mlp.params”的文件中。
+```python
+torch.save(net.state_dict(), 'mlp.params')
+```
+
+**为了恢复模型，我们实例化了原始多层感知机模型的一个备份。这里我们不需要随机初始化模型参数，而是直接读取文件中存储的参数。**
+
+```python
+clone = MLP()
+clone.load_state_dict(torch.load('mlp.params'))
+clone.eval()
+
+###
+MLP(
+  (hidden): Linear(in_features=20, out_features=256, bias=True)
+  (output): Linear(in_features=256, out_features=10, bias=True)
+)
+```
+
+由于两个实例具有相同的模型参数，在输入相同的 `X` 时，两个实例的计算结果应该相同。让我们来验证一下。
+
+```python
+Y_clone = clone(X)
+Y_clone == Y
+
+###
+tensor([[True, True, True, True, True, True, True, True, True, True],
+        [True, True, True, True, True, True, True, True, True, True]])
+```
+
+## 6 GPU
+
+我们先看看如何使用单个 NVIDIA GPU 进行计算。首先，确保至少安装了一个 NVIDIA GPU。然后，下载 [NVIDIA驱动和CUDA](https://developer.nvidia.com/cuda-downloads) 并按照提示设置适当的路径。当这些准备工作完成，就可以使用 `nvidia-smi` 命令来**查看显卡信息**。
+
+```
+!nvidia-smi
+```
+
+**在 PyTorch 中，每个数组都有一个设备（device），我们通常将其称为环境（context）**。默认情况下，所有变量和相关的计算都分配给 CPU。有时环境可能是 GPU。当我们跨多个服务器部署作业时，事情会变得更加棘手。通过智能地将数组分配给环境，我们可以最大限度地减少在设备之间传输数据的时间。例如，当在带有 GPU 的服务器上训练神经网络时，我们通常希望模型的参数在 GPU 上。
+
+要运行此部分中的程序，至少需要两个 GPU。注意，对大多数桌面计算机来说，这可能是奢侈的，但在云中很容易获得。例如可以使用 AWS EC2的多 GPU 实例。本书的其他章节大都不需要多个 GPU，而**本节只是为了展示数据如何在不同的设备之间传递。**
+
+### 计算设备
+我们可以指定用于存储和计算的设备，如 CPU 和 GPU。**默认情况下，张量是在内存中创建的，然后使用 CPU 计算它。**
+
+在 PyTorch 中，CPU 和 GPU 可以用 `torch.device('cpu')` 和 `torch.device('cuda')` 表示。应该注意的是，`cpu` 设备意味着所有物理 CPU 和内存，这意味着 PyTorch 的计算将尝试使用所有 CPU 核心。然而，`gpu` 设备只代表一个卡和相应的显存 i。如果有多个 GPU，我们使用 `torch.device(f'cuda:{i}')` 来表示第 $i$ 块 GPU（ $i$ 从0开始）。另外，`cuda:0` 和 `cuda` 是等价的。
+
+```python
+import torch
+from torch import nn
+
+torch.device('cpu'), torch.device('cuda'), torch.device('cuda:1')
+
+###
+(device(type='cpu'), device(type='cuda'), device(type='cuda', index=1))
+```
+
+我们可以查询可用 gpu 的数量。
+```python
+torch.cuda.device_count()
+```
+
+现在我们定义了两个方便的函数，这两个函数允许我们在不存在所需所有 GPU 的情况下运行代码。
+```python
+def try_gpu(i=0):  
+    """如果存在，则返回gpu(i)，否则返回cpu()"""
+    if torch.cuda.device_count() >= i + 1:
+        return torch.device(f'cuda:{i}')
+    return torch.device('cpu')
+
+def try_all_gpus():  #@save
+    """返回所有可用的GPU，如果没有GPU，则返回[cpu(),]"""
+    devices = [torch.device(f'cuda:{i}')
+             for i in range(torch.cuda.device_count())]
+    return devices if devices else [torch.device('cpu')]
+
+try_gpu(), try_gpu(10), try_all_gpus()
+
+(device(type='cuda', index=0),
+ device(type='cpu'),
+ [device(type='cuda', index=0), device(type='cuda', index=1)])
+```
+### 张量与 GPU
+我们可以查询张量所在的设备。默认情况下，张量是在 CPU 上创建的。
+
+```python
+x = torch.tensor([1, 2, 3])
+x.device
+
+###
+device(type='cpu')
+```
+
+**需要注意的是，无论何时我们要对多个项进行操作，它们都必须在同一个设备上。** 例如，如果我们对两个张量求和，我们需要确保两个张量都位于同一个设备上，否则框架将不知道在哪里存储结果，甚至不知道在哪里执行计算。
+
+### 存储在 GPU 上
+有几种方法可以在GPU上存储张量。 例如，**我们可以在创建张量时指定存储设备**。接 下来，我们在第一个`gpu`上创建张量变量`X`。 在GPU上创建的张量只消耗这个GPU的**显存**。 我们可以使用`nvidia-smi`命令查看显存使用情况。 一般来说，我们需要确保不创建超过GPU显存限制的数据。
+
+```python
+X = torch.ones(2, 3, device=try_gpu())
+
+###
+tensor([[1., 1., 1.],
+        [1., 1., 1.]], device='cuda:0')
+```
+
+假设我们至少有两个 GPU，下面的代码将在第二个 GPU 上创建一个随机张量。
+
+```python
+Y = torch.rand(2, 3, device=try_gpu(1))
+
+tensor([[0.4860, 0.1285, 0.0440],
+        [0.9743, 0.4159, 0.9979]], device='cuda:1')
+```
+
+### 复制
+如果我们要计算 `X + Y`，我们需要决定在哪里执行这个操作。例如，如 图所示，我们可以将 `X` 传输到第二个 GPU 并在那里执行操作。 不要简单地 `X` 加上 `Y`，因为这会导致异常，运行时引擎不知道该怎么做：它在同一设备上找不到数据会导致失败。由于 `Y` 位于第二个 GPU 上，所以我们需要将 `X` 移到那里，然后才能执行相加运算。
+
+![[copyto.svg]]
+>复制数据以在同一设备上执行操作
+
+```python
+Z = X.cuda(1)
+print(X)
+print(Z)
+
+###
+tensor([[1., 1., 1.],
+        [1., 1., 1.]], device='cuda:0')
+tensor([[1., 1., 1.],
+        [1., 1., 1.]], device='cuda:1')
+```
+
+现在数据在同一个GPU上（`Z`和`Y`都在），我们可以将它们相加。
+```python
+Y + Z
+
+###
+tensor([[1.4860, 1.1285, 1.0440],
+        [1.9743, 1.4159, 1.9979]], device='cuda:1')
+```
+
+假设变量 `Z` 已经存在于第二个 GPU 上。如果我们还是调用 `Z.cuda(1)` 会发生什么？ 它将返回 `Z`，而不会复制并分配新内存。
+
+```python
+Z.cuda(1) is Z
+
+###
+True
+```
+
+### 
+人们使用 GPU 来进行机器学习，因为 GPU 相对运行速度快。**但是在设备（CPU、GPU 和其他机器）之间传输数据比计算慢得多**。这也使得并行化变得更加困难，**因为我们必须等待数据被发送（或者接收），然后才能继续进行更多的操作**。这就是为什么拷贝操作要格外小心。
+根据经验，多个小操作比一个大操作糟糕得多。此外，一次执行几个操作比代码中散布的许多单个操作要好得多。如果一个设备必须等待另一个设备才能执行其他操作，那么这样的操作可能会阻塞。
+
+**最后，当我们打印张量或将张量转换为NumPy格式时， 如果数据不在内存中，框架会首先将其复制到内存中， 这会导致额外的传输开销。 更糟糕的是，它现在受制于全局解释器锁，使得一切都得等待Python完成。**
+
+不经意地移动数据可能会显著降低性能。一个典型的错误如下：计算 GPU 上每个小批量的损失，并在命令行中将其报告给用户（或将其记录在 NumPy `ndarray` 中）时，将触发全局解释器锁，从而使所有 GPU 阻塞。最好是为 GPU 内部的日志分配内存，并且只移动较大的日志。
+
+### 神经网络与 GPU
+
+类似地，神经网络模型可以指定设备。下面的代码**将模型参数放在 GPU 上。**
+
+```python
+net = nn.Sequential(nn.Linear(3, 1))
+net = net.to(device=try_gpu())
+```
+
+在接下来的几章中，我们将看到更多关于如何在 GPU 上运行模型的例子，因为它们将变得更加计算密集。
+
+**当输入为GPU上的张量时，模型将在同一GPU上计算结果。**
+
+```python
+net(X)
+
+###
+tensor([[-0.4275],
+        [-0.4275]], device='cuda:0', grad_fn=<AddmmBackward0>)
+```
+
+让我们确认模型参数存储在同一个GPU上。
+```python
+net[0].weight.data.device
+
+###
+device(type='cuda', index=0)
+```
+
+**总之，只要所有的数据和参数都在同一个设备上， 我们就可以有效地学习模型**。 在下面的章节中，我们将看到几个这样的例子。
