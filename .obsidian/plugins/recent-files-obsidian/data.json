@@ -1,20 +1,24 @@
 {
   "recentFiles": [
     {
-      "basename": "快速入门",
-      "path": "AI/深度学习/快速入门.md"
+      "basename": "写给小白的用 fashion-mnist 入门机器学习和深度学习的简单项目 (非常全面!!!)",
+      "path": "zBuffer/写给小白的用 fashion-mnist 入门机器学习和深度学习的简单项目 (非常全面!!!).md"
     },
     {
       "basename": "Python基础",
       "path": "AI/Python/Python基础.md"
     },
     {
-      "basename": "Pytorch精粹",
-      "path": "AI/Python/Pytorch精粹.md"
+      "basename": "快速入门",
+      "path": "AI/深度学习/快速入门.md"
     },
     {
       "basename": "PyTorch入门",
       "path": "AI/深度学习/PyTorch入门.md"
+    },
+    {
+      "basename": "Pytorch精粹",
+      "path": "AI/Python/Pytorch精粹.md"
     },
     {
       "basename": "动手学DL",
@@ -75,14 +79,6 @@
     {
       "basename": "可微渲染、NeRF 相关技术概念急速入门",
       "path": "AI/论文/Nerf/可微渲染、NeRF 相关技术概念急速入门.md"
-    },
-    {
-      "basename": "参数估计 (二)_ 最大似然估计",
-      "path": "zBuffer/参数估计 (二)_ 最大似然估计.md"
-    },
-    {
-      "basename": "pytorch 函数 mm() mul() matmul() 区别_pytorch mm_还能坚持的博客 - CSDN 博客",
-      "path": "zBuffer/pytorch 函数 mm() mul() matmul() 区别_pytorch mm_还能坚持的博客 - CSDN 博客.md"
     },
     {
       "basename": "yaml_Banner",

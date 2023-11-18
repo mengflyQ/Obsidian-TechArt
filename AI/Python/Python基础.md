@@ -1959,7 +1959,7 @@ else:
 
 ```python nums
 try:
-    with open('文件1.txt', 'w') as f:
+    with open('文件1.txt', 'w') as f: 
         for each_line in f:
             print(each_line)
 except OSError as reason:

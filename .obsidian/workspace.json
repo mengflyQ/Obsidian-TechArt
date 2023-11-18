@@ -26,7 +26,46 @@
             "state": {
               "type": "markdown",
               "state": {
+                "file": "zBuffer/写给小白的用 fashion-mnist 入门机器学习和深度学习的简单项目 (非常全面!!!).md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "5e63a89d8273bb3f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "AI/深度学习/PyTorch入门.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "cede522d4b46bef5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
                 "file": "AI/深度学习/快速入门.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "f2d15e00fec704b3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "AI/Python/Pytorch精粹.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -75,7 +114,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "AI/深度学习/快速入门.md"
+                "file": "zBuffer/写给小白的用 fashion-mnist 入门机器学习和深度学习的简单项目 (非常全面!!!).md"
               }
             }
           },
@@ -108,7 +147,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "AI/深度学习/快速入门.md"
+                "file": "zBuffer/写给小白的用 fashion-mnist 入门机器学习和深度学习的简单项目 (非常全面!!!).md"
               }
             }
           }
@@ -182,7 +221,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "AI/深度学习/快速入门.md",
+                "file": "zBuffer/写给小白的用 fashion-mnist 入门机器学习和深度学习的简单项目 (非常全面!!!).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -199,7 +238,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "AI/深度学习/快速入门.md",
+                "file": "zBuffer/写给小白的用 fashion-mnist 入门机器学习和深度学习的简单项目 (非常全面!!!).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -230,9 +269,12 @@
   "active": "cc5ddef1a9af175f",
   "lastOpenFiles": [
     "AI/Python/Python基础.md",
-    "AI/Python/Pytorch精粹.md",
     "AI/深度学习/快速入门.md",
     "AI/深度学习/PyTorch入门.md",
+    "zBuffer/写给小白的用 fashion-mnist 入门机器学习和深度学习的简单项目 (非常全面!!!).md",
+    "AI/Python/Pytorch精粹.md",
+    "zBuffer/参数估计 (二)_ 最大似然估计.md",
+    "zBuffer/pytorch 函数 mm() mul() matmul() 区别_pytorch mm_还能坚持的博客 - CSDN 博客.md",
     "AI/深度学习/动手学DL.md",
     "AI/论文/方向.md",
     "AI/深度学习/《鱼书》.md",
@@ -258,8 +300,6 @@
     "AI/Python/assets/output_mlp_76f463_66_0.svg",
     "AI/Python/assets/output_mlp_76f463_51_0.svg",
     "AI/Python/assets/output_mlp_76f463_36_0.svg",
-    "zBuffer/参数估计 (二)_ 最大似然估计.md",
-    "zBuffer/pytorch 函数 mm() mul() matmul() 区别_pytorch mm_还能坚持的博客 - CSDN 博客.md",
     "1681573992016.md",
     "zip/Templates/yaml_Banner.md",
     "zBuffer/2_1_ 数据操作 — 动手学深度学习 2_0_0 documentation.md",
