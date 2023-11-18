@@ -1,12 +1,12 @@
 {
   "recentFiles": [
     {
-      "basename": "Python基础",
-      "path": "AI/Python/Python基础.md"
-    },
-    {
       "basename": "快速入门",
       "path": "AI/深度学习/快速入门.md"
+    },
+    {
+      "basename": "Python基础",
+      "path": "AI/Python/Python基础.md"
     },
     {
       "basename": "Pytorch精粹",

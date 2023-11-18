@@ -39,14 +39,15 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AI/Python/Python基础.md",
+                "file": "AI/Python/Pytorch精粹.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -74,7 +75,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "AI/Python/Python基础.md"
+                "file": "AI/深度学习/快速入门.md"
               }
             }
           },
@@ -107,7 +108,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "AI/Python/Python基础.md"
+                "file": "AI/深度学习/快速入门.md"
               }
             }
           }
@@ -181,7 +182,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "AI/Python/Python基础.md",
+                "file": "AI/深度学习/快速入门.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -198,7 +199,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "AI/Python/Python基础.md",
+                "file": "AI/深度学习/快速入门.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -226,11 +227,11 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "b3a16d92f85152cc",
+  "active": "cc5ddef1a9af175f",
   "lastOpenFiles": [
-    "AI/深度学习/快速入门.md",
     "AI/Python/Python基础.md",
     "AI/Python/Pytorch精粹.md",
+    "AI/深度学习/快速入门.md",
     "AI/深度学习/PyTorch入门.md",
     "AI/深度学习/动手学DL.md",
     "AI/论文/方向.md",
