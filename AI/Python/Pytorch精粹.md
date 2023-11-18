@@ -240,6 +240,7 @@ a, a.item(), float(a), int(a)
 在 Python 中常用的数据分析工具中，我们通常使用 `pandas` 软件包进行数据预处理。像庞大的 Python 生态系统中的许多其他扩展包一样，`pandas` 可以与张量兼容
 
 ### 01 读取数据集
+## 读取CSV
 创建一个数据集合存入CSV
 ```python
 import os
@@ -270,6 +271,11 @@ print(data)
 3       NaN   NaN  140000
 ```
 
+## Dataset
+获取数据及其 label
+
+
+## DataLoader
 ### 02 处理缺失值
 注意，“`NaN`”项代表缺失值。为了处理缺失的数据，典型的方法包括**插值法**和**删除法**，其中插值法用一个替代值弥补缺失值，而删除法则直接忽略缺失值。**在这里，我们将考虑插值法。**
 
@@ -1039,7 +1045,7 @@ features, labels = synthetic_data(true_w, true_b, 1000)
 ```python
 def load_array(data_arrays, batch_size, is_train=True):  #@save
     """构造一个PyTorch数据迭代器"""
-    dataset = data.TensorDataset(*data_arrays)
+    dataset = data.c(*data_arrays)
     return data.DataLoader(dataset, batch_size, shuffle=is_train)
 
 batch_size = 10

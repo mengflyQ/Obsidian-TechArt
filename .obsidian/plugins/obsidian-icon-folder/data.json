@@ -23,7 +23,8 @@
     "iconInTabsEnabled": true,
     "iconsBackgroundCheckEnabled": false,
     "iconInTitleEnabled": false,
-    "iconInFrontmatterEnabled": false
+    "iconInFrontmatterEnabled": false,
+    "iconsInNotesEnabled": true
   },
   "Tools": "SiObsidian",
   "编程": "SiVisualstudio",
