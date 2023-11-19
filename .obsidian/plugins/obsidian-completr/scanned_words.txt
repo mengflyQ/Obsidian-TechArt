@@ -73458,6 +73458,8 @@ alexnet
 ankle
 assumption
 ants
+airplane
+automobile
 Roaming
 RegWorkshop
 Release
@@ -135625,6 +135627,7 @@ backpropagate
 broadcat
 benchmarking
 bees
+bird
 fe
 front
 fill
@@ -140701,6 +140704,7 @@ fDPe
 fxEg
 fPHX
 frontpage
+frog
 dd
 dcc
 data
@@ -146421,6 +146425,7 @@ diverge
 dive
 disk
 defers
+deer
 TFvYZOKeHL
 TAB
 TeX
@@ -164052,6 +164057,7 @@ sneaker
 surpassing
 squashing
 sklearn
+ship
 local
 list
 left
@@ -179068,6 +179074,7 @@ hypothesis
 hiddens
 highly
 hymenoptera
+horse
 rgb
 right
 rm
@@ -226797,6 +226804,7 @@ DRaGi
 DRzr
 Dive
 Delving
+Dataloader
 LNK
 Log
 Linux

@@ -24,13 +24,8 @@
             "id": "cc5ddef1a9af175f",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "AI/论文/Nerf/Nerf将场景表示为用于视图合成的神经辐射场.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           },
           {
@@ -39,7 +34,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AI/作业/写给小白的用 fashion-mnist 入门机器学习和深度学习的简单项目 (非常全面!!!).md",
+                "file": "AI/作业/CIFAR-10 图像分类（基于 PyTorch）_cifar-10 分类 - CSDN 博客.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -101,7 +96,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "AI/作业/写给小白的用 fashion-mnist 入门机器学习和深度学习的简单项目 (非常全面!!!).md"
+                "file": "AI/作业/CIFAR-10 图像分类（基于 PyTorch）_cifar-10 分类 - CSDN 博客.md"
               }
             }
           },
@@ -134,7 +129,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "AI/作业/写给小白的用 fashion-mnist 入门机器学习和深度学习的简单项目 (非常全面!!!).md"
+                "file": "AI/作业/CIFAR-10 图像分类（基于 PyTorch）_cifar-10 分类 - CSDN 博客.md"
               }
             }
           }
@@ -208,7 +203,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "AI/作业/写给小白的用 fashion-mnist 入门机器学习和深度学习的简单项目 (非常全面!!!).md",
+                "file": "AI/作业/CIFAR-10 图像分类（基于 PyTorch）_cifar-10 分类 - CSDN 博客.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -225,7 +220,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "AI/作业/写给小白的用 fashion-mnist 入门机器学习和深度学习的简单项目 (非常全面!!!).md",
+                "file": "AI/作业/CIFAR-10 图像分类（基于 PyTorch）_cifar-10 分类 - CSDN 博客.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -255,42 +250,44 @@
   },
   "active": "cede522d4b46bef5",
   "lastOpenFiles": [
+    "AI/作业/assets/f55d80e4d52baf807a534ee4f40a0c49_MD5.png",
+    "AI/作业/assets/b90dd1045bde1e39d087529c1870e2c9_MD5.png",
+    "AI/作业/assets/58acc4bf4cd73a78170ca80c44b65006_MD5.png",
+    "AI/作业/assets/001bf8a28a5cfefe8000d237f0e51071_MD5.jpg",
+    "AI/作业/assets/f911eb45692408a9550cef4870a9b83c_MD5.jpg",
+    "AI/作业/assets/da194faf8575442d61aa4f9eb368cf9b_MD5.jpg",
+    "AI/作业/assets/0c5922f74f3bbf213e89a78540d2f90d_MD5.jpg",
+    "AI/作业/assets/484171ca20261c77d8577cd965075e15_MD5.jpg",
+    "AI/作业/assets/fa1415eb34f9aec7447d3d77fe9576d6_MD5.jpg",
+    "AI/作业/assets/9b0e97d9c60248c08b02dacd8f53a0e2_MD5.png",
+    "AI/作业/assets/b0a2c5237823bf773a6f444de5e77958_MD5.jpg",
+    "AI/作业/assets",
+    "AI/作业/写给小白的用 fashion-mnist 入门机器学习和深度学习的简单项目 (非常全面!!!).md",
+    "AI/作业/CIFAR-10 图像分类（基于 PyTorch）_cifar-10 分类 - CSDN 博客.md",
+    "AI/Python/Pytorch精粹.md",
+    "AI/深度学习/《鱼书》.md",
     "AI/深度学习/快速入门.md",
     "AI/Python/Python基础.md",
     "AI/论文/Nerf/Nerf将场景表示为用于视图合成的神经辐射场.md",
     "AI/论文/Nerf/可微渲染、NeRF 相关技术概念急速入门.md",
-    "AI/Python/Pytorch精粹.md",
-    "AI/作业/写给小白的用 fashion-mnist 入门机器学习和深度学习的简单项目 (非常全面!!!).md",
     "AI/深度学习/PyTorch入门.md",
     "AI/作业",
     "zBuffer/参数估计 (二)_ 最大似然估计.md",
     "zBuffer/pytorch 函数 mm() mul() matmul() 区别_pytorch mm_还能坚持的博客 - CSDN 博客.md",
     "AI/深度学习/动手学DL.md",
     "AI/论文/方向.md",
-    "AI/深度学习/《鱼书》.md",
     "AI/Python/Numpy+Matplotlib.md",
     "AI/环境配置/Anaconda配置.md",
     "技术美术/6 NPR/ta101卡渲.md",
-    "AI/Python/assets/copyto.svg",
     "Math/概率论/概率论与数理统计.md",
     "技术美术/6 NPR/NPR渲染管线概述.md",
     "技术美术/6 NPR/原神/【03】Unity URP 卡通渲染 原神角色渲染记录 - Function-Based Light and Shadow： Emission + SDF 脸部阴影.md",
     "技术美术/6 NPR/少前 2 克罗丽科 NPR+PBR 渲染小试.md",
     "技术美术/6 NPR/原神/【01】Unity URP 卡通渲染 原神角色渲染记录 - Diffuse： Ramp + AO + Double Shadow.md",
     "技术美术/6 NPR/【游戏开发实战】下载原神模型，PMX 转 FBX，导入到 Unity 中，卡通渲染，绑定人形动画（附 Demo 工程）_林新发的博客 - CSDN 博客.md",
-    "AI/Python/assets/blocks.svg",
     "AI/论文/Nerf/学习论.md",
-    "AI/Python/assets/output_dropout_1110bf_96_0.svg",
-    "AI/Python/assets/dropout2.svg",
-    "AI/Python/assets/capacity-vs-error.svg",
-    "AI/Python/assets/output_mlp_76f463_96_0.svg",
-    "AI/Python/assets/output_mlp_76f463_81_0.svg",
-    "AI/Python/assets/output_mlp_76f463_66_0.svg",
-    "AI/Python/assets/output_mlp_76f463_51_0.svg",
-    "AI/Python/assets/output_mlp_76f463_36_0.svg",
     "1681573992016.md",
     "zip/Templates/yaml_Banner.md",
-    "zBuffer/2_1_ 数据操作 — 动手学深度学习 2_0_0 documentation.md",
     "zBuffer",
     "AI/动手学深度学习/contrib/to-rm-mx-contrib-text/d2lzh/text/__init__.py",
     "AI/动手学深度学习/contrib/to-rm-mx-contrib-text/d2lzh/text/vocab.py",
@@ -298,7 +295,6 @@
     "AI/动手学深度学习/static/frontpage/_images/sales",
     "AI/动手学深度学习/static/frontpage/_images/notebook.mp4",
     "AI/动手学深度学习/static/frontpage/_images/logos",
-    "AI/动手学深度学习/static/frontpage/_images/forum.mp4",
-    "AI/动手学深度学习/static/frontpage/attachments/sagemaker.txt"
+    "AI/动手学深度学习/static/frontpage/_images/forum.mp4"
   ]
 }

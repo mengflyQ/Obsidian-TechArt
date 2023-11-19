@@ -1,8 +1,20 @@
 {
   "recentFiles": [
     {
+      "basename": "CIFAR-10 图像分类（基于 PyTorch）_cifar-10 分类 - CSDN 博客",
+      "path": "AI/作业/CIFAR-10 图像分类（基于 PyTorch）_cifar-10 分类 - CSDN 博客.md"
+    },
+    {
       "basename": "写给小白的用 fashion-mnist 入门机器学习和深度学习的简单项目 (非常全面!!!)",
       "path": "AI/作业/写给小白的用 fashion-mnist 入门机器学习和深度学习的简单项目 (非常全面!!!).md"
+    },
+    {
+      "basename": "Pytorch精粹",
+      "path": "AI/Python/Pytorch精粹.md"
+    },
+    {
+      "basename": "《鱼书》",
+      "path": "AI/深度学习/《鱼书》.md"
     },
     {
       "basename": "快速入门",
@@ -21,10 +33,6 @@
       "path": "AI/论文/Nerf/可微渲染、NeRF 相关技术概念急速入门.md"
     },
     {
-      "basename": "Pytorch精粹",
-      "path": "AI/Python/Pytorch精粹.md"
-    },
-    {
       "basename": "PyTorch入门",
       "path": "AI/深度学习/PyTorch入门.md"
     },
@@ -35,10 +43,6 @@
     {
       "basename": "方向",
       "path": "AI/论文/方向.md"
-    },
-    {
-      "basename": "《鱼书》",
-      "path": "AI/深度学习/《鱼书》.md"
     },
     {
       "basename": "Numpy+Matplotlib",
