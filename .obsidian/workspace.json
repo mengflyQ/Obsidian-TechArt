@@ -26,20 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "zBuffer/写给小白的用 fashion-mnist 入门机器学习和深度学习的简单项目 (非常全面!!!).md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "5e63a89d8273bb3f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "AI/深度学习/PyTorch入门.md",
+                "file": "AI/论文/Nerf/Nerf将场景表示为用于视图合成的神经辐射场.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -52,7 +39,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AI/深度学习/快速入门.md",
+                "file": "AI/作业/写给小白的用 fashion-mnist 入门机器学习和深度学习的简单项目 (非常全面!!!).md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -86,7 +73,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -114,7 +101,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "zBuffer/写给小白的用 fashion-mnist 入门机器学习和深度学习的简单项目 (非常全面!!!).md"
+                "file": "AI/作业/写给小白的用 fashion-mnist 入门机器学习和深度学习的简单项目 (非常全面!!!).md"
               }
             }
           },
@@ -147,7 +134,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "zBuffer/写给小白的用 fashion-mnist 入门机器学习和深度学习的简单项目 (非常全面!!!).md"
+                "file": "AI/作业/写给小白的用 fashion-mnist 入门机器学习和深度学习的简单项目 (非常全面!!!).md"
               }
             }
           }
@@ -221,7 +208,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "zBuffer/写给小白的用 fashion-mnist 入门机器学习和深度学习的简单项目 (非常全面!!!).md",
+                "file": "AI/作业/写给小白的用 fashion-mnist 入门机器学习和深度学习的简单项目 (非常全面!!!).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -238,7 +225,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "zBuffer/写给小白的用 fashion-mnist 入门机器学习和深度学习的简单项目 (非常全面!!!).md",
+                "file": "AI/作业/写给小白的用 fashion-mnist 入门机器学习和深度学习的简单项目 (非常全面!!!).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -266,13 +253,16 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "cc5ddef1a9af175f",
+  "active": "cede522d4b46bef5",
   "lastOpenFiles": [
-    "AI/Python/Python基础.md",
     "AI/深度学习/快速入门.md",
-    "AI/深度学习/PyTorch入门.md",
-    "zBuffer/写给小白的用 fashion-mnist 入门机器学习和深度学习的简单项目 (非常全面!!!).md",
+    "AI/Python/Python基础.md",
+    "AI/论文/Nerf/Nerf将场景表示为用于视图合成的神经辐射场.md",
+    "AI/论文/Nerf/可微渲染、NeRF 相关技术概念急速入门.md",
     "AI/Python/Pytorch精粹.md",
+    "AI/作业/写给小白的用 fashion-mnist 入门机器学习和深度学习的简单项目 (非常全面!!!).md",
+    "AI/深度学习/PyTorch入门.md",
+    "AI/作业",
     "zBuffer/参数估计 (二)_ 最大似然估计.md",
     "zBuffer/pytorch 函数 mm() mul() matmul() 区别_pytorch mm_还能坚持的博客 - CSDN 博客.md",
     "AI/深度学习/动手学DL.md",
@@ -280,7 +270,6 @@
     "AI/深度学习/《鱼书》.md",
     "AI/Python/Numpy+Matplotlib.md",
     "AI/环境配置/Anaconda配置.md",
-    "AI/论文/Nerf/Nerf将场景表示为用于视图合成的神经辐射场.md",
     "技术美术/6 NPR/ta101卡渲.md",
     "AI/Python/assets/copyto.svg",
     "Math/概率论/概率论与数理统计.md",
@@ -291,7 +280,6 @@
     "技术美术/6 NPR/【游戏开发实战】下载原神模型，PMX 转 FBX，导入到 Unity 中，卡通渲染，绑定人形动画（附 Demo 工程）_林新发的博客 - CSDN 博客.md",
     "AI/Python/assets/blocks.svg",
     "AI/论文/Nerf/学习论.md",
-    "AI/论文/Nerf/可微渲染、NeRF 相关技术概念急速入门.md",
     "AI/Python/assets/output_dropout_1110bf_96_0.svg",
     "AI/Python/assets/dropout2.svg",
     "AI/Python/assets/capacity-vs-error.svg",
@@ -304,7 +292,6 @@
     "zip/Templates/yaml_Banner.md",
     "zBuffer/2_1_ 数据操作 — 动手学深度学习 2_0_0 documentation.md",
     "zBuffer",
-    "AI/动手学深度学习/chapter_convolutional-modern/alexnet.md",
     "AI/动手学深度学习/contrib/to-rm-mx-contrib-text/d2lzh/text/__init__.py",
     "AI/动手学深度学习/contrib/to-rm-mx-contrib-text/d2lzh/text/vocab.py",
     "AI/动手学深度学习/contrib/to-rm-mx-contrib-text/d2lzh/text/embedding.py",
@@ -312,7 +299,6 @@
     "AI/动手学深度学习/static/frontpage/_images/notebook.mp4",
     "AI/动手学深度学习/static/frontpage/_images/logos",
     "AI/动手学深度学习/static/frontpage/_images/forum.mp4",
-    "AI/动手学深度学习/static/frontpage/attachments/sagemaker.txt",
-    "AI/动手学深度学习/graffle/performance/mobo.graffle/image1.tiff"
+    "AI/动手学深度学习/static/frontpage/attachments/sagemaker.txt"
   ]
 }
