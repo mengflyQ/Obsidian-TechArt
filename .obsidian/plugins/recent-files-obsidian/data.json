@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "cifar10",
+      "path": "AI/作业/cifar10.md"
+    },
+    {
       "basename": "CIFAR-10 图像分类（基于 PyTorch）_cifar-10 分类 - CSDN 博客",
       "path": "AI/作业/CIFAR-10 图像分类（基于 PyTorch）_cifar-10 分类 - CSDN 博客.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "程序运行原理",
       "path": "编程/1 C++/程序运行原理.md"
-    },
-    {
-      "basename": "3 Effective C++",
-      "path": "编程/1 C++/3 Effective C++.md"
     }
   ],
   "omittedPaths": [],

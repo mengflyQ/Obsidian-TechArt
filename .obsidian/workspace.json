@@ -34,7 +34,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AI/作业/CIFAR-10 图像分类（基于 PyTorch）_cifar-10 分类 - CSDN 博客.md",
+                "file": "AI/作业/cifar10.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -96,7 +96,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "AI/作业/CIFAR-10 图像分类（基于 PyTorch）_cifar-10 分类 - CSDN 博客.md"
+                "file": "AI/作业/cifar10.md"
               }
             }
           },
@@ -129,7 +129,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "AI/作业/CIFAR-10 图像分类（基于 PyTorch）_cifar-10 分类 - CSDN 博客.md"
+                "file": "AI/作业/cifar10.md"
               }
             }
           }
@@ -203,7 +203,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "AI/作业/CIFAR-10 图像分类（基于 PyTorch）_cifar-10 分类 - CSDN 博客.md",
+                "file": "AI/作业/cifar10.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -220,7 +220,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "AI/作业/CIFAR-10 图像分类（基于 PyTorch）_cifar-10 分类 - CSDN 博客.md",
+                "file": "AI/作业/cifar10.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -250,6 +250,9 @@
   },
   "active": "cede522d4b46bef5",
   "lastOpenFiles": [
+    "AI/作业/CIFAR-10 图像分类（基于 PyTorch）_cifar-10 分类 - CSDN 博客.md",
+    "AI/作业/cifar10.md",
+    "AI/作业/写给小白的用 fashion-mnist 入门机器学习和深度学习的简单项目 (非常全面!!!).md",
     "AI/作业/assets/f55d80e4d52baf807a534ee4f40a0c49_MD5.png",
     "AI/作业/assets/b90dd1045bde1e39d087529c1870e2c9_MD5.png",
     "AI/作业/assets/58acc4bf4cd73a78170ca80c44b65006_MD5.png",
@@ -260,10 +263,7 @@
     "AI/作业/assets/484171ca20261c77d8577cd965075e15_MD5.jpg",
     "AI/作业/assets/fa1415eb34f9aec7447d3d77fe9576d6_MD5.jpg",
     "AI/作业/assets/9b0e97d9c60248c08b02dacd8f53a0e2_MD5.png",
-    "AI/作业/assets/b0a2c5237823bf773a6f444de5e77958_MD5.jpg",
     "AI/作业/assets",
-    "AI/作业/写给小白的用 fashion-mnist 入门机器学习和深度学习的简单项目 (非常全面!!!).md",
-    "AI/作业/CIFAR-10 图像分类（基于 PyTorch）_cifar-10 分类 - CSDN 博客.md",
     "AI/Python/Pytorch精粹.md",
     "AI/深度学习/《鱼书》.md",
     "AI/深度学习/快速入门.md",
