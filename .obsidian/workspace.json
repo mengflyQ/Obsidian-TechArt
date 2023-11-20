@@ -13,28 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AI/Python/Python基础.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "cc5ddef1a9af175f",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
-            }
-          },
-          {
-            "id": "cede522d4b46bef5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "AI/作业/cifar10.md",
+                "file": "AI/Python/TensorboardX.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -66,9 +45,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "cede522d4b46bef5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "AI/Python/Parser用法.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -96,7 +87,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "AI/作业/cifar10.md"
+                "file": "AI/Python/TensorboardX.md"
               }
             }
           },
@@ -129,7 +120,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "AI/作业/cifar10.md"
+                "file": "AI/Python/TensorboardX.md"
               }
             }
           }
@@ -203,7 +194,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "AI/作业/cifar10.md",
+                "file": "AI/Python/TensorboardX.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -220,7 +211,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "AI/作业/cifar10.md",
+                "file": "AI/Python/TensorboardX.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -248,28 +239,35 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "cede522d4b46bef5",
+  "active": "b3a16d92f85152cc",
   "lastOpenFiles": [
-    "AI/作业/~$报告.docx",
-    "AI/作业/报告.docx",
+    "AI/Python/assets/dac653cb59580983ef8bbfd5c38c7fbf_MD5.jpg",
+    "AI/Python/assets/068c17000e0ee5cf845ef079cb8844e9_MD5.jpg",
+    "AI/Python/assets/f8696566eb476d342254d3f2ca4c0ea4_MD5.jpg",
+    "AI/Python/assets/111420ffc4b17acf52a847ed8cc0dbb6_MD5.gif",
+    "AI/Python/assets/ad501085ec4823d06150e2697f849d43_MD5.gif",
+    "AI/Python/assets/6f8bdffa70610cd7e73e3614bfc1a286_MD5.jpg",
+    "AI/Python/simpread-详解 PyTorch 项目使用 TensorboardX 进行训练可视化.md",
+    "AI/Python/TensorboardX.md",
+    "AI/作业/写给小白的用 fashion-mnist 入门机器学习和深度学习的简单项目 (非常全面!!!).md",
+    "AI/Python/Parser用法.md",
+    "AI/作业/报告.md",
     "AI/作业/CIFAR-10 图像分类（基于 PyTorch）_cifar-10 分类 - CSDN 博客.md",
     "AI/作业/cifar10.md",
-    "AI/作业/写给小白的用 fashion-mnist 入门机器学习和深度学习的简单项目 (非常全面!!!).md",
+    "AI/机器学习/模型参数解析.md",
+    "AI/机器学习",
+    "AI/作业/assets/d0861e8738e3f169d86a4bbaf99a5731_MD5.jpg",
+    "AI/作业/assets/1d28d2802c54910dd2254a1c1028b6ce_MD5.jpg",
+    "AI/Python/Python基础.md",
+    "AI/Python/Pytorch精粹.md",
+    "AI/作业/~$报告.docx",
+    "AI/作业/报告.docx",
     "AI/作业/assets/f55d80e4d52baf807a534ee4f40a0c49_MD5.png",
     "AI/作业/assets/b90dd1045bde1e39d087529c1870e2c9_MD5.png",
     "AI/作业/assets/58acc4bf4cd73a78170ca80c44b65006_MD5.png",
-    "AI/作业/assets/001bf8a28a5cfefe8000d237f0e51071_MD5.jpg",
-    "AI/作业/assets/f911eb45692408a9550cef4870a9b83c_MD5.jpg",
-    "AI/作业/assets/da194faf8575442d61aa4f9eb368cf9b_MD5.jpg",
-    "AI/作业/assets/0c5922f74f3bbf213e89a78540d2f90d_MD5.jpg",
-    "AI/作业/assets/484171ca20261c77d8577cd965075e15_MD5.jpg",
-    "AI/作业/assets/fa1415eb34f9aec7447d3d77fe9576d6_MD5.jpg",
-    "AI/作业/assets/9b0e97d9c60248c08b02dacd8f53a0e2_MD5.png",
     "AI/作业/assets",
-    "AI/Python/Pytorch精粹.md",
     "AI/深度学习/《鱼书》.md",
     "AI/深度学习/快速入门.md",
-    "AI/Python/Python基础.md",
     "AI/论文/Nerf/Nerf将场景表示为用于视图合成的神经辐射场.md",
     "AI/论文/Nerf/可微渲染、NeRF 相关技术概念急速入门.md",
     "AI/深度学习/PyTorch入门.md",
@@ -284,17 +282,10 @@
     "Math/概率论/概率论与数理统计.md",
     "技术美术/6 NPR/NPR渲染管线概述.md",
     "技术美术/6 NPR/原神/【03】Unity URP 卡通渲染 原神角色渲染记录 - Function-Based Light and Shadow： Emission + SDF 脸部阴影.md",
-    "技术美术/6 NPR/少前 2 克罗丽科 NPR+PBR 渲染小试.md",
-    "技术美术/6 NPR/原神/【01】Unity URP 卡通渲染 原神角色渲染记录 - Diffuse： Ramp + AO + Double Shadow.md",
-    "技术美术/6 NPR/【游戏开发实战】下载原神模型，PMX 转 FBX，导入到 Unity 中，卡通渲染，绑定人形动画（附 Demo 工程）_林新发的博客 - CSDN 博客.md",
-    "AI/论文/Nerf/学习论.md",
-    "1681573992016.md",
     "zBuffer",
     "AI/动手学深度学习/contrib/to-rm-mx-contrib-text/d2lzh/text/__init__.py",
     "AI/动手学深度学习/contrib/to-rm-mx-contrib-text/d2lzh/text/vocab.py",
     "AI/动手学深度学习/contrib/to-rm-mx-contrib-text/d2lzh/text/embedding.py",
-    "AI/动手学深度学习/static/frontpage/_images/sales",
-    "AI/动手学深度学习/static/frontpage/_images/notebook.mp4",
-    "AI/动手学深度学习/static/frontpage/_images/logos"
+    "AI/动手学深度学习/static/frontpage/_images/sales"
   ]
 }

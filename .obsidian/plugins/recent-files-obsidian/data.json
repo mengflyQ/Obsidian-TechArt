@@ -1,16 +1,36 @@
 {
   "recentFiles": [
     {
-      "basename": "cifar10",
-      "path": "AI/作业/cifar10.md"
+      "basename": "TensorboardX",
+      "path": "AI/Python/TensorboardX.md"
+    },
+    {
+      "basename": "写给小白的用 fashion-mnist 入门机器学习和深度学习的简单项目 (非常全面!!!)",
+      "path": "AI/作业/写给小白的用 fashion-mnist 入门机器学习和深度学习的简单项目 (非常全面!!!).md"
+    },
+    {
+      "basename": "Parser用法",
+      "path": "AI/Python/Parser用法.md"
+    },
+    {
+      "basename": "报告",
+      "path": "AI/作业/报告.md"
     },
     {
       "basename": "CIFAR-10 图像分类（基于 PyTorch）_cifar-10 分类 - CSDN 博客",
       "path": "AI/作业/CIFAR-10 图像分类（基于 PyTorch）_cifar-10 分类 - CSDN 博客.md"
     },
     {
-      "basename": "写给小白的用 fashion-mnist 入门机器学习和深度学习的简单项目 (非常全面!!!)",
-      "path": "AI/作业/写给小白的用 fashion-mnist 入门机器学习和深度学习的简单项目 (非常全面!!!).md"
+      "basename": "cifar10",
+      "path": "AI/作业/cifar10.md"
+    },
+    {
+      "basename": "模型参数解析",
+      "path": "AI/机器学习/模型参数解析.md"
+    },
+    {
+      "basename": "Python基础",
+      "path": "AI/Python/Python基础.md"
     },
     {
       "basename": "Pytorch精粹",
@@ -23,10 +43,6 @@
     {
       "basename": "快速入门",
       "path": "AI/深度学习/快速入门.md"
-    },
-    {
-      "basename": "Python基础",
-      "path": "AI/Python/Python基础.md"
     },
     {
       "basename": "Nerf将场景表示为用于视图合成的神经辐射场",
@@ -179,26 +195,6 @@
     {
       "basename": "01 虚幻类",
       "path": "虚幻引擎/03 Gameplay/《大象无形》/01 虚幻类.md"
-    },
-    {
-      "basename": "0 蓝图精粹",
-      "path": "虚幻引擎/02 UE++/0 蓝图精粹.md"
-    },
-    {
-      "basename": "Mermaid流图",
-      "path": "Tools/Obsidian/Mermaid流图.md"
-    },
-    {
-      "basename": "101 材质大师",
-      "path": "虚幻引擎/07 渲染 & VFX/101 材质大师.md"
-    },
-    {
-      "basename": "4 现代C++语法",
-      "path": "编程/1 C++/4 现代C++语法.md"
-    },
-    {
-      "basename": "程序运行原理",
-      "path": "编程/1 C++/程序运行原理.md"
     }
   ],
   "omittedPaths": [],

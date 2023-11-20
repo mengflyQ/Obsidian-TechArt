@@ -21426,6 +21426,7 @@ gdata
 gutils
 gihub
 grad
+grape
 typora
 todo
 tooltip
@@ -26758,6 +26759,7 @@ tuning
 trouser
 tkrp
 tensorboard
+tensorflow
 markdown
 matter
 mod
@@ -32246,6 +32248,9 @@ mxnet
 mdash
 machines
 matmul
+msohtmlclip
+marco
+metavar
 windows
 win
 width
@@ -37106,6 +37111,7 @@ wpFOl
 wcas
 wmig
 wJOV
+walltime
 utools
 url
 unresolved
@@ -52367,6 +52373,7 @@ VJew
 VSUW
 Volta
 Vollgraf
+Village
 verge
 vPdIt
 vertical
@@ -57083,6 +57090,7 @@ vkzlV
 vocabulary
 vanishing
 vision
+visdom
 AA
 AppData
 AIRDyuVH
@@ -62922,6 +62930,9 @@ Amazon
 Amari
 Ampere
 Alley
+Atmospheric
+Ahil
+ArgumentParser
 URL
 Utools
 Users
@@ -73460,6 +73471,8 @@ assumption
 ants
 airplane
 automobile
+airborne
+argparse
 Roaming
 RegWorkshop
 Release
@@ -79408,6 +79421,7 @@ RyVL
 Review
 Rasul
 RELU
+Rana
 Microsoft
 Menu
 MicaForEveryone
@@ -85613,6 +85627,7 @@ MuwW
 MXNet
 Miniconda
 Mechanical
+Munoz
 Windows
 Win
 World
@@ -97396,6 +97411,10 @@ SURF
 Shun
 Schmidhuber
 Sutskever
+Selvarani
+Singh
+SUPPRESS
+SummaryWriter
 Programs
 POP
 PC
@@ -103165,6 +103184,8 @@ PaddlePaddle
 Permalink
 Pave
 Parameterized
+Plant
+Parser
 ContextMenuManager
 ClashVerge
 Clash
@@ -109180,6 +109201,8 @@ CbMX
 CBOW
 Central
 Colab
+Cifar
+Classification
 ImTip
 IMAP
 ID
@@ -114853,6 +114876,9 @@ IofU
 Iyqu
 IjVk
 Ilya
+IGARSS
+Innovations
+ICIIECS
 qq
 qyi
 quad
@@ -125727,6 +125753,9 @@ pythonhhon
 preprint
 pullover
 pReLU
+proceedings
+pred
+parser
 nodesCatch
 nobr
 navy
@@ -130625,6 +130654,7 @@ ngI
 namescope
 numref
 newpr
+nargs
 bf
 bc
 black
@@ -135628,6 +135658,9 @@ broadcat
 benchmarking
 bees
 bird
+bootstrap
+blobname
+bins
 fe
 front
 fill
@@ -140705,6 +140738,7 @@ fxEg
 fPHX
 frontpage
 frog
+forests
 dd
 dcc
 data
@@ -146426,6 +146460,8 @@ dive
 disk
 defers
 deer
+disease
+dataformats
 TFvYZOKeHL
 TAB
 TeX
@@ -152080,6 +152116,8 @@ TRTl
 TERMINOLOGY
 Terminating
 TFlops
+TensorboardX
+Tensorboard
 io
 ipad
 it
@@ -164058,6 +164096,8 @@ surpassing
 squashing
 sklearn
 ship
+skeletons
+sciences
 local
 list
 left
@@ -173949,6 +173989,8 @@ Yxju
 YuH
 YEyP
 Yoshua
+Yuan
+Yadav
 header
 hidden
 height
@@ -179075,6 +179117,7 @@ hiddens
 highly
 hymenoptera
 horse
+hyperspectral
 rgb
 right
 rm
@@ -184603,6 +184646,7 @@ regression
 risk
 rectifiers
 regularization
+recall
 XXXXXX
 XXX
 XML
@@ -194909,6 +194953,7 @@ HOXo
 HAZn
 Hadamard
 Haffner
+HISTOGRAMS
 Bbb
 Bear
 Base
@@ -200029,6 +200074,9 @@ BFFF
 Bernhard
 Bengio
 Bottou
+Bosch
+Breiman
+Bebug
 Fraktur
 Frame
 Foo
@@ -205939,6 +205987,8 @@ FMzK
 FMKUKm
 Fashion
 Frobenius
+Forests
+Ferns
 Element
 Entity
 Enity
@@ -226805,6 +226855,8 @@ DRzr
 Dive
 Delving
 Dataloader
+Dorling
+DISTRIBUTIONS
 LNK
 Log
 Linux
@@ -238434,6 +238486,8 @@ GHrd
 Gluon
 GUIDE
 Geoff
+Goswami
+Geoscience
 NULL
 Native
 NormalMap
@@ -249170,6 +249224,7 @@ ZEoa
 ZCCmvU
 ZCxh
 Zipf
+Zisserman
 Quote
 Quiet
 Quick
@@ -264963,6 +265018,9 @@ KNS
 Kgcq
 KFFV
 Kepler
+Krithika
+Komarasamy
+Kaggle
 key
 kSC
 keaXj
