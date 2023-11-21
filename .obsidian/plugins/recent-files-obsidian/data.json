@@ -1,28 +1,40 @@
 {
   "recentFiles": [
     {
-      "basename": "TensorboardX",
-      "path": "AI/Python/TensorboardX.md"
+      "basename": "报告",
+      "path": "AI/作业/敏捷开发/报告.md"
+    },
+    {
+      "basename": "Pytorch精粹",
+      "path": "AI/Python/Pytorch精粹.md"
+    },
+    {
+      "basename": "报告",
+      "path": "AI/作业/机器学习/报告.md"
     },
     {
       "basename": "写给小白的用 fashion-mnist 入门机器学习和深度学习的简单项目 (非常全面!!!)",
-      "path": "AI/作业/写给小白的用 fashion-mnist 入门机器学习和深度学习的简单项目 (非常全面!!!).md"
+      "path": "AI/作业/机器学习/写给小白的用 fashion-mnist 入门机器学习和深度学习的简单项目 (非常全面!!!).md"
+    },
+    {
+      "basename": "Numpy+Matplotlib",
+      "path": "AI/Python/Numpy+Matplotlib.md"
+    },
+    {
+      "basename": "TensorboardX",
+      "path": "AI/Python/TensorboardX.md"
     },
     {
       "basename": "Parser用法",
       "path": "AI/Python/Parser用法.md"
     },
     {
-      "basename": "报告",
-      "path": "AI/作业/报告.md"
-    },
-    {
       "basename": "CIFAR-10 图像分类（基于 PyTorch）_cifar-10 分类 - CSDN 博客",
-      "path": "AI/作业/CIFAR-10 图像分类（基于 PyTorch）_cifar-10 分类 - CSDN 博客.md"
+      "path": "AI/作业/机器学习/CIFAR-10 图像分类（基于 PyTorch）_cifar-10 分类 - CSDN 博客.md"
     },
     {
       "basename": "cifar10",
-      "path": "AI/作业/cifar10.md"
+      "path": "AI/作业/机器学习/cifar10.md"
     },
     {
       "basename": "模型参数解析",
@@ -31,10 +43,6 @@
     {
       "basename": "Python基础",
       "path": "AI/Python/Python基础.md"
-    },
-    {
-      "basename": "Pytorch精粹",
-      "path": "AI/Python/Pytorch精粹.md"
     },
     {
       "basename": "《鱼书》",
@@ -63,10 +71,6 @@
     {
       "basename": "方向",
       "path": "AI/论文/方向.md"
-    },
-    {
-      "basename": "Numpy+Matplotlib",
-      "path": "AI/Python/Numpy+Matplotlib.md"
     },
     {
       "basename": "Anaconda配置",

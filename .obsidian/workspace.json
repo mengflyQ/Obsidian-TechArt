@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AI/Python/TensorboardX.md",
+                "file": "AI/作业/敏捷开发/报告.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -22,19 +22,6 @@
           },
           {
             "id": "f2d15e00fec704b3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "AI/Python/Pytorch精粹.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "fa58edf93e2d6084",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -87,7 +74,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "AI/Python/TensorboardX.md"
+                "file": "AI/作业/敏捷开发/报告.md"
               }
             }
           },
@@ -120,7 +107,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "AI/Python/TensorboardX.md"
+                "file": "AI/作业/敏捷开发/报告.md"
               }
             }
           }
@@ -194,7 +181,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "AI/Python/TensorboardX.md",
+                "file": "AI/作业/敏捷开发/报告.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -211,7 +198,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "AI/Python/TensorboardX.md",
+                "file": "AI/作业/敏捷开发/报告.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -227,20 +214,28 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "templater-obsidian:Templater": false,
       "canvas:新建白板": false,
-      "command-palette:打开命令面板": true,
+      "command-palette:打开命令面板": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
       "oz-clear-unused-images:Clear Unused Images": false,
       "obsidian-focus-mode:Toggle Focus Mode (Shift + Click to show active pane only)": false,
       "obsidian-local-images-plus:Local Images Plus  0.15.9\r\nLocalize attachments (plugin folder)": false,
       "markdown-table-editor:Open Markdown Table Editor": false,
       "pdf-to-markdown-plugin:PDF to Markdown": false,
-      "omnisearch:Omnisearch": false,
-      "templater-obsidian:Templater": false
+      "omnisearch:Omnisearch": false
     }
   },
   "active": "b3a16d92f85152cc",
   "lastOpenFiles": [
+    "AI/Python/Pytorch精粹.md",
+    "AI/作业/敏捷开发/报告.md",
+    "AI/作业/机器学习/报告.md",
+    "AI/作业/敏捷开发",
+    "AI/作业/机器学习",
+    "AI/作业/机器学习/写给小白的用 fashion-mnist 入门机器学习和深度学习的简单项目 (非常全面!!!).md",
+    "AI/Python/Numpy+Matplotlib.md",
+    "AI/Python/TensorboardX.md",
     "AI/Python/assets/dac653cb59580983ef8bbfd5c38c7fbf_MD5.jpg",
     "AI/Python/assets/068c17000e0ee5cf845ef079cb8844e9_MD5.jpg",
     "AI/Python/assets/f8696566eb476d342254d3f2ca4c0ea4_MD5.jpg",
@@ -248,23 +243,18 @@
     "AI/Python/assets/ad501085ec4823d06150e2697f849d43_MD5.gif",
     "AI/Python/assets/6f8bdffa70610cd7e73e3614bfc1a286_MD5.jpg",
     "AI/Python/simpread-详解 PyTorch 项目使用 TensorboardX 进行训练可视化.md",
-    "AI/Python/TensorboardX.md",
-    "AI/作业/写给小白的用 fashion-mnist 入门机器学习和深度学习的简单项目 (非常全面!!!).md",
     "AI/Python/Parser用法.md",
-    "AI/作业/报告.md",
-    "AI/作业/CIFAR-10 图像分类（基于 PyTorch）_cifar-10 分类 - CSDN 博客.md",
-    "AI/作业/cifar10.md",
+    "AI/作业/机器学习/CIFAR-10 图像分类（基于 PyTorch）_cifar-10 分类 - CSDN 博客.md",
+    "AI/作业/机器学习/cifar10.md",
     "AI/机器学习/模型参数解析.md",
     "AI/机器学习",
     "AI/作业/assets/d0861e8738e3f169d86a4bbaf99a5731_MD5.jpg",
     "AI/作业/assets/1d28d2802c54910dd2254a1c1028b6ce_MD5.jpg",
     "AI/Python/Python基础.md",
-    "AI/Python/Pytorch精粹.md",
     "AI/作业/~$报告.docx",
     "AI/作业/报告.docx",
     "AI/作业/assets/f55d80e4d52baf807a534ee4f40a0c49_MD5.png",
     "AI/作业/assets/b90dd1045bde1e39d087529c1870e2c9_MD5.png",
-    "AI/作业/assets/58acc4bf4cd73a78170ca80c44b65006_MD5.png",
     "AI/作业/assets",
     "AI/深度学习/《鱼书》.md",
     "AI/深度学习/快速入门.md",
@@ -276,7 +266,6 @@
     "zBuffer/pytorch 函数 mm() mul() matmul() 区别_pytorch mm_还能坚持的博客 - CSDN 博客.md",
     "AI/深度学习/动手学DL.md",
     "AI/论文/方向.md",
-    "AI/Python/Numpy+Matplotlib.md",
     "AI/环境配置/Anaconda配置.md",
     "技术美术/6 NPR/ta101卡渲.md",
     "Math/概率论/概率论与数理统计.md",
@@ -284,8 +273,6 @@
     "技术美术/6 NPR/原神/【03】Unity URP 卡通渲染 原神角色渲染记录 - Function-Based Light and Shadow： Emission + SDF 脸部阴影.md",
     "zBuffer",
     "AI/动手学深度学习/contrib/to-rm-mx-contrib-text/d2lzh/text/__init__.py",
-    "AI/动手学深度学习/contrib/to-rm-mx-contrib-text/d2lzh/text/vocab.py",
-    "AI/动手学深度学习/contrib/to-rm-mx-contrib-text/d2lzh/text/embedding.py",
-    "AI/动手学深度学习/static/frontpage/_images/sales"
+    "AI/动手学深度学习/contrib/to-rm-mx-contrib-text/d2lzh/text/vocab.py"
   ]
 }

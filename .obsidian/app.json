@@ -25,5 +25,6 @@
   "trashOption": "local",
   "useTab": false,
   "showUnsupportedFiles": true,
-  "propertiesInDocument": "hidden"
+  "propertiesInDocument": "hidden",
+  "spellcheck": false
 }

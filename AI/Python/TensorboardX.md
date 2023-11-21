@@ -1,17 +1,14 @@
 > 本文由 [简悦 SimpRead](http://ksria.com/simpread/) 转码，原文地址 [zhuanlan.zhihu.com](https://zhuanlan.zhihu.com/p/319828572)
 
-什么是 TensorboardX
-----------------
+## 什么是 TensorboardX
 
 Tensorboard 是 TensorFlow 的一个附加工具，可以记录训练过程的数字、图像等内容，以方便研究人员观察神经网络训练过程。可是对于 PyTorch 等其他神经网络训练框架并没有功能像 Tensorboard 一样全面的类似工具，一些已有的工具功能有限或使用起来比较困难 (tensorboard_logger, visdom 等) 。TensorboardX 这个工具使得 TensorFlow 外的其他神经网络框架也可以使用到 Tensorboard 的便捷功能。TensorboardX 的 github 仓库[在这里](https://link.zhihu.com/?target=https%3A//github.com/lanpa/tensorboardX)。
 
 TensorboardX 的文档相对详细，但大部分缺少相应的示例。本文是对 TensorboardX 各项功能的完整介绍，每项都包含了示例，给出了可视化效果，希望可以方便大家的使用。笔者水平有限，还请读者们斧正，相关问题可以在留言区提出，我尽量解答。
 
-配置 TensorboardX
----------------
+# 配置 TensorboardX
 
-环境要求
-----
+## 环境要求
 
 *   操作系统：MacOS / Ubuntu (Windows 未测试)
 *   Python2/3
@@ -19,8 +16,7 @@ TensorboardX 的文档相对详细，但大部分缺少相应的示例。本文�
 
 以上版本要求你对应 TensorboardX@1.6 版本。为保证版本时效性，建议大家按照 TensorboardX [github 仓库中 README](https://link.zhihu.com/?target=https%3A//github.com/lanpa/tensorboardX/blob/master/README.md) 的要求进行环境配置。
 
-安装
---
+## 安装
 
 可以直接使用 pip 进行安装，或者从源码进行安装。
 
@@ -32,12 +28,11 @@ TensorboardX 的文档相对详细，但大部分缺少相应的示例。本文�
 
 `git clone https://github.com/lanpa/tensorboardX && cd tensorboardX && python setup.py install`
 
-使用 TensorboardX
----------------
+## 使用 TensorboardX
 
 首先，需要创建一个 SummaryWriter 的示例：
 
-```
+```c++
 from tensorboardX import SummaryWriter
 
 # Creates writer1 object.
@@ -55,7 +50,6 @@ writer3 = SummaryWriter(comment='resnet')
 ```
 
 以上展示了三种初始化 SummaryWriter 的方法：
-
 1.  提供一个路径，将使用该路径来保存日志
 2.  无参数，默认将使用 `runs/日期时间` 路径来保存日志
 3.  提供一个 comment 参数，将使用 `runs/日期时间-comment` 路径来保存日志
@@ -68,8 +62,7 @@ writer3 = SummaryWriter(comment='resnet')
 
 其中的 `<your_log_dir>` 既可以是单个 run 的路径，如上面 writer1 生成的 `runs/exp`；也可以是多个 run 的父目录，如 `runs/` 下面可能会有很多的子文件夹，每个文件夹都代表了一次实验，我们令 `--logdir=runs/` 就可以在 tensorboard 可视化界面中方便地横向比较 `runs/` 下不同次实验所得数据的差异。
 
-使用各种 add 方法记录数据
----------------
+## 使用各种 add 方法记录数据
 
 下面详细介绍 SummaryWriter 实例的各种数据记录方法，并提供相应的示例供参考。
 
@@ -77,9 +70,8 @@ writer3 = SummaryWriter(comment='resnet')
 
 使用 `add_scalar` 方法来记录数字常量。
 
-```
+```python
 add_scalar(tag, scalar_value, global_step=None, walltime=None)
-
 ```
 
 **参数**
@@ -89,11 +81,11 @@ add_scalar(tag, scalar_value, global_step=None, walltime=None)
 *   **global_step** (int, optional): 训练的 step
 *   **walltime** (float, optional): 记录发生的时间，默认为 `time.time()`
 
-需要注意，这里的 `scalar_value` 一定是 float 类型，如果是 PyTorch scalar tensor，则需要调用 `.item()` 方法获取其数值。我们一般会使用 `add_scalar` 方法来记录训练过程的 loss、accuracy、learning rate 等数值的变化，直观地监控训练过程。
+需要注意，**这里的 `scalar_value` 一定是 float 类型，如果是 PyTorch scalar tensor，则需要调用 `.item()` 方法获取其数值。** 我们一般会使用 `add_scalar` 方法来记录训练过程的 loss、accuracy、learning rate 等数值的变化，直观地监控训练过程。
 
 **Example**
 
-```
+```python
 from tensorboardX import SummaryWriter
 writer = SummaryWriter('runs/scalar_example')
 for i in range(10):
@@ -106,7 +98,7 @@ for i in range(10):
 
 ![[f8696566eb476d342254d3f2ca4c0ea4_MD5.jpg]]
 
-```
+```python
 writer = SummaryWriter('runs/another_scalar_example')
 for i in range(10):
     writer.add_scalar('quadratic', i**3, global_step=i)
@@ -122,9 +114,8 @@ for i in range(10):
 
 使用 `add_image` 方法来记录单个图像数据。**注意，该方法需要** `**pillow**` **库的支持。**
 
-```
+```python
 add_image(tag, img_tensor, global_step=None, walltime=None, dataformats='CHW')
-
 ```
 
 **参数**
@@ -139,16 +130,17 @@ add_image(tag, img_tensor, global_step=None, walltime=None, dataformats='CHW')
 
 **Example**
 
-```
+```python
 from tensorboardX import SummaryWriter
 import cv2 as cv
 
 writer = SummaryWriter('runs/image_example')
 for i in range(1, 6):
-    writer.add_image('countdown',
-                     cv.cvtColor(cv.imread('{}.jpg'.format(i)), cv.COLOR_BGR2RGB),
-                     global_step=i,
-                     dataformats='HWC')
+    writer.add_image(
+    'countdown',
+    cv.cvtColor(cv.imread('{}.jpg'.format(i)), cv.COLOR_BGR2RGB),
+    global_step=i,
+    dataformats='HWC')
 
 ```
 
@@ -166,7 +158,7 @@ for i in range(1, 6):
 
 使用 `add_histogram` 方法来记录一组数据的直方图。
 
-```
+```python
 add_histogram(tag, values, global_step=None, bins='tensorflow', walltime=None, max_bins=None)
 
 ```
@@ -184,7 +176,7 @@ add_histogram(tag, values, global_step=None, bins='tensorflow', walltime=None, m
 
 **Example**
 
-```
+```python
 from tensorboardX import SummaryWriter
 import numpy as np
 
@@ -209,9 +201,8 @@ writer.add_histogram('normal_centered', np.random.normal(0, 3, 1000), global_ste
 
 使用 `add_graph` 方法来可视化一个神经网络。
 
-```
+```python
 add_graph(model, input_to_model=None, verbose=False, **kwargs)
-
 ```
 
 **参数**
@@ -229,10 +220,8 @@ add_graph(model, input_to_model=None, verbose=False, **kwargs)
 
 > 未完待续 …
 
-一些 tips
--------
+## 一些 tips
 
 1.  如果在进入 embedding 可视化界面时卡住，请更新 tensorboard 至最新版本 (>=1.12.0)。
 2.  tensorboard 有缓存，如果进行了一些 run 文件夹的删除操作，最好**重启** tensorboard，以避免无效数据干扰展示效果。
 
-本文转载自 [https://www.pianshen.com/article/1059260356/](https://link.zhihu.com/?target=https%3A//www.pianshen.com/article/1059260356/)
