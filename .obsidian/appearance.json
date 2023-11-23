@@ -5,7 +5,7 @@
   "textFontFamily": "Calibri,Microsoft YaHei",
   "interfaceFontFamily": "更纱黑体 UI SC,Microsoft YaHei UI",
   "cssTheme": "Minimal",
-  "baseFontSize": 24,
+  "baseFontSize": 27,
   "enabledCssSnippets": [
     "Font",
     "自定义格式",

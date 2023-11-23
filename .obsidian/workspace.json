@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AI/作业/敏捷开发/报告.md",
+                "file": "图形学/4 书籍/RTR4社区版/Chapter 19 Acceleration Algorithms 加速算法.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -74,7 +74,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "AI/作业/敏捷开发/报告.md"
+                "file": "图形学/4 书籍/RTR4社区版/Chapter 19 Acceleration Algorithms 加速算法.md"
               }
             }
           },
@@ -107,7 +107,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "AI/作业/敏捷开发/报告.md"
+                "file": "图形学/4 书籍/RTR4社区版/Chapter 19 Acceleration Algorithms 加速算法.md"
               }
             }
           }
@@ -181,7 +181,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "AI/作业/敏捷开发/报告.md",
+                "file": "图形学/4 书籍/RTR4社区版/Chapter 19 Acceleration Algorithms 加速算法.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -198,7 +198,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "AI/作业/敏捷开发/报告.md",
+                "file": "图形学/4 书籍/RTR4社区版/Chapter 19 Acceleration Algorithms 加速算法.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -228,51 +228,51 @@
   },
   "active": "b3a16d92f85152cc",
   "lastOpenFiles": [
-    "AI/作业/敏捷开发/~$CA7023_Sem1_CW_2023_24_AgileDevSwDevOps (1).docx",
-    "AI/作业/敏捷开发/ACCA7023_Sem1_CW_2023_24_AgileDevSwDevOps (1).en.zh-CN.docx",
-    "AI/作业/敏捷开发/ACCA7023_Sem1_CW_2023_24_AgileDevSwDevOps (1).docx",
-    "AI/作业/数据安全/ACCA7028_sem1_CW_2023_24.pdf",
-    "AI/作业/数据安全/ACCA7028_sem1_CW_2023_24.en.zh-CN.pdf",
-    "AI/作业/数据安全",
-    "AI/Python/Pytorch精粹.md",
-    "AI/作业/敏捷开发/报告.md",
+    "图形学/4 书籍/RTR4社区版/Chapter 14 Volumetric and Translucency Rendering 体.md",
+    "图形学/4 书籍/RTR4社区版/Chapter 12 Image-Space Effects 图像空间特效.md",
+    "图形学/4 书籍/RTR4社区版/Chapter 3 The Graphics Processing Unit 图形处理单元.md",
+    "图形学/4 书籍/RTR4社区版/Chapter 1 Introduction 简介.md",
+    "图形学/4 书籍/RTR4社区版/Chapter 0 前言.md",
+    "图形学/4 书籍/RTR4社区版/Chapter 2 The Graphics Rendering Pipeline 图形渲染管线.md",
+    "图形学/4 书籍/RTR4社区版/Chapter 11 Global Illumination 全局光照.md",
     "AI/作业/机器学习/报告.md",
-    "AI/作业/敏捷开发",
-    "AI/作业/机器学习",
-    "AI/作业/机器学习/写给小白的用 fashion-mnist 入门机器学习和深度学习的简单项目 (非常全面!!!).md",
-    "AI/Python/Numpy+Matplotlib.md",
-    "AI/Python/TensorboardX.md",
-    "AI/Python/assets/dac653cb59580983ef8bbfd5c38c7fbf_MD5.jpg",
-    "AI/Python/assets/068c17000e0ee5cf845ef079cb8844e9_MD5.jpg",
-    "AI/Python/assets/f8696566eb476d342254d3f2ca4c0ea4_MD5.jpg",
-    "AI/Python/assets/111420ffc4b17acf52a847ed8cc0dbb6_MD5.gif",
-    "AI/Python/assets/ad501085ec4823d06150e2697f849d43_MD5.gif",
-    "AI/Python/assets/6f8bdffa70610cd7e73e3614bfc1a286_MD5.jpg",
-    "AI/Python/simpread-详解 PyTorch 项目使用 TensorboardX 进行训练可视化.md",
-    "AI/Python/Parser用法.md",
-    "AI/作业/机器学习/CIFAR-10 图像分类（基于 PyTorch）_cifar-10 分类 - CSDN 博客.md",
-    "AI/作业/机器学习/cifar10.md",
-    "AI/机器学习/模型参数解析.md",
-    "AI/机器学习",
-    "AI/作业/assets/d0861e8738e3f169d86a4bbaf99a5731_MD5.jpg",
-    "AI/作业/assets/1d28d2802c54910dd2254a1c1028b6ce_MD5.jpg",
-    "AI/Python/Python基础.md",
-    "AI/作业/~$报告.docx",
-    "AI/作业/报告.docx",
-    "AI/作业/assets/f55d80e4d52baf807a534ee4f40a0c49_MD5.png",
-    "AI/作业/assets/b90dd1045bde1e39d087529c1870e2c9_MD5.png",
-    "AI/深度学习/《鱼书》.md",
-    "AI/深度学习/快速入门.md",
-    "AI/论文/Nerf/Nerf将场景表示为用于视图合成的神经辐射场.md",
-    "AI/论文/Nerf/可微渲染、NeRF 相关技术概念急速入门.md",
-    "AI/深度学习/PyTorch入门.md",
-    "zBuffer/参数估计 (二)_ 最大似然估计.md",
-    "zBuffer/pytorch 函数 mm() mul() matmul() 区别_pytorch mm_还能坚持的博客 - CSDN 博客.md",
-    "AI/深度学习/动手学DL.md",
-    "AI/论文/方向.md",
-    "AI/环境配置/Anaconda配置.md",
-    "技术美术/6 NPR/ta101卡渲.md",
-    "Math/概率论/概率论与数理统计.md",
-    "技术美术/6 NPR/NPR渲染管线概述.md"
+    "图形学/4 书籍/RTR4社区版/assets/Chapter-8/202306142012055.png",
+    "图形学/4 书籍/RTR4社区版/assets/Chapter-8/202306141749023.png",
+    "图形学/4 书籍/RTR4社区版/assets/Chapter-8/202306141514593.png",
+    "图形学/4 书籍/RTR4社区版/assets/Chapter-8/202306141238411.png",
+    "图形学/4 书籍/RTR4社区版/assets/Chapter-8/202306141121256.png",
+    "图形学/4 书籍/RTR4社区版/assets/Chapter-8/202306141034547.png",
+    "图形学/4 书籍/RTR4社区版/assets/Chapter-8/202306141013368.png",
+    "图形学/4 书籍/RTR4社区版/assets/Chapter-8/202306132146760.png",
+    "图形学/4 书籍/RTR4社区版/assets/Chapter-8/202306132029525.png",
+    "图形学/4 书籍/RTR4社区版/assets/Chapter-8/202306132015877.png",
+    "图形学/4 书籍/RTR4社区版/assets/Chapter-8",
+    "图形学/4 书籍/RTR4社区版/assets/Chapter-9",
+    "图形学/4 书籍/RTR4社区版/assets/Chapter-6",
+    "图形学/4 书籍/RTR4社区版/assets/Chapter-7",
+    "图形学/4 书籍/RTR4社区版/assets/Chapter-5",
+    "图形学/4 书籍/RTR4社区版/assets/Chapter-4",
+    "图形学/4 书籍/RTR4社区版/assets/Chapter-3",
+    "图形学/4 书籍/RTR4社区版/assets/Chapter-26",
+    "图形学/4 书籍/RTR4社区版/assets/Chapter-25",
+    "图形学/4 书籍/RTR4社区版/assets/Chapter-24",
+    "图形学/4 书籍/RTR4社区版/Chapter 9 Physically Based Shading 基于物理的着色.md",
+    "图形学/4 书籍/RTR4社区版/Chapter 8 Light and Color 光与颜色.md",
+    "图形学/4 书籍/RTR4社区版/Chapter 7 Shadows 阴影.md",
+    "图形学/4 书籍/RTR4社区版/Chapter 6 Texturing 纹理.md",
+    "图形学/4 书籍/RTR4社区版/Chapter 5 Shading Basics 着色基础.md",
+    "图形学/4 书籍/RTR4社区版/Chapter 4 Transform 变换.md",
+    "图形学/4 书籍/RTR4社区版/Chapter 26 Real-Time Ray Tracing 实时光线追踪.md",
+    "图形学/4 书籍/RTR4社区版/Chapter 25 Collision Detection 碰撞检测.md",
+    "图形学/4 书籍/RTR4社区版/Chapter 24 The Future 未来.md",
+    "图形学/4 书籍/RTR4社区版/Chapter 23 Graphics Hardware 图形硬件.md",
+    "图形学/4 书籍/RTR4社区版/Chapter 22 Intersection Test Methods 相交测试方法.md",
+    "图形学/4 书籍/RTR4社区版/Chapter 21 Virtual and Augmented Reality 虚拟现实和增强现实.md",
+    "图形学/4 书籍/RTR4社区版/Chapter 20 Efficient Shading 高效着色.md",
+    "图形学/4 书籍/RTR4社区版/Chapter 19 Acceleration Algorithms 加速算法.md",
+    "图形学/4 书籍/RTR4社区版/Chapter 18 Pipeline Optimization 管线优化.md",
+    "图形学/4 书籍/RTR4社区版/Chapter 17 Curves and Curved Surfaces 曲线和曲面.md",
+    "图形学/4 书籍/RTR4社区版/Chapter 16 Polygonal Techniques 多边形技术.md",
+    "图形学/4 书籍/RTR4社区版/Chapter 15 Non-Photorealistic Rendering 非真实感渲染.md"
   ]
 }
