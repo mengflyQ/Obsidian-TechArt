@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "图形学/4 书籍/RTR4社区版/Chapter 19 Acceleration Algorithms 加速算法.md",
+                "file": "图形学/4 书籍/RTR4社区版/Chapter 6 Texturing 纹理.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -74,7 +74,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "图形学/4 书籍/RTR4社区版/Chapter 19 Acceleration Algorithms 加速算法.md"
+                "file": "图形学/4 书籍/RTR4社区版/Chapter 6 Texturing 纹理.md"
               }
             }
           },
@@ -107,7 +107,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "图形学/4 书籍/RTR4社区版/Chapter 19 Acceleration Algorithms 加速算法.md"
+                "file": "图形学/4 书籍/RTR4社区版/Chapter 6 Texturing 纹理.md"
               }
             }
           }
@@ -181,7 +181,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "图形学/4 书籍/RTR4社区版/Chapter 19 Acceleration Algorithms 加速算法.md",
+                "file": "图形学/4 书籍/RTR4社区版/Chapter 6 Texturing 纹理.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -198,7 +198,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "图形学/4 书籍/RTR4社区版/Chapter 19 Acceleration Algorithms 加速算法.md",
+                "file": "图形学/4 书籍/RTR4社区版/Chapter 6 Texturing 纹理.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -228,6 +228,7 @@
   },
   "active": "b3a16d92f85152cc",
   "lastOpenFiles": [
+    "图形学/4 书籍/RTR4社区版/Chapter 19 Acceleration Algorithms 加速算法.md",
     "图形学/4 书籍/RTR4社区版/Chapter 14 Volumetric and Translucency Rendering 体.md",
     "图形学/4 书籍/RTR4社区版/Chapter 12 Image-Space Effects 图像空间特效.md",
     "图形学/4 书籍/RTR4社区版/Chapter 3 The Graphics Processing Unit 图形处理单元.md",
@@ -269,7 +270,6 @@
     "图形学/4 书籍/RTR4社区版/Chapter 22 Intersection Test Methods 相交测试方法.md",
     "图形学/4 书籍/RTR4社区版/Chapter 21 Virtual and Augmented Reality 虚拟现实和增强现实.md",
     "图形学/4 书籍/RTR4社区版/Chapter 20 Efficient Shading 高效着色.md",
-    "图形学/4 书籍/RTR4社区版/Chapter 19 Acceleration Algorithms 加速算法.md",
     "图形学/4 书籍/RTR4社区版/Chapter 18 Pipeline Optimization 管线优化.md",
     "图形学/4 书籍/RTR4社区版/Chapter 17 Curves and Curved Surfaces 曲线和曲面.md",
     "图形学/4 书籍/RTR4社区版/Chapter 16 Polygonal Techniques 多边形技术.md",

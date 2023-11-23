@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "Chapter 6 Texturing 纹理",
+      "path": "图形学/4 书籍/RTR4社区版/Chapter 6 Texturing 纹理.md"
+    },
+    {
       "basename": "Chapter 19 Acceleration Algorithms 加速算法",
       "path": "图形学/4 书籍/RTR4社区版/Chapter 19 Acceleration Algorithms 加速算法.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "git入门",
       "path": "Tools/Git/git入门.md"
-    },
-    {
-      "basename": "Git 子仓库",
-      "path": "Tools/Git/Git 子仓库.md"
     }
   ],
   "omittedPaths": [],

@@ -4796,6 +4796,7 @@ octave
 operatorname
 overshading
 overhang
+overblurring
 OneDrive
 Obsidian
 Office
@@ -16462,6 +16463,11 @@ checkerboard
 cuticle
 crunch
 chunked
+cylindrical
+chrominance
+cellular
+crevice
+cutou
 github
 grey
 green
@@ -26815,6 +26821,7 @@ tomography
 turbidity
 transcoding
 triangulated
+truncate
 markdown
 matter
 mod
@@ -32319,6 +32326,8 @@ mathcal
 masked
 middleware
 megatexture
+miamap
+macrogeometry
 windows
 win
 width
@@ -42354,6 +42363,7 @@ ubuntu
 ucwh
 uFDo
 unmap
+unwrapping
 everything
 ea
 ede
@@ -97628,6 +97638,8 @@ Stam
 Shirman
 Sochor
 Strugar
+Schuler
+Shishkovtsov
 Programs
 POP
 PC
@@ -120307,6 +120319,7 @@ qLKy
 qmoX
 qwgNf
 quadrilateral
+quadrilinear
 png
 position
 presentation
@@ -126031,6 +126044,8 @@ polyline
 painter
 preorder
 predicated
+periodicity
+prism
 nodesCatch
 nobr
 navy
@@ -135950,6 +135965,7 @@ beard
 balanced
 bang
 buck
+brute
 fe
 front
 fill
@@ -164456,6 +164472,8 @@ stratus
 stratocumulus
 splat
 spatialization
+subtexture
+secant
 local
 list
 left
