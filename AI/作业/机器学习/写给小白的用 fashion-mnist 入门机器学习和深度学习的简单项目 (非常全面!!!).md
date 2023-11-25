@@ -323,3 +323,33 @@ print(class_dic[cls])
 [DLLXW/Fashion-MNIST](https://github.com/DLLXW/Fashion-MNIST)
 
 在 readme 里面有使用说明！！！希望大家素质三连
+
+
+# 调参
+[机器学习：调整kNN的超参数 - 何永灿 - 博客园 (cnblogs.com)](https://www.cnblogs.com/volcao/p/9085363.html)
+
+# 数据集的均值和标准差
+## MNIST：
+
+```text
+transforms.Normalize((0.1307,), (0.3081,)) # mnist的均值和标准差 训练集
+transforms.Normalize((0.1326,), (0.3106,)) # mnist的均值和标准差 测试集
+```
+
+```c++
+ # 加载训练和测试数据
+    train_loader = torch.utils.data.DataLoader(
+        datasets.FashionMNIST('./fashionmnist_data/',
+                              train=True, download=True,
+                              transform=transforms.Compose(
+                                  [transforms.ToTensor(), transforms.Normalize((0.1307,), (0.3081,))])),
+        batch_size=args.batch_size,
+        shuffle=True, **kwargs)
+```
+## CIFAR-10:
+
+Pytorch 使用以下值
+
+```
+transforms.Normalize ((0.5,), (0.5,))
+```

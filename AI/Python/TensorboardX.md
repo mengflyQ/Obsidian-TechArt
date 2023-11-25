@@ -60,7 +60,21 @@ writer3 = SummaryWriter(comment='resnet')
 
 `tensorboard --logdir=<your_log_dir>`
 
-其中的 `<your_log_dir>` 既可以是单个 run 的路径，如上面 writer1 生成的 `runs/exp`；也可以是多个 run 的父目录，如 `runs/` 下面可能会有很多的子文件夹，每个文件夹都代表了一次实验，我们令 `--logdir=runs/` 就可以在 tensorboard 可视化界面中方便地横向比较 `runs/` 下不同次实验所得数据的差异。
+其中的 `<your_log_dir>` 既可以是单个 run 的路径，如上面 writer1 生成的 `runs/exp`；也可以是多个 run 的父目录，如 `runs/` 下面可能会有很多的子文件夹，每个文件夹都代表了一次实验，**我们令 `--logdir=runs/` 就可以在 tensorboard 可视化界面中方便地横向比较 `runs/` 下不同次实验所得数据的差异。**
+
+遇到以下报错
+ ```python
+File "C:\ProgramData\anaconda3\envs\d2l\Lib\site-packages\tensorboard\_vendor\html5lib\_trie\_base.py", line 3, in <module>
+    from collections import Mapping
+
+ImportError: cannot import name 'Mapping' from 'collections' (C:\ProgramData\anaconda3\envs\d2l\Lib\collections\__init__.py)
+
+#解决方法：
+#进入C:\ProgramData\anaconda3\envs\d2l\Lib\site-packages\tensorboard\_vendor\html5lib\_trie\_base.py
+
+#将from collections import Mapping  修改为：
+from collections.abc import Mapping
+```
 
 ## 使用各种 add 方法记录数据
 
