@@ -9,16 +9,12 @@
       "path": "AI/作业/机器学习/assets/Pasted image 20231125140247.png"
     },
     {
-      "basename": "模型参数解析",
-      "path": "AI/机器学习/模型参数解析.md"
+      "basename": "《鱼书》",
+      "path": "AI/深度学习/《鱼书》.md"
     },
     {
-      "basename": "分类器结果",
-      "path": "AI/作业/机器学习/分类器结果.md"
-    },
-    {
-      "basename": "Pytorch精粹",
-      "path": "AI/Python/Pytorch精粹.md"
+      "basename": "鱼书pdf",
+      "path": "AI/深度学习/鱼书pdf.pdf"
     },
     {
       "basename": "写给小白的用 fashion-mnist 入门机器学习和深度学习的简单项目 (非常全面!!!)",
@@ -27,6 +23,18 @@
     {
       "basename": "CIFAR-10 图像分类（基于 PyTorch）_cifar-10 分类 - CSDN 博客",
       "path": "AI/作业/机器学习/CIFAR-10 图像分类（基于 PyTorch）_cifar-10 分类 - CSDN 博客.md"
+    },
+    {
+      "basename": "Pytorch精粹",
+      "path": "AI/Python/Pytorch精粹.md"
+    },
+    {
+      "basename": "模型参数解析",
+      "path": "AI/机器学习/模型参数解析.md"
+    },
+    {
+      "basename": "分类器结果",
+      "path": "AI/作业/机器学习/分类器结果.md"
     },
     {
       "basename": "cifar10",
@@ -101,10 +109,6 @@
       "path": "AI/Python/Python基础.md"
     },
     {
-      "basename": "《鱼书》",
-      "path": "AI/深度学习/《鱼书》.md"
-    },
-    {
       "basename": "快速入门",
       "path": "AI/深度学习/快速入门.md"
     },
@@ -167,10 +171,6 @@
     {
       "basename": "yaml_Banner",
       "path": "zip/Templates/yaml_Banner.md"
-    },
-    {
-      "basename": "鱼书pdf",
-      "path": "AI/深度学习/鱼书pdf.pdf"
     },
     {
       "basename": "转mesh工作",

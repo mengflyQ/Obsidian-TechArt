@@ -36,7 +36,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AI/Python/Pytorch精粹.md",
+                "file": "AI/深度学习/《鱼书》.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -245,14 +245,16 @@
   "active": "b3a16d92f85152cc",
   "lastOpenFiles": [
     "AI/作业/机器学习/assets/Pasted image 20231125140247.png",
+    "AI/深度学习/《鱼书》.md",
     "AI/作业/机器学习/报告.md",
+    "AI/深度学习/鱼书pdf.pdf",
+    "AI/作业/机器学习/写给小白的用 fashion-mnist 入门机器学习和深度学习的简单项目 (非常全面!!!).md",
+    "AI/作业/机器学习/CIFAR-10 图像分类（基于 PyTorch）_cifar-10 分类 - CSDN 博客.md",
+    "AI/Python/Pytorch精粹.md",
     "AI/机器学习/模型参数解析.md",
     "AI/作业/机器学习/分类器结果.md",
-    "AI/Python/Pytorch精粹.md",
-    "AI/作业/机器学习/写给小白的用 fashion-mnist 入门机器学习和深度学习的简单项目 (非常全面!!!).md",
     "AI/作业/机器学习/assets/Pasted image 20231125140355.png",
     "AI/作业/机器学习/assets",
-    "AI/作业/机器学习/CIFAR-10 图像分类（基于 PyTorch）_cifar-10 分类 - CSDN 博客.md",
     "AI/作业/机器学习/cifar10.md",
     "AI/Python/Parser用法.md",
     "AI/机器学习/assets/e00c6080ab72ee090295b30de341c2c7_MD5.png",
@@ -282,12 +284,10 @@
     "图形学/4 书籍/RTR4社区版/assets/Chapter-7",
     "图形学/4 书籍/RTR4社区版/assets/Chapter-5",
     "图形学/4 书籍/RTR4社区版/assets/Chapter-4",
-    "图形学/4 书籍/RTR4社区版/assets/Chapter-3",
     "图形学/4 书籍/RTR4社区版/Chapter 9 Physically Based Shading 基于物理的着色.md",
     "图形学/4 书籍/RTR4社区版/Chapter 8 Light and Color 光与颜色.md",
     "图形学/4 书籍/RTR4社区版/Chapter 7 Shadows 阴影.md",
     "图形学/4 书籍/RTR4社区版/Chapter 5 Shading Basics 着色基础.md",
-    "图形学/4 书籍/RTR4社区版/Chapter 4 Transform 变换.md",
-    "图形学/4 书籍/RTR4社区版/Chapter 26 Real-Time Ray Tracing 实时光线追踪.md"
+    "图形学/4 书籍/RTR4社区版/Chapter 4 Transform 变换.md"
   ]
 }
