@@ -13,20 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AI/作业/机器学习/写给小白的用 fashion-mnist 入门机器学习和深度学习的简单项目 (非常全面!!!).md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "f2d15e00fec704b3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "AI/Python/Pytorch精粹.md",
+                "file": "AI/机器学习/模型参数解析.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -39,7 +26,27 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AI/Python/Parser用法.md",
+                "file": "AI/作业/机器学习/分类器结果.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          }
+        ],
+        "currentTab": 1
+      },
+      {
+        "id": "bd0912e0b4d3113b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "55bb3e84569162f8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "AI/机器学习/模型参数解析.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -74,7 +81,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "AI/作业/机器学习/写给小白的用 fashion-mnist 入门机器学习和深度学习的简单项目 (非常全面!!!).md"
+                "file": "AI/作业/机器学习/分类器结果.md"
               }
             }
           },
@@ -107,7 +114,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "AI/作业/机器学习/写给小白的用 fashion-mnist 入门机器学习和深度学习的简单项目 (非常全面!!!).md"
+                "file": "AI/作业/机器学习/分类器结果.md"
               }
             }
           }
@@ -181,7 +188,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "AI/作业/机器学习/写给小白的用 fashion-mnist 入门机器学习和深度学习的简单项目 (非常全面!!!).md",
+                "file": "AI/作业/机器学习/分类器结果.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -198,7 +205,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "AI/作业/机器学习/写给小白的用 fashion-mnist 入门机器学习和深度学习的简单项目 (非常全面!!!).md",
+                "file": "AI/作业/机器学习/分类器结果.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -226,14 +233,22 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "b3a16d92f85152cc",
+  "active": "cede522d4b46bef5",
   "lastOpenFiles": [
+    "AI/机器学习/模型参数解析.md",
+    "AI/作业/机器学习/分类器结果.md",
+    "AI/作业/机器学习/写给小白的用 fashion-mnist 入门机器学习和深度学习的简单项目 (非常全面!!!).md",
     "AI/作业/机器学习/CIFAR-10 图像分类（基于 PyTorch）_cifar-10 分类 - CSDN 博客.md",
+    "AI/作业/机器学习/报告.md",
+    "AI/作业/机器学习/cifar10.md",
+    "AI/Python/Parser用法.md",
+    "AI/机器学习/assets/e00c6080ab72ee090295b30de341c2c7_MD5.png",
+    "AI/机器学习/assets/c3d5e406ad8c5643cdcef5233224e324_MD5.png",
+    "AI/机器学习/assets",
+    "zBuffer/模型评估指标 micro avg、macro avg 和 weighted avg 的计算方式及区别_macro avg 和 weighted avg 看哪个？_山阴少年的博客 - CSDN 博客.md",
     "AI/Python/TensorboardX.md",
     "AI/作业/数据安全/ACCA7028_sem1_CW_2023_24.en.zh-CN.pdf",
-    "AI/作业/机器学习/写给小白的用 fashion-mnist 入门机器学习和深度学习的简单项目 (非常全面!!!).md",
     "AI/Python/Pytorch精粹.md",
-    "AI/作业/机器学习/报告.md",
     "图形学/4 书籍/RTR4社区版/Chapter 6 Texturing 纹理.md",
     "图形学/4 书籍/RTR4社区版/Chapter 19 Acceleration Algorithms 加速算法.md",
     "图形学/4 书籍/RTR4社区版/Chapter 14 Volumetric and Translucency Rendering 体.md",
@@ -251,8 +266,6 @@
     "图形学/4 书籍/RTR4社区版/assets/Chapter-8/202306141034547.png",
     "图形学/4 书籍/RTR4社区版/assets/Chapter-8/202306141013368.png",
     "图形学/4 书籍/RTR4社区版/assets/Chapter-8/202306132146760.png",
-    "图形学/4 书籍/RTR4社区版/assets/Chapter-8/202306132029525.png",
-    "图形学/4 书籍/RTR4社区版/assets/Chapter-8/202306132015877.png",
     "图形学/4 书籍/RTR4社区版/assets/Chapter-8",
     "图形学/4 书籍/RTR4社区版/assets/Chapter-9",
     "图形学/4 书籍/RTR4社区版/assets/Chapter-6",
@@ -261,17 +274,12 @@
     "图形学/4 书籍/RTR4社区版/assets/Chapter-4",
     "图形学/4 书籍/RTR4社区版/assets/Chapter-3",
     "图形学/4 书籍/RTR4社区版/assets/Chapter-26",
-    "图形学/4 书籍/RTR4社区版/assets/Chapter-25",
     "图形学/4 书籍/RTR4社区版/Chapter 9 Physically Based Shading 基于物理的着色.md",
     "图形学/4 书籍/RTR4社区版/Chapter 8 Light and Color 光与颜色.md",
     "图形学/4 书籍/RTR4社区版/Chapter 7 Shadows 阴影.md",
     "图形学/4 书籍/RTR4社区版/Chapter 5 Shading Basics 着色基础.md",
     "图形学/4 书籍/RTR4社区版/Chapter 4 Transform 变换.md",
     "图形学/4 书籍/RTR4社区版/Chapter 26 Real-Time Ray Tracing 实时光线追踪.md",
-    "图形学/4 书籍/RTR4社区版/Chapter 25 Collision Detection 碰撞检测.md",
-    "图形学/4 书籍/RTR4社区版/Chapter 24 The Future 未来.md",
-    "图形学/4 书籍/RTR4社区版/Chapter 23 Graphics Hardware 图形硬件.md",
-    "图形学/4 书籍/RTR4社区版/Chapter 22 Intersection Test Methods 相交测试方法.md",
-    "图形学/4 书籍/RTR4社区版/Chapter 21 Virtual and Augmented Reality 虚拟现实和增强现实.md"
+    "图形学/4 书籍/RTR4社区版/Chapter 25 Collision Detection 碰撞检测.md"
   ]
 }

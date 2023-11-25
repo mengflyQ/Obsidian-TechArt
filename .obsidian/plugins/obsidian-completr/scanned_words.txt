@@ -16468,6 +16468,7 @@ chrominance
 cellular
 crevice
 cutou
+cifar
 github
 grey
 green
@@ -32328,6 +32329,7 @@ middleware
 megatexture
 miamap
 macrogeometry
+maro
 windows
 win
 width

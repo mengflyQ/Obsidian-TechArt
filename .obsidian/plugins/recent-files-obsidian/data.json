@@ -1,12 +1,32 @@
 {
   "recentFiles": [
     {
+      "basename": "分类器结果",
+      "path": "AI/作业/机器学习/分类器结果.md"
+    },
+    {
+      "basename": "模型参数解析",
+      "path": "AI/机器学习/模型参数解析.md"
+    },
+    {
       "basename": "写给小白的用 fashion-mnist 入门机器学习和深度学习的简单项目 (非常全面!!!)",
       "path": "AI/作业/机器学习/写给小白的用 fashion-mnist 入门机器学习和深度学习的简单项目 (非常全面!!!).md"
     },
     {
       "basename": "CIFAR-10 图像分类（基于 PyTorch）_cifar-10 分类 - CSDN 博客",
       "path": "AI/作业/机器学习/CIFAR-10 图像分类（基于 PyTorch）_cifar-10 分类 - CSDN 博客.md"
+    },
+    {
+      "basename": "报告",
+      "path": "AI/作业/机器学习/报告.md"
+    },
+    {
+      "basename": "cifar10",
+      "path": "AI/作业/机器学习/cifar10.md"
+    },
+    {
+      "basename": "Parser用法",
+      "path": "AI/Python/Parser用法.md"
     },
     {
       "basename": "TensorboardX",
@@ -19,10 +39,6 @@
     {
       "basename": "Pytorch精粹",
       "path": "AI/Python/Pytorch精粹.md"
-    },
-    {
-      "basename": "报告",
-      "path": "AI/作业/机器学习/报告.md"
     },
     {
       "basename": "Chapter 6 Texturing 纹理",
@@ -61,10 +77,6 @@
       "path": "图形学/4 书籍/RTR4社区版/Chapter 11 Global Illumination 全局光照.md"
     },
     {
-      "basename": "模型参数解析",
-      "path": "AI/机器学习/模型参数解析.md"
-    },
-    {
       "basename": "报告",
       "path": "AI/作业/敏捷开发/报告.md"
     },
@@ -77,16 +89,8 @@
       "path": "AI/作业/数据安全/ACCA7028_sem1_CW_2023_24.pdf"
     },
     {
-      "basename": "Parser用法",
-      "path": "AI/Python/Parser用法.md"
-    },
-    {
       "basename": "Numpy+Matplotlib",
       "path": "AI/Python/Numpy+Matplotlib.md"
-    },
-    {
-      "basename": "cifar10",
-      "path": "AI/作业/机器学习/cifar10.md"
     },
     {
       "basename": "Python基础",
@@ -195,10 +199,6 @@
     {
       "basename": "工具流",
       "path": "Tools/工具流.md"
-    },
-    {
-      "basename": "git入门",
-      "path": "Tools/Git/git入门.md"
     }
   ],
   "omittedPaths": [],
