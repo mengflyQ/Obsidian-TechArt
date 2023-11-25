@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AI/机器学习/模型参数解析.md",
+                "file": "AI/作业/机器学习/报告.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -21,20 +21,29 @@
             }
           },
           {
-            "id": "cede522d4b46bef5",
+            "id": "c814f222fcab84d7",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "AI/作业/机器学习/assets/Pasted image 20231125140247.png"
+              }
+            }
+          },
+          {
+            "id": "b2212dfc524691a8",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AI/作业/机器学习/分类器结果.md",
+                "file": "AI/Python/Pytorch精粹.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
         "id": "bd0912e0b4d3113b",
@@ -81,7 +90,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "AI/作业/机器学习/分类器结果.md"
+                "file": "AI/作业/机器学习/报告.md"
               }
             }
           },
@@ -114,7 +123,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "AI/作业/机器学习/分类器结果.md"
+                "file": "AI/作业/机器学习/报告.md"
               }
             }
           }
@@ -188,7 +197,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "AI/作业/机器学习/分类器结果.md",
+                "file": "AI/作业/机器学习/报告.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -205,7 +214,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "AI/作业/机器学习/分类器结果.md",
+                "file": "AI/作业/机器学习/报告.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -233,13 +242,17 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "cede522d4b46bef5",
+  "active": "b3a16d92f85152cc",
   "lastOpenFiles": [
+    "AI/作业/机器学习/assets/Pasted image 20231125140247.png",
+    "AI/作业/机器学习/报告.md",
     "AI/机器学习/模型参数解析.md",
     "AI/作业/机器学习/分类器结果.md",
+    "AI/Python/Pytorch精粹.md",
     "AI/作业/机器学习/写给小白的用 fashion-mnist 入门机器学习和深度学习的简单项目 (非常全面!!!).md",
+    "AI/作业/机器学习/assets/Pasted image 20231125140355.png",
+    "AI/作业/机器学习/assets",
     "AI/作业/机器学习/CIFAR-10 图像分类（基于 PyTorch）_cifar-10 分类 - CSDN 博客.md",
-    "AI/作业/机器学习/报告.md",
     "AI/作业/机器学习/cifar10.md",
     "AI/Python/Parser用法.md",
     "AI/机器学习/assets/e00c6080ab72ee090295b30de341c2c7_MD5.png",
@@ -248,7 +261,6 @@
     "zBuffer/模型评估指标 micro avg、macro avg 和 weighted avg 的计算方式及区别_macro avg 和 weighted avg 看哪个？_山阴少年的博客 - CSDN 博客.md",
     "AI/Python/TensorboardX.md",
     "AI/作业/数据安全/ACCA7028_sem1_CW_2023_24.en.zh-CN.pdf",
-    "AI/Python/Pytorch精粹.md",
     "图形学/4 书籍/RTR4社区版/Chapter 6 Texturing 纹理.md",
     "图形学/4 书籍/RTR4社区版/Chapter 19 Acceleration Algorithms 加速算法.md",
     "图形学/4 书籍/RTR4社区版/Chapter 14 Volumetric and Translucency Rendering 体.md",
@@ -264,8 +276,6 @@
     "图形学/4 书籍/RTR4社区版/assets/Chapter-8/202306141238411.png",
     "图形学/4 书籍/RTR4社区版/assets/Chapter-8/202306141121256.png",
     "图形学/4 书籍/RTR4社区版/assets/Chapter-8/202306141034547.png",
-    "图形学/4 书籍/RTR4社区版/assets/Chapter-8/202306141013368.png",
-    "图形学/4 书籍/RTR4社区版/assets/Chapter-8/202306132146760.png",
     "图形学/4 书籍/RTR4社区版/assets/Chapter-8",
     "图形学/4 书籍/RTR4社区版/assets/Chapter-9",
     "图形学/4 书籍/RTR4社区版/assets/Chapter-6",
@@ -273,13 +283,11 @@
     "图形学/4 书籍/RTR4社区版/assets/Chapter-5",
     "图形学/4 书籍/RTR4社区版/assets/Chapter-4",
     "图形学/4 书籍/RTR4社区版/assets/Chapter-3",
-    "图形学/4 书籍/RTR4社区版/assets/Chapter-26",
     "图形学/4 书籍/RTR4社区版/Chapter 9 Physically Based Shading 基于物理的着色.md",
     "图形学/4 书籍/RTR4社区版/Chapter 8 Light and Color 光与颜色.md",
     "图形学/4 书籍/RTR4社区版/Chapter 7 Shadows 阴影.md",
     "图形学/4 书籍/RTR4社区版/Chapter 5 Shading Basics 着色基础.md",
     "图形学/4 书籍/RTR4社区版/Chapter 4 Transform 变换.md",
-    "图形学/4 书籍/RTR4社区版/Chapter 26 Real-Time Ray Tracing 实时光线追踪.md",
-    "图形学/4 书籍/RTR4社区版/Chapter 25 Collision Detection 碰撞检测.md"
+    "图形学/4 书籍/RTR4社区版/Chapter 26 Real-Time Ray Tracing 实时光线追踪.md"
   ]
 }
