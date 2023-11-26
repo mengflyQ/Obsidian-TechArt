@@ -8,54 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "b3a16d92f85152cc",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "AI/作业/机器学习/报告.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "c814f222fcab84d7",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "AI/作业/机器学习/assets/Pasted image 20231125140247.png"
-              }
-            }
-          },
-          {
             "id": "b2212dfc524691a8",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AI/深度学习/《鱼书》.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          }
-        ]
-      },
-      {
-        "id": "bd0912e0b4d3113b",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "55bb3e84569162f8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "AI/机器学习/模型参数解析.md",
+                "file": "AI/作业/敏捷开发/报告.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -90,7 +48,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "AI/作业/机器学习/报告.md"
+                "file": "AI/作业/敏捷开发/报告.md"
               }
             }
           },
@@ -123,7 +81,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "AI/作业/机器学习/报告.md"
+                "file": "AI/作业/敏捷开发/报告.md"
               }
             }
           }
@@ -198,7 +156,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "AI/作业/机器学习/报告.md",
+                "file": "AI/作业/敏捷开发/报告.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -215,7 +173,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "AI/作业/机器学习/报告.md",
+                "file": "AI/作业/敏捷开发/报告.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -243,15 +201,16 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "b3a16d92f85152cc",
+  "active": "b2212dfc524691a8",
   "lastOpenFiles": [
     "AI/机器学习/模型参数解析.md",
+    "AI/作业/敏捷开发/报告.md",
+    "AI/作业/机器学习/assets/Pasted image 20231125140247.png",
     "AI/作业/机器学习/报告.md",
     "AI/深度学习/快速入门.md",
     "AI/深度学习/动手学DL.md",
     "AI/深度学习/《鱼书》.md",
     "AI/Python/Pytorch精粹.md",
-    "AI/作业/机器学习/assets/Pasted image 20231125140247.png",
     "AI/深度学习/鱼书pdf.pdf",
     "AI/作业/机器学习/写给小白的用 fashion-mnist 入门机器学习和深度学习的简单项目 (非常全面!!!).md",
     "AI/作业/机器学习/CIFAR-10 图像分类（基于 PyTorch）_cifar-10 分类 - CSDN 博客.md",
@@ -289,7 +248,6 @@
     "图形学/4 书籍/RTR4社区版/assets/Chapter-4",
     "图形学/4 书籍/RTR4社区版/Chapter 9 Physically Based Shading 基于物理的着色.md",
     "图形学/4 书籍/RTR4社区版/Chapter 8 Light and Color 光与颜色.md",
-    "图形学/4 书籍/RTR4社区版/Chapter 7 Shadows 阴影.md",
-    "图形学/4 书籍/RTR4社区版/Chapter 5 Shading Basics 着色基础.md"
+    "图形学/4 书籍/RTR4社区版/Chapter 7 Shadows 阴影.md"
   ]
 }
