@@ -481,7 +481,7 @@ C# 很简单，首先创建一个挂载 `ColorBlit.shader` 的材质，然后在
 
 **渲染的核心在于 Render 最后的 ``Blitter.BlitCameraTexture(cmd, source, destination, m_Material,0);``**
 
-```c file:ColorBlit.cs
+```c title:ColorBlit.cs
 using System;
 using UnityEngine;
 using UnityEngine.Rendering;

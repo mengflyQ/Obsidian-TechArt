@@ -28,7 +28,7 @@ CustomEditor "UnityEditor.Rendering.Universal.ShaderGUI.LitShader" //ShaderGUI
 ### ForwardLit
 前向渲染 Pass，在一个 Pass 中计算所有光照，包括全局光照 GI，自发光 Emission，雾效 Fog。
 
-```c file:ForwardLit
+```c title:ForwardLit
 Pass
 {
     //Lightmode 标签 与 UniversalRenderPipeline.cs 中设置的 ShaderPassName 匹配
@@ -120,7 +120,7 @@ Pass
 
 #### LitForwardPass. hlsl
 ##### 顶点输入输出结构体
-```c file:顶点输入结构体
+```c title:顶点输入结构体
 #include "Packages/com.unity.render-pipelines.universal/ShaderLibrary/Lighting.hlsl"
 
 struct Attributes
@@ -135,7 +135,7 @@ struct Attributes
 };
 ```
 
-```c file:顶点输出结构体
+```c title:顶点输出结构体
 struct Varyings
 {
     float2 uv                       : TEXCOORD0;
@@ -157,7 +157,7 @@ struct Varyings
 ```
 
 ##### InitializeInputData 函数
-```c file:InitializeInputData函数
+```c title:InitializeInputData函数
 void InitializeInputData(Varyings input, half3 normalTS, out InputData inputData)
 {
     inputData = (InputData)0; //初始化
@@ -235,7 +235,7 @@ void InitializeInputData(Varyings input, half3 normalTS, out InputData inputData
 }
 ```
 
-```c file:将法线标准化的函数
+```c title:将法线标准化的函数
 //普通的normalize
 float3 NormalizeNormalPerVertex(float3 normalWS)
 {
@@ -254,7 +254,7 @@ float3 NormalizeNormalPerPixel(float3 normalWS)
 }
 ```
 
-```c file:传入世界空间顶点坐标得到阴影坐标
+```c title:传入世界空间顶点坐标得到阴影坐标
 float4 TransformWorldToShadowCoord(float3 positionWS)
 {
 #ifdef _MAIN_LIGHT_SHADOWS_CASCADE //如果开启了级联阴影
@@ -349,7 +349,7 @@ Varyings LitPassVertex(Attributes input)
 
 ###### 获取顶点位置和法线信息
 
-```cs file:Core.hlsl：顶点位置/法线输入结构体
+```cs title:Core.hlsl：顶点位置/法线输入结构体
 struct VertexPositionInputs
 {
     float3 positionWS; 
@@ -405,7 +405,7 @@ VertexNormalInputs GetVertexNormalInputs(float3 normalOS, float4 tangentOS)
 }
 ```
 ###### 计算顶点光照
-```cs file:Lighting.hlsl:计算顶点光照
+```cs title:Lighting.hlsl:计算顶点光照
 half3 VertexLighting(float3 positionWS, half3 normalWS)
 {
     half3 vertexLightColor = half3(0.0, 0.0, 0.0);
@@ -427,7 +427,7 @@ half3 VertexLighting(float3 positionWS, half3 normalWS)
 
 ```
 ###### 计算雾系数
-```cs file:Core.hlsl:计算雾系数
+```cs title:Core.hlsl:计算雾系数
 real ComputeFogFactor(float zPositionCS)
 {
     //由于OpenGL和Direct3D保存深度值的范围不同
@@ -458,7 +458,7 @@ real ComputeFogFactorZ0ToFar(float z)
 
 ###### 光照贴图和球谐光照宏定义
 
-```c file:lighting.hlsl:光照贴图和球谐光照宏定义
+```c title:lighting.hlsl:光照贴图和球谐光照宏定义
 //如果使用了光照贴图
 #if defined(LIGHTMAP_ON) 
     //该宏用于声明光照贴图的纹理坐标
@@ -479,7 +479,7 @@ real ComputeFogFactorZ0ToFar(float z)
 #endif
 ```
 ###### 获取阴影坐标
-```c file:Shadows.hlsl:获取阴影坐标
+```c title:Shadows.hlsl:获取阴影坐标
 float4 GetShadowCoord(VertexPositionInputs vertexInput)
 {
 #if defined(_MAIN_LIGHT_SHADOWS_SCREEN) && !defined(_SURFACE_TYPE_TRANSPARENT)
@@ -687,7 +687,7 @@ half4 ShadowPassFragment(Varyings input) : SV_TARGET
 }
 ```
 
-```cs file:Shadow.hlsl:得到偏移后的阴影坐标
+```cs title:Shadow.hlsl:得到偏移后的阴影坐标
 float3 ApplyShadowBias(float3 positionWS, float3 normalWS, float3 lightDirection)
 {
     //_ShadowBias：x值是Depth Bias深度偏移，y是Normal Bias法线偏移
@@ -759,7 +759,7 @@ Pass
 ```
 #### DepthOnlyPass. hlsl
 
-```c file:DepthOnlyPass.hlsl
+```c title:DepthOnlyPass.hlsl
 #include "Packages/com.unity.render-pipelines.universal/ShaderLibrary/Core.hlsl"
 #if defined(LOD_FADE_CROSSFADE)
     #include "Packages/com.unity.render-pipelines.universal/ShaderLibrary/LODCrossFade.hlsl"
@@ -903,7 +903,7 @@ Pass
 ```
 
 #### UniversalMetaPass. hlsl
-```cs file:UniversalMetaPass.hlsl
+```cs title:UniversalMetaPass.hlsl
 #include "Packages/com.unity.render-pipelines.universal/ShaderLibrary/MetaInput.hlsl"
 
 struct Attributes
@@ -951,7 +951,7 @@ half4 UniversalFragmentMeta(Varyings fragIn, MetaInput metaInput)
 
 ```
 
-```cs file:获取齐次裁剪空间顶点位置
+```cs title:获取齐次裁剪空间顶点位置
 float4 UnityMetaVertexPosition(float3 vertex, float2 uv1, float2 uv2, float4 lightmapST, float4 dynlightmapST)
 {
 #ifndef EDITOR_VISUALIZATION
@@ -1019,7 +1019,7 @@ Pass
 ```
 
 #### Universal2D. hlsl
-```cs file:Universal2D.hlsl
+```cs title:Universal2D.hlsl
 
 struct Attributes
 {

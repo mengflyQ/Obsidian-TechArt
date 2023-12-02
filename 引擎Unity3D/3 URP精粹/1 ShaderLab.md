@@ -28,7 +28,7 @@ Shader "Unlit/Path_1/Path_2/NewUnlitShader"
 ## 3 Properties
 Unity Shader 的属性主要分为三大类：数值、颜色和向量、纹理贴图
 
-```c file:所有类型属性汇总
+```c title:所有类型属性汇总
 Properties
 {
     _Integer ( "Integer",Integer) = 1           //真正的整数，但好像不能用？
@@ -141,7 +141,7 @@ float4 {TextureName}_HDR //和DecodeHDR有关？
 4. 最终，如果在任何地方都没有定义着色器属性值，则将提供“默认值”（浮点数的默认值为零，颜色的默认值为黑色，纹理的默认值为空的白色纹理）。
 
 ## 4 SubShader
-```cs file:SubShader的大致结构
+```cs title:SubShader的大致结构
 SubShader
 {
     //标签

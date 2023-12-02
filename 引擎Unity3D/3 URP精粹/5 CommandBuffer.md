@@ -55,7 +55,7 @@ PS: MaterialPropertyBlock 比直接修改 Material 的优势是: 不会创建出
 1. 新建脚本 `CustomRenderPineAsset.cs`，继承 `RenderPipelineAsset` 
 2. 添加特性标签，表示创建 Asset 选项在 Create 菜单中的位置
 3.  重载 `CreatePipeline` 方法，该方法返回一个 `RenderPipeline` 的实例。
-```cs file:CustomRenderPineAsset.cs
+```cs title:CustomRenderPineAsset.cs
 using UnityEngine;
 using UnityEngine.Rendering;
 /// <summary>
@@ -92,7 +92,7 @@ public class CustomRenderPineAsset : RenderPipelineAsset
 > [!NOTE] Title
 > [ScriptableRenderContext](https://docs.unity3d.com/cn/2022.3/ScriptReference/Rendering.ScriptableRenderContext.html) 是 SRP 用于渲染的最底层接口之一，还有一个接口叫做 `CommandBuffer`。我们通过这两个接口封装的各种方法来实现基本的渲染绘制
 
-```cs file:CustomRenderPipeline.cs
+```cs title:CustomRenderPipeline.cs
 using UnityEngine;
 using UnityEngine.Rendering;
 
@@ -144,7 +144,7 @@ public class CustomRenderPipeline : RenderPipeline
 可以看到在 `Render` 函数里主要的工作就是使用 `CommandBuffer` 把渲染过程相关指令写入到 `ScriptableRenderContext`，最后`ScriptableRenderContext` 使用 `Submit` 提交指令。
 **为了方便组织渲染的流程和复用, 可以把其中渲染的一段流程抽离出来成为一个 Pass**。例如: 代码中的中的 `DrawVisibleGeometry` (并不完善)。
 
-```cs file:CameraRenderer
+```cs title:CameraRenderer
 using UnityEngine;
 using UnityEngine.Rendering;
 
@@ -363,7 +363,7 @@ public partial class CameraRenderer
 所以它对于 Opaque pass 也好，Transparent pass 也好，它渲染状态的更新是跟每个 Shader 中各自的 Depth、ZWrite、Blend 等等的状态设置有关。
 而下面的 StencilState 则是与在 ForwardRenderer 中的 Forward Renderer Data 的具体设置有关。
 
-```cs file:context.DrawRenderer
+```cs title:context.DrawRenderer
 public void DrawRenderers (Rendering.CullingResults cullingResults, ref Rendering.DrawingSettings drawingSettings, ref Rendering.FilteringSettings filteringSettings, ref Rendering.RenderStateBlock stateBlock);
 
 //调用：

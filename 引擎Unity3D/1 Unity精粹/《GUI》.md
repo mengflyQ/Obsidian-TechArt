@@ -151,7 +151,7 @@ void OnGUI()
 
 
 ![[2022306071646.gif]]
-```cs file: 基于 Toggle 实现多选框
+```cs title: 基于 Toggle 实现多选框
 public bool isSelect;  
 public Rect rect;  
 private int nowSelIndex = 0;
@@ -203,7 +203,7 @@ nowvalue = GUI.HorizontalSlider(new Rect(200, 0, 100, 100),, nowvalue, minValue,
 
 ## 7 图片绘制和 Box 框
 ![[Pasted image 20230607212445.png]]
-```cs file:GUI.DrawTexture
+```cs title:GUI.DrawTexture
 public Rect texPos;
 public Texture texture;
 
@@ -222,7 +222,7 @@ private void OnGUI()
 
 简单的 Box 边框，没特殊功能
 ![[Pasted image 20230607212756.png]]
-```cs file:GUI.Box
+```cs title:GUI.Box
 GUI.Box(new Rect(0,0,100,100),"123");
 ```
 
@@ -230,7 +230,7 @@ GUI.Box(new Rect(0,0,100,100),"123");
 工具栏特点，多个按钮只能同时选择一个
 ![[Pasted image 20230607215332.png]]
 
-```cs file:GUI.Toolbar
+```cs title:GUI.Toolbar
 private int toolbarIndex = 0;
 private string[] toolbarInfos = {"选项一", "选项二", "选项三"};
 private void OnGUI()
@@ -256,7 +256,7 @@ private void OnGUI()
 ![[Pasted image 20230607215701.png]]
 当 xCount 为 1 时：
 ![[Pasted image 20230607215722.png]]
-```cs file:GUI.SelectionGrid
+```cs title:GUI.SelectionGrid
 private int selGridIndex = 0;
 private string[] selGridInfos = {"选项一", "选项二", "选项三"};
 private void OnGUI()
@@ -269,7 +269,7 @@ private void OnGUI()
 - 用于批量控制控件位置
 - 可以理解为包裹着的控件加了一个父对象
 - 可以通过控制分组来控制包裹控件的位置
-```cs file:GUI.BeginGroup
+```cs title:GUI.BeginGroup
 public Rect groupPos;  
 
 private void OnGUI()  
@@ -285,7 +285,7 @@ private void OnGUI()
 **滚动视图：**
 ![[Pasted image 20230607222051.png]]
 
-```cs file:GUI.BeginScrollView
+```cs title:GUI.BeginScrollView
 public Rect uiPos;
 public Vector2 scrollPos;
 public Rect viewPos;
@@ -302,7 +302,7 @@ private void OnGUI()
 ## 10 窗口
 就是单独的一个窗口，在绘制窗口的函数中写 UI 代码，以窗口的左上角为原点
 ![[202306072241.gif]]
-```cs file:GUI.Window
+```cs title:GUI.Window
 public Rect windowPos;
    
 private void OnGUI()
@@ -345,12 +345,12 @@ private void DrawWindow(int id)
 **模态窗口**
 - 可以让窗口外的其它控件无法点击
 - 你可以理解该窗口在最上层，其它按钮都点击不到了，只能点击该窗口上控件
-```cs file:GUI.ModalWindow
+```cs title:GUI.ModalWindow
 GUI.ModalWindow(2,new Rect(400,100,200,150),DrawWindow,"模态窗口");
 ```
 
 ## 11 颜色和皮肤
-```cs file:设置颜色
+```cs title:设置颜色
 //全局着色，同时影响背景和字体，不常用
 GUI.color = Color.blue;
       
@@ -367,7 +367,7 @@ GUI.Button(new Rect(300, 300, 100, 100), "按钮2");
 可以在这里面修改，通过代码传给 UI 控件。
 ![[Pasted image 20230607225608.png|400]]
 
-```cs file:设置皮肤
+```cs title:设置皮肤
 public GUISkin guiSkin;
 
 private void OnGUI()
@@ -395,7 +395,7 @@ GUILayout.EndArea();
 使用布局选项：
 
 
-```cs file:布局选项
+```cs title:布局选项
 GUILayout.Button("123",GUILayout.Width(300)); //布局选项作为第二个参数传入
 
 
@@ -662,7 +662,7 @@ print((this.transform as RectTransform).sizeDelta);
 ![[Pasted image 20230616215136.png|500]]
 
 #### 代码获取 Image 属性
-```cs file:代码获取Image属性
+```cs title:代码获取Image属性
 //修改当前Image控件的SourceImage
 //图片必须放在Resources文件夹
 Image img = this.GetComponent<Image>();
@@ -681,7 +681,7 @@ public TMP_Text text;  //声明
 ![[Pasted image 20230616222442.png|450]]
 ![[Pasted image 20230616222359.png]]
 #### 代码控制文本内容
-```cs file:代码控制文本内容
+```cs title:代码控制文本内容
 //Text(TMP)
 TextMeshPro text = this.GetComponent<TextMeshPro>();  
 text.text = "Hello World";
@@ -702,7 +702,7 @@ RawImage 是原始图像组件
 ![[Pasted image 20230616223059.png]]
 ![[Pasted image 20230616223338.png]]
 #### 代码控制 Texture
-```cs file:代码控制Texture
+```cs title:代码控制Texture
 RawImage img = this.GetComponent<RawImage>();
 img.texture = Resources.Load<Texture>( "EmojiOne");
 ```
@@ -727,7 +727,7 @@ img.texture = Resources.Load<Texture>( "EmojiOne");
 > ![[Pasted image 20230616233439.png|350]]
 
 #### 代码控制 button 属性
-```cs file:代码控制button
+```cs title:代码控制button
 Button btn = this.GetComponent<Button>();  
 btn.interactable = true;  
 btn.transition = Selectable.Transition.ColorTint;
@@ -1113,7 +1113,7 @@ public class Test : MonoBehaviour, IPointerEnterHandler, IPointerClickHandler
 `pressEventCamera`: 最后一个 `onPointerPress` 按下事件关联的摄像机 
 `enterEvetnCamera`: 最后一个 `onPointerEnter` 进入事件关联的摄像机
 
-```cs file:使用方法
+```cs title:使用方法
 public void OnPointerClick(PointerEventData eventData)
 {
     print("鼠标点击");
@@ -1275,7 +1275,7 @@ Unity 为用户提供了基础类：`MaterialPropertyDrawer`，专门**用于快
 ![[1 ShaderLab#颜色空间和颜色/矢量着色器数据]]
 
 `[MainTexture]` ：将纹理设置为主纹理，默认情况 Unity 会将属性名为 `_MainTex` 的纹理设置为主纹理。如果 Shader 中有多个该命令，只有第一个命令会生效 
-```cs file:脚本访问主纹理
+```cs title:脚本访问主纹理
 public Texture texture;
 void Start()
 {
@@ -1285,7 +1285,7 @@ void Start()
 ```
 
 -  `[MainColor]`：将属性设置为主颜色，默认情况 Unity 会将名为 `_Color` 的纹理设置为主纹理。如果 Shader 中有多个该命令，只有第一个命令会生效 
-```cs file:脚本访问主颜色
+```cs title:脚本访问主颜色
 public Texture texture;
 void Start()
 {
@@ -1330,7 +1330,7 @@ KeywordEnum 和 Enum 使用上有些不同，区别在于 KeywordEnum 类似于 
 
 注意：关键词的所有字母必须大写。
 
-```c file:使用方法
+```c title:使用方法
 //1、声明Property，格式为：[ToggleOff] VarName("Display", Int) = 0/1
 Properties
 {
@@ -1441,7 +1441,7 @@ ZWriteMode 是没有内置的，实际上也只有 on 和 off 两个状态，所
 
 ![[Pasted image 20230622155106.jpg]]
 
-```cs file:CustomEnum
+```cs title:CustomEnum
 public enum CustomEnum
 {
     Enum1 = 0,

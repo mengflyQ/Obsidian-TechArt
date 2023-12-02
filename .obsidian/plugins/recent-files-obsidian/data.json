@@ -1,204 +1,172 @@
 {
   "recentFiles": [
     {
-      "basename": "报告",
-      "path": "AI/作业/数据安全/报告.md"
+      "basename": "《CS Primer》",
+      "path": "引擎Unity3D/1 Unity精粹/《CS Primer》.md"
     },
     {
-      "basename": "ACCA7028_sem1_CW_2023_24.en.zh-CN",
-      "path": "AI/作业/数据安全/ACCA7028_sem1_CW_2023_24.en.zh-CN.pdf"
+      "basename": "《Unity Primer》",
+      "path": "引擎Unity3D/1 Unity精粹/《Unity Primer》.md"
     },
     {
-      "basename": "ACCA7028_sem1_CW_2023_24",
-      "path": "AI/作业/数据安全/ACCA7028_sem1_CW_2023_24.pdf"
+      "basename": "《数据持久化》",
+      "path": "引擎Unity3D/1 Unity精粹/《数据持久化》.md"
     },
     {
-      "basename": "报告",
-      "path": "AI/作业/敏捷开发/报告.md"
+      "basename": "《编辑器扩展》",
+      "path": "引擎Unity3D/1 Unity精粹/《编辑器扩展》.md"
     },
     {
-      "basename": "模型参数解析",
-      "path": "AI/机器学习/模型参数解析.md"
-    },
-    {
-      "basename": "Pasted image 20231125140247",
-      "path": "AI/作业/机器学习/assets/Pasted image 20231125140247.png"
-    },
-    {
-      "basename": "报告",
-      "path": "AI/作业/机器学习/报告.md"
-    },
-    {
-      "basename": "快速入门",
-      "path": "AI/深度学习/快速入门.md"
-    },
-    {
-      "basename": "动手学DL",
-      "path": "AI/深度学习/动手学DL.md"
-    },
-    {
-      "basename": "《鱼书》",
-      "path": "AI/深度学习/《鱼书》.md"
-    },
-    {
-      "basename": "Pytorch精粹",
-      "path": "AI/Python/Pytorch精粹.md"
-    },
-    {
-      "basename": "鱼书pdf",
-      "path": "AI/深度学习/鱼书pdf.pdf"
-    },
-    {
-      "basename": "写给小白的用 fashion-mnist 入门机器学习和深度学习的简单项目 (非常全面!!!)",
-      "path": "AI/作业/机器学习/写给小白的用 fashion-mnist 入门机器学习和深度学习的简单项目 (非常全面!!!).md"
-    },
-    {
-      "basename": "CIFAR-10 图像分类（基于 PyTorch）_cifar-10 分类 - CSDN 博客",
-      "path": "AI/作业/机器学习/CIFAR-10 图像分类（基于 PyTorch）_cifar-10 分类 - CSDN 博客.md"
-    },
-    {
-      "basename": "分类器结果",
-      "path": "AI/作业/机器学习/分类器结果.md"
-    },
-    {
-      "basename": "cifar10",
-      "path": "AI/作业/机器学习/cifar10.md"
-    },
-    {
-      "basename": "Parser用法",
-      "path": "AI/Python/Parser用法.md"
-    },
-    {
-      "basename": "TensorboardX",
-      "path": "AI/Python/TensorboardX.md"
-    },
-    {
-      "basename": "Chapter 6 Texturing 纹理",
-      "path": "图形学/4 书籍/RTR4社区版/Chapter 6 Texturing 纹理.md"
-    },
-    {
-      "basename": "Chapter 19 Acceleration Algorithms 加速算法",
-      "path": "图形学/4 书籍/RTR4社区版/Chapter 19 Acceleration Algorithms 加速算法.md"
-    },
-    {
-      "basename": "Chapter 14 Volumetric and Translucency Rendering 体",
-      "path": "图形学/4 书籍/RTR4社区版/Chapter 14 Volumetric and Translucency Rendering 体.md"
-    },
-    {
-      "basename": "Chapter 12 Image-Space Effects 图像空间特效",
-      "path": "图形学/4 书籍/RTR4社区版/Chapter 12 Image-Space Effects 图像空间特效.md"
-    },
-    {
-      "basename": "Chapter 3 The Graphics Processing Unit 图形处理单元",
-      "path": "图形学/4 书籍/RTR4社区版/Chapter 3 The Graphics Processing Unit 图形处理单元.md"
-    },
-    {
-      "basename": "Chapter 1 Introduction 简介",
-      "path": "图形学/4 书籍/RTR4社区版/Chapter 1 Introduction 简介.md"
-    },
-    {
-      "basename": "Chapter 0 前言",
-      "path": "图形学/4 书籍/RTR4社区版/Chapter 0 前言.md"
-    },
-    {
-      "basename": "Chapter 2 The Graphics Rendering Pipeline 图形渲染管线",
-      "path": "图形学/4 书籍/RTR4社区版/Chapter 2 The Graphics Rendering Pipeline 图形渲染管线.md"
-    },
-    {
-      "basename": "Chapter 11 Global Illumination 全局光照",
-      "path": "图形学/4 书籍/RTR4社区版/Chapter 11 Global Illumination 全局光照.md"
-    },
-    {
-      "basename": "Numpy+Matplotlib",
-      "path": "AI/Python/Numpy+Matplotlib.md"
-    },
-    {
-      "basename": "Python基础",
-      "path": "AI/Python/Python基础.md"
-    },
-    {
-      "basename": "Nerf将场景表示为用于视图合成的神经辐射场",
-      "path": "AI/论文/Nerf/Nerf将场景表示为用于视图合成的神经辐射场.md"
-    },
-    {
-      "basename": "可微渲染、NeRF 相关技术概念急速入门",
-      "path": "AI/论文/Nerf/可微渲染、NeRF 相关技术概念急速入门.md"
-    },
-    {
-      "basename": "PyTorch入门",
-      "path": "AI/深度学习/PyTorch入门.md"
-    },
-    {
-      "basename": "方向",
-      "path": "AI/论文/方向.md"
-    },
-    {
-      "basename": "Anaconda配置",
-      "path": "AI/环境配置/Anaconda配置.md"
-    },
-    {
-      "basename": "ta101卡渲",
-      "path": "技术美术/6 NPR/ta101卡渲.md"
-    },
-    {
-      "basename": "概率论与数理统计",
-      "path": "Math/概率论/概率论与数理统计.md"
-    },
-    {
-      "basename": "NPR渲染管线概述",
-      "path": "技术美术/6 NPR/NPR渲染管线概述.md"
-    },
-    {
-      "basename": "【03】Unity URP 卡通渲染 原神角色渲染记录 - Function-Based Light and Shadow： Emission + SDF 脸部阴影",
-      "path": "技术美术/6 NPR/原神/【03】Unity URP 卡通渲染 原神角色渲染记录 - Function-Based Light and Shadow： Emission + SDF 脸部阴影.md"
-    },
-    {
-      "basename": "少前 2 克罗丽科 NPR+PBR 渲染小试",
-      "path": "技术美术/6 NPR/少前 2 克罗丽科 NPR+PBR 渲染小试.md"
-    },
-    {
-      "basename": "【01】Unity URP 卡通渲染 原神角色渲染记录 - Diffuse： Ramp + AO + Double Shadow",
-      "path": "技术美术/6 NPR/原神/【01】Unity URP 卡通渲染 原神角色渲染记录 - Diffuse： Ramp + AO + Double Shadow.md"
-    },
-    {
-      "basename": "【游戏开发实战】下载原神模型，PMX 转 FBX，导入到 Unity 中，卡通渲染，绑定人形动画（附 Demo 工程）_林新发的博客 - CSDN 博客",
-      "path": "技术美术/6 NPR/【游戏开发实战】下载原神模型，PMX 转 FBX，导入到 Unity 中，卡通渲染，绑定人形动画（附 Demo 工程）_林新发的博客 - CSDN 博客.md"
-    },
-    {
-      "basename": "学习论",
-      "path": "AI/论文/Nerf/学习论.md"
-    },
-    {
-      "basename": "yaml_Banner",
-      "path": "zip/Templates/yaml_Banner.md"
-    },
-    {
-      "basename": "转mesh工作",
-      "path": "AI/论文/Nerf/转mesh工作.md"
-    },
-    {
-      "basename": "研究生自救指南",
-      "path": "AI/深度学习/研究生自救指南.pdf"
+      "basename": "2 类型",
+      "path": "虚幻引擎/02 UE++/2 类型.md"
     },
     {
       "basename": "GAS精粹",
       "path": "虚幻引擎/03 Gameplay/GAS/GAS精粹.md"
     },
     {
+      "basename": "1 UE网络精粹",
+      "path": "虚幻引擎/06 网络/1 UE网络精粹.md"
+    },
+    {
+      "basename": "2 STL标准库",
+      "path": "编程/1 C++/2 STL标准库.md"
+    },
+    {
+      "basename": "1 C++ Primer",
+      "path": "编程/1 C++/1 C++ Primer.md"
+    },
+    {
+      "basename": "未命名",
+      "path": "zBuffer/未命名.md"
+    },
+    {
+      "basename": "单例模式总结",
+      "path": "编程/3 设计模式/单例模式总结.md"
+    },
+    {
+      "basename": "GAS Learn",
+      "path": "虚幻引擎/03 Gameplay/GAS/GAS Learn.md"
+    },
+    {
       "basename": "GAS杂项",
       "path": "虚幻引擎/03 Gameplay/GAS/GAS杂项.md"
     },
     {
-      "basename": "发布方案",
-      "path": "Tools/Obsidian/发布方案.md"
+      "basename": "3 Effective C++",
+      "path": "编程/1 C++/3 Effective C++.md"
     },
     {
-      "basename": "插件流",
-      "path": "Tools/Obsidian/插件流.md"
+      "basename": "simpread-【Unreal】虚幻 GAS 系统快速入门",
+      "path": "虚幻引擎/03 Gameplay/GAS/simpread-【Unreal】虚幻 GAS 系统快速入门.md"
     },
     {
-      "basename": "Python基础",
-      "path": "python/Python基础.md"
+      "basename": "GASRPG 笔记",
+      "path": "虚幻引擎/03 Gameplay/GAS/GASRPG 笔记.md"
+    },
+    {
+      "basename": "游戏编程模式",
+      "path": "编程/3 设计模式/游戏编程模式.md"
+    },
+    {
+      "basename": "8 多线程",
+      "path": "虚幻引擎/02 UE++/8 多线程.md"
+    },
+    {
+      "basename": " 01 技能激活的代价—Cost 和 Cooldown",
+      "path": "虚幻引擎/03 Gameplay/GAS/技术宅阿棍儿/ 01 技能激活的代价—Cost 和 Cooldown.md"
+    },
+    {
+      "basename": " 00 激活技能的几种机制",
+      "path": "虚幻引擎/03 Gameplay/GAS/技术宅阿棍儿/ 00 激活技能的几种机制.md"
+    },
+    {
+      "basename": "01 虚幻类",
+      "path": "虚幻引擎/03 Gameplay/《大象无形》/01 虚幻类.md"
+    },
+    {
+      "basename": "4 Effective Modern C++",
+      "path": "编程/1 C++/4 Effective Modern C++.md"
+    },
+    {
+      "basename": "工厂模式",
+      "path": "编程/3 设计模式/工厂模式.md"
+    },
+    {
+      "basename": "simpread-一篇文章学完 Effective C++：条款 & 实践",
+      "path": "编程/1 C++/simpread-一篇文章学完 Effective C++：条款 & 实践.md"
+    },
+    {
+      "basename": "5 现代C++语法",
+      "path": "编程/1 C++/5 现代C++语法.md"
+    },
+    {
+      "basename": "1 Gameplay架构",
+      "path": "虚幻引擎/03 Gameplay/《insider UE》/1 Gameplay架构.md"
+    },
+    {
+      "basename": "多输入多输出节点",
+      "path": "虚幻引擎/02 UE++/蓝图&C++混编/多输入多输出节点.md"
+    },
+    {
+      "basename": "README",
+      "path": "README.md"
+    },
+    {
+      "basename": "conflict-files-obsidian-git",
+      "path": "conflict-files-obsidian-git.md"
+    },
+    {
+      "basename": "3 容器",
+      "path": "虚幻引擎/02 UE++/3 容器.md"
+    },
+    {
+      "basename": "0 蓝图精粹",
+      "path": "虚幻引擎/02 UE++/0 蓝图精粹.md"
+    },
+    {
+      "basename": "1 GamePlay精粹",
+      "path": "虚幻引擎/02 UE++/1 GamePlay精粹.md"
+    },
+    {
+      "basename": "5 指针",
+      "path": "虚幻引擎/02 UE++/5 指针.md"
+    },
+    {
+      "basename": "5 蓝图插件",
+      "path": "虚幻引擎/01 指南/插件使用/5 蓝图插件.md"
+    },
+    {
+      "basename": "ARPG笔记",
+      "path": "虚幻引擎/03 Gameplay/ARPG/ARPG笔记.md"
+    },
+    {
+      "basename": "4 局域网",
+      "path": "虚幻引擎/06 网络/4 局域网.md"
+    },
+    {
+      "basename": "UI显示3D物体",
+      "path": "虚幻引擎/05 UI/UI显示3D物体.md"
+    },
+    {
+      "basename": "UMG",
+      "path": "虚幻引擎/05 UI/UMG.md"
+    },
+    {
+      "basename": "1 UE指南",
+      "path": "虚幻引擎/01 指南/1 UE指南.md"
+    },
+    {
+      "basename": "C++函数参数,返回值在蓝图中的表现形式",
+      "path": "虚幻引擎/02 UE++/蓝图&C++混编/C++函数参数,返回值在蓝图中的表现形式.md"
+    },
+    {
+      "basename": "101 材质大师",
+      "path": "虚幻引擎/07 渲染 & VFX/101 材质大师.md"
+    },
+    {
+      "basename": "1 解包",
+      "path": "虚幻引擎/01 指南/插件使用/1 解包.md"
     }
   ],
   "omittedPaths": [],

@@ -3,8 +3,6 @@
   "table-editor-obsidian",
   "obsidian-banners",
   "oz-clear-unused-images",
-  "codeblock-customizer",
-  "obsidian-codemirror-options",
   "cmdr",
   "obsidian-completr",
   "consistent-attachments-and-links",
@@ -12,7 +10,6 @@
   "obsidian-diagrams-net",
   "easy-typing-obsidian",
   "editing-toolbar",
-  "cm-editor-syntax-highlight-obsidian",
   "obsidian-emoji-toolbar",
   "obsidian-excel-to-markdown-table",
   "file-order",
@@ -43,5 +40,8 @@
   "recent-files-obsidian",
   "obsidian-style-settings",
   "ob-table-enhancer",
-  "templater-obsidian"
+  "templater-obsidian",
+  "cm-editor-syntax-highlight-obsidian",
+  "code-styler",
+  "obsidian-codemirror-options"
 ]

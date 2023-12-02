@@ -307,7 +307,7 @@ computeShader.Dispatch(kernelIndex, 256 / 8, 256 / 8, 1);
 
 上图就是我们 Unity 默认生成的 CS 代码所能带来的效果，我们也可试下用它处理 `2048*2048` 的 Texture，也是非常快的。
 
-```cs file:案例代码
+```cs title:案例代码
 public class NewBehaviourScript : MonoBehaviour
 {
     public ComputeShader computeShader;

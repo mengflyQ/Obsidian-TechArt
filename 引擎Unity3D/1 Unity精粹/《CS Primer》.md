@@ -19,7 +19,7 @@ banner: "[[Pasted image 20230526124440.png]]"
 预处理器指令都是以`#`开始
 预处理器指令不是语句，所以它们不以分号 `;` 结束
 
-```cs file:折叠代码
+```cs title:折叠代码
 #region 折叠块名字
 ... //代码
 #endregion
@@ -49,7 +49,7 @@ banner: "[[Pasted image 20230526124440.png]]"
 //一般还是配合if使用
 ```
 
-```cs file:案例
+```cs title:案例
 #define tag1
 #define tag2
 #undef tag2
@@ -63,7 +63,7 @@ banner: "[[Pasted image 20230526124440.png]]"
 #endif
 ```
 ## 2 控制台方法
-```cs file:打印输入输出
+```cs title:打印输入输出
 Console.Write("xxx"); // 打印，不自动空行
 Console.WriteLine("xxx"); // 打印，自动空行
 Console.ReadLine(); //等待直到用户按下回车，一次读入一行。
@@ -76,7 +76,7 @@ Console.ReadKey(true).KeyChar;
 Console.KeyAvailable //判断有无键盘输入，如果有则为true
 ```
 
-```cs file:其他方法
+```cs title:其他方法
 //1.清空
 Console.Clear();  
 
@@ -162,7 +162,7 @@ static void Main(string[] args)
 - 不会对大对象进行搬迁压缩（85080 字节 (83kb）以上的对象为大对象）
 ![](1684809112351.png)  
 
-```cs file:手动垃圾回收
+```cs title:手动垃圾回收
 // 一般情况下，我们不会频繁调用、
 // 都是在Loading过场景时，才调用
 CG.Collect();
@@ -240,7 +240,7 @@ Console.WriteLine(a);
 
 **作用：** 就像是一个工具包，类就像是一件一件的工具，都是申明在命名空间中的
 
-1. 不同命名空间中相互使用需要引用命名空间（`using namespace;`）或指明出处（`namespace. test ()`）
+1. 不同命名空间中相互使用需要引用命名空间（`using namespace;`）或指明出处（`namespace.test ()`）
 2. 不同命名空间中允许有同名类
 3. 命名空间可以嵌套命名
 # 一、变量和类型
@@ -306,7 +306,7 @@ Console.WriteLine(arr1[0]); //输出5
 ```cs
 float a = 0.1654646f;
 ```
-2.  `sizeof() ` 返回**值类型**变量的大小（字节）
+2.  `sizeof()` 返回**值类型**变量的大小（字节）
 3. **保留指定小数位数**
 ```cs
 //语法：
@@ -420,7 +420,7 @@ var ccc = string.Format("select * from {0} where {1} = {2}", a0, a1, a2);
 ```
 #### 字符串方法
 ##### 查找字符位置
-```cs file:IndexOf查找字符位置
+```cs title:IndexOf查找字符位置
 // 尽管搜索方向不一样，但是字符下标依然从左向右加1，从0开始。
 
 // 正向查找字符位置 从左到右
@@ -432,7 +432,7 @@ int index2 = str.LastIndexOf("是");
 
 ```
 ##### 移除字符
-```cs file:Remove移除指定位置后的字符
+```cs title:Remove移除指定位置后的字符
 string str = "这是一句话";
 
 //单参数
@@ -447,7 +447,7 @@ Console.WriteLine(str);
 //输出：这话
 ```
 ##### 替换字符
-```cs file:Replace替换字符
+```cs title:Replace替换字符
 string str = "这是一句话";
 str = str.Replace("一句话", "歌词");
 Console.WriteLine(str);
@@ -463,7 +463,7 @@ Console.WriteLine(str);
 str = str.ToLower();  //转小写
 ```
 ##### 字符串截取
-```cs file:Substringj截取字符串
+```cs title:Substringj截取字符串
 string str = "abcdefg";
 
 //截取从指定位置开始之后的字符串
@@ -476,7 +476,7 @@ str = str.Substring(1,3);
 //输出bcd
 ```
 ##### 字符串切割
-```cs file:Split切割字符串
+```cs title:Split切割字符串
 string str = "a|b|c|d|e|f|g";
 
 string[] strs = str.Split(new char[] { '|' }); //指定切割符号
@@ -569,7 +569,7 @@ object 是**所有类型的基类**，它是一个类 (引用类型)
 2. 可以用来表示不确定类型，作为函数参数类型
 
 #### 用法
-```cs file:object类
+```cs title:object类
 // 上文讲过的里氏替换
 Father f = new Son();
 if (f is Son)
@@ -691,7 +691,7 @@ r.Next(5,100); //生成[5,99)的随机数
 
 ### 枚举
 
-```cs file:声明枚举
+```cs title:声明枚举
 // 声明枚举
 public enum 枚举名
 {
@@ -707,7 +707,7 @@ public enum 枚举名
 - 枚举通常声明到 namespace 的下面，class 的外面，表示这个命名空间下，所有的类都可以使用这个枚举。
 - 不可以在函数中声明
 
-```cs file:枚举搭配switch使用：
+```cs title:枚举搭配switch使用：
 namespace ConsoleApp1
 {
     enum EPlayer
@@ -740,7 +740,7 @@ namespace ConsoleApp1
 }
 ```
 
-```cs file:枚举类型转换
+```cs title:枚举类型转换
 EPlayer Player = EPlayer.singer;  
 // 枚举转int  
 int i = (int)Player;  
@@ -755,7 +755,7 @@ Player = (EPlayer)Enum.Parse(typeof(EPlayer), "teacher"); // 注意第二个变�
 ### 数组
 数组**声明后不可以改变长度**，若想在原数组的基础上进行收缩，需要新建一个数组，将值复制到新数组。
 #### 一维数组
-```cs file:一维数组的声明
+```cs title:一维数组的声明
 int[] nums;  //只声明不初始化
 int[] nums = new int[5]; //全部为默认值0
 
@@ -765,11 +765,11 @@ int[] nums = new int[5]{1,2,3,4,5};
 int[] nums = {1,2,3,4,5};
 ```
 
-```cs file:一维数组方法
+```cs title:一维数组方法
 int len = nums.Lenght()  //数组长度
 ```
 
-```cs file:增加和减少数组中的元素
+```cs title:增加和减少数组中的元素
 //增加数组中的元素
 int[] array = { 1, 2, 3, 4, 5 };
 int[] array1 = new int[10];
@@ -797,7 +797,7 @@ array = array2;
 ``` 
 
 #### 二维数组
-```cs file:二维数组的声明
+```cs title:二维数组的声明
 int[,] nums;  //只声明不初始化
 int[,] nums = new int[3,3]; //全部为默认值0
 
@@ -815,13 +815,13 @@ int[,] nums = {{1,1,1},
                {3,3,3}};
 ```
 
-```cs file:二维数组方法
+```cs title:二维数组方法
 nums.GetLength(0) //获取行数
 nums.GetLength(1) //获取列数
 ```
 #### 交错数组
 不常用，和二维数组的区别在于，每行的列数可以不同
-```cs   file:交错数组的声明
+```cs   title:交错数组的声明
 int[][] arr1;
 int[][] arr2 = new int[3][];
 
@@ -849,7 +849,7 @@ int[][] arr5 =
 ```
 
 
-```c++ file:交错数组方法
+```c++ title:交错数组方法
 nums.GetLength(0) //获取行数
 nums[0].Length(1) //获取某一行的列数
 ```
@@ -903,7 +903,7 @@ array.Reverse(); //反转
 
 ```
 
-```cs file:遍历
+```cs title:遍历
 array.Count;   //元素数量
 
 //使用迭代器遍历
@@ -934,7 +934,7 @@ stack.Count; //栈的长度
 stack.Clear(); //清空栈  
 ```
 
-```cs file:遍历
+```cs title:遍历
 //栈不能使用[]访问，所以无法使用for循环遍历，一般使用foreach
 foreach (var item in stack)
 {
@@ -974,7 +974,7 @@ queue.Count;//队列长度
 queue.Clear();  //清空队列  
 ```
 
-```cs file:遍历
+```cs title:遍历
 //队列不能使用[]访问，所以无法使用for循环遍历，一般使用foreach
 foreach (var item in queue)
 {
@@ -998,7 +998,7 @@ while (queue.Count > 0)
 
 ### Hashtable
 哈希表（又称散列表），键值对
-```cs file:增删查改
+```cs title:增删查改
 Hashtable hashtable = new Hashtable();
 
 //增：键不能相同  
@@ -1020,7 +1020,7 @@ hashtable.Count; //获取键值对数量
 hashtable["key"] = "value4";  //根据键修改
 ```
 
-```cs file:遍历
+```cs title:遍历
 //遍历所有键
 ICollection keys = hashtable.Keys;  //获取键的集合
 foreach (var item in keys) 
@@ -1064,7 +1064,7 @@ while (enumerator2.MoveNext())
 
 本质是一个**可变类型的泛型数组**，和 ArrayList 主要区别在于可以指定泛型类型，避免了装箱拆箱的性能损耗
  
-```cs file:增删查改
+```cs title:增删查改
 List<int> list = new List<int>();
 
 //增
@@ -1092,7 +1092,7 @@ list[0] = 1; //通过下标改
 list.Reverse(); //反转
 ```
 
-```cs file:遍历
+```cs title:遍历
 //使用迭代器遍历
 foreach (var item in list)  
 {  
@@ -1116,7 +1116,7 @@ list.Sort(); //升序排列
 1. 继承 `IComparable<Item>` 接口
 2. 实现接口的方法 `CompareTo(Item other)` 方法
 
-```cs file:自定义类的排序
+```cs title:自定义类的排序
 class Item : IComparable<Item> //继承IComparable接口
 {
     public int money;
@@ -1255,7 +1255,7 @@ class Program
 ### Dictionary<>
 字典，可以将 `Dictionary` 理解为拥有**泛型的 `Hashtable`**，它也是基于键的哈希代码组织起来的键/值对，**键值对类型从 Hashtable 的 object 变为了可以自己制定的泛型**
 
-```cs file:增删查改
+```cs title:增删查改
 Dictionary<int,string> dictionary = new Dictionary<int, string>();
 
 //增：键不能相同  
@@ -1283,7 +1283,7 @@ dictionary.Count  //获取键值对数量
 dictionary[1] = "ONE";  //根据键修改
 ```
 
-```cs file:遍历
+```cs title:遍历
 //遍历所有键
 foreach (int key in dictionary.Keys)
 {
@@ -1317,7 +1317,7 @@ while (enumerator.MoveNext())
 `LinkedList` 本质是一个**可变类型的泛型双向链表**
 `LinkedListNode` 是**链表节点类**
 
-```cs file:增删查改
+```cs title:增删查改
 LinkedList<int> linkedList = new LinkedList<int>();  
 LinkedListNode<int> first = linkedList.First; //获取头节点  
 LinkedListNode<int> last = linkedList.Last; //获取尾节点  
@@ -1346,7 +1346,7 @@ LinkedListNode<int> node3 = linkedList.Find(1);
 node3.Value = 2;
 ```
 
-```cs file:b遍历
+```cs title:b遍历
 //通过foreach遍历
 foreach (var item in linkedList)
 {
@@ -1393,7 +1393,7 @@ stack.Count; //栈的长度
 stack.Clear(); //清空栈  
 ```
 
-```cs file:遍历
+```cs title:遍历
 //栈不能使用[]访问，所以无法使用for循环遍历，一般使用foreach
 foreach (var item in stack)
 {
@@ -1434,7 +1434,7 @@ queue.Count;//队列长度
 queue.Clear();  //清空队列  
 ```
 
-```cs file:遍历
+```cs title:遍历
 //队列不能使用[]访问，所以无法使用for循环遍历，一般使用foreach
 foreach (var item in queue)
 {
@@ -1486,7 +1486,7 @@ pubilc static 返回值类型 函数名（参数列表）
 1. ref 传入的变量 (参数) 必须初始化，out 不用。  
 2. out 传入的变量必须在内部赋值，ref 不用。  
 
-```cs file:ref参数
+```cs title:ref参数
 static void ChangeValue (int a)
 {
     a = 20;
@@ -1511,7 +1511,7 @@ ChangeValue(b);
 但是，如果返回多个不同类型的值的时候，返回数组就不行了，那么这个时候，
 我们可以考虑使用 out 参数。**out 参数就侧重于在一个方法中可以返回多个不同类型的值。**
 
-```cs file:out参数
+```cs title:out参数
 public static void Test(int[]nums,out int max.out int min,out int sum,out float avr)
 //out int max写到形参列表中
 {
@@ -1702,11 +1702,11 @@ c = a >> 2;
 2. 一个符号可以多个重载
 3. 不能使用 `ref` 和 `out`
 
-```cs file:语法
+```cs title:语法
 public static 返回类型 operator 运算符(参数列表)
 ```
 
-```cs file:案例
+```cs title:案例
 Point p1 = new Point();
 p1.x =1;
 p1.y =1;
@@ -1958,7 +1958,7 @@ class Person
 2. 分部类的访问修饰符要一致
 3. 分部类中不能有重复成员
 
-```cs file:分布类
+```cs title:分布类
 //可以理解为将Person类分开，两部分共同组成Person类，数据共享
 public partial class  Person
 { }
@@ -2053,7 +2053,7 @@ public string get_Name
 }
 ```
 
-```cs file:用法
+```cs title:用法
 public class Person
 {
     private int _age; //字段在类中必须是私有的，如果想访问只能通过成员属性！
@@ -2094,7 +2094,7 @@ static void Main(string[] args)
 }
 ```
 
-```cs file:新写法
+```cs title:新写法
 public int Age { get => _age; set => _age = value; }
 ```
 
@@ -2160,7 +2160,7 @@ Person.M2();  //静态方法
     - 不能使用访问修饰符
     - 不能有参数
     - 只会自动调用一次
-```cs file:静态构造函数
+```cs title:静态构造函数
 class Test
 {
     public static int a = 100;
@@ -2204,7 +2204,7 @@ class Test
 3. 第一个参数为拓展目标
 4. 第一个参数用 this 修饰
 
-```cs file:语法
+```cs title:语法
 访问修饰符 static 返回值 函数名(this 拓展类名 参数名，参数类型 参数名,参数类型 参数名....)
 ```
 
@@ -2366,7 +2366,7 @@ public Person(string name,int age)：this（name,age,""）
 ## 7 索引器
 **作用：** 让对象可以像数组一样通过索引访问其中元素，使程序看起来更直观，更容易编写。
 **语法：** 
-```cs file:语法
+```cs title:语法
 访问修饰符 返回值 this[参数类型 参数名, 参数类型 参数名, ......] // 注意这里是中括号[]
 {
     //内部的写法和规则和索引器相同
@@ -2375,7 +2375,7 @@ public Person(string name,int age)：this（name,age,""）
 }
 ```
 
-```cs file:用法
+```cs title:用法
 public class Person
 {
     private string _name;
@@ -2523,7 +2523,7 @@ public class DerivedClass : BaseClass
 `is`：判断一个对象是否是指定的类对象，如果能够转换，则返回一个 true，否则返回一个 false
 `as`：将一个对象转换为指定的类对象，如果能够转换则转换为指定的类对象，否则返回一个 null
 
-```cs file:is和as的用法
+```cs title:is和as的用法
 //假设Student类是Person类的子类
 static void Main(string[] args)
 {
@@ -2548,7 +2548,7 @@ static void Main(string[] args)
 }
 ```
 
-```cs file:游戏中的应用
+```cs title:游戏中的应用
 //假设Gameobject是其他游戏类的基类，里氏替换如下：
 Gameobject player = new Player();  
 Gameobject monster = new Monster();  
@@ -2790,7 +2790,7 @@ public class Cat : Animal
 2. 接口是用来继承的
 3. 接口不能被实例化，但是可以作为容器存储对象
 
-```cs file:语法
+```cs title:语法
 public interface 接口名称（通常以I开头，如ICompute）
 {
     接口成员；
@@ -2979,7 +2979,7 @@ class Program
 
 1. 不同类型对象的相同逻辑处理就可以选择泛型
 2. 使用泛型可以一定程度避免装箱拆箱
-```cs file:举例:优化ArrayList
+```cs title:举例:优化ArrayList
 //实现一个可指定类型的ArrayList,这样可以避免使用Object类型的装箱拆箱操作
 class ArrayList<T>
 {
@@ -2995,12 +2995,12 @@ class ArrayList<T>
 
 ## 1 泛型类和泛型接口
 
-```cs file:语法
+```cs title:语法
 class 类名<泛型占位字母>
 interface 接口名<泛型占位字母>
 ```
 
-```cs file:泛型类
+```cs title:泛型类
 class TestClass<T>
 {
     public T value;
@@ -3028,7 +3028,7 @@ class TestClass2<T1, T2, T3, T4>
 }
 ```
 
-```cs file:泛型接口
+```cs title:泛型接口
 interface IInterface<T>  
 {  
     T value { get; set; }  
@@ -3041,12 +3041,12 @@ class Test : IInterface<int>
 ```
 ## 2 泛型方法（函数）
 
-```cs file:语法
+```cs title:语法
 函数名<泛型占位字母>(参数列表)
 ```
 
 ### 普通类中的泛型方法
-```cs file:普通类中的泛型方法
+```cs title:普通类中的泛型方法
 class Test  //注意这是普通类
 {
     public void Func1<T>(T value)
@@ -3084,7 +3084,7 @@ class Program
 ```
 
 ### 泛型类中的泛型方法
-```cs file:泛型类中的泛型方法
+```cs title:泛型类中的泛型方法
 class Test<T> //注意这是泛型类
 {
     public T value;
@@ -3136,14 +3136,14 @@ class Program
 ![[Pasted image 20230530224846.png|500]]
 >这里泛型约束使用了值类型，当泛型使用 string（引用类型）时报错
 
-```cs file:可以同时指定多个约束，使用逗号
+```cs title:可以同时指定多个约束，使用逗号
 class Test<T> where T : class, new()
 {
     ...
 }
 ```
 
-```cs file:多个泛型同时指定约束
+```cs title:多个泛型同时指定约束
 class Test<T,K> where T : class where K : struct
 {
     ...
@@ -3164,7 +3164,7 @@ class Test<T,K> where T : class where K : struct
 写在哪里?
 可以申明在 namespace 和 class 语句块中，更多的写在 namespace 中
 
-```cs file:语法:
+```cs title:语法:
 //简单记忆委托语法就是函数申明语法前面加一个 delegate 关键字
 访问修饰符 delegate 返回值 委托名 (参数列表);
 ```
@@ -3284,12 +3284,12 @@ Func 有返回值
 `Action`：无参**无返回值。**
 `Action<>`：有参**无返回值**，支持 0~16 个参数
 
-```cs file:源码
+```cs title:源码
 public delegate void Action();
 public delegate void Action<in T>(T obj);
 ```
 
-```cs file:用法
+```cs title:用法
 class Program
 {
     static void Main(string[] args)
@@ -3313,13 +3313,13 @@ class Program
 `Func<>`：无参**有返回值**
 `Func<，>`：有参**有返回值**，支持 0~16 个参数
 
-```cs file:源码
+```cs title:源码
 public delegate TResult Func<out TResult>(); //无参有返回值，TResult为返回值
 
 public delegate TResult Func<in T, out TResult>(T arg); //可以传入多个参数
 ```
 
-```cs file:用法
+```cs title:用法
 class Program
 {
     static void Main(string[] args)
@@ -3688,7 +3688,7 @@ public class TestingEvents : MonoBehaviour
 - 匿名函数的使用主要是配合委托和事件进行使用
 - **脱离委托和事件是不会使用匿名函数的**
 
-```cs file:语法
+```cs title:语法
 //以下两种方法等价：
 
 //delegate 委托匿名方法
@@ -3740,7 +3740,7 @@ Console.WriteLine(func2("World!"));
 
 ```
 
-```cs file:作为参数传递\作为函数返回值
+```cs title:作为参数传递\作为函数返回值
 class Test
 {
     public Action action;
@@ -3851,7 +3851,7 @@ class Program
 > [!info] Title
 > 反射常用于跨文件获取数据，此案例只是为了演示功能，所以将所有代码放在一个文件中
 
-```cs file: 获取Type
+```cs title: 获取Type
 using System.Reflection;
 
 namespace MyNamespace;
@@ -3909,7 +3909,7 @@ class Program
 
 - @ 以下代码都在 Main 函数中
 ### 获取类中的所有成员
-```cs file:获取类中的所有公共成员
+```cs title:获取类中的所有公共成员
 Type t4 = typeof(Test); //获取Test类的Type对象
 MemberInfo[] members = t4.GetMembers();  //获取Test类中的所有成员,需要引用命名空间using System.Reflection;
 for (int i = 0; i < members.Length; i++)
@@ -3929,7 +3929,7 @@ for (int i = 0; i < members.Length; i++)
 }
 ```
 ### 获取构造函数
-```cs file:获取类的公共构造函数并调用
+```cs title:获取类的公共构造函数并调用
 //1.获取所有构造函数
 ConstructorInfo[] ctors = t4.GetConstructors();
 for (int i = 0; i < ctors.Length; i++)
@@ -3956,7 +3956,7 @@ obj = info3.Invoke(new object[] { 3, "456" }) as Test;
 
 ### 获取类的公共成员变量
 
-```cs file:获取类的公共成员变量
+```cs title:获取类的公共成员变量
 //1.获取所有成员变量
 FieldInfo[] fields = t4.GetFields();
 for (int i = 0; i < fields.Length; i++)
@@ -3981,7 +3981,7 @@ Console.WriteLine(test.j); //返回100
 ```
 
 ### 获取类的成员方法
-```cs file:获取类的成员方法
+```cs title:获取类的成员方法
 //使用Type类中的GetMethod方法
 //GetMethod方法传入方法名，返回MethodInfo(方法的反射信息)对象
 Type strType = typeof(string);
@@ -4350,7 +4350,7 @@ public static extern int Add(int a, int b);  //使用Test.dll包里的方法
 可以通过同时继承 `IEnumerable` 和 `IEnumerator` 实现其中的方法
 
 `foreach` 本质：
-```cs file:使用迭代器实现List数据结构
+```cs title:使用迭代器实现List数据结构
 class CustomList : IEnumerable,IEnumerator
 {
     private int[] list;
@@ -4463,7 +4463,7 @@ class Program
 }
 ```
 
-```cs file:泛型
+```cs title:泛型
 class CustomList<T> : IEnumerable
 {
     private T[] list;
@@ -4520,7 +4520,7 @@ var list = new List<int>();
 ## 2 匿名类型
 **匿名类型**：
 var 变量可以声明为自定义的匿名类型
-```cs file:匿名类型
+```cs title:匿名类型
 var v = new{age =10,name="John"};
 Console.WriteLine(v.age);
 Console.WriteLine(v.name);

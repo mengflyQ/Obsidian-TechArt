@@ -247,7 +247,7 @@ Blitter.BlitCameraTexture(cmd, src,dest,material,passindex);
     4. **`OnCameraCleanup`** ：相机堆栈中的所有相机都会调用，释放创建的资源
     5. `OnFinishCameraStackRendering`：渲染完相机堆栈中的最后一个相机后调用一次，释放创建的资源
 
-```cs file:RF模板
+```cs title:RF模板
 public class CustomRenderFeature : ScriptableRendererFeature
 {
     class CustomRenderPass : ScriptableRenderPass
@@ -425,7 +425,7 @@ RTHandle 系统是 Unity 的 [RenderTexture](https://docs.unity3d.com/ScriptRefe
 4. 如果渲染目标在应用程序的生存期内没有更改，使用 `RTHandles.Alloc` 方法分配 `RTHandle` 目标。
 5. 如果渲染目标是全屏纹理，这意味着其分辨率与屏幕分辨率匹配或只是屏幕分辨率的一小部分，请使用诸如 `Vector2D.one` 之类的缩放因子来支持动态缩放。
 
-```cs file:示例
+```cs title:示例
 public class CustomPass : ScriptableRenderPass
 {
     RTHandle m_Handle;

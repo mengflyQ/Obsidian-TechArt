@@ -42,17 +42,13 @@ body.unified-cm-highlighting[class*="theme-"] .cm-s-obsidian .cm-math {
 }
 
 /* codeblock */
-/* 去圆角 */
-/* body.unified-cm-highlighting[class*="theme-"] .cm-s-obsidian div.HyperMD-codeblock-bg
-{
-    border-radius: 0;
-} */
-
-/* 行号栏颜色 */
-.markdown-source-view .codeblock-customizer-line-number {
-    background-color: #1F232A;
-}
 /* 标题栏和代码块对齐 */
-.markdown-source-view.mod-cm6 .cm-content>* {
+/* .markdown-source-view.mod-cm6 .cm-content>* {
     margin: auto !important;
 }
+ */
+ 
+/* 标题栏字体颜色 */
+ body.code-styler .code-styler-header-text {
+    color: rgb(157, 157, 157); /* 字体颜色 */
+ }

@@ -212,7 +212,7 @@ void OnDestroy()
 Unity 当中的 Random 类和 cs 中的 Random 类不同。
 使用 cs 自带随机数加上 System. 就可以  
 
-```cs file:Unity中的随机数
+```cs title:Unity中的随机数
 //随机数 int 重载规则是左包含，右不包含 [)
 int randomNum = Random.Range(0, 100);
 
@@ -220,7 +220,7 @@ int randomNum = Random.Range(0, 100);
 float randomNum = Random.Range(0.0f, 100.0f);
 ```
 
-```cs file:cs中的随机数
+```cs title:cs中的随机数
 System.Random r = new System.Random();  
 r.Next(); //生成一个非负的随机数  
 r.Next(100); //生成[0,99)的随机数 
@@ -229,14 +229,14 @@ r.Next(100); //生成[0,99)的随机数
 ## 6 委托/事件
 [[《CS Primer》#八、委托 delegate]] 
 Unity 的委托和 cs 的 Action 委托使用方法类似
-```cs file:Unity自带委托
+```cs title:Unity自带委托
 UnityAction ac1 = () => { print("test1"); };  //无参无返回值  
   
 UnityAction<string> ac2 = (str) => { print("test2");};//有参无返回值
 ```
 
 使用 cs 自带委托加上 System. 就可以  
-```cs file:cs自带委托  
+```cs title:cs自带委托  
 System.Action ac1 = () => { print("test1"); }; //无参无返回值  
 System.Action<int,float> ac2 = (i,f)=> { print("test2"); };//有参无返回值  
   
@@ -245,7 +245,7 @@ System.Func<int, float, string> ac4 = (i, f) => { return "test3"; };//有参有�
 ```
 
 事件：和 cs 一样
-```cs file:事件
+```cs title:事件
 public event UnityAction clickEvent;
 ```
 
@@ -315,7 +315,7 @@ float arcSinValue = Mathf.Asin(0.5f);
 ```
 
 ### 向量
-```cs file:Vector3
+```cs title:Vector3
 //Vector3的初始化
 Vector3 v1 = new Vector3();
 v1.x = 10;
@@ -382,7 +382,7 @@ Untiy 欧拉角常用顺规：YXZ（Yaw-pitch-Roll）
 **四元数 $Q$ 则表示绕着轴 $n$，旋转$β$度的旋转量**
 
 #### Unity 中的四元数
-```cs file:Unity中的四元数初始化方法
+```cs title:Unity中的四元数初始化方法
 //方法一：
 //绕轴（3，4，5）旋转30度，注意要转弧度
 Quaternion q = new Quaternion(Mathf.Sin(30/2 * Mathf.Deg2Rad)*3, Mathf.Sin(30/2 * Mathf.Deg2Rad)*4, Mathf.Sin(30/2 * Mathf.Deg2Rad)*5,Mathf.Cos(30/2 * Mathf.Deg2Rad));  
@@ -485,7 +485,7 @@ v = Quaternion.AngleAxis(45, Vector3.up) * v;
 ## 8 坐标转换
 ### 坐标系
 **世界坐标系**
-```cs file:常用的世界空间坐标
+```cs title:常用的世界空间坐标
 this.transform.position;
 this.transform.rotation;
 this.transform.eulerAngles;
@@ -514,7 +514,7 @@ Screen.height
 注意这和观察坐标系（以摄像机为原点）不同！
 
 ### 局部/世界
-```cs file:世界坐标转局部坐标
+```cs title:世界坐标转局部坐标
 //世界坐标系的点转换为局部坐标系点（会受缩放影响）
 //上图中的P即为Vector3.forward
 this.transform.InverseTransformPoint(Vector3.forward);
@@ -532,7 +532,7 @@ this.transform.InverseTransformVector(Vector3.forward);
 世界坐标系的点 P (0，0，1)转换到局部空间，则 P 点坐标的 x，z 在局部空间为负数。
 世界坐标系的向量 P（0，0，1）转换为局部空间，将左边的向量平移到右边，可以观察到该方向向量的 x 为负数，z 为证书
 
-```cs file:局部坐标转世界坐标
+```cs title:局部坐标转世界坐标
 //⭐点（受缩放影响）
 print(this.transform.TransformPoint(Vector3.forward));  
 
@@ -548,7 +548,7 @@ print(this.transform.TransformDirection(Vector3.up));
 
 ### 世界/屏幕
 
-```cs file:坐标转换
+```cs title:坐标转换
 //世界坐标转屏幕坐标
 Vector3 screenPos = Camera.main.WorldToScreenPoint(this.transform.position);  //XY是屏幕坐标，Z轴是深度
 print(screenPos);
@@ -601,7 +601,7 @@ Camera.main.screenToViewportPoint
 
 ### 调试打印
 在 Unity 中打印信息的两种方式
-```cs file:打印
+```cs title:打印
 //1.没有继承MonoBehaviour的类的时候，可以使用Debug.Log
 Debug.Log("Awake Hello!");
 Debug.LogError("Awake Error");
@@ -610,7 +610,7 @@ Debug.LogWarning("Awake Warning");
 print("Awake Hello!");
 ```
 
-```cs file:调试画线
+```cs title:调试画线
 //画线段
 //前两个参数为起点、终点
 //向前方画一条线段：
@@ -659,7 +659,7 @@ void Start()
 如何得到依附的 GameObject 对象上挂载的其它脚本?
 
 1. **得到 GameObject 挂载的单个脚本**
-```cs file:得到自己挂载的单个脚本 h:8
+```cs title:得到自己挂载的单个脚本 h:8
 //根据脚本名获取，较少使用
 TestScript t1 = this.GetComponent("TestScript") as TestScript; 
 
@@ -978,7 +978,7 @@ void TestFunc1(int i)
 ```
 
 ## 3 Time 类
-```cs file:游戏时间
+```cs title:游戏时间
 void Update()
 {
     //时间缩放比例 
@@ -1004,7 +1004,7 @@ void Update()
 }
 ```
 
-```cs file:物理时间
+```cs title:物理时间
 private void FixedUpdate()
 {
     //物理帧间隔时间
@@ -1085,7 +1085,7 @@ public class GameObjectTransformTesting : MonoBehaviour
 > 对于子对象来说，position 是相对于父对象的位置，即在父对象为原点的局部空间中位置
 > 
 
-```cs file:position
+```cs title:position
  //世界空间位置
 print(this.transform.position);
 
@@ -1121,7 +1121,7 @@ print(this.transform.up);      //局部空间的y轴方向
 ![[Pasted image 20230605154644.png]]
 
 需要联动 [[《Unity Primer》#5 Input 类]]
-```cs file:位移 h:11,12
+```cs title:位移 h:11,12
 //理解坐标系下的位移计算公式
 //路程–方向*速度*时间
 //方式一：自己计算
@@ -1138,7 +1138,7 @@ this.transform.Translate(Vector3.forward*(1 * Time.deltaTime), Space.World); //�
 this.transform.Translate(this.transform.forward(1 * Time.deltaTime), Space.Self);  //方向错误，因为this.transform.forward的值是世界空间下的，并不是(0,0,1)
 ```
 ### 角度和旋转
-```cs file:角度
+```cs title:角度
 //和角度设置一样，不能单独设置x,y,z
 
 //inspector界面上显示的Rotation是欧拉角
@@ -1149,7 +1149,7 @@ print(this.transform.rotation);  //该方法返回四元数
 print(this.transform.localRotation); 
 ```
 
-```cs file:旋转
+```cs title:旋转
  void Update()
 {
     //绕轴自转
@@ -1172,7 +1172,7 @@ print(this.transform.localRotation);
 ```
 
 ### 缩放和LookAt
-```cs file:缩放
+```cs title:缩放
 //相对世界坐标系的缩放大小只能得，不能改
 print(this.transform.lossyScale); 
 
@@ -1183,7 +1183,7 @@ this.transform.localScale  = new Vector3(1.0f, 1.0f, 1.0f);
 //Unity没有提供关于缩放的API，只能自己修改localScale
 ```
 
-```cs file:LookAt
+```cs title:LookAt
 this.transform.LookAt(Vector3.zero); //看向点
 this.transform.LookAt(obj); //看向一个对象，参数为对象的Transform
 ```
@@ -1252,7 +1252,7 @@ son.SetSiblingIndex(5);
 ### 自定义拓展方法
 1. 为 Transform 写一个**拓展方法**，可以将它的子对象按名字的长短进行排序改变他们的顺序名字短的在前面，名字长的在后面。
 ![[Pasted image 20230604162029.png]]
-```cs file:tool.cs
+```cs title:tool.cs
 //写一个Transfrom类的拓展方法
 public static class Tools
 {
@@ -1292,7 +1292,7 @@ void Start()
 ```
 
 2. 请为 Transform 写一个拓展方法，传入一个名字查找子对象，即使是子对象的子对象也能查找到
-```cs file:tool.cs
+```cs title:tool.cs
 public static Transform CustomFind(this Transform father, string childName)
 {
     //要找的子对象
@@ -1322,7 +1322,7 @@ print(this.transform.CustomFind("aaa").name);
 输入相关内容都写在 Update 中
 
 ### 鼠标键盘输入
-```cs file:鼠标输入
+```cs title:鼠标输入
 //鼠标在屏幕上的位置
 //屏幕坐标的原点是在屏幕的左下角，往右是x轴正方向，往上是Y轴正方向
 //返回值是Vector3，但是只有x和y有值，z一直是0是，因为屏幕本来就是2D的不存在z轴
@@ -1345,7 +1345,7 @@ Input.GetMouseButton(0)
 Input.mouseScrollDelta
 ```
 
-```cs file:键盘输入
+```cs title:键盘输入
 //键盘按下
 //方法一(推荐)
 Input.GetKeyDown(KeyCode.W) //本质上是按W时返回true
@@ -1364,7 +1364,7 @@ Input.GetKey(KeyCode.W)
 
 ```
 
-```cs file:任意键
+```cs title:任意键
 //任意键 按下
 Input.anyKeyDown
 
@@ -1378,7 +1378,7 @@ Input.anyKey
 ### 默认轴输入
 ![[Pasted image 20230604213230.png]]
 我们学习鼠标键盘输入主要是用来控制玩家，比如旋转位移等等，所以 unity 提供了更方便的方法来帮助我们控制对象的位移和旋转。
-```cs file:默认轴输入
+```cs title:默认轴输入
 //鼠标AD按下时，返回-1到1之间的浮点值
 //相当于得到这个值，就是我们的左右方向，用于控制左右移、旋转
 Input.GetAxis("Horizontal")
@@ -1399,7 +1399,7 @@ Input.GetAxis("Mouse Y")
 ```
 
 ### 移动设备
-```cs file:移动设备
+```cs title:移动设备
 //移动设备触摸相关
 if (Input.touchCount > 0)
 {
@@ -1430,7 +1430,7 @@ print(Input.gyro.gravity);
 print(Input.gyro.attitude);
 ```
 ### 手柄输入
-```cs file:手柄输入
+```cs title:手柄输入
 //得到连接的手柄的所有按钮名字
 string[] strs = Input.GetJoystickNames();
         
@@ -1494,7 +1494,7 @@ Screen.SetResolution(1920, 1080, true); //第三个参数是是否全屏
 ![[Pasted image 20230609131650.png|500]]
 
 ### 场景同步切换
-```cs file:场景同步切换
+```cs title:场景同步切换
 //场景切换，指定的场景必须先在构建设置中加入
 SceneManager.LoadScene("GameScene");
 //旧版本代码
@@ -1529,7 +1529,7 @@ if (SceneManager.GetActiveScene().name == "StartMenu")
 
 场景异步加载和资源异步加载几乎一致，有两种方式：
 1. **通过事件回调函数异步加载**
-```cs file:通过事件回调函数异步加载
+```cs title:通过事件回调函数异步加载
 private void Start()
 {
     AsyncOperation ao =  SceneManager.LoadSceneAsync("Scenename");
@@ -1698,7 +1698,7 @@ lineRenderer.useWorldSpace = false;
 **Spatial Blend**：设置 3D 音效，默认为 2D
 **Volume Rolloff**：声音距离衰减
 
-```cs file:代码控制
+```cs title:代码控制
 AudioSource audioSource;
 void Start()
 {
@@ -1744,7 +1744,7 @@ void Update()
 1. 直接在要播放音效的对象上挂载脚本控制播放
 2. 实例化挂载了音效源脚本的对象
 3. 用一个 Audio Clip 来控制播放不同的音效
-```cs file:动态控制音效播放
+```cs title:动态控制音效播放
 public AudioClip clip;
 void Start()
 {
@@ -1841,7 +1841,7 @@ Terrain Colider：地形碰撞器
 ![[Pasted image 20230605132917.png|350]]
 
 #### 物理碰撞检测响应函数
-```cs file:Collision类
+```cs title:Collision类
 //Collision类型的参数包含了碰到自己的对象的相关信息
 
 //碰撞到的对象的碰撞器信息
@@ -1863,7 +1863,7 @@ ContactPoint[] pos = collision.contacts;
 collision.gameObject.GetComponent<>();
 ```
 
-```cs file:碰撞相关的生命周期函数(检测响应函数)
+```cs title:碰撞相关的生命周期函数(检测响应函数)
 //碰撞触发接触时会自动执行这个函数
 private void OnCollisionEnter(Collision collision)
 {
@@ -1910,7 +1910,7 @@ private void OnTriggerExit(Collider other)
 给刚体加力的目标就是让其有一个速度朝向某一个方向移动
 
 ##### 刚体添加力
-```cs file:刚体添加力的方法
+```cs title:刚体添加力的方法
 //1.首先应该获取刚体组件
 rigidBody = this.GetComponent<Rigidbody>();
 
@@ -1963,7 +1963,7 @@ v：速度
 比如运行游戏后，Cube 落到平面上发生碰撞停下，此时编辑平面的角度，发现 Cube 并没有下落，因为此时 Cube 的刚体休眠了。再移动一下，才会唤醒
 ![[Pasted image 20230605154414.png]]
 
-```cs file:主动唤醒
+```cs title:主动唤醒
 if(rigidBody.IsSleeping())
 {
     rigidBody.WakeUp();
@@ -2002,7 +2002,7 @@ if(rigidBody.IsSleeping())
     - 不填默认使用 UseGlobal
 - **返回值：** **在该范围内的触发器 (得到了对象触发器就可以得到对象的所有信息)**
 
-```cs file:Physics.OverlapBox
+```cs title:Physics.OverlapBox
 Collider[] colliders = Physics.OverlapBox(
     Vector3.zero,
     Vector3.one, 
@@ -2020,7 +2020,7 @@ for(int i=0;i<colliders.Length;i++)
 另一个 API：`Physics.OverlapBoxNonAlloc`
 参数区别：第三个参数传入一个`Collider[]`数组进行存储
 返回值回值：碰撞到的碰撞器数量
-```cs file:Physics.OverlapBoxNonAlloc
+```cs title:Physics.OverlapBoxNonAlloc
 Collider[] colliders = new Collider[10]; //数组数量必须等于检测到的碰撞体数量  
 
 //碰撞到的碰撞器数量
@@ -2062,7 +2062,7 @@ if(num != 0)
     - 不填默认使用 UseGlobal
 - **返回值：** **在该范围内的触发器 (得到了对象触发器就可以得到对象的所有信息)**
 
-```cs file:Physics.OverlapSphere
+```cs title:Physics.OverlapSphere
 Collider[] colliders = Physics.OverlapSphere(
             Vector3.zero,
             5,
@@ -2078,7 +2078,7 @@ for(int i=0;i<colliders.Length;i++)
 另一个 API: `Physics.OverlapSphereNonAlloc`
 返回值: 碰撞到的碰撞器数量
 参数: 传入一个数组进行存储
-```cs file:Physics.OverlapSphereNonAlloc
+```cs title:Physics.OverlapSphereNonAlloc
 Collider[] colliders = new Collider[10]; //数组数量必须等于检测到的碰撞体数量  
   
 //碰撞到的碰撞器数量  
@@ -2111,7 +2111,7 @@ if(num != 0)
     - Ignore 忽略触发器
     - 不填默认使用 UseGlobal
 - **返回值：** **在该范围内的触发器 (得到了对象触发器就可以得到对象的所有信息)
-```cs file:Physics.OverlapCapsule
+```cs title:Physics.OverlapCapsule
 Collider[] colliders = Physics.OverlapCapsule(
             Vector3.zero,
             Vector3.up, 
@@ -2128,7 +2128,7 @@ for(int i=0;i<colliders.Length;i++)
 **另一个 API**：`Physics.OverlapCapsuleNonAlloc`
 返回值：碰撞到的碰撞器数量
 参数：传入一个数组进行存储
-```cs file:Physics.OverlapCapsuleNonAlloc
+```cs title:Physics.OverlapCapsuleNonAlloc
 Collider[] colliders = new Collider[10]; //数组数量必须等于检测到的碰撞体数量  
         
 //碰撞到的碰撞器数量
@@ -2158,7 +2158,7 @@ if(num != 0)
 参数一： 起点 `ray.origin` 
 参数二：方向 `ray.direction` (**不是两点决定射线方向，第二个参数直接就代表方向向量**)  
 
-```cs file:指定起点方向的射线
+```cs title:指定起点方向的射线
 //声明射线
 //起点为坐标 (1,0,0)
 //方向为世界坐标 z 轴正方向的射线 
@@ -2168,7 +2168,7 @@ print(ray.direction); //方向
 ```
 
 - @ **摄像机发出的射线**
-```cs file:摄像机射线
+```cs title:摄像机射线
 Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
 ```
 
@@ -2188,7 +2188,7 @@ Physics 类中提供了很多进行射线检测的静态函数
     - Ignore 忽略触发器
     - 不填默认使用 UseGlobal
 - **返回值：** bool 当碰撞到对象时返回 true，没有返回 false
-```cs file:Physics.Raycast
+```cs title:Physics.Raycast
 //声明射线
  Ray ray = new Ray(Vector3.right, Vector3.forward);
 
@@ -2283,7 +2283,7 @@ if (Physics.Raycast(
     - 不填默认使用 UseGlobal
 - **返回值：** bool 当碰撞到对象时返回 true，没有返回 false
 
-```cs file:Physics.RaycastAll
+```cs title:Physics.RaycastAll
 //声明射线
 Ray ray = new Ray(Vector3.right, Vector3.forward);
 
@@ -2309,7 +2309,7 @@ RaycastHit[] hits = Physics.RaycastAll(
 ```
 
 #### 获取相交物体的数量
-```cs file:Physics.RaycastNonAlloc
+```cs title:Physics.RaycastNonAlloc
 RaycastHit[] hits = new RaycastHit[10];
         
 int num = Physics.RaycastNonAlloc(
@@ -2398,7 +2398,7 @@ public class test : MonoBehaviour
 - 物体失活，协程**不执行**
 - 脚本组件失活，协程**执行**
 
-```cs file:协程
+```cs title:协程
 private void Start()
 {
     //第二步:启动协程函数
@@ -2436,7 +2436,7 @@ IEnumerator MyCoroutine(int i,string str)
 
 [[《CS Primer》#用 yield return 语法糖实现迭代器]]
 
-```cs file:yieldreturn不同内容的含义
+```cs title:yieldreturn不同内容的含义
 //1.下一帧执行
 yield return 数字;
 yield return null;
@@ -2566,7 +2566,7 @@ IEnumerator CreateCube(int num)
 ## 1 文件夹路径获取
 - @ **Assets 工程文件夹**
 
-```cs file:路径获取
+```cs title:路径获取
 Application.dataPath  //获取到Assets文件夹的路径
 //注意该方式获取到的路径一般情况下只在编辑模式下使用
 //我们不会在实际发布游戏后还使用该路径，游戏发布过后该路径就不存在了│
@@ -2576,7 +2576,7 @@ Application.dataPath  //获取到Assets文件夹的路径
 > [!attention] 
 > 需要在 Assets 下手动创建名为 Resources 的文件夹
 
-```cs file:路径获取
+```cs title:路径获取
 //一般不获取，只能使用 Resources 相关 API 进行加载
 //如果硬要获取可以用工程路径拼接(只在编辑模式下使用)
 Application.dataPath + "/Resources"
@@ -2594,7 +2594,7 @@ Application.dataPath + "/Resources"
 > [!attention] 
 > 需要在 Assets 下手动创建名为 StreamingAssets 的文件夹
 
-```cs file:路径获取
+```cs title:路径获取
 Application.streamingAssetsPath
 ```
 
@@ -2608,7 +2608,7 @@ Application.streamingAssetsPath
 > [!attention] 
 > 不需要自己创建
 
-```cs file:路径获取
+```cs title:路径获取
 Application.persistentDataPath
 ```
 
@@ -2630,7 +2630,7 @@ Application.persistentDataPath
 > [!attention] 
 > 需要在 Assets 下手动创建名为 Editor 的文件夹
 
-```cs file:路径获取
+```cs title:路径获取
 //一般不获取
 //如果硬要获取可以用工程路径拼接
 Application.dataPath + "/Editor"
@@ -2664,7 +2664,7 @@ Application.dataPath + "/Editor"
 - 预设体对象加载需要实例化
 - 其它资源加载一般直接用
 ### 加载文件资源
-```cs file:加载资源 h:7,13,20,33
+```cs title:加载资源 h:7,13,20,33
 public class test : MonoBehaviour
 {
     public AudioSource audioSource;
@@ -2716,7 +2716,7 @@ public class test : MonoBehaviour
 Resources.Load("filename", typeof(TextAsset)) as TextAsset;
 ```
 
-```cs file:加载指定名字的所有资源
+```cs title:加载指定名字的所有资源
 Object[] objs = Resources.LoadAll("filename");
 foreach (Object item in objs)
 {
@@ -2750,7 +2750,7 @@ TextAsset ta2 = Resources.Load<TextAsset>("Text/Test"); //指定TextAsset类型
 坏处: 只能在资源加载结束后进行处理
 “线性加载”
 
-```cs file:通过异步加载中的完成事件监听使用加载的资源
+```cs title:通过异步加载中的完成事件监听使用加载的资源
 public Texture  texture;
 
 private void Start()
@@ -2785,7 +2785,7 @@ private void OnGUI()
 坏处: 写法稍麻烦
 “并行加载”
 
-```cs file:通过协程使用加载的资源
+```cs title:通过协程使用加载的资源
 public Texture  texture;
 
 private void Start()

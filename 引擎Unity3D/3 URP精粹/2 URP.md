@@ -145,7 +145,7 @@ Packages/Universal RP: `com.unity.render-pipelines.universal/ShaderLibrary`
 |real3 SafeNormalize(float3 inVec)|返回标准化向量，与Normalize()不同的是，本函数会兼容长度为0的向量|
 |real SafeDiv(real numer, real denom)|返回相处之后的商，不同于直接进行除法运算，当两个数值同时为无穷大或者0时，函数返回1|
 
-```cs file:SafeNormalize
+```cs title:SafeNormalize
 //检查了一下向量的长度的平方，是否为0，如果小于FLT_MIN则取FLT_MIN,即最小的正32位浮点数。`rsqrt`这个hlsl函数计算平方根的倒数，和原向量相乘就做了归一化。这个函数可以避免向量长度过小引起的除0错误。
 real3 SafeNormalize(float3 inVec)
 {
@@ -237,7 +237,7 @@ struct InputData
 |`half4 _MainLightColor`|主光源颜色|
 
 变换矩阵宏定义
-```c file:变换矩阵宏定义
+```c title:变换矩阵宏定义
 #ifndef BUILTIN_TARGET_API
 #define UNITY_MATRIX_M     unity_ObjectToWorld
 #define UNITY_MATRIX_I_M   unity_WorldToObject
@@ -495,16 +495,16 @@ SAMPLE_TEXTURE2D(_textureName, sampler_textureName, uv)
 
 ### 宏定义
 `TEXTURE2D_ARGS()` 宏：只是将纹理名称和采样器名称这两个参数合并在一起
-```c file:DX11下的定义
+```c title:DX11下的定义
 #define TEXTURE2D_ARGS(textureName, samplerName) textureName, samplerName
 ```
 
 `TEXTURE2D_PARAM()` 宏，传入纹理名称和采样器名称，转换为一个纹理变量和一个采样器，可以作为参数，节省字数。
-```c file:DX11下的定义
+```c title:DX11下的定义
 #define TEXTURE2D_PARAM(textureName, samplerName)              TEXTURE2D(textureName),         SAMPLER(samplerName)
 ```
 
-```c file:宏定义用法
+```c title:宏定义用法
 //采样函数，TEXTURE2D_PARAM()接收参数
 half4 SampleAlbedoAlpha(float2 uv, TEXTURE2D_PARAM(albedoAlphaMap, sampler_albedoAlphaMap))
 {
@@ -731,7 +731,7 @@ Ringing 振铃现象：
 1. Light Probe Group 组件中，启用 **Remove Ringing**，但是，这种方法通常会使光照探针不太准确，并会降低光线对比度，因此您必须检查视觉效果。
 2. 避免将直射光烘焙到光照探针中。直射光往往具有明显的不连续性（例如阴影边缘），因此不适合光照探针。仅烘焙间接光，请使用 Mixed Light Mode。
 
-```c file:光照探针
+```c title:光照探针
 float4 frag(VertexOutput i): SV_Target 
 {
     return  SampleSH(i.normalWS);
@@ -762,7 +762,7 @@ float4 frag(VertexOutput i): SV_Target
 **默认不勾选 Box Projection：默认反射光来自无限远的地方，适合采样室外室外场景：**
 `unity_SpecCube0` 定义在 UnityInput. hlsl，在 shader 中只需要声明采样器即可
 若没有设置反射探针，默认采样 SkyBox
-```c file:采样skybbox
+```c title:采样skybbox
 //声明采样器采样反射探针
 SAMPLER(sampler_unity_SpecCube0);
 
@@ -777,7 +777,7 @@ float3 envcolor = DecodeHDREnvironment(environment, unity_SpecCube0_HDR);
 
 #### 采样自定义 CubeMap 
 采样 CubeMap 贴图步骤上上面一样：
-```c file:采样自定义CubeMap
+```c title:采样自定义CubeMap
 _CubeMap("CubeMap", CUBE) = "white" {}
 
 TEXTURECUBE(_CubeMap);
@@ -875,7 +875,7 @@ var cameraData = camera.GetUniversalAdditionalCameraData();
 2. 不能将后处理应用于单个 Oberlay 相机。可以将后处理应用于单个 Base 相机或相机堆栈。
 
 可以在脚本中更改相机的类型，方法是设置相机的通用附加相机数据组件的 `renderType` 属性，如下所示：
-```cs file:更改相机的类型
+```cs title:更改相机的类型
 var cameraData = camera.GetUniversalAdditionalCameraData();
 cameraData.renderType = CameraRenderType.Base;
 ```
@@ -894,7 +894,7 @@ cameraData.renderType = CameraRenderType.Base;
 ![[Pasted image 20230630220539.png]]
 
 脚本控制 Base 相机的 Universal Additional Camera Data 组件的 `cameraStack` 属性
-```cs file:相机堆栈操作
+```cs title:相机堆栈操作
 //将相机添加到堆栈
 var cameraData = camera.GetUniversalAdditionalCameraData();
 cameraData.cameraStack.Add(myOverlayCamera);
@@ -913,7 +913,7 @@ $XYWH$ 分别设置为 $(0,0,0.5,1) \quad(0.5,0,0.5,1)$
 可以看到 Game 视口已经分屏：
 ![[Pasted image 20230630222857.png|500]]
 
-```cs file:通过设置rect属性来更改摄影机的Viewport rect
+```cs title:通过设置rect属性来更改摄影机的Viewport rect
 myUniversalAdditionalCameraData.rect = new Rect(0.5f, 0f, 0.5f, 0f);
 ```
 
@@ -925,7 +925,7 @@ myUniversalAdditionalCameraData.rect = new Rect(0.5f, 0f, 0.5f, 0f);
 3. 新建 Base Camera， Inpector->Output->Output Texture，放入创建的 Render Texture
 
 通过设置摄影机的“通用附加摄影机数据”组件的 ``cameraOutput``属性，可以在脚本中设置摄影机的输出目标，如下所示：
-```cs file:设置摄影机的输出目标
+```cs title:设置摄影机的输出目标
 myUniversalAdditionalCameraData.cameraOutput = CameraOutput.Texture;
 myCamera.targetTexture = myRenderTexture;
 ```
@@ -1054,7 +1054,7 @@ Unity 可以在一帧中多次渲染叠加摄影机的视图，或者是因为�
 
 可以自己写阴影的投射 pass，这样就可以继续开启 SRP Batcher，并支持 alpha test 的透明阴影。
 
-```c file:接收阴影关键字
+```c title:接收阴影关键字
 #pragma multi_compile _ _MAIN_LIGHT_SHADOWS   //接收阴影
 #pragma multi_compile _ _MAIN_LIGHT_SHADOWS_CASCADE //TransformWorldToShadowCoord
 #pragma multi_compile _ _ADDITIONAL_LIGHT_SHADOWS   //额外光源阴影
@@ -1062,14 +1062,14 @@ Unity 可以在一帧中多次渲染叠加摄影机的视图，或者是因为�
 #pragma multi_compile _ _SHADOWS_SOFT  //软阴影
 ```
 
-```cs file:投射阴影pass
+```cs title:投射阴影pass
 UsePass "Universal Render Pipeline/Lit/ShadowCaster"
 ```
 
 Settings 文件夹，URP Assets 中配置阴影：
 ![[Pasted image 20230629144401.png|500]]
 
-```c fold file:多光源阴影
+```c fold title:多光源阴影
 Shader "Custom/MultipleLightingShadows URP Shader"
 {
     Properties
@@ -1247,7 +1247,7 @@ Shader "Custom/MultipleLightingShadows URP Shader"
 }
 ```
 
-```c fold file:多光源阴影支持SRP和AlphaTest
+```c fold title:多光源阴影支持SRP和AlphaTest
 Shader "Custom/MultipleLightingShadows for SRPBatche"
 {
     Properties

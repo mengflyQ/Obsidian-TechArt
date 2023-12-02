@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "dde96d853cf70b21",
+        "id": "e007a0970e59607a",
         "type": "tabs",
         "children": [
           {
-            "id": "b2212dfc524691a8",
+            "id": "7984834988d811ab",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AI/作业/数据安全/报告.md",
+                "file": "引擎Unity3D/1 Unity精粹/《CS Primer》.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -32,10 +32,10 @@
       {
         "id": "8cb567a84fd74f78",
         "type": "tabs",
-        "dimension": 45.95323741007194,
+        "dimension": 50.49415992812219,
         "children": [
           {
-            "id": "2d176ff842171a3c",
+            "id": "e2ab25dcda4c975e",
             "type": "leaf",
             "state": {
               "type": "quiet-outline",
@@ -48,7 +48,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "AI/作业/数据安全/报告.md"
+                "file": "引擎Unity3D/1 Unity精粹/《CS Primer》.md"
               }
             }
           },
@@ -81,17 +81,16 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "AI/作业/数据安全/报告.md"
+                "file": "引擎Unity3D/1 Unity精粹/《CS Primer》.md"
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
         "id": "86c1fb5dd4a1903e",
         "type": "tabs",
-        "dimension": 17.985611510791365,
+        "dimension": 17.969451931716083,
         "children": [
           {
             "id": "3bd810f453370271",
@@ -106,7 +105,7 @@
       {
         "id": "174e81578cacda94",
         "type": "tabs",
-        "dimension": 36.061151079136685,
+        "dimension": 31.536388140161726,
         "children": [
           {
             "id": "84dc87271b3246ef",
@@ -122,7 +121,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 325.5
   },
   "right": {
     "id": "22f3fbdf8409cb1f",
@@ -151,12 +150,12 @@
             }
           },
           {
-            "id": "5ecb59b39c81c776",
+            "id": "cfa3c18c4bbc44f6",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "AI/作业/数据安全/报告.md",
+                "file": "引擎Unity3D/1 Unity精粹/《CS Primer》.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -168,12 +167,12 @@
             }
           },
           {
-            "id": "646b9c089fc5abf3",
+            "id": "25d5804186213c3f",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "AI/作业/数据安全/报告.md",
+                "file": "引擎Unity3D/1 Unity精粹/《CS Primer》.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -189,65 +188,65 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "templater-obsidian:Templater": false,
-      "canvas:新建白板": false,
-      "command-palette:打开命令面板": false,
-      "table-editor-obsidian:Advanced Tables Toolbar": false,
-      "oz-clear-unused-images:Clear Unused Images": false,
-      "obsidian-focus-mode:Toggle Focus Mode (Shift + Click to show active pane only)": false,
       "obsidian-local-images-plus:Local Images Plus  0.15.9\r\nLocalize attachments (plugin folder)": false,
-      "markdown-table-editor:Open Markdown Table Editor": false,
-      "pdf-to-markdown-plugin:PDF to Markdown": false,
-      "omnisearch:Omnisearch": false
+      "canvas:新建白板": false,
+      "command-palette:打开命令面板": true,
+      "table-editor-obsidian:Advanced Tables Toolbar": true,
+      "oz-clear-unused-images:Clear Unused Images": false,
+      "obsidian-focus-mode:Toggle Focus Mode (Shift + Click to show active pane only)": true,
+      "markdown-table-editor:Open Markdown Table Editor": true,
+      "omnisearch:Omnisearch": true,
+      "pdf-to-markdown-plugin:PDF to Markdown": true,
+      "templater-obsidian:Templater": false
     }
   },
-  "active": "b2212dfc524691a8",
+  "active": "7984834988d811ab",
   "lastOpenFiles": [
-    "AI/作业/数据安全/assets/Pasted image 20231130151759.jpg",
-    "AI/作业/数据安全/assets",
-    "AI/作业/数据安全/ACCA7028_sem1_CW_2023_24.en.zh-CN.pdf",
-    "AI/作业/数据安全/报告.md",
-    "AI/作业/数据安全/ACCA7028_sem1_CW_2023_24.pdf",
-    "AI/作业/敏捷开发/报告.md",
-    "AI/机器学习/模型参数解析.md",
-    "AI/作业/机器学习/assets/Pasted image 20231125140247.png",
-    "AI/作业/机器学习/报告.md",
-    "AI/深度学习/快速入门.md",
-    "AI/深度学习/动手学DL.md",
-    "AI/深度学习/《鱼书》.md",
-    "AI/Python/Pytorch精粹.md",
-    "AI/深度学习/鱼书pdf.pdf",
-    "AI/作业/机器学习/写给小白的用 fashion-mnist 入门机器学习和深度学习的简单项目 (非常全面!!!).md",
-    "AI/作业/机器学习/CIFAR-10 图像分类（基于 PyTorch）_cifar-10 分类 - CSDN 博客.md",
-    "AI/作业/机器学习/分类器结果.md",
-    "AI/作业/机器学习/assets/Pasted image 20231125140355.png",
-    "AI/作业/机器学习/assets",
-    "AI/作业/机器学习/cifar10.md",
-    "AI/Python/Parser用法.md",
-    "AI/机器学习/assets/e00c6080ab72ee090295b30de341c2c7_MD5.png",
-    "AI/机器学习/assets/c3d5e406ad8c5643cdcef5233224e324_MD5.png",
-    "AI/机器学习/assets",
-    "zBuffer/模型评估指标 micro avg、macro avg 和 weighted avg 的计算方式及区别_macro avg 和 weighted avg 看哪个？_山阴少年的博客 - CSDN 博客.md",
-    "AI/Python/TensorboardX.md",
-    "图形学/4 书籍/RTR4社区版/Chapter 6 Texturing 纹理.md",
-    "图形学/4 书籍/RTR4社区版/Chapter 19 Acceleration Algorithms 加速算法.md",
-    "图形学/4 书籍/RTR4社区版/Chapter 14 Volumetric and Translucency Rendering 体.md",
-    "图形学/4 书籍/RTR4社区版/Chapter 12 Image-Space Effects 图像空间特效.md",
-    "图形学/4 书籍/RTR4社区版/Chapter 3 The Graphics Processing Unit 图形处理单元.md",
-    "图形学/4 书籍/RTR4社区版/Chapter 1 Introduction 简介.md",
-    "图形学/4 书籍/RTR4社区版/Chapter 0 前言.md",
-    "图形学/4 书籍/RTR4社区版/Chapter 2 The Graphics Rendering Pipeline 图形渲染管线.md",
-    "图形学/4 书籍/RTR4社区版/Chapter 11 Global Illumination 全局光照.md",
-    "图形学/4 书籍/RTR4社区版/assets/Chapter-8/202306142012055.png",
-    "图形学/4 书籍/RTR4社区版/assets/Chapter-8/202306141749023.png",
-    "图形学/4 书籍/RTR4社区版/assets/Chapter-8/202306141514593.png",
-    "图形学/4 书籍/RTR4社区版/assets/Chapter-8/202306141238411.png",
-    "图形学/4 书籍/RTR4社区版/assets/Chapter-8/202306141121256.png",
-    "图形学/4 书籍/RTR4社区版/assets/Chapter-8/202306141034547.png",
-    "图形学/4 书籍/RTR4社区版/assets/Chapter-8",
-    "图形学/4 书籍/RTR4社区版/assets/Chapter-9",
-    "图形学/4 书籍/RTR4社区版/assets/Chapter-6",
-    "图形学/4 书籍/RTR4社区版/assets/Chapter-7",
-    "图形学/4 书籍/RTR4社区版/Chapter 9 Physically Based Shading 基于物理的着色.md"
+    "引擎Unity3D/1 Unity精粹/《Unity Primer》.md",
+    "引擎Unity3D/1 Unity精粹/《数据持久化》.md",
+    "引擎Unity3D/1 Unity精粹/《编辑器扩展》.md",
+    "虚幻引擎/03 Gameplay/GAS/GAS精粹.md",
+    "虚幻引擎/02 UE++/4 委托.md",
+    "虚幻引擎/06 网络/1 UE网络精粹.md",
+    "编程/1 C++/2 STL标准库.md",
+    "编程/1 C++/1 C++ Primer.md",
+    "zBuffer/未命名.md",
+    "编程/3 设计模式/单例模式总结.md",
+    "虚幻引擎/03 Gameplay/GAS/simpread-【Unreal】虚幻 GAS 系统快速入门.md",
+    "虚幻引擎/03 Gameplay/GAS/GASRPG 笔记.md",
+    "编程/3 设计模式/游戏编程模式.md",
+    "虚幻引擎/02 UE++/8 多线程.md",
+    "虚幻引擎/03 Gameplay/GAS/assets/Pasted image 20231201214824.png",
+    "虚幻引擎/03 Gameplay/GAS/技术宅阿棍儿/ 01 技能激活的代价—Cost 和 Cooldown.md",
+    "虚幻引擎/03 Gameplay/GAS/assets/Pasted image 20231201203631.png",
+    "虚幻引擎/03 Gameplay/GAS/技术宅阿棍儿/ 00 激活技能的几种机制.md",
+    "虚幻引擎/03 Gameplay/GAS/技术宅阿棍儿/虚幻插件 GAS 分析 00 激活技能的几种机制.md",
+    "虚幻引擎/03 Gameplay/GAS/技术宅阿棍儿/ 10 所有 AbilityTask 原生类盘点.md",
+    "虚幻引擎/03 Gameplay/GAS/技术宅阿棍儿/ 09 TargetData、TargetActor 和 WorldReticle.md",
+    "虚幻引擎/03 Gameplay/GAS/技术宅阿棍儿/ 08 GameplayTask 与 AbilityTask.md",
+    "虚幻引擎/03 Gameplay/GAS/技术宅阿棍儿/ 07 GE 的网络同步.md",
+    "虚幻引擎/03 Gameplay/GAS/技术宅阿棍儿/ 06 GA 与 GE 的 Spec 与 Handle 概念辨析.md",
+    "虚幻引擎/03 Gameplay/GAS/技术宅阿棍儿/ 05 GameplayCue 的使用.md",
+    "虚幻引擎/03 Gameplay/GAS/技术宅阿棍儿/ 04 GameplayEffect 的其它机制.md",
+    "虚幻引擎/03 Gameplay/GAS/技术宅阿棍儿/ 03-2 GameplayEffect 标签面面观 - 其它标签.md",
+    "虚幻引擎/03 Gameplay/GAS/技术宅阿棍儿/ 03-1 GameplayEffect 标签面面观 - 属性与聚合器.md",
+    "虚幻引擎/03 Gameplay/GAS/技术宅阿棍儿/assets/d13738d3ef382680141f427bde74c977_MD5.jpg",
+    "虚幻引擎/03 Gameplay/GAS/技术宅阿棍儿/assets/8fd621ee7dd0c45b86fab3f2b9314a7e_MD5.jpg",
+    "虚幻引擎/03 Gameplay/GAS/技术宅阿棍儿/assets/0908a6b2d5e91c70b343bda95383eedb_MD5.jpg",
+    "虚幻引擎/03 Gameplay/GAS/技术宅阿棍儿/assets/7b67a12aadcba2f9f99273ab42e71436_MD5.jpg",
+    "虚幻引擎/03 Gameplay/GAS/技术宅阿棍儿/assets/3388d61f8a7e07875475558d13e1d0a6_MD5.jpg",
+    "虚幻引擎/03 Gameplay/GAS/技术宅阿棍儿/assets/1ac0bd86422ef7bd2d17722c082b4a3d_MD5.jpg",
+    "虚幻引擎/03 Gameplay/GAS/技术宅阿棍儿/assets/36fb866fdb02ac86be2faccbededa78a_MD5.jpg",
+    "虚幻引擎/03 Gameplay/GAS/技术宅阿棍儿/assets/44ac062f38a36e85fb71dd05b9519218_MD5.jpg",
+    "虚幻引擎/03 Gameplay/GAS/技术宅阿棍儿/assets",
+    "虚幻引擎/03 Gameplay/GAS/技术宅阿棍儿",
+    "编程/3 设计模式/游戏编程模式",
+    "虚幻引擎/03 Gameplay/GAS/Images",
+    "编程/1 C++/src/2.Auto",
+    "编程/1 C++/src/1.DeducingTypes",
+    "编程/1 C++/src",
+    "虚幻引擎/02 UE++/蓝图&C++混编/assets",
+    "虚幻引擎/02 UE++/蓝图&C++混编",
+    "zBuffer/assets"
   ]
 }

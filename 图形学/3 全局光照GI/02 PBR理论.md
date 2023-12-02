@@ -834,7 +834,7 @@ return pow(float4(BRDF_Ami,0,0),2.2);
 ![[Pasted image 20221102205521.png|450]]
 #### builtin 实现
 
-```c fold file:builtin实现
+```c fold title:builtin实现
 Shader "Unlit/MyHelmet"
 {
     Properties
@@ -1094,7 +1094,7 @@ Shader "Unlit/MyHelmet"
 ```
 
 #### URP 实现
-```c fold file:URP
+```c fold title:URP
 Shader "Custom/PBR"
 {
     Properties
@@ -1273,7 +1273,7 @@ Shader "Custom/PBR"
 ```
 
 
-```c fold file:CookTorrance.hlsl
+```c fold title:CookTorrance.hlsl
 #ifndef COOKTORRANCE_BRDF
 #define COOKTORRANCE_BRDF
 #define PI 3.14159265358979323846
