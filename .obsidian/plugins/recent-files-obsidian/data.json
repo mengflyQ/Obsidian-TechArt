@@ -1,28 +1,32 @@
 {
   "recentFiles": [
     {
-      "basename": "《CS Primer》",
-      "path": "引擎Unity3D/1 Unity精粹/《CS Primer》.md"
+      "basename": "README",
+      "path": "README.md"
     },
     {
-      "basename": "《Unity Primer》",
-      "path": "引擎Unity3D/1 Unity精粹/《Unity Primer》.md"
+      "basename": "Git 子仓库",
+      "path": "Tools/Git/Git 子仓库.md"
     },
     {
-      "basename": "《数据持久化》",
-      "path": "引擎Unity3D/1 Unity精粹/《数据持久化》.md"
+      "basename": "3 Effective C++",
+      "path": "编程/1 C++/3 Effective C++.md"
     },
     {
-      "basename": "《编辑器扩展》",
-      "path": "引擎Unity3D/1 Unity精粹/《编辑器扩展》.md"
+      "basename": "GAS精粹",
+      "path": "虚幻引擎/03 Gameplay/GAS/GAS精粹.md"
     },
     {
       "basename": "2 类型",
       "path": "虚幻引擎/02 UE++/2 类型.md"
     },
     {
-      "basename": "GAS精粹",
-      "path": "虚幻引擎/03 Gameplay/GAS/GAS精粹.md"
+      "basename": "1 C++ Primer",
+      "path": "编程/1 C++/1 C++ Primer.md"
+    },
+    {
+      "basename": "4 委托",
+      "path": "虚幻引擎/02 UE++/4 委托.md"
     },
     {
       "basename": "1 UE网络精粹",
@@ -31,10 +35,6 @@
     {
       "basename": "2 STL标准库",
       "path": "编程/1 C++/2 STL标准库.md"
-    },
-    {
-      "basename": "1 C++ Primer",
-      "path": "编程/1 C++/1 C++ Primer.md"
     },
     {
       "basename": "未命名",
@@ -51,10 +51,6 @@
     {
       "basename": "GAS杂项",
       "path": "虚幻引擎/03 Gameplay/GAS/GAS杂项.md"
-    },
-    {
-      "basename": "3 Effective C++",
-      "path": "编程/1 C++/3 Effective C++.md"
     },
     {
       "basename": "simpread-【Unreal】虚幻 GAS 系统快速入门",
@@ -107,10 +103,6 @@
     {
       "basename": "多输入多输出节点",
       "path": "虚幻引擎/02 UE++/蓝图&C++混编/多输入多输出节点.md"
-    },
-    {
-      "basename": "README",
-      "path": "README.md"
     },
     {
       "basename": "conflict-files-obsidian-git",

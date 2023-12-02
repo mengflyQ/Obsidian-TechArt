@@ -145,5 +145,7 @@
   "CodeMirror Options@@cm-property@@light": "#DECB6B",
   "CodeMirror Options@@cm-property@@dark": "#DECB6B",
   "CodeMirror Options@@cm-type@@dark": "#C792EA",
-  "CodeMirror Options@@cm-tag-in-comment@@light": "#FF5370"
+  "CodeMirror Options@@cm-tag-in-comment@@light": "#FF5370",
+  "CodeMirror Options@@cm-matching-bracket@@light": "#BDBDBD",
+  "CodeMirror Options@@cm-matching-bracket@@dark": "#BDBDBD"
 }

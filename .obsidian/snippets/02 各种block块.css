@@ -7,31 +7,6 @@
     border-radius: 5px;
 }
 
-/* 代码块 */
-/* 行内代码块 */
-.cm-s-obsidian span.cm-inline-code:not(.cm-formatting):not(.cm-hmd-indented-code):not(.obsidian-search-match-highlight) {
-    background-color: #f9f2f4;  /* 背景颜色 */
-    color: rgb(199,37,78); /* 字体颜色 */
-   /*  box-shadow: 0 0 0px 1px rgb(172, 172, 148);  */ /* 边框 */
-    vertical-align: baseline;
-    padding: 2px 4px; /*文字距边缘的距离*/
-    border-radius: 5px; /* 边缘 */
-}
-
-/* 标注callout中的代码块 */
-.markdown-rendered code {
-    background-color: #e0d6ed;
-        /* 背景颜色 */
-        color: rgb(140, 0, 254);
-        /* 字体颜色 */
-        /*  box-shadow: 0 0 0px 1px rgb(172, 172, 148);  */
-        /* 边框 */
-        vertical-align: baseline;
-        padding: 2px 4px;
-        /*文字距边缘的距离*/
-        border-radius: 5px;
-        /* 边缘 */
-}
 
 /* 数学公式块 */
 body.unified-cm-highlighting[class*="theme-"] .cm-s-obsidian .cm-math {
@@ -41,7 +16,7 @@ body.unified-cm-highlighting[class*="theme-"] .cm-s-obsidian .cm-math {
     padding: 5px 5px;
 }
 
-/* codeblock */
+/* Codeblock Style */
 /* 标题栏和代码块对齐 */
 /* .markdown-source-view.mod-cm6 .cm-content>* {
     margin: auto !important;
@@ -50,5 +25,16 @@ body.unified-cm-highlighting[class*="theme-"] .cm-s-obsidian .cm-math {
  
 /* 标题栏字体颜色 */
  body.code-styler .code-styler-header-text {
-    color: rgb(157, 157, 157); /* 字体颜色 */
+    color: rgb(203, 203, 203); /* 字体颜色 */
+ }
+
+ /* 行内inline代码块 */
+ .cm-s-obsidian span.cm-inline-code:not(.cm-formatting):not(.cm-hmd-indented-code):not(.obsidian-search-match-highlight) {
+    /** 字体颜色在Code Styler插件内设置 */
+     box-shadow: 0 0 0px 1px rgb(227, 227, 227); /* 边框 */
+ }
+
+ /* 标注callout inline代码块 */
+ .markdown-rendered code {
+    box-shadow: 0 0 0px 1px rgb(227, 227, 227); /* 边框 */
  }
