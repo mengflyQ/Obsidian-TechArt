@@ -304,9 +304,9 @@
           "style": true,
           "fontWeight": 4,
           "curvature": 6,
-          "paddingVertical": 5,
+          "paddingVertical": 4,
           "paddingHorizontal": 5,
-          "marginHorizontal": 0,
+          "marginHorizontal": 4,
           "titleFontWeight": 8
         },
         "advanced": {
@@ -340,7 +340,7 @@
             "lineColour": "#262626"
           },
           "highlights": {
-            "activeCodeblockLineColour": "--color-base-30",
+            "activeCodeblockLineColour": "#737373",
             "activeEditorLineColour": "--color-base-20",
             "defaultColour": "#FF17002E",
             "alternativeHighlights": {
@@ -349,8 +349,8 @@
             }
           },
           "inline": {
-            "backgroundColour": "--code-background",
-            "textColour": "--code-normal",
+            "backgroundColour": "#F7F7F7",
+            "textColour": "#C7254E",
             "activeTextColour": "--code-normal",
             "titleTextColour": "--code-comment"
           },
@@ -480,7 +480,7 @@
           "lineColour": "#262626"
         },
         "highlights": {
-          "activeCodeblockLineColour": "--color-base-30",
+          "activeCodeblockLineColour": "#737373",
           "activeEditorLineColour": "--color-base-20",
           "defaultColour": "#FF17002E",
           "alternativeHighlights": {
