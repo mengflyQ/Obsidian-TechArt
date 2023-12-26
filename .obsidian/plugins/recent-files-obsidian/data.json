@@ -1,12 +1,12 @@
 {
   "recentFiles": [
     {
-      "basename": "conflict-files-obsidian-git",
-      "path": "conflict-files-obsidian-git.md"
-    },
-    {
       "basename": "神经网络报告",
       "path": "AI/作业/机器学习/神经网络作业/神经网络报告.md"
+    },
+    {
+      "basename": "Pytorch精粹",
+      "path": "AI/Python/Pytorch精粹.md"
     },
     {
       "basename": "Jupyter",
@@ -19,10 +19,6 @@
     {
       "basename": "Anaconda配置",
       "path": "AI/环境配置/Anaconda配置.md"
-    },
-    {
-      "basename": "Pytorch精粹",
-      "path": "AI/Python/Pytorch精粹.md"
     },
     {
       "basename": "动手学DL",
