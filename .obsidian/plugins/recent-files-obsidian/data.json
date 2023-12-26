@@ -1,6 +1,22 @@
 {
   "recentFiles": [
     {
+      "basename": "TensorboardX",
+      "path": "AI/Python/TensorboardX.md"
+    },
+    {
+      "basename": "模型参数解析",
+      "path": "AI/机器学习/模型参数解析.md"
+    },
+    {
+      "basename": "机器学习报告",
+      "path": "AI/作业/机器学习/机器学习作业/机器学习报告.md"
+    },
+    {
+      "basename": "写给小白的用 fashion-mnist 入门机器学习和深度学习的简单项目 (非常全面!!!)",
+      "path": "AI/作业/机器学习/机器学习作业/写给小白的用 fashion-mnist 入门机器学习和深度学习的简单项目 (非常全面!!!).md"
+    },
+    {
       "basename": "神经网络报告",
       "path": "AI/作业/机器学习/神经网络作业/神经网络报告.md"
     },
@@ -37,10 +53,6 @@
       "path": "AI/深度学习/《鱼书》.md"
     },
     {
-      "basename": "TensorboardX",
-      "path": "AI/Python/TensorboardX.md"
-    },
-    {
       "basename": "CIFAR-10 图像分类（基于 PyTorch）_cifar-10 分类 - CSDN 博客",
       "path": "AI/作业/机器学习/CIFAR-10 图像分类（基于 PyTorch）_cifar-10 分类 - CSDN 博客.md"
     },
@@ -51,14 +63,6 @@
     {
       "basename": "快速入门",
       "path": "AI/深度学习/快速入门.md"
-    },
-    {
-      "basename": "机器学习报告",
-      "path": "AI/作业/机器学习/机器学习作业/机器学习报告.md"
-    },
-    {
-      "basename": "模型参数解析",
-      "path": "AI/机器学习/模型参数解析.md"
     },
     {
       "basename": "方向",
@@ -195,10 +199,6 @@
     {
       "basename": "ARPG笔记",
       "path": "虚幻引擎/03 Gameplay/ARPG/ARPG笔记.md"
-    },
-    {
-      "basename": "4 局域网",
-      "path": "虚幻引擎/06 网络/4 局域网.md"
     }
   ],
   "omittedPaths": [],
