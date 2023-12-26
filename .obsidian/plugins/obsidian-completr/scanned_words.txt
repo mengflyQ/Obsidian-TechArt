@@ -75422,6 +75422,7 @@ Rasul
 RELU
 Recognition
 REMSprop
+Residual
 Microsoft
 Menu
 MicaForEveryone
