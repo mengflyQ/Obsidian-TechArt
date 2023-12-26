@@ -1,8 +1,68 @@
 {
   "recentFiles": [
     {
+      "basename": "conflict-files-obsidian-git",
+      "path": "conflict-files-obsidian-git.md"
+    },
+    {
+      "basename": "神经网络报告",
+      "path": "AI/作业/机器学习/神经网络作业/神经网络报告.md"
+    },
+    {
+      "basename": "Jupyter",
+      "path": "AI/环境配置/Jupyter.md"
+    },
+    {
+      "basename": "Tensorflow-gpu配置",
+      "path": "AI/环境配置/Tensorflow-gpu配置.md"
+    },
+    {
+      "basename": "Anaconda配置",
+      "path": "AI/环境配置/Anaconda配置.md"
+    },
+    {
+      "basename": "Pytorch精粹",
+      "path": "AI/Python/Pytorch精粹.md"
+    },
+    {
+      "basename": "动手学DL",
+      "path": "AI/深度学习/动手学DL.md"
+    },
+    {
       "basename": "报告",
       "path": "AI/作业/数据安全/报告.md"
+    },
+    {
+      "basename": "《鱼书》",
+      "path": "AI/深度学习/《鱼书》.md"
+    },
+    {
+      "basename": "TensorboardX",
+      "path": "AI/Python/TensorboardX.md"
+    },
+    {
+      "basename": "CIFAR-10 图像分类（基于 PyTorch）_cifar-10 分类 - CSDN 博客",
+      "path": "AI/作业/机器学习/CIFAR-10 图像分类（基于 PyTorch）_cifar-10 分类 - CSDN 博客.md"
+    },
+    {
+      "basename": "PyTorch入门",
+      "path": "AI/深度学习/PyTorch入门.md"
+    },
+    {
+      "basename": "快速入门",
+      "path": "AI/深度学习/快速入门.md"
+    },
+    {
+      "basename": "机器学习报告",
+      "path": "AI/作业/机器学习/机器学习作业/机器学习报告.md"
+    },
+    {
+      "basename": "模型参数解析",
+      "path": "AI/机器学习/模型参数解析.md"
+    },
+    {
+      "basename": "方向",
+      "path": "AI/论文/方向.md"
     },
     {
       "basename": "《CS Primer》",
@@ -113,10 +173,6 @@
       "path": "虚幻引擎/02 UE++/蓝图&C++混编/多输入多输出节点.md"
     },
     {
-      "basename": "conflict-files-obsidian-git",
-      "path": "conflict-files-obsidian-git.md"
-    },
-    {
       "basename": "3 容器",
       "path": "虚幻引擎/02 UE++/3 容器.md"
     },
@@ -143,30 +199,6 @@
     {
       "basename": "4 局域网",
       "path": "虚幻引擎/06 网络/4 局域网.md"
-    },
-    {
-      "basename": "UI显示3D物体",
-      "path": "虚幻引擎/05 UI/UI显示3D物体.md"
-    },
-    {
-      "basename": "UMG",
-      "path": "虚幻引擎/05 UI/UMG.md"
-    },
-    {
-      "basename": "1 UE指南",
-      "path": "虚幻引擎/01 指南/1 UE指南.md"
-    },
-    {
-      "basename": "C++函数参数,返回值在蓝图中的表现形式",
-      "path": "虚幻引擎/02 UE++/蓝图&C++混编/C++函数参数,返回值在蓝图中的表现形式.md"
-    },
-    {
-      "basename": "101 材质大师",
-      "path": "虚幻引擎/07 渲染 & VFX/101 材质大师.md"
-    },
-    {
-      "basename": "1 解包",
-      "path": "虚幻引擎/01 指南/插件使用/1 解包.md"
     }
   ],
   "omittedPaths": [],
