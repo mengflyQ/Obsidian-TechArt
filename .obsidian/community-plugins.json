@@ -1,6 +1,5 @@
 [
   "obsidian-git",
-  "table-editor-obsidian",
   "obsidian-banners",
   "oz-clear-unused-images",
   "cmdr",
@@ -11,7 +10,6 @@
   "easy-typing-obsidian",
   "editing-toolbar",
   "obsidian-emoji-toolbar",
-  "obsidian-excel-to-markdown-table",
   "file-order",
   "obsidian-focus-mode",
   "obsidian-hider",
@@ -24,7 +22,6 @@
   "obsidian-list-callouts",
   "obsidian-local-images-plus",
   "obsidian-local-rest-api",
-  "markdown-table-editor",
   "obsidian-minimal-settings",
   "mousewheel-image-zoom",
   "mysnippets-plugin",
@@ -39,9 +36,9 @@
   "obsidian-quiet-outline",
   "recent-files-obsidian",
   "obsidian-style-settings",
-  "ob-table-enhancer",
   "templater-obsidian",
   "cm-editor-syntax-highlight-obsidian",
   "code-styler",
-  "obsidian-codemirror-options"
+  "obsidian-codemirror-options",
+  "obsidian-excel-to-markdown-table"
 ]
