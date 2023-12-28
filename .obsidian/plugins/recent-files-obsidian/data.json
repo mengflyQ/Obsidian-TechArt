@@ -1,6 +1,18 @@
 {
   "recentFiles": [
     {
+      "basename": "报告",
+      "path": "AI/作业/数据安全/报告.md"
+    },
+    {
+      "basename": "Jupyter",
+      "path": "AI/环境配置/Jupyter.md"
+    },
+    {
+      "basename": "ACCA7028_sem1_CW_2023_24.en.zh-CN",
+      "path": "AI/作业/数据安全/ACCA7028_sem1_CW_2023_24.en.zh-CN.pdf"
+    },
+    {
       "basename": "神经网络报告",
       "path": "AI/作业/机器学习/神经网络作业/神经网络报告.md"
     },
@@ -25,10 +37,6 @@
       "path": "AI/Python/Pytorch精粹.md"
     },
     {
-      "basename": "Jupyter",
-      "path": "AI/环境配置/Jupyter.md"
-    },
-    {
       "basename": "Python基础",
       "path": "AI/Python/Python基础.md"
     },
@@ -43,10 +51,6 @@
     {
       "basename": "动手学DL",
       "path": "AI/深度学习/动手学DL.md"
-    },
-    {
-      "basename": "报告",
-      "path": "AI/作业/数据安全/报告.md"
     },
     {
       "basename": "《鱼书》",
@@ -195,10 +199,6 @@
     {
       "basename": "5 蓝图插件",
       "path": "虚幻引擎/01 指南/插件使用/5 蓝图插件.md"
-    },
-    {
-      "basename": "ARPG笔记",
-      "path": "虚幻引擎/03 Gameplay/ARPG/ARPG笔记.md"
     }
   ],
   "omittedPaths": [],
