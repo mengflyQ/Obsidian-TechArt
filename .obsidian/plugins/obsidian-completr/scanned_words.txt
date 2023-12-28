@@ -10144,6 +10144,7 @@ Overfitting
 OpnK
 OUfc
 Obbfs
+Organization
 codeup
 clash
 ctrl
@@ -25409,6 +25410,7 @@ tensorflow
 tct
 tketk
 tGBT
+technology
 markdown
 matter
 mod
@@ -92888,6 +92890,8 @@ Slide
 SIGNAL
 Saint
 SnFM
+Standardization
+Standards
 Programs
 POP
 PC
@@ -232432,6 +232436,7 @@ NIPS
 NIVIDIA
 NotoSansCJKsc
 NPnr
+National
 ZooAnima
 ZooAnimal
 ZTest
