@@ -9,6 +9,10 @@
       "path": "AI/作业/数据安全/ACCA7028_sem1_CW_2023_24.en.zh-CN.pdf"
     },
     {
+      "basename": "ACCA7028_sem1_CW_2023_24",
+      "path": "AI/作业/数据安全/ACCA7028_sem1_CW_2023_24.pdf"
+    },
+    {
       "basename": "Jupyter",
       "path": "AI/环境配置/Jupyter.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "5 指针",
       "path": "虚幻引擎/02 UE++/5 指针.md"
-    },
-    {
-      "basename": "5 蓝图插件",
-      "path": "虚幻引擎/01 指南/插件使用/5 蓝图插件.md"
     }
   ],
   "omittedPaths": [],
