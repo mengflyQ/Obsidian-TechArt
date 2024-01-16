@@ -1,6 +1,34 @@
 {
   "recentFiles": [
     {
+      "basename": "02 PBR理论",
+      "path": "图形学/3 全局光照GI/02 PBR理论.md"
+    },
+    {
+      "basename": "01 辐射度量学",
+      "path": "图形学/3 全局光照GI/01 辐射度量学.md"
+    },
+    {
+      "basename": "BUG记录",
+      "path": "图形学/2 图形API/DX12/自研引擎/BUG记录.md"
+    },
+    {
+      "basename": "2 DX12初始化",
+      "path": "图形学/2 图形API/DX12/自研引擎/2 DX12初始化.md"
+    },
+    {
+      "basename": "1 引擎开发环境部署",
+      "path": "图形学/2 图形API/DX12/自研引擎/1 引擎开发环境部署.md"
+    },
+    {
+      "basename": "DX12脑图",
+      "path": "图形学/2 图形API/DX12/龙书/DX12脑图.canvas"
+    },
+    {
+      "basename": "DX12理论",
+      "path": "图形学/2 图形API/DX12/龙书/DX12理论.md"
+    },
+    {
       "basename": "报告",
       "path": "AI/作业/数据安全/报告.md"
     },
@@ -171,34 +199,6 @@
     {
       "basename": "simpread-一篇文章学完 Effective C++：条款 & 实践",
       "path": "编程/1 C++/simpread-一篇文章学完 Effective C++：条款 & 实践.md"
-    },
-    {
-      "basename": "5 现代C++语法",
-      "path": "编程/1 C++/5 现代C++语法.md"
-    },
-    {
-      "basename": "1 Gameplay架构",
-      "path": "虚幻引擎/03 Gameplay/《insider UE》/1 Gameplay架构.md"
-    },
-    {
-      "basename": "多输入多输出节点",
-      "path": "虚幻引擎/02 UE++/蓝图&C++混编/多输入多输出节点.md"
-    },
-    {
-      "basename": "3 容器",
-      "path": "虚幻引擎/02 UE++/3 容器.md"
-    },
-    {
-      "basename": "0 蓝图精粹",
-      "path": "虚幻引擎/02 UE++/0 蓝图精粹.md"
-    },
-    {
-      "basename": "1 GamePlay精粹",
-      "path": "虚幻引擎/02 UE++/1 GamePlay精粹.md"
-    },
-    {
-      "basename": "5 指针",
-      "path": "虚幻引擎/02 UE++/5 指针.md"
     }
   ],
   "omittedPaths": [],
