@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "Python基础",
+      "path": "AI/Python/Python基础.md"
+    },
+    {
       "basename": "02 PBR理论",
       "path": "图形学/3 全局光照GI/02 PBR理论.md"
     },
@@ -67,10 +71,6 @@
     {
       "basename": "Pytorch精粹",
       "path": "AI/Python/Pytorch精粹.md"
-    },
-    {
-      "basename": "Python基础",
-      "path": "AI/Python/Python基础.md"
     },
     {
       "basename": "Tensorflow-gpu配置",
