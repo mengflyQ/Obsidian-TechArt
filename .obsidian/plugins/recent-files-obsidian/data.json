@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "《Unity Primer》",
+      "path": "引擎Unity3D/1 Unity精粹/《Unity Primer》.md"
+    },
+    {
       "basename": "Python基础",
       "path": "AI/Python/Python基础.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "工厂模式",
       "path": "编程/3 设计模式/工厂模式.md"
-    },
-    {
-      "basename": "simpread-一篇文章学完 Effective C++：条款 & 实践",
-      "path": "编程/1 C++/simpread-一篇文章学完 Effective C++：条款 & 实践.md"
     }
   ],
   "omittedPaths": [],
