@@ -91,7 +91,7 @@ if (IntersectTriangle_MT97(ray, v0, v1, v2, t, u, v))
 
 ## 使用游戏对象
 
-我们需要做的第一件事是实际了解应该成为光线追踪过程一部分的游戏对象。最简单的解决方案是使用 FindObjectOfType<MeshRenderer>()，但我们将采用更灵活、更快的方法。让我们添加一个新的组件 RayTracingObject：
+我们需要做的第一件事是实际了解应该成为光线追踪过程一部分的游戏对象。最简单的解决方案是使用 `FindObjectOfType<MeshRenderer>()`，但我们将采用更灵活、更快的方法。让我们添加一个新的组件 RayTracingObject：
 
 ```
 using UnityEngine;

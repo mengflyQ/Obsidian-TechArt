@@ -1,6 +1,46 @@
 {
   "recentFiles": [
     {
+      "basename": "Unity URP 屏幕空间反射 Screen space Reflection（SSR）",
+      "path": "技术美术/5 水体渲染/SSR屏幕空间反射/Unity URP 屏幕空间反射 Screen space Reflection（SSR）.md"
+    },
+    {
+      "basename": "SSPR",
+      "path": "技术美术/5 水体渲染/SSR屏幕空间反射/SSPR.md"
+    },
+    {
+      "basename": "Ray Tracing in One Weekend V3_0 中文翻译（上）",
+      "path": "图形学/3 全局光照GI/光追实战/Ray Tracing in One Weekend/Ray Tracing in One Weekend V3_0 中文翻译（上）.md"
+    },
+    {
+      "basename": "Ray Tracing in One Weekend V3_0 中文翻译（下）",
+      "path": "图形学/3 全局光照GI/光追实战/Ray Tracing in One Weekend/Ray Tracing in One Weekend V3_0 中文翻译（下）.md"
+    },
+    {
+      "basename": "Ray Tracing： The Next Week V3_0 中文翻译（下）",
+      "path": "图形学/3 全局光照GI/光追实战/Ray Tracing in One Weekend/Ray Tracing： The Next Week V3_0 中文翻译（下）.md"
+    },
+    {
+      "basename": "【译】Unity 中的 GPU 光线追踪 - 第 2 部分",
+      "path": "图形学/3 全局光照GI/光追实战/UnityRayTracing/【译】Unity 中的 GPU 光线追踪 - 第 2 部分.md"
+    },
+    {
+      "basename": "【译】Unity 中的 GPU 光线追踪 - 第 3 部分",
+      "path": "图形学/3 全局光照GI/光追实战/UnityRayTracing/【译】Unity 中的 GPU 光线追踪 - 第 3 部分.md"
+    },
+    {
+      "basename": "光线追踪 - 引擎",
+      "path": "图形学/3 全局光照GI/光追实战/UnityRayTracing/光线追踪 - 引擎.md"
+    },
+    {
+      "basename": "【译】Unity 中的 GPU 光线追踪 - 第 1 部分",
+      "path": "图形学/3 全局光照GI/光追实战/UnityRayTracing/【译】Unity 中的 GPU 光线追踪 - 第 1 部分.md"
+    },
+    {
+      "basename": "Ray Tracing： The Next Week V3_0 中文翻译（上）",
+      "path": "图形学/3 全局光照GI/光追实战/Ray Tracing in One Weekend/Ray Tracing： The Next Week V3_0 中文翻译（上）.md"
+    },
+    {
       "basename": "Python基础",
       "path": "AI/Python/Python基础.md"
     },
@@ -159,46 +199,6 @@
     {
       "basename": "GAS Learn",
       "path": "虚幻引擎/03 Gameplay/GAS/GAS Learn.md"
-    },
-    {
-      "basename": "GAS杂项",
-      "path": "虚幻引擎/03 Gameplay/GAS/GAS杂项.md"
-    },
-    {
-      "basename": "simpread-【Unreal】虚幻 GAS 系统快速入门",
-      "path": "虚幻引擎/03 Gameplay/GAS/simpread-【Unreal】虚幻 GAS 系统快速入门.md"
-    },
-    {
-      "basename": "GASRPG 笔记",
-      "path": "虚幻引擎/03 Gameplay/GAS/GASRPG 笔记.md"
-    },
-    {
-      "basename": "游戏编程模式",
-      "path": "编程/3 设计模式/游戏编程模式.md"
-    },
-    {
-      "basename": "8 多线程",
-      "path": "虚幻引擎/02 UE++/8 多线程.md"
-    },
-    {
-      "basename": " 01 技能激活的代价—Cost 和 Cooldown",
-      "path": "虚幻引擎/03 Gameplay/GAS/技术宅阿棍儿/ 01 技能激活的代价—Cost 和 Cooldown.md"
-    },
-    {
-      "basename": " 00 激活技能的几种机制",
-      "path": "虚幻引擎/03 Gameplay/GAS/技术宅阿棍儿/ 00 激活技能的几种机制.md"
-    },
-    {
-      "basename": "01 虚幻类",
-      "path": "虚幻引擎/03 Gameplay/《大象无形》/01 虚幻类.md"
-    },
-    {
-      "basename": "4 Effective Modern C++",
-      "path": "编程/1 C++/4 Effective Modern C++.md"
-    },
-    {
-      "basename": "工厂模式",
-      "path": "编程/3 设计模式/工厂模式.md"
     }
   ],
   "omittedPaths": [],
