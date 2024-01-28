@@ -1,6 +1,18 @@
 {
   "recentFiles": [
     {
+      "basename": "M_Studio 教程",
+      "path": "引擎Unity3D/4 GamePlay/maco/M_Studio 教程.md"
+    },
+    {
+      "basename": "2 URP",
+      "path": "引擎Unity3D/3 URP精粹/2 URP.md"
+    },
+    {
+      "basename": "1 ShaderLab",
+      "path": "引擎Unity3D/3 URP精粹/1 ShaderLab.md"
+    },
+    {
       "basename": "Unity URP 屏幕空间反射 Screen space Reflection（SSR）",
       "path": "技术美术/5 水体渲染/SSR屏幕空间反射/Unity URP 屏幕空间反射 Screen space Reflection（SSR）.md"
     },
@@ -187,18 +199,6 @@
     {
       "basename": "2 STL标准库",
       "path": "编程/1 C++/2 STL标准库.md"
-    },
-    {
-      "basename": "未命名",
-      "path": "zBuffer/未命名.md"
-    },
-    {
-      "basename": "单例模式总结",
-      "path": "编程/3 设计模式/单例模式总结.md"
-    },
-    {
-      "basename": "GAS Learn",
-      "path": "虚幻引擎/03 Gameplay/GAS/GAS Learn.md"
     }
   ],
   "omittedPaths": [],
