@@ -1,6 +1,74 @@
 {
   "recentFiles": [
     {
+      "basename": "04 纹理",
+      "path": "图形学/1 图形系统/04 纹理.md"
+    },
+    {
+      "basename": "03 光照模型",
+      "path": "图形学/1 图形系统/03 光照模型.md"
+    },
+    {
+      "basename": "02 光栅化",
+      "path": "图形学/1 图形系统/02 光栅化.md"
+    },
+    {
+      "basename": "01 渲染管线",
+      "path": "图形学/1 图形系统/01 渲染管线.md"
+    },
+    {
+      "basename": "04 纹理映射",
+      "path": "图形学/0 3D数学/公式推导/04 纹理映射.md"
+    },
+    {
+      "basename": "03 光照向量",
+      "path": "图形学/0 3D数学/公式推导/03 光照向量.md"
+    },
+    {
+      "basename": "02 空间变换",
+      "path": "图形学/0 3D数学/公式推导/02 空间变换.md"
+    },
+    {
+      "basename": "01 三维旋转",
+      "path": "图形学/0 3D数学/公式推导/01 三维旋转.md"
+    },
+    {
+      "basename": "05 射线相交",
+      "path": "图形学/0 3D数学/公式推导/05 射线相交.md"
+    },
+    {
+      "basename": "3D数学",
+      "path": "图形学/0 3D数学/3D数学.md"
+    },
+    {
+      "basename": "总结",
+      "path": "图形学/6 软渲染器/软光栅/总结.md"
+    },
+    {
+      "basename": "透视矫正插值",
+      "path": "图形学/6 软渲染器/软光栅/透视矫正插值.md"
+    },
+    {
+      "basename": "04 路径追踪",
+      "path": "图形学/3 全局光照GI/04 路径追踪.md"
+    },
+    {
+      "basename": "01 辐射度量学",
+      "path": "图形学/3 全局光照GI/01 辐射度量学.md"
+    },
+    {
+      "basename": "06 深度测试",
+      "path": "图形学/1 图形系统/06 深度测试.md"
+    },
+    {
+      "basename": "05 模板测试",
+      "path": "图形学/1 图形系统/05 模板测试.md"
+    },
+    {
+      "basename": "07 混合和剔除",
+      "path": "图形学/1 图形系统/07 混合和剔除.md"
+    },
+    {
       "basename": "M_Studio 教程",
       "path": "引擎Unity3D/4 GamePlay/maco/M_Studio 教程.md"
     },
@@ -63,10 +131,6 @@
     {
       "basename": "02 PBR理论",
       "path": "图形学/3 全局光照GI/02 PBR理论.md"
-    },
-    {
-      "basename": "01 辐射度量学",
-      "path": "图形学/3 全局光照GI/01 辐射度量学.md"
     },
     {
       "basename": "BUG记录",
@@ -135,70 +199,6 @@
     {
       "basename": "Anaconda配置",
       "path": "AI/环境配置/Anaconda配置.md"
-    },
-    {
-      "basename": "动手学DL",
-      "path": "AI/深度学习/动手学DL.md"
-    },
-    {
-      "basename": "《鱼书》",
-      "path": "AI/深度学习/《鱼书》.md"
-    },
-    {
-      "basename": "CIFAR-10 图像分类（基于 PyTorch）_cifar-10 分类 - CSDN 博客",
-      "path": "AI/作业/机器学习/CIFAR-10 图像分类（基于 PyTorch）_cifar-10 分类 - CSDN 博客.md"
-    },
-    {
-      "basename": "PyTorch入门",
-      "path": "AI/深度学习/PyTorch入门.md"
-    },
-    {
-      "basename": "快速入门",
-      "path": "AI/深度学习/快速入门.md"
-    },
-    {
-      "basename": "方向",
-      "path": "AI/论文/方向.md"
-    },
-    {
-      "basename": "《CS Primer》",
-      "path": "引擎Unity3D/1 Unity精粹/《CS Primer》.md"
-    },
-    {
-      "basename": "README",
-      "path": "README.md"
-    },
-    {
-      "basename": "Git 子仓库",
-      "path": "Tools/Git/Git 子仓库.md"
-    },
-    {
-      "basename": "3 Effective C++",
-      "path": "编程/1 C++/3 Effective C++.md"
-    },
-    {
-      "basename": "GAS精粹",
-      "path": "虚幻引擎/03 Gameplay/GAS/GAS精粹.md"
-    },
-    {
-      "basename": "2 类型",
-      "path": "虚幻引擎/02 UE++/2 类型.md"
-    },
-    {
-      "basename": "1 C++ Primer",
-      "path": "编程/1 C++/1 C++ Primer.md"
-    },
-    {
-      "basename": "4 委托",
-      "path": "虚幻引擎/02 UE++/4 委托.md"
-    },
-    {
-      "basename": "1 UE网络精粹",
-      "path": "虚幻引擎/06 网络/1 UE网络精粹.md"
-    },
-    {
-      "basename": "2 STL标准库",
-      "path": "编程/1 C++/2 STL标准库.md"
     }
   ],
   "omittedPaths": [],
