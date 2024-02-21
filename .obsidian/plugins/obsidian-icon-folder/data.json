@@ -1,6 +1,6 @@
 {
   "settings": {
-    "migrated": 3,
+    "migrated": 4,
     "iconPacksPath": "zip/icons",
     "fontSize": 16,
     "emojiStyle": "native",
@@ -24,7 +24,8 @@
     "iconsBackgroundCheckEnabled": false,
     "iconInTitleEnabled": false,
     "iconInFrontmatterEnabled": false,
-    "iconsInNotesEnabled": true
+    "iconsInNotesEnabled": true,
+    "iconIdentifier": ":"
   },
   "Tools": "SiObsidian",
   "编程": "SiVisualstudio",

@@ -28,6 +28,11 @@
             "display": "none",
             "displayColour": true
           },
+          "externalReference": {
+            "displayRepository": true,
+            "displayVersion": true,
+            "displayTimestamp": true
+          },
           "fontSize": 14,
           "foldPlaceholder": ""
         },
@@ -73,6 +78,11 @@
               "backgroundColour": "--code-background",
               "textColour": "--code-comment"
             },
+            "externalReference": {
+              "displayRepositoryColour": "#00FFFF",
+              "displayVersionColour": "#FF00FF",
+              "displayTimestampColour": "#808080"
+            },
             "lineColour": "--color-base-30"
           },
           "highlights": {
@@ -110,6 +120,11 @@
             "languageTag": {
               "backgroundColour": "--code-background",
               "textColour": "--code-comment"
+            },
+            "externalReference": {
+              "displayRepositoryColour": "#00FFFF",
+              "displayVersionColour": "#FF00FF",
+              "displayTimestampColour": "#808080"
             },
             "lineColour": "--color-base-30"
           },
@@ -160,6 +175,11 @@
             "display": "none",
             "displayColour": true
           },
+          "externalReference": {
+            "displayRepository": true,
+            "displayVersion": true,
+            "displayTimestamp": true
+          },
           "fontSize": 14,
           "foldPlaceholder": ""
         },
@@ -205,6 +225,11 @@
               "backgroundColour": "#B8B5AA",
               "textColour": "#C25F30"
             },
+            "externalReference": {
+              "displayRepositoryColour": "#941100",
+              "displayVersionColour": "#ff9300",
+              "displayTimestampColour": "#808080"
+            },
             "lineColour": "#EDD489"
           },
           "highlights": {
@@ -243,6 +268,11 @@
               "backgroundColour": "#008080",
               "textColour": "#000000"
             },
+            "externalReference": {
+              "displayRepositoryColour": "#00FFFF",
+              "displayVersionColour": "#9437ff",
+              "displayTimestampColour": "#808080"
+            },
             "lineColour": "#46cced"
           },
           "highlights": {
@@ -264,7 +294,7 @@
         }
       }
     },
-    "Custom Dark": {
+    "CustomDark": {
       "settings": {
         "codeblock": {
           "lineNumbers": true,
@@ -283,7 +313,7 @@
             "textItalic": false
           },
           "languageTag": {
-            "display": "if_header_shown",
+            "display": "none",
             "textFont": "",
             "textBold": true,
             "textItalic": false
@@ -291,6 +321,11 @@
           "languageIcon": {
             "display": "none",
             "displayColour": true
+          },
+          "externalReference": {
+            "displayRepository": true,
+            "displayVersion": true,
+            "displayTimestamp": true
           },
           "fontSize": 14,
           "foldPlaceholder": ""
@@ -313,7 +348,7 @@
           "gradientHighlights": true,
           "gradientHighlightsColourStop": "70%",
           "languageBorderColour": false,
-          "languageBorderWidth": 11,
+          "languageBorderWidth": 5,
           "iconSize": 28
         }
       },
@@ -334,8 +369,13 @@
               "textColour": "--code-comment"
             },
             "languageTag": {
-              "backgroundColour": "#262626",
+              "backgroundColour": "--code-background",
               "textColour": "--code-comment"
+            },
+            "externalReference": {
+              "displayRepositoryColour": "#00FFFF",
+              "displayVersionColour": "#FF00FF",
+              "displayTimestampColour": "#808080"
             },
             "lineColour": "#262626"
           },
@@ -361,16 +401,16 @@
         },
         "dark": {
           "codeblock": {
-            "backgroundColour": "--code-background",
-            "textColour": "--code-normal"
+            "backgroundColour": "#262626",
+            "textColour": "#FFFFFF"
           },
           "gutter": {
-            "backgroundColour": "--code-background",
-            "textColour": "--text-faint",
+            "backgroundColour": "#181818",
+            "textColour": "#777777",
             "activeTextColour": "--text-muted"
           },
           "header": {
-            "backgroundColour": "--code-background",
+            "backgroundColour": "#262626",
             "title": {
               "textColour": "--code-comment"
             },
@@ -378,20 +418,25 @@
               "backgroundColour": "--code-background",
               "textColour": "--code-comment"
             },
-            "lineColour": "--color-base-30"
+            "externalReference": {
+              "displayRepositoryColour": "#00FFFF",
+              "displayVersionColour": "#FF00FF",
+              "displayTimestampColour": "#808080"
+            },
+            "lineColour": "#262626"
           },
           "highlights": {
-            "activeCodeblockLineColour": "--color-base-30",
+            "activeCodeblockLineColour": "#737373",
             "activeEditorLineColour": "--color-base-20",
-            "defaultColour": "--text-highlight-bg",
+            "defaultColour": "#FF17002E",
             "alternativeHighlights": {
-              "h": "#7FCCEDFF",
-              "error": "#3243A5FF"
+              "h": "#47007C",
+              "error": "#FF170045"
             }
           },
           "inline": {
-            "backgroundColour": "--code-background",
-            "textColour": "--code-normal",
+            "backgroundColour": "#F7F7F7",
+            "textColour": "#C7254E",
             "activeTextColour": "--code-normal",
             "titleTextColour": "--code-comment"
           },
@@ -403,7 +448,7 @@
       }
     }
   },
-  "selectedTheme": "Custom Dark",
+  "selectedTheme": "CustomDark",
   "currentTheme": {
     "settings": {
       "codeblock": {
@@ -423,7 +468,7 @@
           "textItalic": false
         },
         "languageTag": {
-          "display": "if_header_shown",
+          "display": "none",
           "textFont": "",
           "textBold": true,
           "textItalic": false
@@ -431,6 +476,11 @@
         "languageIcon": {
           "display": "none",
           "displayColour": true
+        },
+        "externalReference": {
+          "displayRepository": true,
+          "displayVersion": true,
+          "displayTimestamp": true
         },
         "fontSize": 14,
         "foldPlaceholder": ""
@@ -453,7 +503,7 @@
         "gradientHighlights": true,
         "gradientHighlightsColourStop": "70%",
         "languageBorderColour": false,
-        "languageBorderWidth": 11,
+        "languageBorderWidth": 5,
         "iconSize": 28
       }
     },
@@ -474,8 +524,13 @@
             "textColour": "--code-comment"
           },
           "languageTag": {
-            "backgroundColour": "#262626",
+            "backgroundColour": "--code-background",
             "textColour": "--code-comment"
+          },
+          "externalReference": {
+            "displayRepositoryColour": "#00FFFF",
+            "displayVersionColour": "#FF00FF",
+            "displayTimestampColour": "#808080"
           },
           "lineColour": "#262626"
         },
@@ -501,16 +556,16 @@
       },
       "dark": {
         "codeblock": {
-          "backgroundColour": "--code-background",
-          "textColour": "--code-normal"
+          "backgroundColour": "#262626",
+          "textColour": "#FFFFFF"
         },
         "gutter": {
-          "backgroundColour": "--code-background",
-          "textColour": "--text-faint",
+          "backgroundColour": "#181818",
+          "textColour": "#777777",
           "activeTextColour": "--text-muted"
         },
         "header": {
-          "backgroundColour": "--code-background",
+          "backgroundColour": "#262626",
           "title": {
             "textColour": "--code-comment"
           },
@@ -518,20 +573,25 @@
             "backgroundColour": "--code-background",
             "textColour": "--code-comment"
           },
-          "lineColour": "--color-base-30"
+          "externalReference": {
+            "displayRepositoryColour": "#00FFFF",
+            "displayVersionColour": "#FF00FF",
+            "displayTimestampColour": "#808080"
+          },
+          "lineColour": "#262626"
         },
         "highlights": {
-          "activeCodeblockLineColour": "--color-base-30",
+          "activeCodeblockLineColour": "#737373",
           "activeEditorLineColour": "--color-base-20",
-          "defaultColour": "--text-highlight-bg",
+          "defaultColour": "#FF17002E",
           "alternativeHighlights": {
-            "h": "#7FCCEDFF",
-            "error": "#3243A5FF"
+            "h": "#47007C",
+            "error": "#FF170045"
           }
         },
         "inline": {
-          "backgroundColour": "--code-background",
-          "textColour": "--code-normal",
+          "backgroundColour": "#F7F7F7",
+          "textColour": "#C7254E",
           "activeTextColour": "--code-normal",
           "titleTextColour": "--code-comment"
         },
@@ -545,11 +605,12 @@
   "newTheme": "",
   "newHighlight": "",
   "exampleCodeblockParameters": "python title:foo",
-  "exampleCodeblockContent": "print(\"This line is very long and should be used as an example for how the plugin deals with wrapping and unwrapping very long lines given the choice of codeblock parameters and settings.\")\n",
+  "exampleCodeblockContent": "print(\"This line is very long and should be used as an example for how the plugin deals with wrapping and unwrapping very long lines given the choice of codeblock parameters and settings.\")\nprint(\"This line is highlighted.\")",
   "exampleInlineCode": "{python icon title:foo} print(\"This is inline code\")",
   "decoratePrint": true,
-  "excludedLanguages": "ad-*",
-  "processedCodeblocksWhitelist": "run-*",
+  "excludedLanguages": "ad-*, reference",
+  "externalReferenceUpdateOnLoad": false,
+  "processedCodeblocksWhitelist": "run-*, include",
   "redirectLanguages": {},
-  "version": "1.1.4"
+  "version": "1.1.5"
 }

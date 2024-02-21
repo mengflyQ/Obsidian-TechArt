@@ -38,7 +38,7 @@
   "obsidian-style-settings",
   "templater-obsidian",
   "cm-editor-syntax-highlight-obsidian",
-  "code-styler",
   "obsidian-codemirror-options",
-  "obsidian-excel-to-markdown-table"
+  "obsidian-excel-to-markdown-table",
+  "code-styler"
 ]
