@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "Pytorch精粹",
+      "path": "AI/Python/Pytorch精粹.md"
+    },
+    {
       "basename": "04 纹理",
       "path": "图形学/1 图形系统/04 纹理.md"
     },
@@ -187,10 +191,6 @@
     {
       "basename": "写给小白的用 fashion-mnist 入门机器学习和深度学习的简单项目 (非常全面!!!)",
       "path": "AI/作业/机器学习/机器学习作业/写给小白的用 fashion-mnist 入门机器学习和深度学习的简单项目 (非常全面!!!).md"
-    },
-    {
-      "basename": "Pytorch精粹",
-      "path": "AI/Python/Pytorch精粹.md"
     },
     {
       "basename": "Tensorflow-gpu配置",
