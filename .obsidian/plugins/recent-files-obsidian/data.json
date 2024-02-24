@@ -1,6 +1,134 @@
 {
   "recentFiles": [
     {
+      "basename": "06 全局光照GI",
+      "path": "图形学/3 全局光照GI/06 全局光照GI.md"
+    },
+    {
+      "basename": "05 环境光照IBL",
+      "path": "图形学/3 全局光照GI/05 环境光照IBL.md"
+    },
+    {
+      "basename": "04 路径追踪",
+      "path": "图形学/3 全局光照GI/04 路径追踪.md"
+    },
+    {
+      "basename": "01 辐射度量学",
+      "path": "图形学/3 全局光照GI/01 辐射度量学.md"
+    },
+    {
+      "basename": "3 Renderer Feature",
+      "path": "引擎Unity3D/3 URP精粹/3 Renderer Feature.md"
+    },
+    {
+      "basename": "2 URP",
+      "path": "引擎Unity3D/3 URP精粹/2 URP.md"
+    },
+    {
+      "basename": "1 ShaderLab",
+      "path": "引擎Unity3D/3 URP精粹/1 ShaderLab.md"
+    },
+    {
+      "basename": "ComputeShader语法",
+      "path": "引擎Unity3D/3 URP精粹/ComputeShader/ComputeShader语法.md"
+    },
+    {
+      "basename": "《Unity Primer》",
+      "path": "引擎Unity3D/1 Unity精粹/《Unity Primer》.md"
+    },
+    {
+      "basename": "《数据持久化》",
+      "path": "引擎Unity3D/1 Unity精粹/《数据持久化》.md"
+    },
+    {
+      "basename": "《CS Primer》",
+      "path": "引擎Unity3D/1 Unity精粹/《CS Primer》.md"
+    },
+    {
+      "basename": "06 深度测试",
+      "path": "图形学/1 图形系统/06 深度测试.md"
+    },
+    {
+      "basename": "05 模板测试",
+      "path": "图形学/1 图形系统/05 模板测试.md"
+    },
+    {
+      "basename": "01 渲染管线",
+      "path": "图形学/1 图形系统/01 渲染管线.md"
+    },
+    {
+      "basename": "总结",
+      "path": "图形学/6 软渲染器/软光栅/总结.md"
+    },
+    {
+      "basename": "透视矫正插值",
+      "path": "图形学/6 软渲染器/软光栅/透视矫正插值.md"
+    },
+    {
+      "basename": "冯乐乐入门精要",
+      "path": "引擎Unity3D/2 Shader精粹/《Built-in》/冯乐乐入门精要.md"
+    },
+    {
+      "basename": "CG shaderlab",
+      "path": "引擎Unity3D/2 Shader精粹/《Built-in》/CG shaderlab.md"
+    },
+    {
+      "basename": "TA101",
+      "path": "引擎Unity3D/2 Shader精粹/《Built-in》/TA101.md"
+    },
+    {
+      "basename": "6 脚本",
+      "path": "引擎Unity3D/3 URP精粹/6 脚本.md"
+    },
+    {
+      "basename": "5 CommandBuffer",
+      "path": "引擎Unity3D/3 URP精粹/5 CommandBuffer.md"
+    },
+    {
+      "basename": "《Unity设计模式》",
+      "path": "引擎Unity3D/1 Unity精粹/《Unity设计模式》.md"
+    },
+    {
+      "basename": "04 纹理映射",
+      "path": "图形学/0 3D数学/公式推导/04 纹理映射.md"
+    },
+    {
+      "basename": "03 光照向量",
+      "path": "图形学/0 3D数学/公式推导/03 光照向量.md"
+    },
+    {
+      "basename": "01 学习大纲",
+      "path": "技术美术/01 学习大纲.md"
+    },
+    {
+      "basename": "常用HLSL函数",
+      "path": "技术美术/常用HLSL函数.md"
+    },
+    {
+      "basename": "03 景深",
+      "path": "技术美术/3 后处理/03 景深.md"
+    },
+    {
+      "basename": "02 Bloom",
+      "path": "技术美术/3 后处理/02 Bloom.md"
+    },
+    {
+      "basename": "01 图像模糊",
+      "path": "技术美术/3 后处理/01 图像模糊.md"
+    },
+    {
+      "basename": "02 顶点动画",
+      "path": "技术美术/1 渲染雅集/02 顶点动画.md"
+    },
+    {
+      "basename": "03 深度法线纹理",
+      "path": "技术美术/1 渲染雅集/03 深度法线纹理.md"
+    },
+    {
+      "basename": "01 Trick！",
+      "path": "技术美术/1 渲染雅集/01 Trick！.md"
+    },
+    {
       "basename": "Pytorch精粹",
       "path": "AI/Python/Pytorch精粹.md"
     },
@@ -15,18 +143,6 @@
     {
       "basename": "02 光栅化",
       "path": "图形学/1 图形系统/02 光栅化.md"
-    },
-    {
-      "basename": "01 渲染管线",
-      "path": "图形学/1 图形系统/01 渲染管线.md"
-    },
-    {
-      "basename": "04 纹理映射",
-      "path": "图形学/0 3D数学/公式推导/04 纹理映射.md"
-    },
-    {
-      "basename": "03 光照向量",
-      "path": "图形学/0 3D数学/公式推导/03 光照向量.md"
     },
     {
       "basename": "02 空间变换",
@@ -45,44 +161,12 @@
       "path": "图形学/0 3D数学/3D数学.md"
     },
     {
-      "basename": "总结",
-      "path": "图形学/6 软渲染器/软光栅/总结.md"
-    },
-    {
-      "basename": "透视矫正插值",
-      "path": "图形学/6 软渲染器/软光栅/透视矫正插值.md"
-    },
-    {
-      "basename": "04 路径追踪",
-      "path": "图形学/3 全局光照GI/04 路径追踪.md"
-    },
-    {
-      "basename": "01 辐射度量学",
-      "path": "图形学/3 全局光照GI/01 辐射度量学.md"
-    },
-    {
-      "basename": "06 深度测试",
-      "path": "图形学/1 图形系统/06 深度测试.md"
-    },
-    {
-      "basename": "05 模板测试",
-      "path": "图形学/1 图形系统/05 模板测试.md"
-    },
-    {
       "basename": "07 混合和剔除",
       "path": "图形学/1 图形系统/07 混合和剔除.md"
     },
     {
       "basename": "M_Studio 教程",
       "path": "引擎Unity3D/4 GamePlay/maco/M_Studio 教程.md"
-    },
-    {
-      "basename": "2 URP",
-      "path": "引擎Unity3D/3 URP精粹/2 URP.md"
-    },
-    {
-      "basename": "1 ShaderLab",
-      "path": "引擎Unity3D/3 URP精粹/1 ShaderLab.md"
     },
     {
       "basename": "Unity URP 屏幕空间反射 Screen space Reflection（SSR）",
@@ -115,90 +199,6 @@
     {
       "basename": "光线追踪 - 引擎",
       "path": "图形学/3 全局光照GI/光追实战/UnityRayTracing/光线追踪 - 引擎.md"
-    },
-    {
-      "basename": "【译】Unity 中的 GPU 光线追踪 - 第 1 部分",
-      "path": "图形学/3 全局光照GI/光追实战/UnityRayTracing/【译】Unity 中的 GPU 光线追踪 - 第 1 部分.md"
-    },
-    {
-      "basename": "Ray Tracing： The Next Week V3_0 中文翻译（上）",
-      "path": "图形学/3 全局光照GI/光追实战/Ray Tracing in One Weekend/Ray Tracing： The Next Week V3_0 中文翻译（上）.md"
-    },
-    {
-      "basename": "Python基础",
-      "path": "AI/Python/Python基础.md"
-    },
-    {
-      "basename": "《Unity Primer》",
-      "path": "引擎Unity3D/1 Unity精粹/《Unity Primer》.md"
-    },
-    {
-      "basename": "02 PBR理论",
-      "path": "图形学/3 全局光照GI/02 PBR理论.md"
-    },
-    {
-      "basename": "BUG记录",
-      "path": "图形学/2 图形API/DX12/自研引擎/BUG记录.md"
-    },
-    {
-      "basename": "2 DX12初始化",
-      "path": "图形学/2 图形API/DX12/自研引擎/2 DX12初始化.md"
-    },
-    {
-      "basename": "1 引擎开发环境部署",
-      "path": "图形学/2 图形API/DX12/自研引擎/1 引擎开发环境部署.md"
-    },
-    {
-      "basename": "DX12脑图",
-      "path": "图形学/2 图形API/DX12/龙书/DX12脑图.canvas"
-    },
-    {
-      "basename": "DX12理论",
-      "path": "图形学/2 图形API/DX12/龙书/DX12理论.md"
-    },
-    {
-      "basename": "报告",
-      "path": "AI/作业/数据安全/报告.md"
-    },
-    {
-      "basename": "ACCA7028_sem1_CW_2023_24.en.zh-CN",
-      "path": "AI/作业/数据安全/ACCA7028_sem1_CW_2023_24.en.zh-CN.pdf"
-    },
-    {
-      "basename": "ACCA7028_sem1_CW_2023_24",
-      "path": "AI/作业/数据安全/ACCA7028_sem1_CW_2023_24.pdf"
-    },
-    {
-      "basename": "Jupyter",
-      "path": "AI/环境配置/Jupyter.md"
-    },
-    {
-      "basename": "神经网络报告",
-      "path": "AI/作业/机器学习/神经网络作业/神经网络报告.md"
-    },
-    {
-      "basename": "机器学习报告",
-      "path": "AI/作业/机器学习/机器学习作业/机器学习报告.md"
-    },
-    {
-      "basename": "模型参数解析",
-      "path": "AI/机器学习/模型参数解析.md"
-    },
-    {
-      "basename": "TensorboardX",
-      "path": "AI/Python/TensorboardX.md"
-    },
-    {
-      "basename": "写给小白的用 fashion-mnist 入门机器学习和深度学习的简单项目 (非常全面!!!)",
-      "path": "AI/作业/机器学习/机器学习作业/写给小白的用 fashion-mnist 入门机器学习和深度学习的简单项目 (非常全面!!!).md"
-    },
-    {
-      "basename": "Tensorflow-gpu配置",
-      "path": "AI/环境配置/Tensorflow-gpu配置.md"
-    },
-    {
-      "basename": "Anaconda配置",
-      "path": "AI/环境配置/Anaconda配置.md"
     }
   ],
   "omittedPaths": [],
