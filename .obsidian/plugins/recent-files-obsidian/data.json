@@ -1,20 +1,40 @@
 {
   "recentFiles": [
     {
-      "basename": "01 三维旋转",
-      "path": "图形学/0 3D数学/公式推导/01 三维旋转.md"
+      "basename": "03 光照向量",
+      "path": "图形学/0 3D数学/公式推导/03 光照向量.md"
     },
     {
-      "basename": "3D数学",
-      "path": "图形学/0 3D数学/3D数学.md"
+      "basename": "02 空间变换",
+      "path": "图形学/0 3D数学/公式推导/02 空间变换.md"
+    },
+    {
+      "basename": "线性代数基础",
+      "path": "Math/线性代数/线性代数基础.md"
+    },
+    {
+      "basename": "《Unity Primer》",
+      "path": "引擎Unity3D/1 Unity精粹/《Unity Primer》.md"
+    },
+    {
+      "basename": "01 渲染管线",
+      "path": "图形学/1 图形系统/01 渲染管线.md"
     },
     {
       "basename": "图形学八股",
       "path": "图形学/面经/图形学八股.md"
     },
     {
-      "basename": "线性代数基础",
-      "path": "Math/线性代数/线性代数基础.md"
+      "basename": "3D数学",
+      "path": "图形学/0 3D数学/3D数学.md"
+    },
+    {
+      "basename": "01 三维旋转",
+      "path": "图形学/0 3D数学/公式推导/01 三维旋转.md"
+    },
+    {
+      "basename": "05 射线相交",
+      "path": "图形学/0 3D数学/公式推导/05 射线相交.md"
     },
     {
       "basename": "UE4_5 开发面试题：Unreal",
@@ -61,10 +81,6 @@
       "path": "引擎Unity3D/3 URP精粹/ComputeShader/ComputeShader语法.md"
     },
     {
-      "basename": "《Unity Primer》",
-      "path": "引擎Unity3D/1 Unity精粹/《Unity Primer》.md"
-    },
-    {
       "basename": "《数据持久化》",
       "path": "引擎Unity3D/1 Unity精粹/《数据持久化》.md"
     },
@@ -79,10 +95,6 @@
     {
       "basename": "05 模板测试",
       "path": "图形学/1 图形系统/05 模板测试.md"
-    },
-    {
-      "basename": "01 渲染管线",
-      "path": "图形学/1 图形系统/01 渲染管线.md"
     },
     {
       "basename": "总结",
@@ -119,10 +131,6 @@
     {
       "basename": "04 纹理映射",
       "path": "图形学/0 3D数学/公式推导/04 纹理映射.md"
-    },
-    {
-      "basename": "03 光照向量",
-      "path": "图形学/0 3D数学/公式推导/03 光照向量.md"
     },
     {
       "basename": "01 学习大纲",
@@ -171,14 +179,6 @@
     {
       "basename": "02 光栅化",
       "path": "图形学/1 图形系统/02 光栅化.md"
-    },
-    {
-      "basename": "02 空间变换",
-      "path": "图形学/0 3D数学/公式推导/02 空间变换.md"
-    },
-    {
-      "basename": "05 射线相交",
-      "path": "图形学/0 3D数学/公式推导/05 射线相交.md"
     },
     {
       "basename": "07 混合和剔除",

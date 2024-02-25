@@ -357,6 +357,8 @@ Vector3.SLerp
 ![[Pasted image 20230610205842.png|700]]
 ### 欧拉角
 [[01 三维旋转#欧拉角]]
+
+**一共有 3 种欧拉角：俯仰角 (Pitch)、偏航角 (Yaw)和滚转角 (Roll)**
 inspector 界面上显示的 Rotation 的 XYZ 值都是欧拉角
 Untiy 欧拉角常用顺规：YXZ（Yaw-pitch-Roll）
 
