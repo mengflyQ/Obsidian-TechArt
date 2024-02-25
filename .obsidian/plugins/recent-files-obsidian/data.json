@@ -1,6 +1,18 @@
 {
   "recentFiles": [
     {
+      "basename": "线性代数基础",
+      "path": "Math/线性代数/线性代数基础.md"
+    },
+    {
+      "basename": "矩阵论",
+      "path": "Math/线性代数/矩阵论.md"
+    },
+    {
+      "basename": "《线性代数的本质》",
+      "path": "Math/线性代数/《线性代数的本质》.md"
+    },
+    {
       "basename": "06 全局光照GI",
       "path": "图形学/3 全局光照GI/06 全局光照GI.md"
     },
@@ -187,18 +199,6 @@
     {
       "basename": "Ray Tracing： The Next Week V3_0 中文翻译（下）",
       "path": "图形学/3 全局光照GI/光追实战/Ray Tracing in One Weekend/Ray Tracing： The Next Week V3_0 中文翻译（下）.md"
-    },
-    {
-      "basename": "【译】Unity 中的 GPU 光线追踪 - 第 2 部分",
-      "path": "图形学/3 全局光照GI/光追实战/UnityRayTracing/【译】Unity 中的 GPU 光线追踪 - 第 2 部分.md"
-    },
-    {
-      "basename": "【译】Unity 中的 GPU 光线追踪 - 第 3 部分",
-      "path": "图形学/3 全局光照GI/光追实战/UnityRayTracing/【译】Unity 中的 GPU 光线追踪 - 第 3 部分.md"
-    },
-    {
-      "basename": "光线追踪 - 引擎",
-      "path": "图形学/3 全局光照GI/光追实战/UnityRayTracing/光线追踪 - 引擎.md"
     }
   ],
   "omittedPaths": [],
