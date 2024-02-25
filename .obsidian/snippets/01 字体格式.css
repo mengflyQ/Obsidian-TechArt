@@ -8,7 +8,8 @@
 .mod-cm6 .cm-editor .HyperMD-header-4,
 .mod-cm6 .cm-editor .HyperMD-header-5,
 .mod-cm6 .cm-editor .HyperMD-header-6,
-.HyperMD-codeblock                      /* 忽略代码块 */
+.HyperMD-codeblock,                     /* 忽略代码块 */
+.HyperMD-list-line                    /* 忽略 - 列表 */
 ) 
 {
     text-indent: 2em;
