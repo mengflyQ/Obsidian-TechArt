@@ -1,6 +1,26 @@
 {
   "recentFiles": [
     {
+      "basename": "01 辐射度量学",
+      "path": "图形学/3 全局光照GI/01 辐射度量学.md"
+    },
+    {
+      "basename": "02 PBR理论",
+      "path": "图形学/3 全局光照GI/02 PBR理论.md"
+    },
+    {
+      "basename": "03 光追理论",
+      "path": "图形学/3 全局光照GI/03 光追理论.md"
+    },
+    {
+      "basename": "03 光照模型",
+      "path": "图形学/1 图形系统/03 光照模型.md"
+    },
+    {
+      "basename": "04 纹理",
+      "path": "图形学/1 图形系统/04 纹理.md"
+    },
+    {
       "basename": "02 光栅化",
       "path": "图形学/1 图形系统/02 光栅化.md"
     },
@@ -27,14 +47,6 @@
     {
       "basename": "06 深度测试",
       "path": "图形学/1 图形系统/06 深度测试.md"
-    },
-    {
-      "basename": "03 光照模型",
-      "path": "图形学/1 图形系统/03 光照模型.md"
-    },
-    {
-      "basename": "04 纹理",
-      "path": "图形学/1 图形系统/04 纹理.md"
     },
     {
       "basename": "总结",
@@ -113,10 +125,6 @@
       "path": "图形学/3 全局光照GI/04 路径追踪.md"
     },
     {
-      "basename": "01 辐射度量学",
-      "path": "图形学/3 全局光照GI/01 辐射度量学.md"
-    },
-    {
       "basename": "3 Renderer Feature",
       "path": "引擎Unity3D/3 URP精粹/3 Renderer Feature.md"
     },
@@ -191,14 +199,6 @@
     {
       "basename": "02 顶点动画",
       "path": "技术美术/1 渲染雅集/02 顶点动画.md"
-    },
-    {
-      "basename": "03 深度法线纹理",
-      "path": "技术美术/1 渲染雅集/03 深度法线纹理.md"
-    },
-    {
-      "basename": "01 Trick！",
-      "path": "技术美术/1 渲染雅集/01 Trick！.md"
     }
   ],
   "omittedPaths": [],
