@@ -39,5 +39,6 @@
   "cm-editor-syntax-highlight-obsidian",
   "obsidian-codemirror-options",
   "obsidian-excel-to-markdown-table",
-  "code-styler"
+  "code-styler",
+  "obsidian-banners"
 ]

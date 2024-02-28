@@ -1,8 +1,32 @@
 {
   "recentFiles": [
     {
-      "basename": "11 曲线曲面几何",
-      "path": "图形学/1 图形系统/11 曲线曲面几何.md"
+      "basename": "TinyRenderer",
+      "path": "图形学/6 软渲染器/软光栅/TinyRenderer.md"
+    },
+    {
+      "basename": "总结",
+      "path": "图形学/6 软渲染器/软光栅/总结.md"
+    },
+    {
+      "basename": "03 光追理论",
+      "path": "图形学/3 全局光照GI/03 光追理论.md"
+    },
+    {
+      "basename": "04 路径追踪",
+      "path": "图形学/3 全局光照GI/04 路径追踪.md"
+    },
+    {
+      "basename": "02 PBR理论",
+      "path": "图形学/3 全局光照GI/02 PBR理论.md"
+    },
+    {
+      "basename": "01 辐射度量学",
+      "path": "图形学/3 全局光照GI/01 辐射度量学.md"
+    },
+    {
+      "basename": "05 环境光照IBL",
+      "path": "图形学/3 全局光照GI/05 环境光照IBL.md"
     },
     {
       "basename": "10 色彩",
@@ -13,8 +37,16 @@
       "path": "图形学/1 图形系统/09 阴影.md"
     },
     {
+      "basename": "04 定向阴影",
+      "path": "引擎Unity3D/Catlike Coding/《SRP》/04 定向阴影.md"
+    },
+    {
       "basename": "08 透明",
       "path": "图形学/1 图形系统/08 透明.md"
+    },
+    {
+      "basename": "11 曲线曲面几何",
+      "path": "图形学/1 图形系统/11 曲线曲面几何.md"
     },
     {
       "basename": "07 混合和剔除",
@@ -37,18 +69,6 @@
       "path": "图形学/1 图形系统/03 光照模型.md"
     },
     {
-      "basename": "01 辐射度量学",
-      "path": "图形学/3 全局光照GI/01 辐射度量学.md"
-    },
-    {
-      "basename": "02 PBR理论",
-      "path": "图形学/3 全局光照GI/02 PBR理论.md"
-    },
-    {
-      "basename": "03 光追理论",
-      "path": "图形学/3 全局光照GI/03 光追理论.md"
-    },
-    {
       "basename": "02 光栅化",
       "path": "图形学/1 图形系统/02 光栅化.md"
     },
@@ -61,20 +81,12 @@
       "path": "图形学/1 图形系统/01 渲染管线.md"
     },
     {
-      "basename": "TinyRenderer",
-      "path": "图形学/6 软渲染器/软光栅/TinyRenderer.md"
-    },
-    {
       "basename": "02 空间变换",
       "path": "图形学/0 3D数学/公式推导/02 空间变换.md"
     },
     {
       "basename": "GAMES101",
       "path": "图形学/4 书籍/GAMES系列/101现代计算机图形学入门/GAMES101.md"
-    },
-    {
-      "basename": "总结",
-      "path": "图形学/6 软渲染器/软光栅/总结.md"
     },
     {
       "basename": "透视矫正插值",
@@ -133,14 +145,6 @@
       "path": "图形学/3 全局光照GI/06 全局光照GI.md"
     },
     {
-      "basename": "05 环境光照IBL",
-      "path": "图形学/3 全局光照GI/05 环境光照IBL.md"
-    },
-    {
-      "basename": "04 路径追踪",
-      "path": "图形学/3 全局光照GI/04 路径追踪.md"
-    },
-    {
       "basename": "3 Renderer Feature",
       "path": "引擎Unity3D/3 URP精粹/3 Renderer Feature.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "常用HLSL函数",
       "path": "技术美术/常用HLSL函数.md"
-    },
-    {
-      "basename": "03 景深",
-      "path": "技术美术/3 后处理/03 景深.md"
     }
   ],
   "omittedPaths": [],
