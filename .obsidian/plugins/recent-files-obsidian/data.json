@@ -1,16 +1,40 @@
 {
   "recentFiles": [
     {
+      "basename": "04 纹理",
+      "path": "图形学/1 图形系统/04 纹理.md"
+    },
+    {
+      "basename": "05 模板测试",
+      "path": "图形学/1 图形系统/05 模板测试.md"
+    },
+    {
+      "basename": "03 光照模型",
+      "path": "图形学/1 图形系统/03 光照模型.md"
+    },
+    {
+      "basename": "TinyRenderer",
+      "path": "图形学/6 软渲染器/软光栅/TinyRenderer.md"
+    },
+    {
+      "basename": "09 阴影",
+      "path": "图形学/1 图形系统/09 阴影.md"
+    },
+    {
       "basename": "总结",
       "path": "图形学/6 软渲染器/软光栅/总结.md"
+    },
+    {
+      "basename": "08 透明",
+      "path": "图形学/1 图形系统/08 透明.md"
     },
     {
       "basename": "图形学八股",
       "path": "图形学/面经/图形学八股.md"
     },
     {
-      "basename": "08 透明",
-      "path": "图形学/1 图形系统/08 透明.md"
+      "basename": "透视矫正插值",
+      "path": "图形学/6 软渲染器/软光栅/透视矫正插值.md"
     },
     {
       "basename": "07 混合和剔除",
@@ -47,14 +71,6 @@
     {
       "basename": "01 渲染管线",
       "path": "图形学/1 图形系统/01 渲染管线.md"
-    },
-    {
-      "basename": "TinyRenderer",
-      "path": "图形学/6 软渲染器/软光栅/TinyRenderer.md"
-    },
-    {
-      "basename": "透视矫正插值",
-      "path": "图形学/6 软渲染器/软光栅/透视矫正插值.md"
     },
     {
       "basename": "02 空间变换",
@@ -161,10 +177,6 @@
       "path": "图形学/1 图形系统/10 色彩.md"
     },
     {
-      "basename": "09 阴影",
-      "path": "图形学/1 图形系统/09 阴影.md"
-    },
-    {
       "basename": "04 定向阴影",
       "path": "引擎Unity3D/Catlike Coding/《SRP》/04 定向阴影.md"
     },
@@ -175,18 +187,6 @@
     {
       "basename": "06 深度测试",
       "path": "图形学/1 图形系统/06 深度测试.md"
-    },
-    {
-      "basename": "05 模板测试",
-      "path": "图形学/1 图形系统/05 模板测试.md"
-    },
-    {
-      "basename": "04 纹理",
-      "path": "图形学/1 图形系统/04 纹理.md"
-    },
-    {
-      "basename": "03 光照模型",
-      "path": "图形学/1 图形系统/03 光照模型.md"
     },
     {
       "basename": "02 光栅化",
