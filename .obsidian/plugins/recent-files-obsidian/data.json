@@ -1,20 +1,24 @@
 {
   "recentFiles": [
     {
-      "basename": "图形学八股",
-      "path": "图形学/面经/图形学八股.md"
+      "basename": "01 渲染管线",
+      "path": "图形学/1 图形系统/01 渲染管线.md"
     },
     {
-      "basename": "02 空间变换",
-      "path": "图形学/0 3D数学/公式推导/02 空间变换.md"
+      "basename": "TinyRenderer",
+      "path": "图形学/6 软渲染器/软光栅/TinyRenderer.md"
     },
     {
       "basename": "透视矫正插值",
       "path": "图形学/6 软渲染器/软光栅/透视矫正插值.md"
     },
     {
-      "basename": "TinyRenderer",
-      "path": "图形学/6 软渲染器/软光栅/TinyRenderer.md"
+      "basename": "图形学八股",
+      "path": "图形学/面经/图形学八股.md"
+    },
+    {
+      "basename": "02 空间变换",
+      "path": "图形学/0 3D数学/公式推导/02 空间变换.md"
     },
     {
       "basename": "05 环境光照IBL",
@@ -179,10 +183,6 @@
     {
       "basename": "4 高级扩展",
       "path": "4 高级扩展.md"
-    },
-    {
-      "basename": "01 渲染管线",
-      "path": "图形学/1 图形系统/01 渲染管线.md"
     },
     {
       "basename": "GAMES101",
