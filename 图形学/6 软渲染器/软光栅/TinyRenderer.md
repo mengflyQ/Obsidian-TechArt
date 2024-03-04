@@ -252,7 +252,8 @@ int main(int argc, char** argv) {
     image.write_tga_file("output.tga");
     delete model;
     return 0;
-}```
+}
+```
 
 代码主要干了三件事：
 
@@ -262,9 +263,6 @@ int main(int argc, char** argv) {
 [[101#视口变换]]
 
 好，原理都懂了，看看效果吧：
-
-![](1672644085839.png)
-
 
 # 第三课 绘制三角形 + 平面着色
 
