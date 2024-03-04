@@ -1,16 +1,24 @@
 {
   "recentFiles": [
     {
-      "basename": "《Unity Primer》",
-      "path": "引擎Unity3D/1 Unity精粹/《Unity Primer》.md"
+      "basename": "总结",
+      "path": "图形学/6 软渲染器/软光栅/总结.md"
+    },
+    {
+      "basename": "图形学八股",
+      "path": "图形学/面经/图形学八股.md"
     },
     {
       "basename": "TinyRenderer",
       "path": "图形学/6 软渲染器/软光栅/TinyRenderer.md"
     },
     {
-      "basename": "总结",
-      "path": "图形学/6 软渲染器/软光栅/总结.md"
+      "basename": "02 空间变换",
+      "path": "图形学/0 3D数学/公式推导/02 空间变换.md"
+    },
+    {
+      "basename": "《Unity Primer》",
+      "path": "引擎Unity3D/1 Unity精粹/《Unity Primer》.md"
     },
     {
       "basename": "透视矫正插值",
@@ -109,10 +117,6 @@
       "path": "图形学/1 图形系统/01 渲染管线.md"
     },
     {
-      "basename": "02 空间变换",
-      "path": "图形学/0 3D数学/公式推导/02 空间变换.md"
-    },
-    {
       "basename": "GAMES101",
       "path": "图形学/4 书籍/GAMES系列/101现代计算机图形学入门/GAMES101.md"
     },
@@ -139,10 +143,6 @@
     {
       "basename": "线性代数基础",
       "path": "Math/线性代数/线性代数基础.md"
-    },
-    {
-      "basename": "图形学八股",
-      "path": "图形学/面经/图形学八股.md"
     },
     {
       "basename": "3D数学",
