@@ -1,28 +1,112 @@
 {
   "recentFiles": [
     {
-      "basename": "总结",
-      "path": "图形学/6 软渲染器/软光栅/总结.md"
-    },
-    {
       "basename": "图形学八股",
       "path": "图形学/面经/图形学八股.md"
-    },
-    {
-      "basename": "TinyRenderer",
-      "path": "图形学/6 软渲染器/软光栅/TinyRenderer.md"
     },
     {
       "basename": "02 空间变换",
       "path": "图形学/0 3D数学/公式推导/02 空间变换.md"
     },
     {
-      "basename": "《Unity Primer》",
-      "path": "引擎Unity3D/1 Unity精粹/《Unity Primer》.md"
-    },
-    {
       "basename": "透视矫正插值",
       "path": "图形学/6 软渲染器/软光栅/透视矫正插值.md"
+    },
+    {
+      "basename": "TinyRenderer",
+      "path": "图形学/6 软渲染器/软光栅/TinyRenderer.md"
+    },
+    {
+      "basename": "05 环境光照IBL",
+      "path": "图形学/3 全局光照GI/05 环境光照IBL.md"
+    },
+    {
+      "basename": "04 路径追踪",
+      "path": "图形学/3 全局光照GI/04 路径追踪.md"
+    },
+    {
+      "basename": "06 全局光照GI",
+      "path": "图形学/3 全局光照GI/06 全局光照GI.md"
+    },
+    {
+      "basename": "03 光追理论",
+      "path": "图形学/3 全局光照GI/03 光追理论.md"
+    },
+    {
+      "basename": "02 PBR理论",
+      "path": "图形学/3 全局光照GI/02 PBR理论.md"
+    },
+    {
+      "basename": "总结",
+      "path": "图形学/6 软渲染器/软光栅/总结.md"
+    },
+    {
+      "basename": "布料",
+      "path": "技术美术/2 着色器/布料.md"
+    },
+    {
+      "basename": "02 顶点动画",
+      "path": "技术美术/1 渲染雅集/02 顶点动画.md"
+    },
+    {
+      "basename": "FFT理论",
+      "path": "技术美术/5 水体渲染/FFT海洋/FFT理论.md"
+    },
+    {
+      "basename": "FFT相关推导",
+      "path": "技术美术/5 水体渲染/FFT海洋/FFT相关推导.md"
+    },
+    {
+      "basename": "FFT代码实现",
+      "path": "技术美术/5 水体渲染/FFT海洋/FFT代码实现.md"
+    },
+    {
+      "basename": "卡通水",
+      "path": "技术美术/5 水体渲染/卡通水.md"
+    },
+    {
+      "basename": "06 雾",
+      "path": "技术美术/1 渲染雅集/06 雾.md"
+    },
+    {
+      "basename": "09 体积云",
+      "path": "技术美术/1 渲染雅集/09 体积云.md"
+    },
+    {
+      "basename": "07 草",
+      "path": "技术美术/1 渲染雅集/07 草.md"
+    },
+    {
+      "basename": "04 溶解",
+      "path": "技术美术/1 渲染雅集/04 溶解.md"
+    },
+    {
+      "basename": "05 描边",
+      "path": "技术美术/1 渲染雅集/05 描边.md"
+    },
+    {
+      "basename": "03 深度法线纹理",
+      "path": "技术美术/1 渲染雅集/03 深度法线纹理.md"
+    },
+    {
+      "basename": "01 Trick！",
+      "path": "技术美术/1 渲染雅集/01 Trick！.md"
+    },
+    {
+      "basename": "01 图像模糊",
+      "path": "技术美术/3 后处理/01 图像模糊.md"
+    },
+    {
+      "basename": "02 Bloom",
+      "path": "技术美术/3 后处理/02 Bloom.md"
+    },
+    {
+      "basename": "UE4_5 开发面试题：Unreal",
+      "path": "图形学/面经/UE4_5 开发面试题：Unreal.md"
+    },
+    {
+      "basename": "《Unity Primer》",
+      "path": "引擎Unity3D/1 Unity精粹/《Unity Primer》.md"
     },
     {
       "basename": "3 Renderer Feature",
@@ -45,24 +129,8 @@
       "path": "引擎Unity3D/1 Unity精粹/《CS Primer》.md"
     },
     {
-      "basename": "03 光追理论",
-      "path": "图形学/3 全局光照GI/03 光追理论.md"
-    },
-    {
-      "basename": "04 路径追踪",
-      "path": "图形学/3 全局光照GI/04 路径追踪.md"
-    },
-    {
-      "basename": "02 PBR理论",
-      "path": "图形学/3 全局光照GI/02 PBR理论.md"
-    },
-    {
       "basename": "01 辐射度量学",
       "path": "图形学/3 全局光照GI/01 辐射度量学.md"
-    },
-    {
-      "basename": "05 环境光照IBL",
-      "path": "图形学/3 全局光照GI/05 环境光照IBL.md"
     },
     {
       "basename": "10 色彩",
@@ -131,74 +199,6 @@
     {
       "basename": "03 光照向量",
       "path": "图形学/0 3D数学/公式推导/03 光照向量.md"
-    },
-    {
-      "basename": "101 材质大师",
-      "path": "101 材质大师.md"
-    },
-    {
-      "basename": "01 三维旋转",
-      "path": "图形学/0 3D数学/公式推导/01 三维旋转.md"
-    },
-    {
-      "basename": "线性代数基础",
-      "path": "Math/线性代数/线性代数基础.md"
-    },
-    {
-      "basename": "3D数学",
-      "path": "图形学/0 3D数学/3D数学.md"
-    },
-    {
-      "basename": "UE4_5 开发面试题：Unreal",
-      "path": "图形学/面经/UE4_5 开发面试题：Unreal.md"
-    },
-    {
-      "basename": "《线性代数的本质》",
-      "path": "Math/线性代数/《线性代数的本质》.md"
-    },
-    {
-      "basename": "矩阵论",
-      "path": "Math/线性代数/矩阵论.md"
-    },
-    {
-      "basename": "06 全局光照GI",
-      "path": "图形学/3 全局光照GI/06 全局光照GI.md"
-    },
-    {
-      "basename": "ComputeShader语法",
-      "path": "引擎Unity3D/3 URP精粹/ComputeShader/ComputeShader语法.md"
-    },
-    {
-      "basename": "《数据持久化》",
-      "path": "引擎Unity3D/1 Unity精粹/《数据持久化》.md"
-    },
-    {
-      "basename": "冯乐乐入门精要",
-      "path": "引擎Unity3D/2 Shader精粹/《Built-in》/冯乐乐入门精要.md"
-    },
-    {
-      "basename": "CG shaderlab",
-      "path": "引擎Unity3D/2 Shader精粹/《Built-in》/CG shaderlab.md"
-    },
-    {
-      "basename": "TA101",
-      "path": "引擎Unity3D/2 Shader精粹/《Built-in》/TA101.md"
-    },
-    {
-      "basename": "6 脚本",
-      "path": "引擎Unity3D/3 URP精粹/6 脚本.md"
-    },
-    {
-      "basename": "5 CommandBuffer",
-      "path": "引擎Unity3D/3 URP精粹/5 CommandBuffer.md"
-    },
-    {
-      "basename": "01 学习大纲",
-      "path": "技术美术/01 学习大纲.md"
-    },
-    {
-      "basename": "常用HLSL函数",
-      "path": "技术美术/常用HLSL函数.md"
     }
   ],
   "omittedPaths": [],
