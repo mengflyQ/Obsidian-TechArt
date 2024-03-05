@@ -1,6 +1,142 @@
 {
   "recentFiles": [
     {
+      "basename": "TinyRenderer",
+      "path": "图形学/6 软渲染器/软光栅/TinyRenderer.md"
+    },
+    {
+      "basename": "03 光照模型",
+      "path": "图形学/1 图形系统/03 光照模型.md"
+    },
+    {
+      "basename": "02 光栅化",
+      "path": "图形学/1 图形系统/02 光栅化.md"
+    },
+    {
+      "basename": "总结",
+      "path": "图形学/6 软渲染器/软光栅/总结.md"
+    },
+    {
+      "basename": "透视矫正插值",
+      "path": "图形学/6 软渲染器/软光栅/透视矫正插值.md"
+    },
+    {
+      "basename": "FFT代码实现",
+      "path": "技术美术/5 水体渲染/FFT海洋/FFT代码实现.md"
+    },
+    {
+      "basename": "02 PBR理论",
+      "path": "图形学/3 全局光照GI/02 PBR理论.md"
+    },
+    {
+      "basename": "04 PBR推导",
+      "path": "图形学/3 全局光照GI/PBR实战/PBR相关/04 PBR推导.md"
+    },
+    {
+      "basename": "TA101",
+      "path": "引擎Unity3D/2 Shader精粹/《Built-in》/TA101.md"
+    },
+    {
+      "basename": "ASE",
+      "path": "引擎Unity3D/2 Shader精粹/《Built-in》/ASE.md"
+    },
+    {
+      "basename": "3 Renderer Feature",
+      "path": "引擎Unity3D/3 URP精粹/3 Renderer Feature.md"
+    },
+    {
+      "basename": "5 CommandBuffer",
+      "path": "引擎Unity3D/3 URP精粹/5 CommandBuffer.md"
+    },
+    {
+      "basename": "2 URP",
+      "path": "引擎Unity3D/3 URP精粹/2 URP.md"
+    },
+    {
+      "basename": "02 Bloom",
+      "path": "技术美术/3 后处理/02 Bloom.md"
+    },
+    {
+      "basename": "01 光学原理",
+      "path": "图形学/3 全局光照GI/PBR实战/PBR相关/01 光学原理.md"
+    },
+    {
+      "basename": "庄懂AP01",
+      "path": "引擎Unity3D/2 Shader精粹/《Built-in》/庄懂AP01.md"
+    },
+    {
+      "basename": "CG shaderlab",
+      "path": "引擎Unity3D/2 Shader精粹/《Built-in》/CG shaderlab.md"
+    },
+    {
+      "basename": "死亡搁浅扫描特效",
+      "path": "引擎Unity3D/收藏夹/死亡搁浅扫描特效.md"
+    },
+    {
+      "basename": "卡通水",
+      "path": "技术美术/5 水体渲染/卡通水.md"
+    },
+    {
+      "basename": "百人计划水体渲染【乱】",
+      "path": "技术美术/5 水体渲染/百人计划水体渲染【乱】.md"
+    },
+    {
+      "basename": "真实感水体渲染",
+      "path": "技术美术/5 水体渲染/真实感水体渲染.md"
+    },
+    {
+      "basename": "一波江水动京城：游戏水面渲染与互动",
+      "path": "技术美术/5 水体渲染/一波江水动京城：游戏水面渲染与互动.md"
+    },
+    {
+      "basename": "FFT理论",
+      "path": "技术美术/5 水体渲染/FFT海洋/FFT理论.md"
+    },
+    {
+      "basename": "02 顶点动画",
+      "path": "技术美术/1 渲染雅集/02 顶点动画.md"
+    },
+    {
+      "basename": "06 雾",
+      "path": "技术美术/1 渲染雅集/06 雾.md"
+    },
+    {
+      "basename": "05 故障Glitch",
+      "path": "技术美术/3 后处理/05 故障Glitch.md"
+    },
+    {
+      "basename": "01 图像模糊",
+      "path": "技术美术/3 后处理/01 图像模糊.md"
+    },
+    {
+      "basename": "03 景深",
+      "path": "技术美术/3 后处理/03 景深.md"
+    },
+    {
+      "basename": "Unity URP 实现 SSAO",
+      "path": "技术美术/3 后处理/SSAO/Unity URP 实现 SSAO.md"
+    },
+    {
+      "basename": "04 溶解",
+      "path": "技术美术/1 渲染雅集/04 溶解.md"
+    },
+    {
+      "basename": "05 描边",
+      "path": "技术美术/1 渲染雅集/05 描边.md"
+    },
+    {
+      "basename": "03 UV操作",
+      "path": "技术美术/1 渲染雅集/03 UV操作.md"
+    },
+    {
+      "basename": "03 深度法线纹理",
+      "path": "技术美术/1 渲染雅集/03 深度法线纹理.md"
+    },
+    {
+      "basename": "01 Trick！",
+      "path": "技术美术/1 渲染雅集/01 Trick！.md"
+    },
+    {
       "basename": "图形学八股",
       "path": "图形学/面经/图形学八股.md"
     },
@@ -25,18 +161,6 @@
       "path": "图形学/1 图形系统/01 渲染管线.md"
     },
     {
-      "basename": "总结",
-      "path": "图形学/6 软渲染器/软光栅/总结.md"
-    },
-    {
-      "basename": "TinyRenderer",
-      "path": "图形学/6 软渲染器/软光栅/TinyRenderer.md"
-    },
-    {
-      "basename": "02 光栅化",
-      "path": "图形学/1 图形系统/02 光栅化.md"
-    },
-    {
       "basename": "10 色彩",
       "path": "图形学/1 图形系统/10 色彩.md"
     },
@@ -47,10 +171,6 @@
     {
       "basename": "09 阴影",
       "path": "图形学/1 图形系统/09 阴影.md"
-    },
-    {
-      "basename": "02 PBR理论",
-      "path": "图形学/3 全局光照GI/02 PBR理论.md"
     },
     {
       "basename": "DX12理论",
@@ -79,126 +199,6 @@
     {
       "basename": "零基础非科班校招图形 _ 引擎 _ 游戏面经长文分享",
       "path": "图形学/面经/零基础非科班校招图形 _ 引擎 _ 游戏面经长文分享/零基础非科班校招图形 _ 引擎 _ 游戏面经长文分享.md"
-    },
-    {
-      "basename": "UE4_5 开发面试题：Unreal",
-      "path": "图形学/面经/UE4_5 开发面试题：Unreal.md"
-    },
-    {
-      "basename": "技术美术 TA3000 问",
-      "path": "图形学/面经/技术美术 TA3000 问.md"
-    },
-    {
-      "basename": "05 模板测试",
-      "path": "图形学/1 图形系统/05 模板测试.md"
-    },
-    {
-      "basename": "03 光照模型",
-      "path": "图形学/1 图形系统/03 光照模型.md"
-    },
-    {
-      "basename": "08 透明",
-      "path": "图形学/1 图形系统/08 透明.md"
-    },
-    {
-      "basename": "透视矫正插值",
-      "path": "图形学/6 软渲染器/软光栅/透视矫正插值.md"
-    },
-    {
-      "basename": "07 混合和剔除",
-      "path": "图形学/1 图形系统/07 混合和剔除.md"
-    },
-    {
-      "basename": "05 射线相交",
-      "path": "图形学/0 3D数学/公式推导/05 射线相交.md"
-    },
-    {
-      "basename": "未命名",
-      "path": "Math/Others/未命名.md"
-    },
-    {
-      "basename": "1 ShaderLab",
-      "path": "引擎Unity3D/3 URP精粹/1 ShaderLab.md"
-    },
-    {
-      "basename": "2 URP",
-      "path": "引擎Unity3D/3 URP精粹/2 URP.md"
-    },
-    {
-      "basename": "Metallic 与 Specular 流程",
-      "path": "DCC/01 百人计划美术向/Metallic 与 Specular 流程.md"
-    },
-    {
-      "basename": "01 辐射度量学",
-      "path": "图形学/3 全局光照GI/01 辐射度量学.md"
-    },
-    {
-      "basename": "02 空间变换",
-      "path": "图形学/0 3D数学/公式推导/02 空间变换.md"
-    },
-    {
-      "basename": "05 环境光照IBL",
-      "path": "图形学/3 全局光照GI/05 环境光照IBL.md"
-    },
-    {
-      "basename": "04 路径追踪",
-      "path": "图形学/3 全局光照GI/04 路径追踪.md"
-    },
-    {
-      "basename": "06 全局光照GI",
-      "path": "图形学/3 全局光照GI/06 全局光照GI.md"
-    },
-    {
-      "basename": "03 光追理论",
-      "path": "图形学/3 全局光照GI/03 光追理论.md"
-    },
-    {
-      "basename": "布料",
-      "path": "技术美术/2 着色器/布料.md"
-    },
-    {
-      "basename": "02 顶点动画",
-      "path": "技术美术/1 渲染雅集/02 顶点动画.md"
-    },
-    {
-      "basename": "FFT理论",
-      "path": "技术美术/5 水体渲染/FFT海洋/FFT理论.md"
-    },
-    {
-      "basename": "FFT相关推导",
-      "path": "技术美术/5 水体渲染/FFT海洋/FFT相关推导.md"
-    },
-    {
-      "basename": "FFT代码实现",
-      "path": "技术美术/5 水体渲染/FFT海洋/FFT代码实现.md"
-    },
-    {
-      "basename": "卡通水",
-      "path": "技术美术/5 水体渲染/卡通水.md"
-    },
-    {
-      "basename": "06 雾",
-      "path": "技术美术/1 渲染雅集/06 雾.md"
-    },
-    {
-      "basename": "09 体积云",
-      "path": "技术美术/1 渲染雅集/09 体积云.md"
-    },
-    {
-      "basename": "07 草",
-      "path": "技术美术/1 渲染雅集/07 草.md"
-    },
-    {
-      "basename": "04 溶解",
-      "path": "技术美术/1 渲染雅集/04 溶解.md"
-    },
-    {
-      "basename": "05 描边",
-      "path": "技术美术/1 渲染雅集/05 描边.md"
-    },
-    {
-      "basename": "03 深度法线纹理",
-      "path": "技术美术/1 渲染雅集/03 深度法线纹理.md"
     }
   ],
   "omittedPaths": [],

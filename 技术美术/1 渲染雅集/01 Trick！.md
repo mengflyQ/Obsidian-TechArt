@@ -13,8 +13,11 @@ float4 frag(Varyings i) : SV_Target
     i.uv = i.uv * 2 - 1;
 }
 ```
+
 ![[Pasted image 20221215123919.png]]
+
 ![[Pasted image 20221215123942.png]]
+
 ## 2 圆形遮罩
 **简单方法：**
 笛卡尔坐标系求据中心的距离, 用 length 或 distance 函数即可
@@ -27,7 +30,7 @@ float4 frag(Varyings i) : SV_Target
 **方法二：**
 ![[Pasted image 20221215131923.png]]
 UE 材质中的 Sine 函数，取值范围是-1~1，周期为 1（不是 2pai）。
-![[Pasted image 20221215131719.png|]]
+![[Pasted image 20221215131719.png]]
 
 **方形遮罩**使用这两个节点相乘即可：
 ![[Pasted image 20221215142944.png]]
@@ -36,7 +39,8 @@ UE 材质中的 Sine 函数，取值范围是-1~1，周期为 1（不是 2pai）
 ![[Pasted image 20221215132224.png]]
 
 **RadialGradientExponential（指数径向渐变）**函数
-![[Pasted image 20230118202614.jpg]] ![[Pasted image 20230118202557.jpg]]
+![[Pasted image 20230118202614.jpg]] 
+![[Pasted image 20230118202557 1.jpg]]
 **UV（矢量 2）（UVs (Vector 2)）**
 用于控制渐变所在的位置及其涵盖 0-1 空间的程度。
 
@@ -53,12 +57,17 @@ UE 材质中的 Sine 函数，取值范围是-1~1，周期为 1（不是 2pai）
 对于渐变，将白色反转为黑色，并将黑色反转为白色。
 
 **DiamondGradient（钻石型渐变）**
-![[Pasted image 20230118202708.jpg]] ![[Pasted image 20230118202702.jpg]]
+![[Pasted image 20230118202708.jpg]] 
+![[Pasted image 20230118202702.jpg]]
 **衰减（标量）（Falloff (Scalar)）**
 通过控制渐变从白色变为黑色的速度，提高渐变对比度。
 ## 3 线性遮罩
 ![[Pasted image 20221215133043.png]]
+
+
 ![[Pasted image 20221215133053.png]]
+
+
 ![[Pasted image 20221215145815.png]]
 
 
