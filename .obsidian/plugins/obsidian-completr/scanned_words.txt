@@ -10506,6 +10506,7 @@ OFr
 OgiK
 OrirE
 OlQlN
+Omnidirectional
 codeup
 clash
 ctrl
@@ -62024,6 +62025,7 @@ Adaptor
 Amazing
 Alphatest
 Alphablend
+AlphaClip
 URL
 Utools
 Users
@@ -78352,6 +78354,7 @@ RTII
 Rvalue
 RvalueRefType
 Reflector
+RTXAO
 Microsoft
 Menu
 MicaForEveryone
@@ -172014,6 +172017,7 @@ YKep
 YrYJi
 YqC
 YHeB
+YCoCg
 header
 hidden
 height
@@ -224157,6 +224161,7 @@ Dxo
 DRIaru
 Datagram
 Downcasting
+DepthSorting
 LNK
 Log
 Linux
@@ -246257,6 +246262,7 @@ ZQl
 ZtFx
 ZXBGm
 ZINp
+ZPrePass
 Quote
 Quiet
 Quick

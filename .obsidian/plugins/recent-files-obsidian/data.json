@@ -1,8 +1,92 @@
 {
   "recentFiles": [
     {
+      "basename": "图形学八股",
+      "path": "图形学/面经/图形学八股.md"
+    },
+    {
+      "basename": "06 深度测试",
+      "path": "图形学/1 图形系统/06 深度测试.md"
+    },
+    {
       "basename": "04 纹理",
       "path": "图形学/1 图形系统/04 纹理.md"
+    },
+    {
+      "basename": "URP 渲染优化总结",
+      "path": "引擎Unity3D/2 Shader精粹/《渲染优化》/URP 渲染优化总结.md"
+    },
+    {
+      "basename": "03 光照向量",
+      "path": "图形学/0 3D数学/公式推导/03 光照向量.md"
+    },
+    {
+      "basename": "01 渲染管线",
+      "path": "图形学/1 图形系统/01 渲染管线.md"
+    },
+    {
+      "basename": "总结",
+      "path": "图形学/6 软渲染器/软光栅/总结.md"
+    },
+    {
+      "basename": "TinyRenderer",
+      "path": "图形学/6 软渲染器/软光栅/TinyRenderer.md"
+    },
+    {
+      "basename": "02 光栅化",
+      "path": "图形学/1 图形系统/02 光栅化.md"
+    },
+    {
+      "basename": "10 色彩",
+      "path": "图形学/1 图形系统/10 色彩.md"
+    },
+    {
+      "basename": "11 HDR",
+      "path": "引擎Unity3D/Catlike Coding/《SRP》/11 HDR.md"
+    },
+    {
+      "basename": "09 阴影",
+      "path": "图形学/1 图形系统/09 阴影.md"
+    },
+    {
+      "basename": "02 PBR理论",
+      "path": "图形学/3 全局光照GI/02 PBR理论.md"
+    },
+    {
+      "basename": "DX12理论",
+      "path": "图形学/2 图形API/DX12/龙书/DX12理论.md"
+    },
+    {
+      "basename": "DrawCall，Batches，SetPass calls",
+      "path": "引擎Unity3D/2 Shader精粹/《渲染优化》/DrawCall，Batches，SetPass calls.md"
+    },
+    {
+      "basename": "02 Draw Call",
+      "path": "引擎Unity3D/Catlike Coding/《SRP》/02 Draw Call.md"
+    },
+    {
+      "basename": "01 三维旋转",
+      "path": "图形学/0 3D数学/公式推导/01 三维旋转.md"
+    },
+    {
+      "basename": "技术向",
+      "path": "图形学/面经/技术向.md"
+    },
+    {
+      "basename": "(10 条消息) 2021 搜狐畅游引擎部笔试【追光者计划】_P1ay_的博客 - CSDN 博客",
+      "path": "图形学/面经/(10 条消息) 2021 搜狐畅游引擎部笔试【追光者计划】_P1ay_的博客 - CSDN 博客/(10 条消息) 2021 搜狐畅游引擎部笔试【追光者计划】_P1ay_的博客 - CSDN 博客.md"
+    },
+    {
+      "basename": "零基础非科班校招图形 _ 引擎 _ 游戏面经长文分享",
+      "path": "图形学/面经/零基础非科班校招图形 _ 引擎 _ 游戏面经长文分享/零基础非科班校招图形 _ 引擎 _ 游戏面经长文分享.md"
+    },
+    {
+      "basename": "UE4_5 开发面试题：Unreal",
+      "path": "图形学/面经/UE4_5 开发面试题：Unreal.md"
+    },
+    {
+      "basename": "技术美术 TA3000 问",
+      "path": "图形学/面经/技术美术 TA3000 问.md"
     },
     {
       "basename": "05 模板测试",
@@ -13,24 +97,8 @@
       "path": "图形学/1 图形系统/03 光照模型.md"
     },
     {
-      "basename": "TinyRenderer",
-      "path": "图形学/6 软渲染器/软光栅/TinyRenderer.md"
-    },
-    {
-      "basename": "09 阴影",
-      "path": "图形学/1 图形系统/09 阴影.md"
-    },
-    {
-      "basename": "总结",
-      "path": "图形学/6 软渲染器/软光栅/总结.md"
-    },
-    {
       "basename": "08 透明",
       "path": "图形学/1 图形系统/08 透明.md"
-    },
-    {
-      "basename": "图形学八股",
-      "path": "图形学/面经/图形学八股.md"
     },
     {
       "basename": "透视矫正插值",
@@ -61,16 +129,8 @@
       "path": "DCC/01 百人计划美术向/Metallic 与 Specular 流程.md"
     },
     {
-      "basename": "02 PBR理论",
-      "path": "图形学/3 全局光照GI/02 PBR理论.md"
-    },
-    {
       "basename": "01 辐射度量学",
       "path": "图形学/3 全局光照GI/01 辐射度量学.md"
-    },
-    {
-      "basename": "01 渲染管线",
-      "path": "图形学/1 图形系统/01 渲染管线.md"
     },
     {
       "basename": "02 空间变换",
@@ -139,66 +199,6 @@
     {
       "basename": "03 深度法线纹理",
       "path": "技术美术/1 渲染雅集/03 深度法线纹理.md"
-    },
-    {
-      "basename": "01 Trick！",
-      "path": "技术美术/1 渲染雅集/01 Trick！.md"
-    },
-    {
-      "basename": "01 图像模糊",
-      "path": "技术美术/3 后处理/01 图像模糊.md"
-    },
-    {
-      "basename": "02 Bloom",
-      "path": "技术美术/3 后处理/02 Bloom.md"
-    },
-    {
-      "basename": "UE4_5 开发面试题：Unreal",
-      "path": "图形学/面经/UE4_5 开发面试题：Unreal.md"
-    },
-    {
-      "basename": "《Unity Primer》",
-      "path": "引擎Unity3D/1 Unity精粹/《Unity Primer》.md"
-    },
-    {
-      "basename": "3 Renderer Feature",
-      "path": "引擎Unity3D/3 URP精粹/3 Renderer Feature.md"
-    },
-    {
-      "basename": "《Unity设计模式》",
-      "path": "引擎Unity3D/1 Unity精粹/《Unity设计模式》.md"
-    },
-    {
-      "basename": "《CS Primer》",
-      "path": "引擎Unity3D/1 Unity精粹/《CS Primer》.md"
-    },
-    {
-      "basename": "10 色彩",
-      "path": "图形学/1 图形系统/10 色彩.md"
-    },
-    {
-      "basename": "04 定向阴影",
-      "path": "引擎Unity3D/Catlike Coding/《SRP》/04 定向阴影.md"
-    },
-    {
-      "basename": "11 曲线曲面几何",
-      "path": "图形学/1 图形系统/11 曲线曲面几何.md"
-    },
-    {
-      "basename": "06 深度测试",
-      "path": "图形学/1 图形系统/06 深度测试.md"
-    },
-    {
-      "basename": "02 光栅化",
-      "path": "图形学/1 图形系统/02 光栅化.md"
-    },
-    {
-      "basename": "4 高级扩展",
-      "path": "4 高级扩展.md"
-    },
-    {
-      "basename": "GAMES101",
-      "path": "图形学/4 书籍/GAMES系列/101现代计算机图形学入门/GAMES101.md"
     }
   ],
   "omittedPaths": [],
