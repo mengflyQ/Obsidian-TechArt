@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "总结",
+      "path": "图形学/6 软渲染器/软光栅/总结.md"
+    },
+    {
+      "basename": "透视矫正插值",
+      "path": "图形学/6 软渲染器/软光栅/透视矫正插值.md"
+    },
+    {
       "basename": "TinyRenderer",
       "path": "图形学/6 软渲染器/软光栅/TinyRenderer.md"
     },
@@ -11,14 +19,6 @@
     {
       "basename": "02 光栅化",
       "path": "图形学/1 图形系统/02 光栅化.md"
-    },
-    {
-      "basename": "总结",
-      "path": "图形学/6 软渲染器/软光栅/总结.md"
-    },
-    {
-      "basename": "透视矫正插值",
-      "path": "图形学/6 软渲染器/软光栅/透视矫正插值.md"
     },
     {
       "basename": "FFT代码实现",
