@@ -1,8 +1,16 @@
 {
   "recentFiles": [
     {
-      "basename": "03 光照向量",
-      "path": "图形学/0 3D数学/公式推导/03 光照向量.md"
+      "basename": "3 Renderer Feature",
+      "path": "引擎Unity3D/3 URP精粹/3 Renderer Feature.md"
+    },
+    {
+      "basename": "2 URP",
+      "path": "引擎Unity3D/3 URP精粹/2 URP.md"
+    },
+    {
+      "basename": "图形学八股",
+      "path": "图形学/面经/图形学八股.md"
     },
     {
       "basename": "04 纹理",
@@ -13,8 +21,12 @@
       "path": "图形学/3 全局光照GI/03 光追理论.md"
     },
     {
-      "basename": "图形学八股",
-      "path": "图形学/面经/图形学八股.md"
+      "basename": "09 阴影",
+      "path": "图形学/1 图形系统/09 阴影.md"
+    },
+    {
+      "basename": "03 光照向量",
+      "path": "图形学/0 3D数学/公式推导/03 光照向量.md"
     },
     {
       "basename": "05 射线相交",
@@ -31,10 +43,6 @@
     {
       "basename": "02 空间变换",
       "path": "图形学/0 3D数学/公式推导/02 空间变换.md"
-    },
-    {
-      "basename": "09 阴影",
-      "path": "图形学/1 图形系统/09 阴影.md"
     },
     {
       "basename": "6 纹理化",
@@ -89,16 +97,8 @@
       "path": "引擎Unity3D/2 Shader精粹/《Built-in》/ASE.md"
     },
     {
-      "basename": "3 Renderer Feature",
-      "path": "引擎Unity3D/3 URP精粹/3 Renderer Feature.md"
-    },
-    {
       "basename": "5 CommandBuffer",
       "path": "引擎Unity3D/3 URP精粹/5 CommandBuffer.md"
-    },
-    {
-      "basename": "2 URP",
-      "path": "引擎Unity3D/3 URP精粹/2 URP.md"
     },
     {
       "basename": "02 Bloom",
