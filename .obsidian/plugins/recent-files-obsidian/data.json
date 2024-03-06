@@ -1,6 +1,58 @@
 {
   "recentFiles": [
     {
+      "basename": "03 光照向量",
+      "path": "图形学/0 3D数学/公式推导/03 光照向量.md"
+    },
+    {
+      "basename": "04 纹理",
+      "path": "图形学/1 图形系统/04 纹理.md"
+    },
+    {
+      "basename": "03 光追理论",
+      "path": "图形学/3 全局光照GI/03 光追理论.md"
+    },
+    {
+      "basename": "图形学八股",
+      "path": "图形学/面经/图形学八股.md"
+    },
+    {
+      "basename": "05 射线相交",
+      "path": "图形学/0 3D数学/公式推导/05 射线相交.md"
+    },
+    {
+      "basename": "3D数学",
+      "path": "图形学/0 3D数学/3D数学.md"
+    },
+    {
+      "basename": "01 三维旋转",
+      "path": "图形学/0 3D数学/公式推导/01 三维旋转.md"
+    },
+    {
+      "basename": "02 空间变换",
+      "path": "图形学/0 3D数学/公式推导/02 空间变换.md"
+    },
+    {
+      "basename": "09 阴影",
+      "path": "图形学/1 图形系统/09 阴影.md"
+    },
+    {
+      "basename": "6 纹理化",
+      "path": "图形学/4 书籍/《RTR4》/6 纹理化.md"
+    },
+    {
+      "basename": "02 光栅化",
+      "path": "图形学/1 图形系统/02 光栅化.md"
+    },
+    {
+      "basename": "Chapter 6 Texturing 纹理",
+      "path": "图形学/4 书籍/RTR4社区版/Chapter 6 Texturing 纹理.md"
+    },
+    {
+      "basename": "技术向",
+      "path": "图形学/面经/技术向.md"
+    },
+    {
       "basename": "总结",
       "path": "图形学/6 软渲染器/软光栅/总结.md"
     },
@@ -15,10 +67,6 @@
     {
       "basename": "03 光照模型",
       "path": "图形学/1 图形系统/03 光照模型.md"
-    },
-    {
-      "basename": "02 光栅化",
-      "path": "图形学/1 图形系统/02 光栅化.md"
     },
     {
       "basename": "FFT代码实现",
@@ -137,24 +185,12 @@
       "path": "技术美术/1 渲染雅集/01 Trick！.md"
     },
     {
-      "basename": "图形学八股",
-      "path": "图形学/面经/图形学八股.md"
-    },
-    {
       "basename": "06 深度测试",
       "path": "图形学/1 图形系统/06 深度测试.md"
     },
     {
-      "basename": "04 纹理",
-      "path": "图形学/1 图形系统/04 纹理.md"
-    },
-    {
       "basename": "URP 渲染优化总结",
       "path": "引擎Unity3D/2 Shader精粹/《渲染优化》/URP 渲染优化总结.md"
-    },
-    {
-      "basename": "03 光照向量",
-      "path": "图形学/0 3D数学/公式推导/03 光照向量.md"
     },
     {
       "basename": "01 渲染管线",
@@ -163,42 +199,6 @@
     {
       "basename": "10 色彩",
       "path": "图形学/1 图形系统/10 色彩.md"
-    },
-    {
-      "basename": "11 HDR",
-      "path": "引擎Unity3D/Catlike Coding/《SRP》/11 HDR.md"
-    },
-    {
-      "basename": "09 阴影",
-      "path": "图形学/1 图形系统/09 阴影.md"
-    },
-    {
-      "basename": "DX12理论",
-      "path": "图形学/2 图形API/DX12/龙书/DX12理论.md"
-    },
-    {
-      "basename": "DrawCall，Batches，SetPass calls",
-      "path": "引擎Unity3D/2 Shader精粹/《渲染优化》/DrawCall，Batches，SetPass calls.md"
-    },
-    {
-      "basename": "02 Draw Call",
-      "path": "引擎Unity3D/Catlike Coding/《SRP》/02 Draw Call.md"
-    },
-    {
-      "basename": "01 三维旋转",
-      "path": "图形学/0 3D数学/公式推导/01 三维旋转.md"
-    },
-    {
-      "basename": "技术向",
-      "path": "图形学/面经/技术向.md"
-    },
-    {
-      "basename": "(10 条消息) 2021 搜狐畅游引擎部笔试【追光者计划】_P1ay_的博客 - CSDN 博客",
-      "path": "图形学/面经/(10 条消息) 2021 搜狐畅游引擎部笔试【追光者计划】_P1ay_的博客 - CSDN 博客/(10 条消息) 2021 搜狐畅游引擎部笔试【追光者计划】_P1ay_的博客 - CSDN 博客.md"
-    },
-    {
-      "basename": "零基础非科班校招图形 _ 引擎 _ 游戏面经长文分享",
-      "path": "图形学/面经/零基础非科班校招图形 _ 引擎 _ 游戏面经长文分享/零基础非科班校招图形 _ 引擎 _ 游戏面经长文分享.md"
     }
   ],
   "omittedPaths": [],
