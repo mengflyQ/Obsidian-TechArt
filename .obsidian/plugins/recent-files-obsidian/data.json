@@ -1,6 +1,86 @@
 {
   "recentFiles": [
     {
+      "basename": "卡通水",
+      "path": "技术美术/5 水体渲染/卡通水.md"
+    },
+    {
+      "basename": "FFT理论",
+      "path": "技术美术/5 水体渲染/FFT海洋/FFT理论.md"
+    },
+    {
+      "basename": "FFT相关推导",
+      "path": "技术美术/5 水体渲染/FFT海洋/FFT相关推导.md"
+    },
+    {
+      "basename": "FFT代码实现",
+      "path": "技术美术/5 水体渲染/FFT海洋/FFT代码实现.md"
+    },
+    {
+      "basename": "图形学八股",
+      "path": "图形学/面经/图形学八股.md"
+    },
+    {
+      "basename": "真实感水体渲染",
+      "path": "技术美术/5 水体渲染/真实感水体渲染.md"
+    },
+    {
+      "basename": "05 描边",
+      "path": "技术美术/1 渲染雅集/05 描边.md"
+    },
+    {
+      "basename": "06 雾",
+      "path": "技术美术/1 渲染雅集/06 雾.md"
+    },
+    {
+      "basename": "11 HDR",
+      "path": "引擎Unity3D/Catlike Coding/《SRP》/11 HDR.md"
+    },
+    {
+      "basename": "13 多相机",
+      "path": "引擎Unity3D/Catlike Coding/《SRP》/13 多相机.md"
+    },
+    {
+      "basename": "14 复杂纹理",
+      "path": "引擎Unity3D/Catlike Coding/《SRP》/14 复杂纹理.md"
+    },
+    {
+      "basename": "16 渲染缩放",
+      "path": "引擎Unity3D/Catlike Coding/《SRP》/16 渲染缩放.md"
+    },
+    {
+      "basename": "15 粒子",
+      "path": "引擎Unity3D/Catlike Coding/《SRP》/15 粒子.md"
+    },
+    {
+      "basename": "04 定向阴影",
+      "path": "引擎Unity3D/Catlike Coding/《SRP》/04 定向阴影.md"
+    },
+    {
+      "basename": "02 Draw Call",
+      "path": "引擎Unity3D/Catlike Coding/《SRP》/02 Draw Call.md"
+    },
+    {
+      "basename": "2 URP",
+      "path": "引擎Unity3D/3 URP精粹/2 URP.md"
+    },
+    {
+      "basename": "1 ShaderLab",
+      "path": "引擎Unity3D/3 URP精粹/1 ShaderLab.md"
+    },
+    {
+      "basename": "各向异性",
+      "path": "技术美术/2 着色器/各向异性.md"
+    },
+    {
+      "basename": "次表面散射SSS",
+      "path": "技术美术/2 着色器/次表面散射SSS.md"
+    },
+    {
+      "basename": "05 故障Glitch",
+      "path": "技术美术/3 后处理/05 故障Glitch.md"
+    },
+    {
       "basename": "03 深度法线纹理",
       "path": "技术美术/1 渲染雅集/03 深度法线纹理.md"
     },
@@ -19,26 +99,6 @@
     {
       "basename": "ClearCoat清漆",
       "path": "技术美术/2 着色器/ClearCoat清漆.md"
-    },
-    {
-      "basename": "各向异性",
-      "path": "技术美术/2 着色器/各向异性.md"
-    },
-    {
-      "basename": "次表面散射SSS",
-      "path": "技术美术/2 着色器/次表面散射SSS.md"
-    },
-    {
-      "basename": "06 雾",
-      "path": "技术美术/1 渲染雅集/06 雾.md"
-    },
-    {
-      "basename": "图形学八股",
-      "path": "图形学/面经/图形学八股.md"
-    },
-    {
-      "basename": "05 故障Glitch",
-      "path": "技术美术/3 后处理/05 故障Glitch.md"
     },
     {
       "basename": "02 Bloom",
@@ -97,10 +157,6 @@
       "path": "图形学/6 软渲染器/软光栅/总结.md"
     },
     {
-      "basename": "2 URP",
-      "path": "引擎Unity3D/3 URP精粹/2 URP.md"
-    },
-    {
       "basename": "03 光照向量",
       "path": "图形学/0 3D数学/公式推导/03 光照向量.md"
     },
@@ -141,64 +197,8 @@
       "path": "图形学/1 图形系统/03 光照模型.md"
     },
     {
-      "basename": "FFT代码实现",
-      "path": "技术美术/5 水体渲染/FFT海洋/FFT代码实现.md"
-    },
-    {
       "basename": "02 PBR理论",
       "path": "图形学/3 全局光照GI/02 PBR理论.md"
-    },
-    {
-      "basename": "04 PBR推导",
-      "path": "图形学/3 全局光照GI/PBR实战/PBR相关/04 PBR推导.md"
-    },
-    {
-      "basename": "TA101",
-      "path": "引擎Unity3D/2 Shader精粹/《Built-in》/TA101.md"
-    },
-    {
-      "basename": "ASE",
-      "path": "引擎Unity3D/2 Shader精粹/《Built-in》/ASE.md"
-    },
-    {
-      "basename": "5 CommandBuffer",
-      "path": "引擎Unity3D/3 URP精粹/5 CommandBuffer.md"
-    },
-    {
-      "basename": "01 光学原理",
-      "path": "图形学/3 全局光照GI/PBR实战/PBR相关/01 光学原理.md"
-    },
-    {
-      "basename": "庄懂AP01",
-      "path": "引擎Unity3D/2 Shader精粹/《Built-in》/庄懂AP01.md"
-    },
-    {
-      "basename": "CG shaderlab",
-      "path": "引擎Unity3D/2 Shader精粹/《Built-in》/CG shaderlab.md"
-    },
-    {
-      "basename": "死亡搁浅扫描特效",
-      "path": "引擎Unity3D/收藏夹/死亡搁浅扫描特效.md"
-    },
-    {
-      "basename": "卡通水",
-      "path": "技术美术/5 水体渲染/卡通水.md"
-    },
-    {
-      "basename": "百人计划水体渲染【乱】",
-      "path": "技术美术/5 水体渲染/百人计划水体渲染【乱】.md"
-    },
-    {
-      "basename": "真实感水体渲染",
-      "path": "技术美术/5 水体渲染/真实感水体渲染.md"
-    },
-    {
-      "basename": "一波江水动京城：游戏水面渲染与互动",
-      "path": "技术美术/5 水体渲染/一波江水动京城：游戏水面渲染与互动.md"
-    },
-    {
-      "basename": "FFT理论",
-      "path": "技术美术/5 水体渲染/FFT海洋/FFT理论.md"
     }
   ],
   "omittedPaths": [],
