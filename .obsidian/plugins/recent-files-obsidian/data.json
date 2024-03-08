@@ -1,28 +1,104 @@
 {
   "recentFiles": [
     {
-      "basename": "3 Renderer Feature",
-      "path": "引擎Unity3D/3 URP精粹/3 Renderer Feature.md"
+      "basename": "03 深度法线纹理",
+      "path": "技术美术/1 渲染雅集/03 深度法线纹理.md"
     },
     {
-      "basename": "2 URP",
-      "path": "引擎Unity3D/3 URP精粹/2 URP.md"
+      "basename": "NPR渲染管线概述",
+      "path": "技术美术/6 NPR/NPR渲染管线概述.md"
+    },
+    {
+      "basename": "ta101卡渲",
+      "path": "技术美术/6 NPR/ta101卡渲.md"
+    },
+    {
+      "basename": "未命名",
+      "path": "技术美术/7 真实感人物/未命名.md"
+    },
+    {
+      "basename": "ClearCoat清漆",
+      "path": "技术美术/2 着色器/ClearCoat清漆.md"
+    },
+    {
+      "basename": "各向异性",
+      "path": "技术美术/2 着色器/各向异性.md"
+    },
+    {
+      "basename": "次表面散射SSS",
+      "path": "技术美术/2 着色器/次表面散射SSS.md"
+    },
+    {
+      "basename": "06 雾",
+      "path": "技术美术/1 渲染雅集/06 雾.md"
     },
     {
       "basename": "图形学八股",
       "path": "图形学/面经/图形学八股.md"
     },
     {
-      "basename": "04 纹理",
-      "path": "图形学/1 图形系统/04 纹理.md"
+      "basename": "05 故障Glitch",
+      "path": "技术美术/3 后处理/05 故障Glitch.md"
+    },
+    {
+      "basename": "02 Bloom",
+      "path": "技术美术/3 后处理/02 Bloom.md"
+    },
+    {
+      "basename": "01 图像模糊",
+      "path": "技术美术/3 后处理/01 图像模糊.md"
+    },
+    {
+      "basename": "3 Renderer Feature",
+      "path": "引擎Unity3D/3 URP精粹/3 Renderer Feature.md"
+    },
+    {
+      "basename": "04 溶解",
+      "path": "技术美术/1 渲染雅集/04 溶解.md"
+    },
+    {
+      "basename": "03 UV操作",
+      "path": "技术美术/1 渲染雅集/03 UV操作.md"
     },
     {
       "basename": "03 光追理论",
       "path": "图形学/3 全局光照GI/03 光追理论.md"
     },
     {
+      "basename": "重心坐标、透视矫正插值推导",
+      "path": "图形学/6 软渲染器/软光栅/重心坐标、透视矫正插值推导.md"
+    },
+    {
+      "basename": "02 顶点动画",
+      "path": "技术美术/1 渲染雅集/02 顶点动画.md"
+    },
+    {
+      "basename": "01 Trick！",
+      "path": "技术美术/1 渲染雅集/01 Trick！.md"
+    },
+    {
+      "basename": "04 纹理",
+      "path": "图形学/1 图形系统/04 纹理.md"
+    },
+    {
       "basename": "09 阴影",
       "path": "图形学/1 图形系统/09 阴影.md"
+    },
+    {
+      "basename": "透视矫正插值",
+      "path": "图形学/6 软渲染器/软光栅/透视矫正插值.md"
+    },
+    {
+      "basename": "TinyRenderer",
+      "path": "图形学/6 软渲染器/软光栅/TinyRenderer.md"
+    },
+    {
+      "basename": "总结",
+      "path": "图形学/6 软渲染器/软光栅/总结.md"
+    },
+    {
+      "basename": "2 URP",
+      "path": "引擎Unity3D/3 URP精粹/2 URP.md"
     },
     {
       "basename": "03 光照向量",
@@ -61,18 +137,6 @@
       "path": "图形学/面经/技术向.md"
     },
     {
-      "basename": "总结",
-      "path": "图形学/6 软渲染器/软光栅/总结.md"
-    },
-    {
-      "basename": "透视矫正插值",
-      "path": "图形学/6 软渲染器/软光栅/透视矫正插值.md"
-    },
-    {
-      "basename": "TinyRenderer",
-      "path": "图形学/6 软渲染器/软光栅/TinyRenderer.md"
-    },
-    {
       "basename": "03 光照模型",
       "path": "图形学/1 图形系统/03 光照模型.md"
     },
@@ -99,10 +163,6 @@
     {
       "basename": "5 CommandBuffer",
       "path": "引擎Unity3D/3 URP精粹/5 CommandBuffer.md"
-    },
-    {
-      "basename": "02 Bloom",
-      "path": "技术美术/3 后处理/02 Bloom.md"
     },
     {
       "basename": "01 光学原理",
@@ -139,66 +199,6 @@
     {
       "basename": "FFT理论",
       "path": "技术美术/5 水体渲染/FFT海洋/FFT理论.md"
-    },
-    {
-      "basename": "02 顶点动画",
-      "path": "技术美术/1 渲染雅集/02 顶点动画.md"
-    },
-    {
-      "basename": "06 雾",
-      "path": "技术美术/1 渲染雅集/06 雾.md"
-    },
-    {
-      "basename": "05 故障Glitch",
-      "path": "技术美术/3 后处理/05 故障Glitch.md"
-    },
-    {
-      "basename": "01 图像模糊",
-      "path": "技术美术/3 后处理/01 图像模糊.md"
-    },
-    {
-      "basename": "03 景深",
-      "path": "技术美术/3 后处理/03 景深.md"
-    },
-    {
-      "basename": "Unity URP 实现 SSAO",
-      "path": "技术美术/3 后处理/SSAO/Unity URP 实现 SSAO.md"
-    },
-    {
-      "basename": "04 溶解",
-      "path": "技术美术/1 渲染雅集/04 溶解.md"
-    },
-    {
-      "basename": "05 描边",
-      "path": "技术美术/1 渲染雅集/05 描边.md"
-    },
-    {
-      "basename": "03 UV操作",
-      "path": "技术美术/1 渲染雅集/03 UV操作.md"
-    },
-    {
-      "basename": "03 深度法线纹理",
-      "path": "技术美术/1 渲染雅集/03 深度法线纹理.md"
-    },
-    {
-      "basename": "01 Trick！",
-      "path": "技术美术/1 渲染雅集/01 Trick！.md"
-    },
-    {
-      "basename": "06 深度测试",
-      "path": "图形学/1 图形系统/06 深度测试.md"
-    },
-    {
-      "basename": "URP 渲染优化总结",
-      "path": "引擎Unity3D/2 Shader精粹/《渲染优化》/URP 渲染优化总结.md"
-    },
-    {
-      "basename": "01 渲染管线",
-      "path": "图形学/1 图形系统/01 渲染管线.md"
-    },
-    {
-      "basename": "10 色彩",
-      "path": "图形学/1 图形系统/10 色彩.md"
     }
   ],
   "omittedPaths": [],

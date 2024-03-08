@@ -5,6 +5,7 @@
 
 # 遮罩
 ## 1 UV 坐标系转换成笛卡尔直角坐标系
+（0，1）-> (-1, 1)
 ```cs
 float4 frag(Varyings i) : SV_Target  
 {  

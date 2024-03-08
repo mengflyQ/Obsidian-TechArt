@@ -208,7 +208,9 @@ public class URPCallbackExample : MonoBehaviour
 }
 ```
 
-## 自定义 Render Feature
+## 自定义 Render Feature（渲染器功能）
+Render Feature（渲染器功能）是一种 Asset，可让您将内置效果或自定义效果添加到 URP 渲染器并配置其行为。
+
 视频：[Unlocking The Power Of Unity's Scriptable Render Pipeline - YouTube](https://www.youtube.com/watch?v=9fa4uFm1eCE)
 教程：[Custom Renderer Features | Cyanilux](https://www.cyanilux.com/tutorials/custom-renderer-features/)
 
