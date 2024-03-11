@@ -1,6 +1,54 @@
 {
   "recentFiles": [
     {
+      "basename": "FFT理论",
+      "path": "技术美术/5 水体渲染/FFT海洋/FFT理论.md"
+    },
+    {
+      "basename": "图形学八股",
+      "path": "图形学/面经/图形学八股.md"
+    },
+    {
+      "basename": "FFT代码实现",
+      "path": "技术美术/5 水体渲染/FFT海洋/FFT代码实现.md"
+    },
+    {
+      "basename": "DX12理论",
+      "path": "图形学/2 图形API/DX12/龙书/DX12理论.md"
+    },
+    {
+      "basename": "ComputeShader语法",
+      "path": "引擎Unity3D/3 URP精粹/ComputeShader/ComputeShader语法.md"
+    },
+    {
+      "basename": "DX12脑图",
+      "path": "图形学/2 图形API/DX12/龙书/DX12脑图.canvas"
+    },
+    {
+      "basename": "卡通水",
+      "path": "技术美术/5 水体渲染/卡通水.md"
+    },
+    {
+      "basename": "常用HLSL函数",
+      "path": "技术美术/常用HLSL函数.md"
+    },
+    {
+      "basename": "02 空间变换",
+      "path": "图形学/0 3D数学/公式推导/02 空间变换.md"
+    },
+    {
+      "basename": "真实感水体渲染",
+      "path": "技术美术/5 水体渲染/真实感水体渲染.md"
+    },
+    {
+      "basename": "庄懂AP01",
+      "path": "引擎Unity3D/2 Shader精粹/《Built-in》/庄懂AP01.md"
+    },
+    {
+      "basename": "冯乐乐入门精要",
+      "path": "引擎Unity3D/2 Shader精粹/《Built-in》/冯乐乐入门精要.md"
+    },
+    {
       "basename": "次表面散射SSS",
       "path": "技术美术/2 着色器/次表面散射SSS.md"
     },
@@ -21,32 +69,12 @@
       "path": "图形学/3 全局光照GI/01 辐射度量学.md"
     },
     {
-      "basename": "FFT理论",
-      "path": "技术美术/5 水体渲染/FFT海洋/FFT理论.md"
-    },
-    {
       "basename": "Nerf将场景表示为用于视图合成的神经辐射场",
       "path": "AI/论文/Nerf/Nerf将场景表示为用于视图合成的神经辐射场.md"
     },
     {
-      "basename": "卡通水",
-      "path": "技术美术/5 水体渲染/卡通水.md"
-    },
-    {
       "basename": "FFT相关推导",
       "path": "技术美术/5 水体渲染/FFT海洋/FFT相关推导.md"
-    },
-    {
-      "basename": "FFT代码实现",
-      "path": "技术美术/5 水体渲染/FFT海洋/FFT代码实现.md"
-    },
-    {
-      "basename": "图形学八股",
-      "path": "图形学/面经/图形学八股.md"
-    },
-    {
-      "basename": "真实感水体渲染",
-      "path": "技术美术/5 水体渲染/真实感水体渲染.md"
     },
     {
       "basename": "05 描边",
@@ -171,34 +199,6 @@
     {
       "basename": "总结",
       "path": "图形学/6 软渲染器/软光栅/总结.md"
-    },
-    {
-      "basename": "03 光照向量",
-      "path": "图形学/0 3D数学/公式推导/03 光照向量.md"
-    },
-    {
-      "basename": "05 射线相交",
-      "path": "图形学/0 3D数学/公式推导/05 射线相交.md"
-    },
-    {
-      "basename": "3D数学",
-      "path": "图形学/0 3D数学/3D数学.md"
-    },
-    {
-      "basename": "01 三维旋转",
-      "path": "图形学/0 3D数学/公式推导/01 三维旋转.md"
-    },
-    {
-      "basename": "02 空间变换",
-      "path": "图形学/0 3D数学/公式推导/02 空间变换.md"
-    },
-    {
-      "basename": "6 纹理化",
-      "path": "图形学/4 书籍/《RTR4》/6 纹理化.md"
-    },
-    {
-      "basename": "02 光栅化",
-      "path": "图形学/1 图形系统/02 光栅化.md"
     }
   ],
   "omittedPaths": [],

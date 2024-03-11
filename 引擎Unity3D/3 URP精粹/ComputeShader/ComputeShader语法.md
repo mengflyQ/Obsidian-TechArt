@@ -2,7 +2,7 @@
 > [!NOTE] Title
 > 本文 CS 指 Compute Shader
 # 总结
-1. 每个 SM 至少需要两个线程组，避免线程阻塞
+1. 每个流多处理器 (SM） 至少需要两个线程组，避免线程阻塞
 2. 每个线程组中又是由 $n$ 个线程组成的，由 numthreads 定义
 3. `numthreads (tX, tY, tZ)`：一个线程组中可以被执行的线程总数量为 `tX*tY*tZ` ，应设置为 64 的倍数，默认 `8*8*1`
 4.  先 `numthreads` 定义好每个核函数对应线程组里线程的数量（`tX*tY*tZ`），再用 `Dispatch` 定义用多少线程组 (`gX*gY*gZ`) 来处理这个核函数。
@@ -36,7 +36,7 @@ void CSMain (uint3 id : SV_DispatchThreadID)
 
 ### kernel
 
-把一个名为 CSMain 的函数声明为 kernel，或者称之为**核函数**。这个核函数就是最终会在 GPU 中被执行。
+把一个名为 CSMain 的函数声明为 kernel，或者称之为**核函数**。这个核函数就是最终会在 **GPU** 中被执行。
 ```c
 #pragma kernel CSMain
 ```
@@ -99,7 +99,7 @@ numthreads(tX, tY, tZ)
 
 在 Direct3D12 中，可以**通过 `ID3D12GraphicsCommandList::Dispatch(gX,gY,gZ)` 方法创建 `gX*gY*gZ` 个线程组。**（dispatch：调度）
 
-**注意顺序，先 `numthreads` 定义好每个核函数对应线程组里线程的数量（`tX*tY*tZ`），再用 `Dispatch` 定义用多少线程组 (`gX*gY*gZ`) 来处理这个核函数**。
+⭐**注意顺序，先 `numthreads` 定义好每个核函数对应线程组里线程的数量（`tX*tY*tZ`），再用 `Dispatch` 定义用多少线程组 (`gX*gY*gZ`) 来处理这个核函数**。
 
 `gX，gY，gZ` 在不同的版本里有如下的约束：
 
@@ -114,6 +114,7 @@ numthreads(tX, tY, tZ)
 上半部分代表的是线程组结构，下半部分代表的是单个线程组里的线程结构。因为他们都是由 (X,Y,Z) 来定义数量的，因此就像一个三维数组，下标都是从 0 开始。我们可以把它们看做是表格一样：**有 Z 个一样的表格，每个表格有 X 列和 Y 行**。例如线程组中的 (2,1,0)，就是第 1 个表格的第 2 行第 3 列对应的线程组，下半部分的线程也是同理。
 
 **对于每个线程，有四个参数：**
+SV 代表系统值（system value）
 
 |参数|值|含义|取值范围|
 |:--|:--|:--|:--|
