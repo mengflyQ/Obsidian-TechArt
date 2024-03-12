@@ -1,6 +1,26 @@
 {
   "recentFiles": [
     {
+      "basename": "1 引擎开发环境部署",
+      "path": "图形学/2 图形API/DX12/自研引擎/1 引擎开发环境部署.md"
+    },
+    {
+      "basename": "Windows编程",
+      "path": "图形学/2 图形API/DX12/Windows编程.md"
+    },
+    {
+      "basename": "SBL库",
+      "path": "图形学/2 图形API/DX12/自研引擎/SBL库.md"
+    },
+    {
+      "basename": "BUG记录",
+      "path": "图形学/2 图形API/DX12/自研引擎/BUG记录.md"
+    },
+    {
+      "basename": "2 DX12初始化",
+      "path": "图形学/2 图形API/DX12/自研引擎/2 DX12初始化.md"
+    },
+    {
       "basename": "FFT理论",
       "path": "技术美术/5 水体渲染/FFT海洋/FFT理论.md"
     },
@@ -179,26 +199,6 @@
     {
       "basename": "01 Trick！",
       "path": "技术美术/1 渲染雅集/01 Trick！.md"
-    },
-    {
-      "basename": "04 纹理",
-      "path": "图形学/1 图形系统/04 纹理.md"
-    },
-    {
-      "basename": "09 阴影",
-      "path": "图形学/1 图形系统/09 阴影.md"
-    },
-    {
-      "basename": "透视矫正插值",
-      "path": "图形学/6 软渲染器/软光栅/透视矫正插值.md"
-    },
-    {
-      "basename": "TinyRenderer",
-      "path": "图形学/6 软渲染器/软光栅/TinyRenderer.md"
-    },
-    {
-      "basename": "总结",
-      "path": "图形学/6 软渲染器/软光栅/总结.md"
     }
   ],
   "omittedPaths": [],
