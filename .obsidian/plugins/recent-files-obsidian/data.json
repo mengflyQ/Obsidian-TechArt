@@ -1,6 +1,26 @@
 {
   "recentFiles": [
     {
+      "basename": "图形学八股",
+      "path": "图形学/面经/图形学八股.md"
+    },
+    {
+      "basename": "总结",
+      "path": "图形学/6 软渲染器/软光栅/总结.md"
+    },
+    {
+      "basename": "Unity URP 实现 SSAO",
+      "path": "技术美术/3 后处理/SSAO/Unity URP 实现 SSAO.md"
+    },
+    {
+      "basename": "常用HLSL函数",
+      "path": "技术美术/常用HLSL函数.md"
+    },
+    {
+      "basename": "06 雾",
+      "path": "技术美术/1 渲染雅集/06 雾.md"
+    },
+    {
       "basename": "1 引擎开发环境部署",
       "path": "图形学/2 图形API/DX12/自研引擎/1 引擎开发环境部署.md"
     },
@@ -25,10 +45,6 @@
       "path": "技术美术/5 水体渲染/FFT海洋/FFT理论.md"
     },
     {
-      "basename": "图形学八股",
-      "path": "图形学/面经/图形学八股.md"
-    },
-    {
       "basename": "FFT代码实现",
       "path": "技术美术/5 水体渲染/FFT海洋/FFT代码实现.md"
     },
@@ -47,10 +63,6 @@
     {
       "basename": "卡通水",
       "path": "技术美术/5 水体渲染/卡通水.md"
-    },
-    {
-      "basename": "常用HLSL函数",
-      "path": "技术美术/常用HLSL函数.md"
     },
     {
       "basename": "02 空间变换",
@@ -99,10 +111,6 @@
     {
       "basename": "05 描边",
       "path": "技术美术/1 渲染雅集/05 描边.md"
-    },
-    {
-      "basename": "06 雾",
-      "path": "技术美术/1 渲染雅集/06 雾.md"
     },
     {
       "basename": "11 HDR",
@@ -191,14 +199,6 @@
     {
       "basename": "重心坐标、透视矫正插值推导",
       "path": "图形学/6 软渲染器/软光栅/重心坐标、透视矫正插值推导.md"
-    },
-    {
-      "basename": "02 顶点动画",
-      "path": "技术美术/1 渲染雅集/02 顶点动画.md"
-    },
-    {
-      "basename": "01 Trick！",
-      "path": "技术美术/1 渲染雅集/01 Trick！.md"
     }
   ],
   "omittedPaths": [],
