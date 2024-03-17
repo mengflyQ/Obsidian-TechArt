@@ -1,12 +1,12 @@
 {
   "recentFiles": [
     {
-      "basename": "图形学八股",
-      "path": "图形学/面经/图形学八股.md"
-    },
-    {
       "basename": "总结",
       "path": "图形学/6 软渲染器/软光栅/总结.md"
+    },
+    {
+      "basename": "图形学八股",
+      "path": "图形学/面经/图形学八股.md"
     },
     {
       "basename": "Unity URP 实现 SSAO",
