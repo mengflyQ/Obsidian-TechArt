@@ -5,8 +5,48 @@
       "path": "图形学/6 软渲染器/软光栅/总结.md"
     },
     {
+      "basename": "TinyRenderer",
+      "path": "图形学/6 软渲染器/软光栅/TinyRenderer.md"
+    },
+    {
+      "basename": "01 渲染管线",
+      "path": "图形学/1 图形系统/01 渲染管线.md"
+    },
+    {
+      "basename": "02 光栅化",
+      "path": "图形学/1 图形系统/02 光栅化.md"
+    },
+    {
+      "basename": "03 光照模型",
+      "path": "图形学/1 图形系统/03 光照模型.md"
+    },
+    {
+      "basename": "02 空间变换",
+      "path": "图形学/0 3D数学/公式推导/02 空间变换.md"
+    },
+    {
       "basename": "图形学八股",
       "path": "图形学/面经/图形学八股.md"
+    },
+    {
+      "basename": "06 深度测试",
+      "path": "图形学/1 图形系统/06 深度测试.md"
+    },
+    {
+      "basename": "09 阴影",
+      "path": "图形学/1 图形系统/09 阴影.md"
+    },
+    {
+      "basename": "01 辐射度量学",
+      "path": "图形学/3 全局光照GI/01 辐射度量学.md"
+    },
+    {
+      "basename": "FFT理论",
+      "path": "技术美术/5 水体渲染/FFT海洋/FFT理论.md"
+    },
+    {
+      "basename": "技术向",
+      "path": "图形学/面经/技术向.md"
     },
     {
       "basename": "Unity URP 实现 SSAO",
@@ -41,10 +81,6 @@
       "path": "图形学/2 图形API/DX12/自研引擎/2 DX12初始化.md"
     },
     {
-      "basename": "FFT理论",
-      "path": "技术美术/5 水体渲染/FFT海洋/FFT理论.md"
-    },
-    {
       "basename": "FFT代码实现",
       "path": "技术美术/5 水体渲染/FFT海洋/FFT代码实现.md"
     },
@@ -63,10 +99,6 @@
     {
       "basename": "卡通水",
       "path": "技术美术/5 水体渲染/卡通水.md"
-    },
-    {
-      "basename": "02 空间变换",
-      "path": "图形学/0 3D数学/公式推导/02 空间变换.md"
     },
     {
       "basename": "真实感水体渲染",
@@ -95,10 +127,6 @@
     {
       "basename": "03 光追理论",
       "path": "图形学/3 全局光照GI/03 光追理论.md"
-    },
-    {
-      "basename": "01 辐射度量学",
-      "path": "图形学/3 全局光照GI/01 辐射度量学.md"
     },
     {
       "basename": "Nerf将场景表示为用于视图合成的神经辐射场",
@@ -171,34 +199,6 @@
     {
       "basename": "未命名",
       "path": "技术美术/7 真实感人物/未命名.md"
-    },
-    {
-      "basename": "ClearCoat清漆",
-      "path": "技术美术/2 着色器/ClearCoat清漆.md"
-    },
-    {
-      "basename": "02 Bloom",
-      "path": "技术美术/3 后处理/02 Bloom.md"
-    },
-    {
-      "basename": "01 图像模糊",
-      "path": "技术美术/3 后处理/01 图像模糊.md"
-    },
-    {
-      "basename": "3 Renderer Feature",
-      "path": "引擎Unity3D/3 URP精粹/3 Renderer Feature.md"
-    },
-    {
-      "basename": "04 溶解",
-      "path": "技术美术/1 渲染雅集/04 溶解.md"
-    },
-    {
-      "basename": "03 UV操作",
-      "path": "技术美术/1 渲染雅集/03 UV操作.md"
-    },
-    {
-      "basename": "重心坐标、透视矫正插值推导",
-      "path": "图形学/6 软渲染器/软光栅/重心坐标、透视矫正插值推导.md"
     }
   ],
   "omittedPaths": [],
