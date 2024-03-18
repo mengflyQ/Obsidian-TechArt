@@ -785,7 +785,7 @@ float3 Diffuse_Ami = Kd_Ami/PI * BaseColor * SHcolor;
 ## 间接光照的高光反射
  
 间接光照的高光反射本质是对于**反射探针**生成的 CubeMap 进行采样。
-用 `SplitSum` 算法将高光反射部分拆开
+用 `SplitSum` 算法将高光反射部分拆开为两部分：
 
 $$
 \int_\Omega(k_s\frac{DFG}{4(\omega_o\cdot n)(\omega_i\cdot n)})L_i(p,\omega_i)n\cdot\omega_id\omega_i

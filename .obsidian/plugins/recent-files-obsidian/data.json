@@ -5,28 +5,52 @@
       "path": "图形学/6 软渲染器/软光栅/总结.md"
     },
     {
-      "basename": "TinyRenderer",
-      "path": "图形学/6 软渲染器/软光栅/TinyRenderer.md"
-    },
-    {
-      "basename": "01 渲染管线",
-      "path": "图形学/1 图形系统/01 渲染管线.md"
+      "basename": "图形学八股",
+      "path": "图形学/面经/图形学八股.md"
     },
     {
       "basename": "02 光栅化",
       "path": "图形学/1 图形系统/02 光栅化.md"
     },
     {
+      "basename": "03 光照向量",
+      "path": "图形学/0 3D数学/公式推导/03 光照向量.md"
+    },
+    {
+      "basename": "透视矫正插值",
+      "path": "图形学/6 软渲染器/软光栅/透视矫正插值.md"
+    },
+    {
+      "basename": "02 PBR理论",
+      "path": "图形学/3 全局光照GI/02 PBR理论.md"
+    },
+    {
+      "basename": "01 辐射度量学",
+      "path": "图形学/3 全局光照GI/01 辐射度量学.md"
+    },
+    {
+      "basename": "05 环境光照IBL",
+      "path": "图形学/3 全局光照GI/05 环境光照IBL.md"
+    },
+    {
       "basename": "03 光照模型",
       "path": "图形学/1 图形系统/03 光照模型.md"
     },
     {
-      "basename": "02 空间变换",
-      "path": "图形学/0 3D数学/公式推导/02 空间变换.md"
+      "basename": "01 渲染管线",
+      "path": "图形学/1 图形系统/01 渲染管线.md"
     },
     {
-      "basename": "图形学八股",
-      "path": "图形学/面经/图形学八股.md"
+      "basename": "05 模板测试",
+      "path": "图形学/1 图形系统/05 模板测试.md"
+    },
+    {
+      "basename": "TinyRenderer",
+      "path": "图形学/6 软渲染器/软光栅/TinyRenderer.md"
+    },
+    {
+      "basename": "02 空间变换",
+      "path": "图形学/0 3D数学/公式推导/02 空间变换.md"
     },
     {
       "basename": "06 深度测试",
@@ -35,10 +59,6 @@
     {
       "basename": "09 阴影",
       "path": "图形学/1 图形系统/09 阴影.md"
-    },
-    {
-      "basename": "01 辐射度量学",
-      "path": "图形学/3 全局光照GI/01 辐射度量学.md"
     },
     {
       "basename": "FFT理论",
@@ -121,10 +141,6 @@
       "path": "AI/论文/读论文翻译技巧.md"
     },
     {
-      "basename": "02 PBR理论",
-      "path": "图形学/3 全局光照GI/02 PBR理论.md"
-    },
-    {
       "basename": "03 光追理论",
       "path": "图形学/3 全局光照GI/03 光追理论.md"
     },
@@ -183,22 +199,6 @@
     {
       "basename": "05 故障Glitch",
       "path": "技术美术/3 后处理/05 故障Glitch.md"
-    },
-    {
-      "basename": "03 深度法线纹理",
-      "path": "技术美术/1 渲染雅集/03 深度法线纹理.md"
-    },
-    {
-      "basename": "NPR渲染管线概述",
-      "path": "技术美术/6 NPR/NPR渲染管线概述.md"
-    },
-    {
-      "basename": "ta101卡渲",
-      "path": "技术美术/6 NPR/ta101卡渲.md"
-    },
-    {
-      "basename": "未命名",
-      "path": "技术美术/7 真实感人物/未命名.md"
     }
   ],
   "omittedPaths": [],
