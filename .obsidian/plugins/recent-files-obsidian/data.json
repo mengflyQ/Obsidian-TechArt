@@ -1,12 +1,24 @@
 {
   "recentFiles": [
     {
+      "basename": "FFT理论",
+      "path": "技术美术/5 水体渲染/FFT海洋/FFT理论.md"
+    },
+    {
       "basename": "图形学八股",
       "path": "图形学/面经/图形学八股.md"
     },
     {
-      "basename": "FFT理论",
-      "path": "技术美术/5 水体渲染/FFT海洋/FFT理论.md"
+      "basename": "2 URP",
+      "path": "引擎Unity3D/3 URP精粹/2 URP.md"
+    },
+    {
+      "basename": "01 渲染管线",
+      "path": "图形学/1 图形系统/01 渲染管线.md"
+    },
+    {
+      "basename": "02 光栅化",
+      "path": "图形学/1 图形系统/02 光栅化.md"
     },
     {
       "basename": "透视矫正插值",
@@ -15,10 +27,6 @@
     {
       "basename": "02 空间变换",
       "path": "图形学/0 3D数学/公式推导/02 空间变换.md"
-    },
-    {
-      "basename": "01 渲染管线",
-      "path": "图形学/1 图形系统/01 渲染管线.md"
     },
     {
       "basename": "3D数学",
@@ -35,10 +43,6 @@
     {
       "basename": "总结",
       "path": "图形学/6 软渲染器/软光栅/总结.md"
-    },
-    {
-      "basename": "02 光栅化",
-      "path": "图形学/1 图形系统/02 光栅化.md"
     },
     {
       "basename": "03 光照向量",
@@ -195,10 +199,6 @@
     {
       "basename": "02 Draw Call",
       "path": "引擎Unity3D/Catlike Coding/《SRP》/02 Draw Call.md"
-    },
-    {
-      "basename": "2 URP",
-      "path": "引擎Unity3D/3 URP精粹/2 URP.md"
     }
   ],
   "omittedPaths": [],
