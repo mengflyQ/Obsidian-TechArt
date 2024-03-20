@@ -1,6 +1,94 @@
 {
   "recentFiles": [
     {
+      "basename": "PBRT3",
+      "path": "图形学/4 书籍/PBRT/PBRT3.md"
+    },
+    {
+      "basename": "GAMES101",
+      "path": "图形学/4 书籍/GAMES系列/101现代计算机图形学入门/GAMES101.md"
+    },
+    {
+      "basename": "资源",
+      "path": "图形学/4 书籍/《RTR4》/资源.md"
+    },
+    {
+      "basename": "体渲染",
+      "path": "AI/论文/Nerf/01 Nerf起源/体渲染.md"
+    },
+    {
+      "basename": "TensorboardX",
+      "path": "AI/Python/TensorboardX.md"
+    },
+    {
+      "basename": "论文：Nerf将场景表示为用于视图合成的神经辐射场",
+      "path": "AI/论文/Nerf/01 Nerf起源/论文：Nerf将场景表示为用于视图合成的神经辐射场.md"
+    },
+    {
+      "basename": "学术名词",
+      "path": "AI/论文/知识库/学术名词.md"
+    },
+    {
+      "basename": "Parser用法",
+      "path": "AI/Python/Parser用法.md"
+    },
+    {
+      "basename": "Numpy+Matplotlib",
+      "path": "AI/Python/Numpy+Matplotlib.md"
+    },
+    {
+      "basename": "Python基础",
+      "path": "AI/Python/Python基础.md"
+    },
+    {
+      "basename": "Pytorch精粹",
+      "path": "AI/Python/Pytorch精粹.md"
+    },
+    {
+      "basename": "PyTorch入门",
+      "path": "AI/深度学习/PyTorch入门.md"
+    },
+    {
+      "basename": "快速入门",
+      "path": "AI/深度学习/快速入门.md"
+    },
+    {
+      "basename": "动手学DL",
+      "path": "AI/深度学习/动手学DL.md"
+    },
+    {
+      "basename": "模型参数解析",
+      "path": "AI/机器学习/模型参数解析.md"
+    },
+    {
+      "basename": "《鱼书》",
+      "path": "AI/深度学习/《鱼书》.md"
+    },
+    {
+      "basename": "01 辐射度量学",
+      "path": "图形学/3 全局光照GI/01 辐射度量学.md"
+    },
+    {
+      "basename": "09 体积云",
+      "path": "技术美术/1 渲染雅集/09 体积云.md"
+    },
+    {
+      "basename": "02 空间变换",
+      "path": "图形学/0 3D数学/公式推导/02 空间变换.md"
+    },
+    {
+      "basename": "02 PBR理论",
+      "path": "图形学/3 全局光照GI/02 PBR理论.md"
+    },
+    {
+      "basename": "可微渲染、NeRF 相关技术概念急速入门",
+      "path": "AI/论文/Nerf/可微渲染、NeRF 相关技术概念急速入门.md"
+    },
+    {
+      "basename": "读论文翻译技巧",
+      "path": "AI/论文/读论文翻译技巧.md"
+    },
+    {
       "basename": "FFT理论",
       "path": "技术美术/5 水体渲染/FFT海洋/FFT理论.md"
     },
@@ -25,10 +113,6 @@
       "path": "图形学/6 软渲染器/软光栅/透视矫正插值.md"
     },
     {
-      "basename": "02 空间变换",
-      "path": "图形学/0 3D数学/公式推导/02 空间变换.md"
-    },
-    {
       "basename": "3D数学",
       "path": "图形学/0 3D数学/3D数学.md"
     },
@@ -47,14 +131,6 @@
     {
       "basename": "03 光照向量",
       "path": "图形学/0 3D数学/公式推导/03 光照向量.md"
-    },
-    {
-      "basename": "02 PBR理论",
-      "path": "图形学/3 全局光照GI/02 PBR理论.md"
-    },
-    {
-      "basename": "01 辐射度量学",
-      "path": "图形学/3 全局光照GI/01 辐射度量学.md"
     },
     {
       "basename": "05 环境光照IBL",
@@ -123,82 +199,6 @@
     {
       "basename": "DX12理论",
       "path": "图形学/2 图形API/DX12/龙书/DX12理论.md"
-    },
-    {
-      "basename": "ComputeShader语法",
-      "path": "引擎Unity3D/3 URP精粹/ComputeShader/ComputeShader语法.md"
-    },
-    {
-      "basename": "DX12脑图",
-      "path": "图形学/2 图形API/DX12/龙书/DX12脑图.canvas"
-    },
-    {
-      "basename": "卡通水",
-      "path": "技术美术/5 水体渲染/卡通水.md"
-    },
-    {
-      "basename": "真实感水体渲染",
-      "path": "技术美术/5 水体渲染/真实感水体渲染.md"
-    },
-    {
-      "basename": "庄懂AP01",
-      "path": "引擎Unity3D/2 Shader精粹/《Built-in》/庄懂AP01.md"
-    },
-    {
-      "basename": "冯乐乐入门精要",
-      "path": "引擎Unity3D/2 Shader精粹/《Built-in》/冯乐乐入门精要.md"
-    },
-    {
-      "basename": "次表面散射SSS",
-      "path": "技术美术/2 着色器/次表面散射SSS.md"
-    },
-    {
-      "basename": "读论文翻译技巧",
-      "path": "AI/论文/读论文翻译技巧.md"
-    },
-    {
-      "basename": "03 光追理论",
-      "path": "图形学/3 全局光照GI/03 光追理论.md"
-    },
-    {
-      "basename": "Nerf将场景表示为用于视图合成的神经辐射场",
-      "path": "AI/论文/Nerf/Nerf将场景表示为用于视图合成的神经辐射场.md"
-    },
-    {
-      "basename": "FFT相关推导",
-      "path": "技术美术/5 水体渲染/FFT海洋/FFT相关推导.md"
-    },
-    {
-      "basename": "05 描边",
-      "path": "技术美术/1 渲染雅集/05 描边.md"
-    },
-    {
-      "basename": "11 HDR",
-      "path": "引擎Unity3D/Catlike Coding/《SRP》/11 HDR.md"
-    },
-    {
-      "basename": "13 多相机",
-      "path": "引擎Unity3D/Catlike Coding/《SRP》/13 多相机.md"
-    },
-    {
-      "basename": "14 复杂纹理",
-      "path": "引擎Unity3D/Catlike Coding/《SRP》/14 复杂纹理.md"
-    },
-    {
-      "basename": "16 渲染缩放",
-      "path": "引擎Unity3D/Catlike Coding/《SRP》/16 渲染缩放.md"
-    },
-    {
-      "basename": "15 粒子",
-      "path": "引擎Unity3D/Catlike Coding/《SRP》/15 粒子.md"
-    },
-    {
-      "basename": "04 定向阴影",
-      "path": "引擎Unity3D/Catlike Coding/《SRP》/04 定向阴影.md"
-    },
-    {
-      "basename": "02 Draw Call",
-      "path": "引擎Unity3D/Catlike Coding/《SRP》/02 Draw Call.md"
     }
   ],
   "omittedPaths": [],
