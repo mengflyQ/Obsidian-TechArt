@@ -1,12 +1,48 @@
 {
   "recentFiles": [
     {
-      "basename": "论文：Nerf将场景表示为用于视图合成的神经辐射场",
-      "path": "AI/论文/Nerf/01 Nerf起源/论文：Nerf将场景表示为用于视图合成的神经辐射场.md"
+      "basename": "07 下一步是什么？蒙特卡罗随机方法",
+      "path": "图形学/7 体渲染/07 下一步是什么？蒙特卡罗随机方法.md"
     },
     {
-      "basename": "体渲染",
-      "path": "图形学/7 体渲染/体渲染.md"
+      "basename": "02 Ray-Marching算法",
+      "path": "图形学/7 体渲染/02 Ray-Marching算法.md"
+    },
+    {
+      "basename": "03 正确处理Ray Marching",
+      "path": "图形学/7 体渲染/03 正确处理Ray Marching.md"
+    },
+    {
+      "basename": "04 三维密度场的体积渲染",
+      "path": "图形学/7 体渲染/04 三维密度场的体积渲染.md"
+    },
+    {
+      "basename": "06 从辐射传输方程到体积渲染方程",
+      "path": "图形学/7 体渲染/06 从辐射传输方程到体积渲染方程.md"
+    },
+    {
+      "basename": "05 基于三维体素网格的体积渲染",
+      "path": "图形学/7 体渲染/05 基于三维体素网格的体积渲染.md"
+    },
+    {
+      "basename": "01 体积渲染入门",
+      "path": "图形学/7 体渲染/01 体积渲染入门.md"
+    },
+    {
+      "basename": "2 蒙特卡洛估计与重要性采样",
+      "path": "Math/概率论/蒙特卡洛积分/2 蒙特卡洛估计与重要性采样.md"
+    },
+    {
+      "basename": "教程",
+      "path": "图形学/7 体渲染/教程.md"
+    },
+    {
+      "basename": "源码",
+      "path": "图形学/7 体渲染/源码.md"
+    },
+    {
+      "basename": "论文：Nerf将场景表示为用于视图合成的神经辐射场",
+      "path": "AI/论文/Nerf/01 Nerf起源/论文：Nerf将场景表示为用于视图合成的神经辐射场.md"
     },
     {
       "basename": "思路",
@@ -163,42 +199,6 @@
     {
       "basename": "总结",
       "path": "图形学/6 软渲染器/软光栅/总结.md"
-    },
-    {
-      "basename": "03 光照向量",
-      "path": "图形学/0 3D数学/公式推导/03 光照向量.md"
-    },
-    {
-      "basename": "05 环境光照IBL",
-      "path": "图形学/3 全局光照GI/05 环境光照IBL.md"
-    },
-    {
-      "basename": "03 光照模型",
-      "path": "图形学/1 图形系统/03 光照模型.md"
-    },
-    {
-      "basename": "05 模板测试",
-      "path": "图形学/1 图形系统/05 模板测试.md"
-    },
-    {
-      "basename": "TinyRenderer",
-      "path": "图形学/6 软渲染器/软光栅/TinyRenderer.md"
-    },
-    {
-      "basename": "06 深度测试",
-      "path": "图形学/1 图形系统/06 深度测试.md"
-    },
-    {
-      "basename": "09 阴影",
-      "path": "图形学/1 图形系统/09 阴影.md"
-    },
-    {
-      "basename": "技术向",
-      "path": "图形学/面经/技术向.md"
-    },
-    {
-      "basename": "Unity URP 实现 SSAO",
-      "path": "技术美术/3 后处理/SSAO/Unity URP 实现 SSAO.md"
     }
   ],
   "omittedPaths": [],
