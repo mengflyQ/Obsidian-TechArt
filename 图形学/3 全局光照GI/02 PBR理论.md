@@ -772,7 +772,7 @@ $$
  
 ## 间接光漫反射
  
-间接光照的漫反射本质是对**光照探针**进行采样，得到 $L_i(p,\omega_i)$
+间接光照的漫反射本质是对**光照探针**进行采样，得到 $L_i(p,\omega_i)$ 入射光辐射率
 Unity 使用光照探针采样环境光照信息，用球谐函数存储。
 得到 $L_i(p,\omega_i)$ 之后带入反射方程即可
 
@@ -793,9 +793,12 @@ $$
 $$
 =\int_{\Omega}L_i(p,\omega_i)d\omega_i\cdot\int_{\Omega}(k_s\frac{DFG}{4(\omega_o\cdot n)(\omega_i\cdot n)})n\cdot\omega_id\omega_i
 $$
+**使用预过滤 IBL 计算第一部分（引擎中采样反射探针生成的 CubeMap，自带 7 级mipmap）**
+**使用预计算 LUT 或数值拟合方法计算第二部分**
 ### part1 预过滤 IBL
 [[05 环境光照IBL#（1）预过滤IBL]]
 使用反射探针捕获场景信息，存储在 CubeMap 中，7 级 mipmap。
+采样得到 $L_i(p,\omega_i)$ 入射光辐射率
 ```cs
 //采样反射探针
 float3 R = reflect(-V, N);
