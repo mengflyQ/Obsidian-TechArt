@@ -1,160 +1,129 @@
-## Ray Marching: Getting it Right!  
-Ray Marching: Getting it Right！
+# 03 正确处理Ray Marching
 
-**Reading time: 28 mins. 阅读时间：28 分钟**
 
-## In-Scattering and Out-Scattering.  
-内散射和外散射。
+## 内散射和外散射
 
-In the previous chapters, we only accounted for two types of interactions between light beams and particles making up the medium: absorption and in-scattering. But, to get an accurate result, we should consider four types. We can divide them into two categories.  
-在前面的章节中，我们只考虑了光束与构成介质的粒子之间的两种相互作用：吸收和内散射。但是，为了得到准确的结果，我们应该考虑四种类型。我们可以将它们分为两类。  
-Interactions that attenuate the energy of light beams as they pass through the medium to the eye. And those that contribute to increasing their energy.  
+在前面的章节中，我们只考虑了光束与构成介质的粒子之间的两种相互作用：吸收和内散射。但是，**为了得到准确的结果，我们应该考虑四种类型**。我们可以将它们分为两类。  
 当光束穿过介质到达眼睛时，它们之间的相互作用会削弱光束的能量。以及有助于增加光束能量的相互作用。
 
-*   Light beams traveling to the eye through the medium lose energy due to:  
-    光束穿过介质到达眼睛时会损失能量，原因如下
-    
-    *   **Absorption**: a portion of the light energy is absorbed by the particles making up the medium. If you were the particle you could say: "some light is traveling to you, you the viewer, but sorry I decided to eat some of it, so you'll get less."  
-        吸收：部分光能被构成介质的粒子吸收。如果你是粒子，你可以说"有些光传给了你，你这个观众" "但很抱歉，我决定吃掉一部分" "所以你得到的会少一些"
-        
-    *   **Out-scattering**: as mentioned in the previous chapter, light is scattered by particles. This causes light that's not traveling toward the eye, to somehow be redirected toward the eye. This is the in-scattering effect we have described in the previous chapter.  
-        向外散射：如上一章所述，光会被粒子散射。这就会导致没有射向眼睛的光线以某种方式转向眼睛。这就是我们在前一章中描述的内散射效应。  
-        But light that's traveling towards the eye can also be scattered out on its way to the eye. And that means that light loses energy due to this effect as well. This is called out-scattering (naturally).  
-        但是，射向眼睛的光线在到达眼睛的途中也会被散射出去。这意味着光也会因为这种效应而损失能量。这就是所谓的向外散射（自然）。  
-        If you were the particle you could say: "some light is traveling to you, you the viewer, but I decided to scatter some of it into some random directions, so you'll get less."  
-        如果你是粒子你可以说"一些光正在向你，你这个观众传播" "但我决定把一些光随机散射到一些方向" "所以你得到的会更少"
-        
-*   Light beams traveling to the eye through the medium gain energy due to:  
-    光束穿过介质到达眼睛时会获得能量，原因如下
-    
-    *   **Emission**: we mentioned this effect in the first chapter but also mentioned we would ignore it for now. A flame for example can emit incandescent light.  
-        发射：我们在第一章中提到过这种效应，但也提到过我们暂时会忽略它。例如，火焰可以发出白炽光。
-        
-    *   **In-Scattering**: we are already familiar with this effect. Some of the light that's not initially traveling toward the eye is being redirected toward the eye due to scattering. This effect is called in-scattering.  
-        内散射：我们已经熟悉了这种效应。由于散射作用，一些最初没有射向眼睛的光线被重新定向射向眼睛。这种效应称为内散射。  
-        If you were the particle you could think of this effect in this term: "I gathered light that's coming to me from all directions and spit out some of it in your direction, you the viewer, so you'll get some light that wasn't initially meant for you".  
-        如果你是粒子，你可以这样来理解这种效果："我聚集了从四面八方射向我的光，并将其中一部分吐向你的方向，也就是你这个观众，所以你会得到一些最初并不属于你的光"。  
-        You can see in-scattering as a result of out-scattering; light is scattered in all directions (more or less as we will see when we introduce the phase function later). It just happens that one of that directions is the viewing direction (the eye or camera ray).  
-        你可以看到内向散射是外向散射的结果；光向各个方向散射（或多或少，我们稍后介绍相位函数时就会看到）。恰好其中一个方向就是观察方向（眼睛或相机光线）。
-        
+*   光束穿过介质到达眼睛时会损失能量，原因如下
+    *   吸收（Absorption）：部分光能被构成介质的粒子吸收。
+    *   外散射（Out-Scattering）：如上一章所述的内散射，光会被粒子散射，这就会导致没有射向眼睛的光线以某种方式转向眼睛。但是，射向眼睛的光线在到达眼睛的途中也会被散射出去。这意味着光也会因为这种效应而损失能量。这就是所谓的外散射。  
+*   光束穿过介质到达眼睛时会获得能量，原因如下
+    *  自发光 （Emission）：我们在第一章中提到过这种效应，但也提到过我们暂时会忽略它。例如，火焰可以发出白炽光。
+    *   内散射 （In-Scattering）：我们已经熟悉了这种效应。由于散射作用，一些最初没有射向眼睛的光线被重新定向射向眼睛。这种效应称为内散射。  
 
-These effects are illustrated in the image below.  
+
 这些效果如下图所示。
-
 ![[324072b99cbdd5a008d1fb5551cf36c6_MD5.png]]
 
-In our computation for how much light we lose as light travels through the medium to the eye, we have to account for both absorption and out-scattering.  
-在计算光通过介质到达眼睛时会损失多少光时，我们必须考虑到吸收和向外散射。  
-Both out- and in-scattering are caused by the same type of light-particle interaction: scattering which, in the previous chapter, we've been defining with the variable (the Greek letter sigma).  
-外散射和内散射都是由同一种光粒子相互作用引起的：散射，在前一章中，我们已经用变量（希腊字母西格玛）定义了散射。  
-So since scattering () is also responsible for how much light we lose as light travels through the medium to the eye, we need to account for it in our Beer's law equation alongside the absorption coefficient . Remember, this equation is used to both compute the term Li (x) and the sample transmission value.  
-因此，由于散射（）也会导致我们在光线穿过介质到达眼睛时损失多少光线，因此我们需要在比尔定律方程中将其与吸收系数一起考虑在内。请记住，这个方程既用于计算 Li (x) 项，也用于计算样本透射值。  
-Our code thus now becomes (changes in red):  
+
+在计算光通过介质到达眼睛时会损失多少光时，我们必须考虑到吸收和外散射。  
+
+外散射和内散射都是由同一种光粒子相互作用引起的：散射，在前一章中，我们已经用变量（希腊字母 $\sigma_s$）定义了散射。  
+
+因此，由于散射 $\sigma_s$ 也会导致我们在光线穿过介质到达眼睛时损失多少光线，因此我们需要在比尔定律方程中将其与吸收系数一起考虑在内。请记住，这个方程既用于计算 Li (x) 项，也用于计算样本透射值。  
+
 这样，我们的代码就变成了（红色部分为修改）：
 
-```
+```c++
 ...
 float sigma_a = 0.5; // absorption coefficient
 float sigma_s = 0.5; // scattering coefficient
-// compute sample transmission
+// 透射率
 float sample_attenuation = exp(-step_size * (sigma_a + sigma_s)); 
 transparency *= sample_attenuation; 
  
-// In-scattering. Find the distance light travels through the volumetric sphere to the sample.
-// Then use Beer's law to attenuate the light contribution due to in-scattering.
+// 内散射。计算光穿过体积球到样品的距离。
+// 然后利用比尔定律衰减由于内散射造成的光贡献。
 if (hit_object->intersect(sample_pos, light_dir, isect_vol) && isect_vol.inside) { 
-    float light_attenuation = exp(-density * isect_vol.t1 * <span style="color: red; font-weight: bold; background-color: rgba(255,0,0,0.1);">(sigma_a + sigma_s)</span >); 
+    float light_attenuation = exp(-density * isect_vol.t1 * (sigma_a + sigma_s)); 
     result += ...; 
 }
 ...
 ```
 
-Sometimes you will see the terms $\sigma_a$ and $\sigma_s$ summed up in a term called the **extinction coefficient** often denoted (sigma t).  
-有时，您会看到 $\sigma_a$ 和 $\sigma_s$ 这两个项相加，形成一个称为消光系数的项，通常表示为 (sigma t)。
 
-We are not entirely done with the scattering term... How much light is being scattered towards the eye due to in-scattering is also proportional to the scattering term. So we need to multiply the light contribution due to in-scattering by the variable as well.  
+**有时，您会看到 $\sigma_a$ 和 $\sigma_s$ 这两个项相加，形成一个称为消光系数 (extinction coefficient)的项，通常表示为  $\sigma_t$。**
+
 散射项的计算还没有完全结束... 因内散射而散射到眼睛的光的多少也与散射项成正比。因此，我们还需要将内散射导致的光贡献乘以变量。  
-Our code becomes (changes in red):  
+
 我们的代码变成了（红色部分有改动）：
 
-```
+```c++
 ...
 float sigma_a = 0.5; // absorption coefficient
 float sigma_s = 0.5; // scattering coefficient
-// compute sample transmission
+// 透射率
 float sample_attenuation = exp(-step_size * (sigma_a + sigma_s)); 
 transparency *= sample_attenuation; 
  
-// In-scattering. Find the distance light travels through the volumetric sphere to the sample.
-// Then use Beer's law to attenuate the light contribution due to in-scattering.
+// 内散射。计算光穿过体积球到样品的距离。
+// 然后利用比尔定律衰减由于内散射造成的光贡献。
 if (hit_object->intersect(sample_pos, light_dir, isect_vol) && isect_vol.inside) { 
     float light_attenuation = exp(-isect_vol.t1 * (sigma_a + sigma_s)); 
-    result += transparency * light_color * light_attenuation * <span style="color: red; font-weight: bold; background-color: rgba(255,0,0,0.1);">sigma_s</span> * step_size; 
+    result += transparency * light_color * light_attenuation * sigma_s * step_size; 
 }
 ...
 ```
 
-## The Density Term 密度术语
+##  密度术语
 
-_We will speak about this term in detail in the next chapter.  
-我们将在下一章详细介绍这一术语。_
 
-Now so far we considered that the scattering and absorption coefficient which we have been using to control how "opaque" the volume is (remember that the higher these coefficients, the more opaque the volume) is uniform across the volume itself.  
-到目前为止，我们认为散射系数和吸收系数在整个体积中是均匀的，而我们一直在使用这两个系数来控制体积的 "不透明 "程度（请记住，这两个系数越高，体积就越不透明）。  
-In the scientific literature, this is often referred to as a **homogenous participating medium**. This is generally not the case with "volumes" in the real world. Think of clouds or smoke plumes for example. Their opacity varies spatially. We then speak of **heterogeneous participating medium**.  
-在科学文献中，这通常被称为同质参与介质。现实世界中的 "体积 "通常并非如此。以云层或烟羽为例。它们的不透明度在空间上各不相同。因此，我们称之为异质参与介质。
+我们将在下一章详细介绍这一术语。
+
+**到目前为止，我们认为散射系数和吸收系数在整个体积中是均匀的**，而我们一直在使用这两个系数来控制体积的 "不透明 "程度（请记住，这两个系数越高，体积就越不透明）。 在科学文献中，这通常被称为**同质参与介质** （homogenous participating medium）。现实世界中的 "体积 "通常并非如此。以云层或烟为例。它们的不透明度在空间上各不相同。因此，我们称之为**异质参与介质（heterogeneous participating medium）**。
 
 We will only see how to simulate volumetric objects with varying densities in the next chapter, but for now, let's just say that we want some kind of variables that will scale our scattering and absorption coefficient globally. Let's call this variable density.  
-我们将在下一章了解如何模拟具有不同密度的体积物体，但现在，我们只需要某种变量，它将在全局范围内缩放我们的散射和吸收系数。我们将其称为 "密度变量"。  
-We will use it to scale both and as follows (changes in red):  
-我们将用它来缩放两者，如下所示（红色部分为变化）：
+我们将在下一章了解如何模拟具有不同密度的体积物体，**但现在，我们只需要某种变量，它将在全局范围内缩放我们的散射和吸收系数。我们将其称为 "密度变量"。**  
 
-```
+我们将用它来缩放两者，如下所示（多乘了一个 density 系数）：
+
+```c++
 ...
 float sigma_a = 0.5; // absorption coefficient
 float sigma_s = 0.5; // scattering coefficient
-<span style="color: red; font-weight: bold; background-color: rgba(255,0,0,0.1);">float density = 1;</span>
-// compute sample transmission
-float sample_attenuation = exp(-step_size * <span style="color: red; font-weight: bold; background-color: rgba(255,0,0,0.1);">density</span> * (sigma_a + sigma_s)); 
+float density = 1;
+// 透射率
+float sample_attenuation = exp(-step_size * density * (sigma_a + sigma_s)); 
 transparency *= sample_attenuation; 
  
-// In-scattering. Find the distance light travels through the volumetric sphere to the sample.
-// Then use Beer's law to attenuate the light contribution due to in-scattering.
+// 内散射。计算光穿过体积球到样品的距离。
+// 然后利用比尔定律衰减由于内散射造成的光贡献。
 if (hit_object->intersect(sample_pos, light_dir, isect_vol) && isect_vol.inside) { 
     float light_attenuation = exp(-density * isect_vol.t1 * (sigma_a + sigma_s)); 
-    result += transparency * light_color * light_attenuation * sigma_s * <span style="color: red; font-weight: bold; background-color: rgba(255,0,0,0.1);">density</span> * step_size; 
+    result += transparency * light_color * light_attenuation * sigma_s * density * step_size; 
 }
 ...
 ```
 
-Keep in mind that is used in two places in the code. We will explain how to implement the concept of spatially varying density in the next chapter.  
+
 请记住，代码中有两处使用了这一概念。我们将在下一章解释如何实现空间变化密度的概念。
 
-Now, note something interesting here. When the density is 0, nothing is added to the `result` variable. In other words, where there's no volume (empty space, or density = 0), there shouldn't be any accumulated light. This is important when it comes to this line:  
 现在，请注意一些有趣的事情。当密度为 0 时， `result` 变量中不会添加任何东西。换句话说，在没有体积的地方（空的空间，或者密度 = 0），不应该有任何累积的光。这一点在这一行中非常重要：
 
-```
-// combine with background color and return
+```c++
+// 结合背景颜色并返回
 return background_color* transparency + result;
 ```
 
-if `result` wasn't 0 when there's no volume (because we would have omitted to multiply scattering in the in-scattering calculation by the density value for example), we would see something (result > 0) when we shouldn't (the result should be 0 in that case).  
-如果 `result` 在没有体积的情况下不是 0（因为我们在计算内散射时忽略了将散射乘以密度值），我们就会看到不该看到的结果（结果 > 0）（在这种情况下结果应该是 0）。  
-That's why in the previous chapter, we mentioned that `result` was already "pre-multiplied". It is already multiplied by its own "opacity mask". It's greater than 0 where density/opacity is greater than 0; 0 otherwise.  
-这就是为什么在上一章中，我们提到 `result` 已经被 "预乘法 "了。它已经与自身的 "不透明度掩码 "相乘。当密度/不透明度大于 0 时，它大于 0；反之则为 0。
+ 
+如果 `result` 在没有体积的情况下不是 0（因为我们在计算内散射时忽略了将散射乘以密度值），我们就会看到不该看到的结果（结果 > 0）（在这种情况下结果应该是 0）。  这就是为什么在上一章中，我们提到 `result` 已经被 "预乘法 "了。它已经与自身的 "不透明度掩码 "相乘。当密度/不透明度大于 0 时，它大于 0；反之则为 0。
 
-## The Phase Function. 相位函数
+## 相位函数 Phase Function
 
-xx missing an image here with omega omega' xx  
-xx 这里缺少一张带有欧米茄欧米茄的图片 xx
+> [!NOTE] 
+> 相位函数可以告诉你，在任何特定的入射光线方向（$\omega$），有多少光线可能会散射到观察者（$\omega'$）。
 
-The in-scattering contribution should be computed using the following equation:  
+
 内散射贡献应使用下式计算：
+$$
+Li(x, \omega) = \sigma_s \int_{S^2} p(x, \omega, \omega')L(x,\omega')d\omega'
+$$
 
-$Li$ is in the in-scattering (radiance) contribution, $x$ the sample position and $\omega$ the view direction (our camera ray direction). **Normally, $\omega$ is always pointing in the direction of radiance flow, that is from the object to the eye**. The term denotes the light direction (and should be pointing from the object to the light). The term here is nothing more than the L (x) term, the light contribution or incident radiance which we've been calculating the value of in our code so far. That one:  
 $Li$ 为内散射（辐射）贡献，$x$ 为样本位置，$\omega$ 为视线方向（我们的相机光线方向）。通常，$\omega$ 总是指向辐射流动的方向，即从物体到眼睛的方向。该术语表示光线方向（应从物体指向光线）。这里的项只不过是 L (x) 项，即光贡献或入射辐射度，我们迄今为止一直在代码中计算其值。那个
 
-```
+```c++
 ...
 // In-scattering. Find the distance light travels through the volumetric sphere to the sample.
 // Then use Beer's law to attenuate the light contribution due to in-scattering.
@@ -164,23 +133,16 @@ if (hit_object->intersect(sample_pos, light_dir, isect_vol) && isect_vol.inside)
 ...
 ```
 
-It accounts for the amount of light that's coming from a particular light direction, $\omega'$ (the variable `light_dir` in the code), at sample point x `sample_pos` after it has traveled a certain distance through the volume `isect_vol.t1` in the code).  
 它计算的是来自特定光照方向的光量，$\omega'$（代码中的变量 `light_dir` ），在经过体积 `isect_vol.t1` 一定距离后，在样本点 x `sample_pos` 处的光量。）
 
-But we haven't yet introduced the term right after the integral sign: . It is called **the phase function** and we will explain what it is next. But before that, let's put in words what this equation says.  
-但我们还没有介绍积分符号后面的那个项： 。它被称为相位函数，接下来我们将解释它是什么。但在此之前，我们先用语言来解释一下这个等式。  
-The integral with the symbol $S^2$ (which in the literature you will also eventually see written as) means that the in-scattering contribution can be computed by taking into account light coming from all directions over the entire sphere $S^2$ of directions.  
+但我们还没有介绍积分符号后面的那个项 $p(x,\omega,\omega')$： 。它被称为相位函数，接下来我们将解释它是什么。但在此之前，我们先用语言来解释一下这个等式。  
+
 符号为 $S^2$ 的积分（在文献中您最终也会看到这样的写法）意味着，在计算内散射贡献时，可以考虑到来自整个方向球 $S^2$ 的所有方向的光线。
 
-To compute the appearance of solid objects, we use functions called BRDFs that gather light over the hemisphere of directions instead.  
-为了计算实体物体的外观，我们使用了名为 BRDF 的函数，它可以收集半球方向上的光线。  
-For solid objects, we don't care about light coming from"under"the surface - except for translucent materials, but well, that's another long story. If you are interested in this topic please check lessons that are related to shading such as [Global Illumination and Path Tracing](https://www.scratchapixel.com/lessons/3d-basic-rendering/global-illumination-path-tracing/introduction-global-illumination-path-tracing.html) or [The Mathematics of Shading](https://www.scratchapixel.com/lessons/mathematics-physics-for-computer-graphics/mathematics-of-shading/mathematics-of-shading.html)). Let's now get back to the phase functions.  
-对于实体物体，我们并不关心来自表面 "下方 "的光线--半透明材料除外，但这又是一个很长的故事。如果您对此感兴趣，请查看与阴影相关的课程，如《全局照明和路径跟踪》或《阴影数学》）。现在让我们回到相位函数。
+**为了计算实体物体的外观，我们使用了名为 BRDF 的函数，它可以收集半球方向上的光线。**  对于实体物体，我们并不关心来自表面 "下方 "的光线--半透明材料除外，但这又是一个很长的故事。如果您对此感兴趣，请查看与阴影相关的课程，如《全局照明和路径跟踪》或《阴影数学》）。现在让我们回到相位函数。
 
 ![[6739176c719b6b1ff3d61ce3bb457136_MD5.png]]
-
-**Figure 1:** isotropic (light is scattered in all directions over the sphere of directions) vs anisotropic phase function (light is not uniformly distributed over the sphere of directions).  
-图 1：各向同性相位函数（光线在球面上向各个方向散射）与各向异性相位函数（光线在球面上的分布不均匀）。
+图 1：各向同性 (isotropic)相位函数（光线在球面上向各个方向散射）与各向异性 (anisotropic)相位函数（光线在球面上的分布不均匀）。
 
 When a photon interacts with a particle, it can be scattered out in any direction within the sphere of possible directions around the particle where every direction is equally likely to be chosen than any others. In this particular case, we speak of an **isotropic** scattering volume. But isotropic scattering is not the norm. Most volumes tend to scatter light in a restricted range of directions. We then speak of an **anisotropic** scattering medium or volume. The phase function is simply a mathematical equation that tells you how much light is being scattered for a particular combination of directions: the view direction and the incoming light direction $\omega'$.  
 当一个光子与一个粒子相互作用时，它可以向粒子周围可能方向范围内的任何方向散射，在这个范围内，每个方向被选择的可能性都是相同的。在这种特殊情况下，我们称之为各向同性散射体积。但各向同性散射并非常态。大多数体积倾向于在有限的方向范围内散射光线。这就是各向异性散射介质或体积。相位函数是一个简单的数学公式，它可以告诉你在特定的方向组合下，有多少光被散射了：视线方向和入射光线方向 $\omega'$。  
@@ -210,7 +172,7 @@ If we take the dot product of the directions $\omega$ (the view direction) and (
 ![[79d86cd2c6674f6364a5d467c1efb7f7_MD5.png]]
 
 In summary, the phase function tells you how much light is likely to be scattered towards the viewer () for any particular incoming light direction ().  
-总之，相位函数可以告诉你，在任何特定的入射光线方向（），有多少光线可能会散射到观察者（）。
+总之，相位函数可以告诉你，在任何特定的入射光线方向（$\omega$），有多少光线可能会散射到观察者（$\omega'$）。
 
 Enough chatting. What do these phase functions look like?  
 闲话少说。这些阶段功能是什么样的？
