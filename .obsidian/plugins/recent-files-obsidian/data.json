@@ -1,6 +1,18 @@
 {
   "recentFiles": [
     {
+      "basename": "《Unity Primer》",
+      "path": "引擎Unity3D/1 Unity精粹/《Unity Primer》.md"
+    },
+    {
+      "basename": "《CS Primer》",
+      "path": "引擎Unity3D/1 Unity精粹/《CS Primer》.md"
+    },
+    {
+      "basename": "GAMES104 课程笔记 20-Data-Oriented Programming and Job System - Bo's Blog",
+      "path": "图形学/4 书籍/GAMES系列/104现代游戏引擎：从入门到实践/9 高级主题/GAMES104 课程笔记 20-Data-Oriented Programming and Job System - Bo's Blog.md"
+    },
+    {
       "basename": "03 正确处理Ray Marching",
       "path": "图形学/7 体渲染/03 正确处理Ray Marching.md"
     },
@@ -187,18 +199,6 @@
     {
       "basename": "09 体积云",
       "path": "技术美术/1 渲染雅集/09 体积云.md"
-    },
-    {
-      "basename": "可微渲染、NeRF 相关技术概念急速入门",
-      "path": "AI/论文/Nerf/可微渲染、NeRF 相关技术概念急速入门.md"
-    },
-    {
-      "basename": "读论文翻译技巧",
-      "path": "AI/论文/读论文翻译技巧.md"
-    },
-    {
-      "basename": "2 URP",
-      "path": "引擎Unity3D/3 URP精粹/2 URP.md"
     }
   ],
   "omittedPaths": [],
