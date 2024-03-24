@@ -550,7 +550,7 @@ def train():
 
 先调用 get_embedder 获得一个对应的 embedding 函数，然后构建 NeRF 模型
 
-```
+```python
 def create_nerf(args):
     """Instantiate NeRF's MLP model.
     """
