@@ -4,7 +4,7 @@
 代码链接：[https://github.com/yenchenlin/nerf-pytorch](https://github.com/yenchenlin/nerf-pytorch)  
 因为代码量比较大，所以我们先使用一个思维导图对项目逻辑进行梳理，然后逐个文件解析。为了保持思路连贯，我们会一次贴上整个函数的内容并逐行注释，然后贴相关的公式和示意图到代码段的下方。  
 
-![](https://img-blog.csdnimg.cn/2dc6e4ee4b7c42b19d647ff7200a7d6e.png)
+![[17e0634c3a17dc92f262da05a3ce78b4_MD5.png]]
 
 ## run_nerf. py
 
@@ -14,7 +14,7 @@
 
 先是一些基本参数
 
-```
+```python
 # 生成config.txt文件
     parser.add_argument('--config', is_config_file=True, 
                         help='config file path')
@@ -31,7 +31,7 @@
 
 然后是一些训练相关的参数
 
-```
+```python
 # training options
     # 设置网络的深度，即网络的层数
     parser.add_argument("--netdepth", type=int, default=8, 
@@ -71,7 +71,7 @@
 
 然后是一些渲染时的参数
 
-```
+```python
 # rendering options
     # 每条射线的粗样本数
     parser.add_argument("--N_samples", type=int, default=64, 
@@ -110,7 +110,7 @@
 
 还有一些参数
 
-```
+```c++
 # training options
     parser.add_argument("--precrop_iters", type=int, default=0,
                         help='number of steps to train on central crops')
@@ -164,9 +164,9 @@
 
 训练过程的控制。开始训练，先把 5D 输入进行编码，然后交给 MLP 得到 4D 的数据（颜色和体素的密度），然后进行体渲染得到图片，再和真值计算 L2 loss。  
 
-![](https://img-blog.csdnimg.cn/bf9eaf3bb21f40e094c79118c52c4d2c.png)
+![[149f93320e3a9f205fd4da79ae9e39c6_MD5.png]]
 
-```
+```python
 def train():
 
     parser = config_parser()

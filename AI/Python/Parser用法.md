@@ -72,7 +72,7 @@ ArgumentParser.add_argument(name or flags...[, action][, nargs][, const][, defau
 
 ArgumentParser 通过`parse_args()` 方法解析参数。它将检查命令行，把每个参数转换为适当的类型然后调用相应的操作。在大多数情况下，这意味着一个简单的 Namespace 对象将从命令行解析出的属性构建：
 
-```
+```python
 # 解析参数
 args = parser.parse_args()
 print (args.echo)
