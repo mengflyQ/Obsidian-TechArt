@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "代码反射",
+      "path": "图形学/2 图形API/DX12/自研引擎/代码反射.md"
+    },
+    {
       "basename": "Nerf-Pytorch代码",
       "path": "AI/论文/Nerf/01 Nerf起源/Nerf-Pytorch代码.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "快速入门",
       "path": "AI/深度学习/快速入门.md"
-    },
-    {
-      "basename": "动手学DL",
-      "path": "AI/深度学习/动手学DL.md"
     }
   ],
   "omittedPaths": [],
