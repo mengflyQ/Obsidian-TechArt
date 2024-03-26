@@ -1,6 +1,42 @@
 {
   "recentFiles": [
     {
+      "basename": "图形学八股",
+      "path": "图形学/面经/图形学八股.md"
+    },
+    {
+      "basename": "技术向",
+      "path": "图形学/面经/技术向.md"
+    },
+    {
+      "basename": "UE4_5 开发面试题：Unreal",
+      "path": "图形学/面经/UE4_5 开发面试题：Unreal.md"
+    },
+    {
+      "basename": "FFT理论",
+      "path": "技术美术/5 水体渲染/FFT海洋/FFT理论.md"
+    },
+    {
+      "basename": "02 PBR理论",
+      "path": "图形学/3 全局光照GI/02 PBR理论.md"
+    },
+    {
+      "basename": "04 路径追踪",
+      "path": "图形学/3 全局光照GI/04 路径追踪.md"
+    },
+    {
+      "basename": "03 光追理论",
+      "path": "图形学/3 全局光照GI/03 光追理论.md"
+    },
+    {
+      "basename": "01 辐射度量学",
+      "path": "图形学/3 全局光照GI/01 辐射度量学.md"
+    },
+    {
+      "basename": "《Unity Primer》",
+      "path": "引擎Unity3D/1 Unity精粹/《Unity Primer》.md"
+    },
+    {
       "basename": "3D数学",
       "path": "图形学/0 3D数学/3D数学.md"
     },
@@ -15,18 +51,6 @@
     {
       "basename": "03 光照向量",
       "path": "图形学/0 3D数学/公式推导/03 光照向量.md"
-    },
-    {
-      "basename": "图形学八股",
-      "path": "图形学/面经/图形学八股.md"
-    },
-    {
-      "basename": "技术向",
-      "path": "图形学/面经/技术向.md"
-    },
-    {
-      "basename": "FFT理论",
-      "path": "技术美术/5 水体渲染/FFT海洋/FFT理论.md"
     },
     {
       "basename": "TinyRenderer",
@@ -133,10 +157,6 @@
       "path": "图形学/1 图形系统/09 阴影.md"
     },
     {
-      "basename": "《Unity Primer》",
-      "path": "引擎Unity3D/1 Unity精粹/《Unity Primer》.md"
-    },
-    {
       "basename": "《CS Primer》",
       "path": "引擎Unity3D/1 Unity精粹/《CS Primer》.md"
     },
@@ -145,24 +165,12 @@
       "path": "图形学/7 体渲染/05 基于三维体素网格的体积渲染.md"
     },
     {
-      "basename": "01 辐射度量学",
-      "path": "图形学/3 全局光照GI/01 辐射度量学.md"
-    },
-    {
       "basename": "微积分基础",
       "path": "Math/微积分/微积分基础.md"
     },
     {
       "basename": "Chapter 5 Shading Basics 着色基础",
       "path": "图形学/4 书籍/RTR4社区版/Chapter 5 Shading Basics 着色基础.md"
-    },
-    {
-      "basename": "02 PBR理论",
-      "path": "图形学/3 全局光照GI/02 PBR理论.md"
-    },
-    {
-      "basename": "03 光追理论",
-      "path": "图形学/3 全局光照GI/03 光追理论.md"
     },
     {
       "basename": "教程",
@@ -191,14 +199,6 @@
     {
       "basename": "源码",
       "path": "图形学/7 体渲染/源码.md"
-    },
-    {
-      "basename": "Chapter 12 Image-Space Effects 图像空间特效",
-      "path": "图形学/4 书籍/RTR4社区版/Chapter 12 Image-Space Effects 图像空间特效.md"
-    },
-    {
-      "basename": "Chapter 18 Pipeline Optimization 管线优化",
-      "path": "图形学/4 书籍/RTR4社区版/Chapter 18 Pipeline Optimization 管线优化.md"
     }
   ],
   "omittedPaths": [],
