@@ -1,6 +1,18 @@
 {
   "recentFiles": [
     {
+      "basename": "作业",
+      "path": "AI/作业/【todo】人工智能/作业.md"
+    },
+    {
+      "basename": "作业",
+      "path": "AI/作业/【todo】研究写作/作业.md"
+    },
+    {
+      "basename": "作业",
+      "path": "AI/作业/【todo】云计算/作业.md"
+    },
+    {
       "basename": "02 空间变换",
       "path": "图形学/0 3D数学/公式推导/02 空间变换.md"
     },
@@ -187,18 +199,6 @@
     {
       "basename": "《CS Primer》",
       "path": "引擎Unity3D/1 Unity精粹/《CS Primer》.md"
-    },
-    {
-      "basename": "05 基于三维体素网格的体积渲染",
-      "path": "图形学/7 体渲染/05 基于三维体素网格的体积渲染.md"
-    },
-    {
-      "basename": "微积分基础",
-      "path": "Math/微积分/微积分基础.md"
-    },
-    {
-      "basename": "Chapter 5 Shading Basics 着色基础",
-      "path": "图形学/4 书籍/RTR4社区版/Chapter 5 Shading Basics 着色基础.md"
     }
   ],
   "omittedPaths": [],
