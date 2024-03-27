@@ -1,12 +1,16 @@
 {
   "recentFiles": [
     {
-      "basename": "图形学八股",
-      "path": "图形学/面经/图形学八股.md"
+      "basename": "01 渲染管线",
+      "path": "图形学/1 图形系统/01 渲染管线.md"
     },
     {
       "basename": "02 光栅化",
       "path": "图形学/1 图形系统/02 光栅化.md"
+    },
+    {
+      "basename": "图形学八股",
+      "path": "图形学/面经/图形学八股.md"
     },
     {
       "basename": "UE4_5 开发面试题：Unreal",
@@ -19,10 +23,6 @@
     {
       "basename": "02 空间变换",
       "path": "图形学/0 3D数学/公式推导/02 空间变换.md"
-    },
-    {
-      "basename": "01 渲染管线",
-      "path": "图形学/1 图形系统/01 渲染管线.md"
     },
     {
       "basename": "3 Renderer Feature",
