@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "《CS Primer》",
+      "path": "引擎Unity3D/1 Unity精粹/《CS Primer》.md"
+    },
+    {
       "basename": "作业",
       "path": "AI/作业/【todo】人工智能/作业.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "可微渲染、NeRF 相关技术概念急速入门",
       "path": "AI/论文/Nerf/可微渲染、NeRF 相关技术概念急速入门.md"
-    },
-    {
-      "basename": "《CS Primer》",
-      "path": "引擎Unity3D/1 Unity精粹/《CS Primer》.md"
     }
   ],
   "omittedPaths": [],
