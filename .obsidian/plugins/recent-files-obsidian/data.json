@@ -1,6 +1,46 @@
 {
   "recentFiles": [
     {
+      "basename": "图形学八股",
+      "path": "图形学/面经/图形学八股.md"
+    },
+    {
+      "basename": "02 光栅化",
+      "path": "图形学/1 图形系统/02 光栅化.md"
+    },
+    {
+      "basename": "UE4_5 开发面试题：Unreal",
+      "path": "图形学/面经/UE4_5 开发面试题：Unreal.md"
+    },
+    {
+      "basename": "M_Studio 教程",
+      "path": "引擎Unity3D/4 GamePlay/maco/M_Studio 教程.md"
+    },
+    {
+      "basename": "02 空间变换",
+      "path": "图形学/0 3D数学/公式推导/02 空间变换.md"
+    },
+    {
+      "basename": "01 渲染管线",
+      "path": "图形学/1 图形系统/01 渲染管线.md"
+    },
+    {
+      "basename": "3 Renderer Feature",
+      "path": "引擎Unity3D/3 URP精粹/3 Renderer Feature.md"
+    },
+    {
+      "basename": "《GUI》",
+      "path": "引擎Unity3D/1 Unity精粹/《GUI》.md"
+    },
+    {
+      "basename": "2 URP",
+      "path": "引擎Unity3D/3 URP精粹/2 URP.md"
+    },
+    {
+      "basename": "1 ShaderLab",
+      "path": "引擎Unity3D/3 URP精粹/1 ShaderLab.md"
+    },
+    {
       "basename": "《CS Primer》",
       "path": "引擎Unity3D/1 Unity精粹/《CS Primer》.md"
     },
@@ -15,10 +55,6 @@
     {
       "basename": "作业",
       "path": "AI/作业/【todo】云计算/作业.md"
-    },
-    {
-      "basename": "02 空间变换",
-      "path": "图形学/0 3D数学/公式推导/02 空间变换.md"
     },
     {
       "basename": "11 曲线曲面几何",
@@ -53,10 +89,6 @@
       "path": "图形学/1 图形系统/03 光照模型.md"
     },
     {
-      "basename": "01 渲染管线",
-      "path": "图形学/1 图形系统/01 渲染管线.md"
-    },
-    {
       "basename": "01 三维旋转",
       "path": "图形学/0 3D数学/公式推导/01 三维旋转.md"
     },
@@ -67,10 +99,6 @@
     {
       "basename": "04 纹理映射",
       "path": "图形学/0 3D数学/公式推导/04 纹理映射.md"
-    },
-    {
-      "basename": "图形学八股",
-      "path": "图形学/面经/图形学八股.md"
     },
     {
       "basename": "卡通水",
@@ -99,10 +127,6 @@
     {
       "basename": "技术向",
       "path": "图形学/面经/技术向.md"
-    },
-    {
-      "basename": "UE4_5 开发面试题：Unreal",
-      "path": "图形学/面经/UE4_5 开发面试题：Unreal.md"
     },
     {
       "basename": "FFT理论",
@@ -149,10 +173,6 @@
       "path": "图形学/1 图形系统/04 纹理.md"
     },
     {
-      "basename": "02 光栅化",
-      "path": "图形学/1 图形系统/02 光栅化.md"
-    },
-    {
       "basename": "代码反射",
       "path": "图形学/2 图形API/DX12/自研引擎/代码反射.md"
     },
@@ -179,26 +199,6 @@
     {
       "basename": "GAMES104 课程笔记 20-Data-Oriented Programming and Job System - Bo's Blog",
       "path": "图形学/4 书籍/GAMES系列/104现代游戏引擎：从入门到实践/9 高级主题/GAMES104 课程笔记 20-Data-Oriented Programming and Job System - Bo's Blog.md"
-    },
-    {
-      "basename": "02 Ray-Marching算法",
-      "path": "图形学/7 体渲染/02 Ray-Marching算法.md"
-    },
-    {
-      "basename": "03 正确处理Ray Marching",
-      "path": "图形学/7 体渲染/03 正确处理Ray Marching.md"
-    },
-    {
-      "basename": "06 从辐射传输方程到体积渲染方程",
-      "path": "图形学/7 体渲染/06 从辐射传输方程到体积渲染方程.md"
-    },
-    {
-      "basename": "01 体积渲染入门",
-      "path": "图形学/7 体渲染/01 体积渲染入门.md"
-    },
-    {
-      "basename": "可微渲染、NeRF 相关技术概念急速入门",
-      "path": "AI/论文/Nerf/可微渲染、NeRF 相关技术概念急速入门.md"
     }
   ],
   "omittedPaths": [],

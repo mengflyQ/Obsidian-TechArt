@@ -28,7 +28,7 @@ Render Feature 是一种 Asset，用于向 URP 渲染器添加额外的 Render P
 [Render Objects Renderer Feature | Universal RP | 14.0.8 --- 渲染对象渲染器功能](https://docs.unity3d.com/Packages/com.unity.render-pipelines.universal@14.0/manual/renderer-features/renderer-feature-render-objects.html)
 ![[Pasted image 20230702103753.png|500]]
 URP 在 DrawOpaqueObjects 和 DrawTransparentObjects Pass 中绘制对象。您可能需要在帧渲染的不同点绘制对象，或者以其他方式解释和写入渲染数据（如 depth 和 stencil）。
-Render Objects RF 允许通过特定的重载（overides）在指定的图层、指定的时间来自定义 Draw Objects。
+Render Objects RF 允许通过特定的覆盖（overides）在指定的图层、指定的时间来自定义 Draw Objects。
 
 ## 透视效果 X-Ray
 **实战**：当角色在GameObjects后面时，用不同的材质绘制角色轮廓。
