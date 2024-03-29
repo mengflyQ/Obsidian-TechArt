@@ -1,16 +1,16 @@
 {
   "recentFiles": [
     {
+      "basename": "01 渲染管线",
+      "path": "图形学/1 图形系统/01 渲染管线.md"
+    },
+    {
       "basename": "FFT理论",
       "path": "技术美术/5 水体渲染/FFT海洋/FFT理论.md"
     },
     {
       "basename": "FFT代码实现",
       "path": "技术美术/5 水体渲染/FFT海洋/FFT代码实现.md"
-    },
-    {
-      "basename": "01 渲染管线",
-      "path": "图形学/1 图形系统/01 渲染管线.md"
     },
     {
       "basename": "03 光照向量",
