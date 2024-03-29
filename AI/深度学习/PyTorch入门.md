@@ -866,7 +866,7 @@ frog plane   dog  ship
 
 这部分内容其实直接采用上一节定义的网络即可，除了修改 `conv1` 的输入通道，从 1 变为 3，因为这次接收的是 3 通道的彩色图片。
 
-```
+```python
 import torch.nn as nn
 import torch.nn.functional as F
 
@@ -897,7 +897,7 @@ net = Net()
 
 这里采用类别交叉熵函数和带有动量的 SGD 优化方法：
 
-```
+```python
 import torch.optim as optim
 
 criterion = nn.CrossEntropyLoss()
@@ -908,7 +908,7 @@ optimizer = optim.SGD(net.parameters(), lr=0.001, momentum=0.9)
 
 第四步自然就是开始训练网络，指定需要迭代的 epoch，然后输入数据，指定次数打印当前网络的信息，比如 `loss` 或者准确率等性能评价标准。
 
-```
+```python
 import time
 start = time.time()
 for epoch in range(2):
@@ -936,7 +936,7 @@ print('Finished Training! Total cost time: ', time.time()-start)
 
 这里定义训练总共 2 个 epoch，训练信息如下，大概耗时为 77s。
 
-```
+```python
 [1,  2000] loss: 2.226
 [1,  4000] loss: 1.897
 [1,  6000] loss: 1.725
@@ -959,7 +959,7 @@ Finished Training! Total cost time:  77.24696755409241
 
 首先，我们先用一个 `batch` 的图片进行小小测试，这里 `batch=4` ，也就是 4 张图片，代码如下：
 
-```
+```python
 dataiter = iter(testloader)
 images, labels = dataiter.next()
 
@@ -972,13 +972,13 @@ print('GroundTruth: ', ' '.join('%5s' % classes[labels[j]] for j in range(4)))
 
 ![[1681487156067.png]]
 
-```
+```python
 GroundTruth:    cat  ship  ship plane
 ```
 
 然后用这四张图片输入网络，看看网络的预测结果：
 
-```
+```python
 # 网络输出
 outputs = net(images)
 
@@ -989,7 +989,7 @@ print('Predicted: ', ' '.join('%5s' % classes[predicted[j]] for j in range(4)))
 
 输出为：
 
-```
+```python
 Predicted:    cat  ship  ship  ship
 ```
 
@@ -997,7 +997,7 @@ Predicted:    cat  ship  ship  ship
 
 接着，让我们看看在整个测试集上的准确率可以达到多少吧！
 
-```
+```python
 correct = 0
 total = 0
 with torch.no_grad():
@@ -1013,7 +1013,7 @@ print('Accuracy of the network on the 10000 test images: %d %%' % (100 * correct
 
 输出结果如下
 
-```
+```python
 Accuracy of the network on the 10000 test images: 55 %
 ```
 
@@ -1021,7 +1021,7 @@ Accuracy of the network on the 10000 test images: 55 %
 
 然后，还可以再进一步，查看每个类别的分类准确率，跟上述代码有所不同的是，计算准确率部分是 `c = (predicted == labels).squeeze()`，这段代码其实会根据预测和真实标签是否相等，输出 1 或者 0，表示真或者假，因此在计算当前类别正确预测数量时候直接相加，预测正确自然就是加 1，错误就是加 0，也就是没有变化。
 
-```
+```python
 class_correct = list(0. for i in range(10))
 class_total = list(0. for i in range(10))
 with torch.no_grad():
@@ -1041,7 +1041,7 @@ for i in range(10):
 
 输出结果，可以看到猫、鸟、鹿是错误率前三，即预测最不准确的三个类别，反倒是船和卡车最准确。
 
-```
+```python
 Accuracy of plane : 58 %
 Accuracy of   car : 59 %
 Accuracy of  bird : 40 %
@@ -1060,27 +1060,27 @@ Accuracy of truck : 72 %
 
 首先，需要检查是否有可用的 GPU 来训练，代码如下：
 
-```
+```python
 device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
 print(device)
 ```
 
 输出结果如下，这表明你的第一块 GPU 显卡或者唯一的 GPU 显卡是空闲可用状态，否则会打印 `cpu` 。
 
-```
+```python
 cuda:0
 ```
 
 既然有可用的 GPU ，接下来就是在 GPU 上进行训练了，其中需要修改的代码如下，分别是需要将网络参数和数据都转移到 GPU 上：
 
-```
+```python
 net.to(device)
 inputs, labels = inputs.to(device), labels.to(device)
 ```
 
 修改后的训练部分代码：
 
-```
+```python
 import time
 # 在 GPU 上训练注意需要将网络和数据放到 GPU 上
 net.to(device)

@@ -1,6 +1,34 @@
 {
   "recentFiles": [
     {
+      "basename": "《鱼书》",
+      "path": "AI/深度学习/《鱼书》.md"
+    },
+    {
+      "basename": "PyTorch入门",
+      "path": "AI/深度学习/PyTorch入门.md"
+    },
+    {
+      "basename": "快速入门",
+      "path": "AI/深度学习/快速入门.md"
+    },
+    {
+      "basename": "鱼书pdf",
+      "path": "AI/深度学习/鱼书pdf.pdf"
+    },
+    {
+      "basename": "研究生自救指南",
+      "path": "AI/深度学习/研究生自救指南.pdf"
+    },
+    {
+      "basename": "动手学DL",
+      "path": "AI/深度学习/动手学DL.md"
+    },
+    {
+      "basename": "模型参数解析",
+      "path": "AI/机器学习/模型参数解析.md"
+    },
+    {
       "basename": "01 渲染管线",
       "path": "图形学/1 图形系统/01 渲染管线.md"
     },
@@ -171,34 +199,6 @@
     {
       "basename": "透视矫正插值",
       "path": "图形学/6 软渲染器/软光栅/透视矫正插值.md"
-    },
-    {
-      "basename": "04 纹理",
-      "path": "图形学/1 图形系统/04 纹理.md"
-    },
-    {
-      "basename": "代码反射",
-      "path": "图形学/2 图形API/DX12/自研引擎/代码反射.md"
-    },
-    {
-      "basename": "Nerf-Pytorch代码",
-      "path": "AI/论文/Nerf/01 Nerf起源/Nerf-Pytorch代码.md"
-    },
-    {
-      "basename": "论文：Nerf将场景表示为用于视图合成的神经辐射场",
-      "path": "AI/论文/Nerf/01 Nerf起源/论文：Nerf将场景表示为用于视图合成的神经辐射场.md"
-    },
-    {
-      "basename": "思路",
-      "path": "AI/论文/Nerf/01 Nerf起源/思路.md"
-    },
-    {
-      "basename": "学术名词",
-      "path": "AI/论文/知识库/学术名词.md"
-    },
-    {
-      "basename": "Anaconda配置",
-      "path": "AI/环境配置/Anaconda配置.md"
     }
   ],
   "omittedPaths": [],
