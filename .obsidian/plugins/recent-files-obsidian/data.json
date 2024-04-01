@@ -1,6 +1,50 @@
 {
   "recentFiles": [
     {
+      "basename": "Pytorch精粹",
+      "path": "AI/Python/Pytorch精粹.md"
+    },
+    {
+      "basename": "Numpy+Matplotlib",
+      "path": "AI/Python/Numpy+Matplotlib.md"
+    },
+    {
+      "basename": "Python基础",
+      "path": "AI/Python/Python基础.md"
+    },
+    {
+      "basename": "Anaconda配置",
+      "path": "AI/环境配置/Anaconda配置.md"
+    },
+    {
+      "basename": "三维重建方法",
+      "path": "AI/论文/知识库/三维重建方法.md"
+    },
+    {
+      "basename": "思路",
+      "path": "AI/论文/Nerf/01 Nerf起源/思路.md"
+    },
+    {
+      "basename": "03 正确处理Ray Marching",
+      "path": "图形学/7 体渲染/03 正确处理Ray Marching.md"
+    },
+    {
+      "basename": "04 三维密度场的体积渲染",
+      "path": "图形学/7 体渲染/04 三维密度场的体积渲染.md"
+    },
+    {
+      "basename": "05 基于三维体素网格的体积渲染",
+      "path": "图形学/7 体渲染/05 基于三维体素网格的体积渲染.md"
+    },
+    {
+      "basename": "06 从辐射传输方程到体积渲染方程",
+      "path": "图形学/7 体渲染/06 从辐射传输方程到体积渲染方程.md"
+    },
+    {
+      "basename": "论文：Nerf将场景表示为用于视图合成的神经辐射场",
+      "path": "AI/论文/Nerf/01 Nerf起源/论文：Nerf将场景表示为用于视图合成的神经辐射场.md"
+    },
+    {
       "basename": "《Unity设计模式》",
       "path": "引擎Unity3D/1 Unity精粹/《Unity设计模式》.md"
     },
@@ -155,50 +199,6 @@
     {
       "basename": "3D数学",
       "path": "图形学/0 3D数学/3D数学.md"
-    },
-    {
-      "basename": "04 纹理映射",
-      "path": "图形学/0 3D数学/公式推导/04 纹理映射.md"
-    },
-    {
-      "basename": "卡通水",
-      "path": "技术美术/5 水体渲染/卡通水.md"
-    },
-    {
-      "basename": "03 深度法线纹理",
-      "path": "技术美术/1 渲染雅集/03 深度法线纹理.md"
-    },
-    {
-      "basename": "《Unity Primer》",
-      "path": "引擎Unity3D/1 Unity精粹/《Unity Primer》.md"
-    },
-    {
-      "basename": "Pytorch精粹",
-      "path": "AI/Python/Pytorch精粹.md"
-    },
-    {
-      "basename": "Parser用法",
-      "path": "AI/Python/Parser用法.md"
-    },
-    {
-      "basename": "Python基础",
-      "path": "AI/Python/Python基础.md"
-    },
-    {
-      "basename": "04 路径追踪",
-      "path": "图形学/3 全局光照GI/04 路径追踪.md"
-    },
-    {
-      "basename": "03 光追理论",
-      "path": "图形学/3 全局光照GI/03 光追理论.md"
-    },
-    {
-      "basename": "05 射线相交",
-      "path": "图形学/0 3D数学/公式推导/05 射线相交.md"
-    },
-    {
-      "basename": "TinyRenderer",
-      "path": "图形学/6 软渲染器/软光栅/TinyRenderer.md"
     }
   ],
   "omittedPaths": [],

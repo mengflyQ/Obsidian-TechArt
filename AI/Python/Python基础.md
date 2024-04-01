@@ -9,8 +9,6 @@ banner_lock: true
 ---
 
 # 一、基础部分
-BIF就是Built-in Functions，内置函数
-
 input() 接收用户的输入
 ```python nums
 temp = input("请输入一个数字")  
@@ -60,7 +58,7 @@ x = 1 + 2j 用浮点数存储
 `str()`：转换成一个字符串：
 `complex(re, im)`： 转成复数
 `type()`：获取变量的类型，
-更建议使用 `isinstance()`这个 BIF 来判断变量的类型。
+更建议使用 `isinstance()`这个 内置函数 来判断变量的类型。
 `isinstance()`函数有两个参数：第一个是待确定类型的数据；第二个是指定一个数据类型。它会根据两个参数返回一个布尔类型的值，True表示类型一致，False表示类型不一致。举个例子：
 ```python nums
 >>> a = "小甲鱼"
@@ -73,7 +71,7 @@ True
 ```
 
 4. **算术操作符**： +　-　*　/　%　**　//
-`x // y`： 地板除法，向下取整（等同于其他语言中的 floor）
+`x // y`： 向下取整（等同于其他语言中的 floor）
 `%`：取余
 `divmod(x, y)`： 返回 (x // y, x % y)  
 `abs(x)` ： 绝对值（如果是复数，返回模）  
@@ -121,43 +119,43 @@ assert 3 < 4
 # AssertionErroor
 ```
 一般来说，可以用它在程序中置入检查点，当需要确保程序中的某个条件一定为真才能让程序正常工作的话，assert关键字就非常有用了。
-### if   
+### if
 
 ```python nums
 if condition:
-		statement(s)
+    statement(s)
 ```
 
 
 ```python nums
 if condition:
-		statement(s)
+    statement(s)
 else:
-		statement(s)
+    statement(s)
 ```
 
 
 ```python nums
 if condition1:
-		statement(s)
+    statement(s)
 elif condition2:
-		statement(s)
+    statement(s)
 elif condition3:
-		statement(s)
+    statement(s)
 ...
 ```
 
 
 ```python nums
 if condition1:
-		statement(s)
+    statement(s)
 elif condition2:
-		statement(s)
+    statement(s)
 elif condition3:
-		statement(s)
+    statement(s)
 ...
 else:
-		statement(s)
+    statement(s)
 ```
 
 **三元操作符**
@@ -167,9 +165,9 @@ else:
 
 # 原形式
 if x< y:
-		small =x
+    small =x
 else:
-		small =y
+    small =y
 
 # 三元运算符的形式
 small = x if x<y else y
@@ -180,19 +178,19 @@ small = x if x<y else y
 ### while
 ```python nums
 while condition:
-		statement(s)
+    statement(s)
 ```
 
 ### for
 
 ```python nums
 for 变量 in 可迭代对象:
-		statement(s)
+    statement(s)
 ```
 **可迭代对象**就是指那些元素可以被单独提取出来的对象，如目前最熟悉的字符串，像“FishC”就是由“F”“i”“s”“h”“C”五个字符元素构成的。那么，for循环语句每执行一次就会从该字符串（可迭代对象）中拿出其中一个字符，然后存放到变量中。
 ```python nums
 >>>for each in 'FishC':
-		print(each)
+    print(each)
 # 输出
 F
 i
@@ -206,15 +204,15 @@ C
 # 错误，因为100不是可迭代对象
 sum=0
 for i in 100:
-		sum+=i
-		print (sum)
+    sum+=i
+    print (sum)
 	
 
 for i in range(10):		#range(10)是左闭右开区间[0, 10)
 	print(i)
 ```
 
-`range()`是一个BIF函数，它可以为指定的整数生成一个数字序列（可迭代对象）
+`range()`是一个内置函数函数，它可以为指定的整数生成一个数字序列（可迭代对象）
 ```python nums
 # 注：list是将可迭代对象以列表的形式展示出来。
 
@@ -238,14 +236,14 @@ range(start, stop, step) #允许指定步长step（每个元素的间隔），�
 while 和 for 循环后面也可以跟 else，表示当条件不成立的时候执行的内容
 ```python nums
 while 条件:
-		循环体
+    循环体
 else:
-		条件不成立时执行的内容
+    条件不成立时执行的内容
 		
 for 变量 in 可迭代对象:
-		循环体
+    循环体
 else:
-		条件不成立时执行的内容
+    条件不成立时执行的内容
 ```
 正常境况下 else 不用写，因为本身条件不成立的时候就会结束循环执行后面的内容，但使用 break 时可能会不同：在 else 前面写 break，当 break 触发时不会执行 else 中的内容。
 # 二、列表/元组/字符串
@@ -417,7 +415,7 @@ print(eggs)
 ['FishC', 'FishC', 'FishC']
 ```
 
-**in 和 not in（成员关系操作符）**：在不在列表
+**`in` 和 `not in`（成员关系操作符）**：在不在列表
 ```python nums
 >>> list1 = ["小猪", "小猫", ["小甲鱼", "小乌龟"], "小狗"]
 >>> "小甲鱼" in list1
@@ -487,7 +485,7 @@ reverse 参数默认为 False，表示不颠倒顺序（世界上 sort 的默认
 ```
 
 
-`copy()` ：拷贝一个列表 浅拷贝（shallow copy）
+`copy()` ：拷贝一个列表 浅拷贝
 
 
 ### 嵌套列表（创建二维列表，也就是矩阵）
@@ -508,7 +506,7 @@ reverse 参数默认为 False，表示不颠倒顺序（世界上 sort 的默认
 ```python nums
 >>> A = [0] * 3
 >>> for i in range(3):
-				A[i] = [0] *3				# √
+        A[i] = [0] *3				# √
 >>> A
 [[0, 0, 0], [0, 0, 0], [0, 0, 0]]
 
@@ -634,7 +632,8 @@ for target in iterableN if conditionN]
 ```
 
 ## 元组 tuple
-类型为`<class 'tuple'>`
+类型为 `<class 'tuple'>`
+
 元组和列表的最大区别是：**元组只可读，不可写**。
 ### 创建和访问元组
 **1、创建**
@@ -718,9 +717,9 @@ del temp
 在日常开发中，很少使用 del 去删除整个元组，因为 Python 的垃圾回收机制会在某个对象不再被使用的时候自动进行清理。
 
 ## 字符串
-- 在一些编程语言中，字符和字符串是两个不同的概念，但在 Python 中，只有字符串这一个概念。
+- **在一些编程语言中，字符和字符串是两个不同的概念，但在 Python 中，只有字符串这一个概念。**
 - 字符串 string 必须用 `' '` 或者 `" "` 表示
-- 字符串只可读不可写，可以使用切片语法生成拷贝
+- 字符串**只可读不可写，可以使用切片语法生成拷贝**
 - 字符串变量支持中文
 
 1. 字符串的特殊赋值写法
@@ -1061,7 +1060,7 @@ help(func)
 - 在调用函数的时候，位置参数必须在关键字参数的前面
 ```python nums
 def test(num1, num2):  
-print(num1 + "大于" + num2)  
+    print(num1 + "大于" + num2)  
   
 test("1", "2")  #位置参数，实参和形参位置一一对应
 test(num2='2', num1='1') #关键字参数，传入实参时明确指定形参的变量名，其特点就是参数之间不存在先后顺序
@@ -1128,12 +1127,12 @@ print(*num)
 
 ## 4 作用域
 ### global 关键字
-Python使用屏蔽（shadowing）的手段对全局变量进行“保护”：**一旦函数内部试图直接修改全局变量，Python 就会在函数内部创建一个名字一模一样的局部变量代替**，这样修改的结果只会影响到局部变量，而全局变量则丝毫不变。
+Python使用屏蔽的手段对全局变量进行“保护”：**一旦函数内部试图直接修改全局变量，Python 就会在函数内部创建一个名字一模一样的局部变量代替**，这样修改的结果只会影响到局部变量，而全局变量则丝毫不变。
 ```python nums
 >>>count =5
 >>>def myFun():
-count =10
-print (count)
+    count =10
+    print (count)
 >>>myFun ( )
 10
 >>>count
@@ -1143,9 +1142,9 @@ print (count)
 某些时候我们需要在函数内部改变全局变量：在函数内使用 `global` 关键字，可以**将函数内的局部变量变为全局变量**
 ```python nums
 >>>count =5
->>>def myFun ( :
-global countcount = 10
-print (count)
+>>>def myFun():
+    global count = 10
+    print (count)
 >>>myFun()
 10
 >>>count
@@ -1217,15 +1216,15 @@ Python中的闭包从表现形式上定义为：如果在一个内部函数里�
 装饰器（decorator）的功能：将被装饰的函数当作参数传递给与装饰器对应的函数（名称相同的函数），并返回包装后的被装饰的函数。
 ```python nums
 def log(func):  
-		def wrapper():  
-			print("开始调用eat()函数...")  
-			func()  
-			print("结束调用eat()函数...")  
-		return wrapper  
+    def wrapper():  
+        print("开始调用eat()函数...")  
+        func()  
+        print("结束调用eat()函数...")  
+    return wrapper  
   
   
 def eat():  
-print("开始吃了")  
+    print("开始吃了")  
   
 eat = log(eat)
 eat()
@@ -1246,7 +1245,7 @@ def log(func):
   
 @log
 def eat():  
-print("开始吃了")  
+    print("开始吃了")  
 
 eat()
 
@@ -1270,10 +1269,8 @@ eat()
 运用 `lambda` 关键字，创建匿名函数
 基本语法是使用冒号（:）分隔函数的参数及返回值：冒号的左边放置函数的参数，如果有多个参数，使用逗号（,）分隔即可；冒号右边是函数的返回值。
 ```python nums
->>> lambda x : 2 * x + 1
-<function <lambda> at 0x031AAF58>
->>> g = lambda x : 2 * x + 1
->>> g(5)
+g = lambda x : 2 * x + 1
+g(5)
 ```
 
 
@@ -1293,8 +1290,6 @@ eat()
 
 ```python nums
 #第一个参数是None
->>> filter(None, [1, 0, False, True])
-<filter object at 0x034CE0A0>
 >>> list(filter(None, [1, 0, False, True]))
 [1, True]
 
@@ -1392,26 +1387,6 @@ print(num, '的阶乘是：', factorial(num))
 
 递归所占内存空间大，运算慢
 
-**eg：求解汉诺塔**
-
-```python nums
->>> def hanoi(n, x, y, z):
-	if n == 1:
-		print(x, '->', z)
-	else:
-		hanoi(n - 1, x, z, y)# 将前n-1个盘子从x移动到y上
-		print(x, '->', z)# 将最底下的最后一个盘子从x移动到z上
-		hanoi(n - 1, y, x, z)# 将y上的n-1个盘子从y移动到z上
-
->>> hanoi(3, 'x', 'y', 'z')
-x -> z
-x -> y
-z -> y
-x -> z
-y -> x
-y -> z
-x -> z
-```
 
 # 四、字典/集合
 
@@ -1422,7 +1397,7 @@ Python的字典又称**哈希**（hash）、关系数组
 映射类型区别于序列类型，序列类型以数组的形式存储，通过索引的方式来获取相应位置的值，一般索引值与对应位置存储的数据是毫无关系的。
 
 ### 创造和访问字典
-- **关键符号：**{}  
+- **关键符号：**`{}`
 - 由“**键**”和“**值**”共同构成，每一对键值组合称为“**项**”，中间由`:`连接。
 - 字典的**键必须独一无二**（如果同一个键被赋值两次，后一个值会覆盖前面的值），但值则不必。**值可以取任何数据类型，但必须是不可变的**，如字符串、数或元组（列表不可以）。
 - **访问字典**里的值与访问序列类似，只需要把相应的键放入**方括号**即可。
@@ -1435,7 +1410,7 @@ Python的字典又称**哈希**（hash）、关系数组
 鱼C工作室的口号是： 让编程改变世界
 ```
 
-2. 也可以使用 dict()内置函数来创建字典：
+2. 也可以使用 `dict()` 内置函数来创建字典：
 使用很多小括号的原因是 dict()函数的参数可以是一个序列（但不能是多个），所以要打包成一个元组（或列表）序列。
 ```python nums
 >>> dict1 = dict((('F', 70), ('i', 105), ('s', 115), ('h', 104), ('C', 67)))
@@ -1573,27 +1548,28 @@ False
 >>> num
 {1, 2, 3, 4, 6}
 ```
-| **集合（s）. 方法名**             | **等价符号** | **方法说明**                                                 |
-| -------------------------------- | ------------ | ------------------------------------------------------------ |
-| s.issubset (t)                    | s <= t       | 子集测试（允许不严格意义上的子集）：s 中所有的元素都是 t 的成员 |
-|                                  | s < t        | 子集测试（严格意义上）：s != t 而且 s 中所有的元素都是 t 的成员 |
-| s.issuperset (t)                  | s >= t       | 超集测试（允许不严格意义上的超集）：t 中所有的元素都是 s 的成员 |
-|                                  | s > t        | 超集测试（严格意义上）：s != t 而且 t 中所有的元素都是 s 的成员 |
-| s.union (t)                       | s \| t       | 合并操作：s "或" t 中的元素                                  |
-| s.intersection (t)                | s & t        | 交集操作：s "与" t 中的元素                                  |
-| s.difference                     | s - t        | 差分操作：在 s 中存在，在 t 中不存在的元素                   |
-| s.symmetric_difference (t)        | s ^ t        | 对称差分操作：s "或" t 中的元素，但不是 s 和 t 共有的元素    |
-| s.copy ()                         |              | 返回 s 的拷贝（浅复制）                                      |
-| **以下方法仅适用于可变集合**     |              |                                                              |
-| s.update                         | s \|= t      | 将 t 中的元素添加到 s 中                                     |
-| s.intersection_update (t)         | s &= t       | 交集修改操作：s 中仅包括 s 和 t 中共有的成员                 |
-| s.difference_update (t)           | s -= t       | 差修改操作：s 中包括仅属于 s 但不属于 t 的成员               |
-|s.symmetric_difference_update (t)| s ^= t       | 对称差分修改操作：s 中包括仅属于 s 或仅属于 t 的成员         |
-| s.add (obj)                       |              | 加操作：将 obj 添加到 s                                      |
-|s.remove (obj)|              | 删除操作：将 obj 从 s 中删除，如果 s 中不存在 obj，将引发异常 |
-|s.discard (obj)|              |丢弃操作：将 obj 从 s 中删除，如果 s 中不存在 obj，也没事儿|                       |              | 弹出操作：移除并返回 s 中的任意一个元素                      |  | s.clear ()                        |              | 清除操作：清除 s 中的所有元素                                |  | s.pop()|              |弹出操作：移除并返回 s 中的任意一个元素|  | s.pop ()                          |              | 弹出操作：移除并返回 s 中的任意一个元素                      |  | s.clear ()                        |              | 清除操作：清除 s 中的所有元素                                |
-|s.pop()|  |弹出操作：移除并返回 s 中的任意一个元素|
-|s.clear()|  |清除操作：清除 s 中的所有元素|
+
+| **集合（s）. 方法名**                    | **等价符号** | **方法说明**                               |     |     |                       |     |            |     |                  |     |         |     |                       |     |          |     |                       |     |            |     |                  |
+| --------------------------------- | -------- | -------------------------------------- | --- | --- | --------------------- | --- | ---------- | --- | ---------------- | --- | ------- | --- | --------------------- | --- | -------- | --- | --------------------- | --- | ---------- | --- | ---------------- |
+| s.issubset (t)                    | s <= t   | 子集测试（允许不严格意义上的子集）：s 中所有的元素都是 t 的成员     |     |     |                       |     |            |     |                  |     |         |     |                       |     |          |     |                       |     |            |     |                  |
+|                                   | s < t    | 子集测试（严格意义上）：s != t 而且 s 中所有的元素都是 t 的成员 |     |     |                       |     |            |     |                  |     |         |     |                       |     |          |     |                       |     |            |     |                  |
+| s.issuperset (t)                  | s >= t   | 超集测试（允许不严格意义上的超集）：t 中所有的元素都是 s 的成员     |     |     |                       |     |            |     |                  |     |         |     |                       |     |          |     |                       |     |            |     |                  |
+|                                   | s > t    | 超集测试（严格意义上）：s != t 而且 t 中所有的元素都是 s 的成员 |     |     |                       |     |            |     |                  |     |         |     |                       |     |          |     |                       |     |            |     |                  |
+| s.union (t)                       | s \| t   | 合并操作：s "或" t 中的元素                      |     |     |                       |     |            |     |                  |     |         |     |                       |     |          |     |                       |     |            |     |                  |
+| s.intersection (t)                | s & t    | 交集操作：s "与" t 中的元素                      |     |     |                       |     |            |     |                  |     |         |     |                       |     |          |     |                       |     |            |     |                  |
+| s.difference                      | s - t    | 差分操作：在 s 中存在，在 t 中不存在的元素               |     |     |                       |     |            |     |                  |     |         |     |                       |     |          |     |                       |     |            |     |                  |
+| s.symmetric_difference (t)        | s ^ t    | 对称差分操作：s "或" t 中的元素，但不是 s 和 t 共有的元素    |     |     |                       |     |            |     |                  |     |         |     |                       |     |          |     |                       |     |            |     |                  |
+| s.copy ()                         |          | 返回 s 的拷贝（浅复制）                          |     |     |                       |     |            |     |                  |     |         |     |                       |     |          |     |                       |     |            |     |                  |
+| **以下方法仅适用于可变集合**                  |          |                                        |     |     |                       |     |            |     |                  |     |         |     |                       |     |          |     |                       |     |            |     |                  |
+| s.update                          | s \|= t  | 将 t 中的元素添加到 s 中                        |     |     |                       |     |            |     |                  |     |         |     |                       |     |          |     |                       |     |            |     |                  |
+| s.intersection_update (t)         | s &= t   | 交集修改操作：s 中仅包括 s 和 t 中共有的成员             |     |     |                       |     |            |     |                  |     |         |     |                       |     |          |     |                       |     |            |     |                  |
+| s.difference_update (t)           | s -= t   | 差修改操作：s 中包括仅属于 s 但不属于 t 的成员            |     |     |                       |     |            |     |                  |     |         |     |                       |     |          |     |                       |     |            |     |                  |
+| s.symmetric_difference_update (t) | s ^= t   | 对称差分修改操作：s 中包括仅属于 s 或仅属于 t 的成员         |     |     |                       |     |            |     |                  |     |         |     |                       |     |          |     |                       |     |            |     |                  |
+| s.add (obj)                       |          | 加操作：将 obj 添加到 s                        |     |     |                       |     |            |     |                  |     |         |     |                       |     |          |     |                       |     |            |     |                  |
+| s.remove (obj)                    |          | 删除操作：将 obj 从 s 中删除，如果 s 中不存在 obj，将引发异常 |     |     |                       |     |            |     |                  |     |         |     |                       |     |          |     |                       |     |            |     |                  |
+| s.discard (obj)                   |          | 丢弃操作：将 obj 从 s 中删除，如果 s 中不存在 obj，也没事儿  |     |     | 弹出操作：移除并返回 s 中的任意一个元素 |     | s.clear () |     | 清除操作：清除 s 中的所有元素 |     | s.pop() |     | 弹出操作：移除并返回 s 中的任意一个元素 |     | s.pop () |     | 弹出操作：移除并返回 s 中的任意一个元素 |     | s.clear () |     | 清除操作：清除 s 中的所有元素 |
+| s.pop()                           |          | 弹出操作：移除并返回 s 中的任意一个元素                  |     |     |                       |     |            |     |                  |     |         |     |                       |     |          |     |                       |     |            |     |                  |
+| s.clear()                         |          | 清除操作：清除 s 中的所有元素                       |     |     |                       |     |            |     |                  |     |         |     |                       |     |          |     |                       |     |            |     |                  |
 
 
 ### 不可变集合
@@ -2006,8 +1982,6 @@ tt.climb()
 
 由同一个类可以生成无数个对象，这些对象长得都很相似，因为他们都是来源于同一个类的属性和方法，当一个对象的方法被调用的时候，**对象会将自身作为第一个参数传给 `self` 参数**，接收到 `self` 的时候，Python 就知道是哪一个对象在调用方法了。
 
-eg：
-
 ```python nums
 >>> class Ball:
     def setName(self, name):
@@ -2262,9 +2236,9 @@ class Pool:
 ```python nums
 >>>class C:
    count = 0
->>> a =C()
->>> b =C()
->>> c =C()
+>>> a = C()
+>>> b = C()
+>>> c = C()
 >>> print(a.count, b.count, c.count)
 0 0 0
 >>> c.count +=10
@@ -2273,9 +2247,8 @@ class Pool:
 >>> C.count +=100
 >>> print (a.count,b.count,c.count)
 100 100 10
-
 ```
-从上面的例子可以看出，对实例对象c的count属性进行赋值后，就相当于覆盖了类对象C的count属性，如图11-1所示，如果没有赋值覆盖，那么引用的是类对象的count属性。
+从上面的例子可以看出，对实例对象 c 的 count 属性进行赋值后，就相当于覆盖了类对象 C 的 count 属性，如图11-1所示，如果没有赋值覆盖，那么引用的是类对象的 count 属性。 
 
 ![[1680774432595.png]]
 
@@ -2352,7 +2325,7 @@ NameError: name 'CC' is not defined
 
 **删掉类实例`CC`，不能再实例化类`CC`，但实例对象`dd`依旧能调用类`CC`中的方法。因为类中定义的属性和方法都是静态变量，就算类对象被删除了，它们依然是存放在内存中的**。只有当程序被退出的时候，这个变量才会被释放。
 
-## 8 类和对象相关的 BIF
+## 8 类和对象相关的 内置函数
 ### 检查
 **1、`issubclass(class, classinfo)`**
 
@@ -2491,7 +2464,7 @@ property ()有什么作用呢？举个例子，在上面的例子中，为用户
 
 ## 3 算术运算
 ### 工厂函数
-Python 2.2以后，对类和类型进行了统一，做法就是将`int()`、`float()`、`str()`、`list()`、`tuple()`这些BIF转换为工厂函数：
+Python 2.2以后，对类和类型进行了统一，做法就是将`int()`、`float()`、`str()`、`list()`、`tuple()`这些内置函数转换为工厂函数：
 
 ```python nums
 >>> type(len)
@@ -2503,7 +2476,7 @@ Python 2.2以后，对类和类型进行了统一，做法就是将`int()`、`fl
 >>> type(list)
 <class 'type'>
 ```
-看到没有，普通的 BIF 应该是`<class 'builtin_function_or_method'>`，而工厂函数则是`<class 'type'>`。大家有没有觉得这个<class 'type'>很眼熟，在哪里看过？没错，其实就是一个类：
+看到没有，普通的 内置函数 应该是`<class 'builtin_function_or_method'>`，而工厂函数则是`<class 'type'>`。大家有没有觉得这个<class 'type'>很眼熟，在哪里看过？没错，其实就是一个类：
 ```python nums
 >>>class c:
 pass
@@ -2735,7 +2708,7 @@ h
 C
 
 ```
-关于迭代，Python提供了两个BIF：
+关于迭代，Python提供了两个内置函数：
 **`iter()`**  ：对于一个容器对象调用 `iter()` 就可以得到迭代器  
 **`next()`**  ：迭代器返回下一个值（如果迭代器没有值可以返回了，那么就会抛出一个 `StopIteration` 的异常）
 
@@ -2759,7 +2732,7 @@ Traceback (most recent call last):
 StopIteration
 ```
 
-所以，利用这两个 BIF，可以分析出**for 循环的原理：**
+所以，利用这两个 内置函数，可以分析出**for 循环的原理：**
 
 ```python nums
 >>> string = 'FishC'

@@ -18,12 +18,10 @@ banner_y: 0.5
 
  
 > [!abstract] 摘要
-> 我们提出了一种方法，通过使用一组稀疏的输入视图集优化底层连续体积场景函数（an under-lying continuous volumetric scene function），实现了合成复杂场景新视图（novel views）的最好（state-of-the-art）结果。我们的算法使用全连接 (非卷积) 深度网络表示场景，其输入是单个连续的 5D 坐标 (空间位置 (x, y, z) 和观看方向 （θ，∅）)，其输出是体积密度以及在该空间位置依赖于视图的发射辐射率。（view-dependent emitted radiance）。我们通过沿相机光线查询 5D 坐标来合成视图（synthesize views），并使用经典的体渲染（volume rendering）技术将输出的颜色和密度投影到图像中。因为体渲染是自然可微的（naturally differentiable），所以优化我们的表示方法所需的唯一输入是一组具有已知摄像机位姿的图像。我们描述了如何有效地优化神经辐射场（neural radiance fields），以渲染具有复杂几何形状和外观的场景的照片级真实感新视图（photorealistic novel views），并展示了优于先前神经渲染和视图合成（view synthesis）工作的结果。查看合成结果最好以视频形式观看，因此我们敦促读者观看我们的补充视频以获得令人信服的比较。
+> 我们提出了一种方法，通过使用一组稀疏的输入视图集优化隐式连续体积场景函数（an under-lying continuous volumetric scene function），实现了合成复杂场景新视图（novel views）的最好（state-of-the-art）结果。我们的算法使用全连接 (非卷积) 深度网络表示场景，其输入是单个连续的 5D 坐标 (空间位置 (x, y, z) 和观看方向 （θ，∅）)，其输出是体积密度以及在该空间位置依赖于视图的发射辐射率。（view-dependent emitted radiance）。我们通过沿相机光线查询 5D 坐标来合成视图（synthesize views），并使用经典的体渲染（volume rendering）技术将输出的颜色和密度投影到图像中。因为体渲染是自然可微的（naturally differentiable），所以优化我们的表示方法所需的唯一输入是一组具有已知摄像机位姿的图像。我们描述了如何有效地优化神经辐射场（neural radiance fields），以渲染具有复杂几何形状和外观的场景的照片级真实感新视图（photorealistic novel views），并展示了优于先前神经渲染和视图合成（view synthesis）工作的结果。查看合成结果最好以视频形式观看，因此我们敦促读者观看我们的补充视频以获得令人信服的比较。
 >
 >**Keywords:** scene representation, view synthesis, image-based rendering, volume rendering, 3D deep learning
 **关键词：**场景表示、视图合成、基于图像的渲染、体渲染、3D 深度学习
-
-- ? underlying continuous volumetric scene function（隐函数形式的连续体积场景函数）是这个意思吗???
 
 # 1 Introduction
 
