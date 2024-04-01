@@ -1,8 +1,16 @@
 {
   "recentFiles": [
     {
+      "basename": "《Unity设计模式》",
+      "path": "引擎Unity3D/1 Unity精粹/《Unity设计模式》.md"
+    },
+    {
       "basename": "《鱼书》",
       "path": "AI/深度学习/《鱼书》.md"
+    },
+    {
+      "basename": "微积分基础",
+      "path": "Math/微积分/微积分基础.md"
     },
     {
       "basename": "PyTorch入门",
@@ -191,14 +199,6 @@
     {
       "basename": "TinyRenderer",
       "path": "图形学/6 软渲染器/软光栅/TinyRenderer.md"
-    },
-    {
-      "basename": "总结",
-      "path": "图形学/6 软渲染器/软光栅/总结.md"
-    },
-    {
-      "basename": "透视矫正插值",
-      "path": "图形学/6 软渲染器/软光栅/透视矫正插值.md"
     }
   ],
   "omittedPaths": [],
