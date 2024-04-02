@@ -219,6 +219,7 @@ DeepVoxels[41] 数据集包含四个具有简单几何形状的朗伯对象（La
 >  - PSNR：峰值信噪比。通常用来评价一幅图像压缩后和原图像相比质量的好坏，当然，压缩后图像一定会比原图像质量差的，所以就用这样一个评价指标来规定标准了。PSNR 越高，压缩后失真越小。
 >-  SSIM：结构相似性。是一种全参考的图像质量评价指标，它分别从亮度、对比度、结构三方面度量图像相似性。
 >- LPIPS：学习感知图像块相似度 (Learned Perceptual Image Patch Similarity, LPIPS) 也称为 “感知损失”(perceptual loss)，用于度量两张图像之间的差别。来源于 CVPR2018《The Unreasonable Effectiveness of Deep Features as a Perceptual Metric》
+>- ![[Pasted image 20240402142137.png]]
 
 **Real images of complex scenes（复杂场景的真实图像）**
 我们展示了用大致前向图像（roughly forward-facing images）捕获的复杂真实世界场景的结果（表 1，“Real Forward-Facing”）。这个数据集由 8 个用手持手机捕获的场景组成，（5 个取自 LLFF 论文，3 个是我们捕获的），捕获了 20 到 62 张图像，并保留其中的 1/8 用于测试集。所有图像都是 1008×756 像素。
