@@ -5,6 +5,14 @@
       "path": "AI/Python/Pytorch精粹.md"
     },
     {
+      "basename": "03 正确处理Ray Marching",
+      "path": "图形学/7 体渲染/03 正确处理Ray Marching.md"
+    },
+    {
+      "basename": "Anaconda配置",
+      "path": "AI/环境配置/Anaconda配置.md"
+    },
+    {
       "basename": "Numpy+Matplotlib",
       "path": "AI/Python/Numpy+Matplotlib.md"
     },
@@ -13,20 +21,12 @@
       "path": "AI/Python/Python基础.md"
     },
     {
-      "basename": "Anaconda配置",
-      "path": "AI/环境配置/Anaconda配置.md"
-    },
-    {
       "basename": "三维重建方法",
       "path": "AI/论文/知识库/三维重建方法.md"
     },
     {
       "basename": "思路",
       "path": "AI/论文/Nerf/01 Nerf起源/思路.md"
-    },
-    {
-      "basename": "03 正确处理Ray Marching",
-      "path": "图形学/7 体渲染/03 正确处理Ray Marching.md"
     },
     {
       "basename": "04 三维密度场的体积渲染",

@@ -106,17 +106,10 @@ conda env list
 
 # 7. 创建虚拟环境
 
-jupyter notebook 是好用的交互式编辑器
-
-cudnn 是用于深度神经网络的 GPU 加速库
-
-这里直接都安装到 noti 虚拟环境中
-
 ```
-conda create -n noti jupyter notebook
+conda create -n your_env_name python=x.x
 ```
 
-noti 是虚拟环境的名字，jupyter notebook 是第三方库
 
 # 8. 切换虚拟环境
 
