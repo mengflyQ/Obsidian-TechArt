@@ -1,8 +1,64 @@
 {
   "recentFiles": [
     {
+      "basename": "三维高斯泼溅调查",
+      "path": "AI/论文/3DGS/综述/三维高斯泼溅调查.md"
+    },
+    {
+      "basename": "3DGS 综述以及对 3DGS 的理解：A Survey on 3D Gaussian Splatting",
+      "path": "AI/论文/3DGS/综述/3DGS 综述以及对 3DGS 的理解：A Survey on 3D Gaussian Splatting.md"
+    },
+    {
+      "basename": "3DGS 综述以及对 3DGS 的理解：A Survey on 3D Gaussian Splatting _ Adventures in Kedreamix' Digital World",
+      "path": "AI/论文/3DGS/综述/3DGS 综述以及对 3DGS 的理解：A Survey on 3D Gaussian Splatting _ Adventures in Kedreamix' Digital World.md"
+    },
+    {
+      "basename": "02 空间变换",
+      "path": "图形学/0 3D数学/公式推导/02 空间变换.md"
+    },
+    {
+      "basename": "仓库",
+      "path": "AI/论文/3DGS/仓库.md"
+    },
+    {
+      "basename": "三维重建方法",
+      "path": "AI/论文/知识库/三维重建方法.md"
+    },
+    {
+      "basename": "4 NeRF相机参数与坐标系变换",
+      "path": "AI/论文/Nerf/01 Nerf起源/4 NeRF相机参数与坐标系变换.md"
+    },
+    {
+      "basename": "3 Nerf-Pytorch代码",
+      "path": "AI/论文/Nerf/01 Nerf起源/3 Nerf-Pytorch代码.md"
+    },
+    {
+      "basename": "2 思路",
+      "path": "AI/论文/Nerf/01 Nerf起源/2 思路.md"
+    },
+    {
+      "basename": "1 论文：Nerf将场景表示为用于视图合成的神经辐射场",
+      "path": "AI/论文/Nerf/01 Nerf起源/1 论文：Nerf将场景表示为用于视图合成的神经辐射场.md"
+    },
+    {
+      "basename": "作业",
+      "path": "AI/作业/【todo】云计算/作业.md"
+    },
+    {
+      "basename": "作业",
+      "path": "AI/作业/【todo】研究写作/作业.md"
+    },
+    {
+      "basename": "作业",
+      "path": "AI/作业/【todo】人工智能/作业.md"
+    },
+    {
       "basename": "学术名词",
       "path": "AI/论文/知识库/学术名词.md"
+    },
+    {
+      "basename": "Anaconda配置",
+      "path": "AI/环境配置/Anaconda配置.md"
     },
     {
       "basename": "神经网络报告",
@@ -11,14 +67,6 @@
     {
       "basename": "《鱼书》",
       "path": "AI/深度学习/《鱼书》.md"
-    },
-    {
-      "basename": "思路",
-      "path": "AI/论文/Nerf/01 Nerf起源/思路.md"
-    },
-    {
-      "basename": "论文：Nerf将场景表示为用于视图合成的神经辐射场",
-      "path": "AI/论文/Nerf/01 Nerf起源/论文：Nerf将场景表示为用于视图合成的神经辐射场.md"
     },
     {
       "basename": "可微渲染、NeRF 相关技术概念急速入门",
@@ -37,20 +85,12 @@
       "path": "图形学/7 体渲染/03 正确处理Ray Marching.md"
     },
     {
-      "basename": "Anaconda配置",
-      "path": "AI/环境配置/Anaconda配置.md"
-    },
-    {
       "basename": "Numpy+Matplotlib",
       "path": "AI/Python/Numpy+Matplotlib.md"
     },
     {
       "basename": "Python基础",
       "path": "AI/Python/Python基础.md"
-    },
-    {
-      "basename": "三维重建方法",
-      "path": "AI/论文/知识库/三维重建方法.md"
     },
     {
       "basename": "04 三维密度场的体积渲染",
@@ -141,10 +181,6 @@
       "path": "引擎Unity3D/4 GamePlay/maco/M_Studio 教程.md"
     },
     {
-      "basename": "02 空间变换",
-      "path": "图形学/0 3D数学/公式推导/02 空间变换.md"
-    },
-    {
       "basename": "3 Renderer Feature",
       "path": "引擎Unity3D/3 URP精粹/3 Renderer Feature.md"
     },
@@ -163,42 +199,6 @@
     {
       "basename": "《CS Primer》",
       "path": "引擎Unity3D/1 Unity精粹/《CS Primer》.md"
-    },
-    {
-      "basename": "作业",
-      "path": "AI/作业/【todo】人工智能/作业.md"
-    },
-    {
-      "basename": "作业",
-      "path": "AI/作业/【todo】研究写作/作业.md"
-    },
-    {
-      "basename": "作业",
-      "path": "AI/作业/【todo】云计算/作业.md"
-    },
-    {
-      "basename": "11 曲线曲面几何",
-      "path": "图形学/1 图形系统/11 曲线曲面几何.md"
-    },
-    {
-      "basename": "10 色彩",
-      "path": "图形学/1 图形系统/10 色彩.md"
-    },
-    {
-      "basename": "09 阴影",
-      "path": "图形学/1 图形系统/09 阴影.md"
-    },
-    {
-      "basename": "08 透明",
-      "path": "图形学/1 图形系统/08 透明.md"
-    },
-    {
-      "basename": "07 混合和剔除",
-      "path": "图形学/1 图形系统/07 混合和剔除.md"
-    },
-    {
-      "basename": "06 深度测试",
-      "path": "图形学/1 图形系统/06 深度测试.md"
     }
   ],
   "omittedPaths": [],
