@@ -66183,6 +66183,7 @@ Ali
 Ando
 ApRYsSUCDHNt
 AKIoCAEgkEkin
+ADOP
 URL
 Utools
 Users
@@ -83560,6 +83561,7 @@ Ricci
 Rethinking
 Rematas
 Rupprecht
+Radix
 Microsoft
 Menu
 MicaForEveryone
@@ -90069,6 +90071,7 @@ Mandi
 Manus
 Markerless
 MBhqUIBGk
+Merrill
 Windows
 Win
 World
@@ -108579,6 +108582,7 @@ Pegasus
 Pokhariya
 PXweDAauqqr
 PZbDY
+Pulsar
 ContextMenuManager
 ClashVerge
 Clash
@@ -250629,6 +250633,7 @@ Girish
 Gupta
 Guan
 GJBLBZDJBs
+Grimshaw
 NULL
 Native
 NormalMap
