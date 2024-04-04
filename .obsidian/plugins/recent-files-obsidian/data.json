@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "环境配置",
+      "path": "AI/论文/3DGS/论文/3DGS起源/环境配置.md"
+    },
+    {
       "basename": "Anaconda配置",
       "path": "AI/环境配置/Anaconda配置.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "1 ShaderLab",
       "path": "引擎Unity3D/3 URP精粹/1 ShaderLab.md"
-    },
-    {
-      "basename": "《CS Primer》",
-      "path": "引擎Unity3D/1 Unity精粹/《CS Primer》.md"
     }
   ],
   "omittedPaths": [],
