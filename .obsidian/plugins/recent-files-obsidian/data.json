@@ -1,16 +1,20 @@
 {
   "recentFiles": [
     {
+      "basename": "1 《用于实时辐射场渲染的3D高斯泼溅》",
+      "path": "AI/论文/3DGS/论文/3DGS起源/1 《用于实时辐射场渲染的3D高斯泼溅》.md"
+    },
+    {
+      "basename": "1 《Nerf将场景表示为用于视图合成的神经辐射场》",
+      "path": "AI/论文/Nerf/01 Nerf起源/1 《Nerf将场景表示为用于视图合成的神经辐射场》.md"
+    },
+    {
       "basename": "三维高斯泼溅调查",
       "path": "AI/论文/3DGS/综述/三维高斯泼溅调查.md"
     },
     {
-      "basename": "3DGS 综述以及对 3DGS 的理解：A Survey on 3D Gaussian Splatting",
-      "path": "AI/论文/3DGS/综述/3DGS 综述以及对 3DGS 的理解：A Survey on 3D Gaussian Splatting.md"
-    },
-    {
-      "basename": "3DGS 综述以及对 3DGS 的理解：A Survey on 3D Gaussian Splatting _ Adventures in Kedreamix' Digital World",
-      "path": "AI/论文/3DGS/综述/3DGS 综述以及对 3DGS 的理解：A Survey on 3D Gaussian Splatting _ Adventures in Kedreamix' Digital World.md"
+      "basename": "未命名",
+      "path": "AI/论文/3DGS/论文/SuGaR/未命名.md"
     },
     {
       "basename": "02 空间变换",
@@ -35,10 +39,6 @@
     {
       "basename": "2 思路",
       "path": "AI/论文/Nerf/01 Nerf起源/2 思路.md"
-    },
-    {
-      "basename": "1 论文：Nerf将场景表示为用于视图合成的神经辐射场",
-      "path": "AI/论文/Nerf/01 Nerf起源/1 论文：Nerf将场景表示为用于视图合成的神经辐射场.md"
     },
     {
       "basename": "作业",
