@@ -77,7 +77,7 @@ banner_y: 0.5
 **Neural 3D shape representations（神经 3D 形状表示）** 最近的工作通过优化将 xyz 坐标映射到**有向距离场（SDF: signed distance functions）**[15,32] 或占用域（occupancy fields）[11,27] 的深度网络，研究了连续 3D 形状作为水平集（level sets）的隐式表示。然而，这些模型受限于其对真实（ground truth）3D 几何结构的获取要求，通常从合成 3D 形状数据集（如 ShapeNet[3]）获得。随后的工作通过制定可差分渲染函数来放宽 ground truth 3D 形状的这一要求，该函数允许仅使用 2D 图像来优化神经隐式形状表示 (neural implicit shape representations)。Niemeyer 等人 [29] 将表面表示为 3D 占用场（3D occupancy fields），并使用数值方法找到每条射线的表面交点，然后使用隐式微分计算精确导数。每个光线相交位置（ray intersection location）都作为神经 3D 纹理场（a neural 3D texture field）的输入提供，该纹理场预测该点的漫反射颜色。Sitzmann 等人 [42] 使用了一种不太直接的神经 3D 表示法，简单地在每个连续的 3D 坐标处输出一个特征向量和 RGB 颜色，并提出了一种可微分的渲染函数，该函数由沿每条光线步进的循环神经网络（RNN）组成，以确定表面的位置。
 
 >有向距离场SDF：每个像素（体素）记录自己与距离自己最近物体之间的距离，如果在物体内，则距离为负，正好在物体边界上则为0。
-- ? 水平集 level sets？
+
 尽管这些技术可能潜在地表示复杂和高分辨率的几何体，但迄今为止，它们仅限于几何复杂度较低的简单形状，导致渲染过度平滑。**我们展示了优化网络以编码 5D 辐射场（optimizing networks to encode 5D radiance fields）（具有 2D 视角相关的外观的 3D 体积）的替代策略可以代表更高分辨率的几何形状和外观，以渲染复杂场景的照片级真实感新视图。**
 
 **View synthesis and image-based rendering（视图合成和基于图像的渲染）**：给定稠密的视图采样，可以通过简单的光场采样插值（light field sample interpolation）技术重建照片级真实感的新视图 [21,5,7]。对于具有稀疏视图采样 (sparser view sampling) 的新视图合成，计算机视觉和图形社区通过从观察到的图像中预测传统的几何和外观表示而取得了重大进展。一类流行的方法使用基于网格（mesh-based）的场景表示，具有漫反射 [48] 或视图相关（view-dependent） [2,8,49] 外观。可微光栅化器（Differentiable rasterizers）[4,10,23,25]或路径跟踪器（pathtracers）[22,30]可以直接优化网格表示，以使用梯度下降再现一组输入图像。然而，基于图像重投影（image reprojection）的梯度网格优化（gradient-based mesh optimization）通常很困难，可能是因为局部极小值或损失情况（loss landscape）的条件较差。此外，该策略要求在优化之前提供具有固定拓扑的模板网格（a template mesh）作为初始化 [22]，这通常不适用于无约束的真实场景（unconstrained real-world scenes）。
