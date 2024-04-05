@@ -9,7 +9,7 @@ date:
 DOI: 
 url:
   - https://arxiv.org/abs/2311.12775
-banner: "[[Pasted image 20240404161458.png]]"
+banner: "[[attack.gif]]"
 ---
 作者主页：[Antoine Guédon (anttwo.github.io)](https://anttwo.github.io/)
 
@@ -17,7 +17,7 @@ banner: "[[Pasted image 20240404161458.png]]"
 
 SuGaR： 用于高效 3D Mesh 重建和高质量 Mesh 渲染的**曲面对齐的高斯泼溅**
 
-本问将 surface 译为曲面，将 Mesh 翻译为 Mesh 
+本问将 surface 译为曲面，将 Mesh 翻译为网格 
 
 > [!abstract] 
 我们提出了一种方法，可以从3D GS中精确、快速地提取 Mesh。高斯泼溅最近非常流行，因为它能产生逼真的渲染效果，同时训练速度明显快于 NeRFs。然而，从数百万个微小的三维高斯中提取 Mesh 是一项挑战，因为这些高斯在优化后往往是无序的，而且迄今为止还没有提出任何方法。
