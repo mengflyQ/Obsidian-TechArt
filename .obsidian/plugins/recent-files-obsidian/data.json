@@ -1,16 +1,24 @@
 {
   "recentFiles": [
     {
-      "basename": "cuda环境转换",
-      "path": "AI/环境配置/cuda环境转换.md"
+      "basename": "运行",
+      "path": "AI/论文/3DGS/论文/02 SuGaR/运行.md"
+    },
+    {
+      "basename": "环境配置",
+      "path": "AI/论文/3DGS/论文/01 3DGS起源/环境配置.md"
     },
     {
       "basename": "Anaconda配置",
       "path": "AI/环境配置/Anaconda配置.md"
     },
     {
-      "basename": "运行",
-      "path": "AI/论文/3DGS/论文/02 SuGaR/运行.md"
+      "basename": "模型参数解析",
+      "path": "AI/机器学习/模型参数解析.md"
+    },
+    {
+      "basename": "cuda环境转换",
+      "path": "AI/环境配置/cuda环境转换.md"
     },
     {
       "basename": "《SuGaR：曲面对齐的高斯泼溅》",
@@ -39,10 +47,6 @@
     {
       "basename": "三维高斯泼溅调查",
       "path": "AI/论文/3DGS/综述/三维高斯泼溅调查.md"
-    },
-    {
-      "basename": "环境配置",
-      "path": "AI/论文/3DGS/论文/01 3DGS起源/环境配置.md"
     },
     {
       "basename": "代码解析",
@@ -159,10 +163,6 @@
     {
       "basename": "动手学DL",
       "path": "AI/深度学习/动手学DL.md"
-    },
-    {
-      "basename": "模型参数解析",
-      "path": "AI/机器学习/模型参数解析.md"
     },
     {
       "basename": "01 渲染管线",
