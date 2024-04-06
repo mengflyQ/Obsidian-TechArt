@@ -5036,6 +5036,7 @@ outperforms
 overcome
 observational
 organizing
+octahedral
 OneDrive
 Obsidian
 Office
@@ -11142,6 +11143,7 @@ Ouyang
 Ortiz
 ORqN
 OozU
+OpenAI
 codeup
 clash
 ctrl
@@ -17297,6 +17299,8 @@ cwTZPwPH
 cDjEer
 checkpoint
 collisions
+concentration
+cuculori
 github
 grey
 green
@@ -22544,6 +22548,7 @@ gpus
 gaze
 gaussians
 generalizable
+goniorereflectometer
 typora
 todo
 tooltip
@@ -28149,6 +28154,8 @@ topologically
 tXVxheKA
 toolkit
 teaser
+transcendental
+trilight
 markdown
 matter
 mod
@@ -33914,6 +33921,8 @@ motions
 multimodal
 multiscale
 masks
+mlWJ
+meridian
 windows
 win
 width
@@ -39007,6 +39016,7 @@ wQAfN
 wAAAABJRU
 warm
 webpage
+windowing
 utools
 url
 unresolved
@@ -49961,6 +49971,8 @@ effectiveness
 extras
 emsp
 extractors
+eghlil
+exploitation
 VPN
 Verge
 VS
@@ -66197,6 +66209,9 @@ AKIoCAEgkEkin
 ADOP
 Antoine
 Adapt
+Astronaut
+ASG
+AlphaStar
 URL
 Utools
 Users
@@ -77345,6 +77360,7 @@ acceptance
 aXRoIFRoZSBHSU
 aTqe
 aptitude
+arccosine
 Roaming
 RegWorkshop
 Release
@@ -83579,6 +83595,9 @@ Rematas
 Rupprecht
 Radix
 ROOT
+Revie
+Replan
+Rewards
 Microsoft
 Menu
 MicaForEveryone
@@ -90089,6 +90108,14 @@ Manus
 Markerless
 MBhqUIBGk
 Merrill
+Mises
+Marquardt
+Mercator
+McCool
+Mead
+McAuley
+McAllister
+MCTS
 Windows
 Win
 World
@@ -102564,6 +102591,11 @@ Samangouei
 Sharma
 SIBR
 SuGaR
+Snyder
+Stoke
+SRBF
+Seidel
+Scheuermann
 Programs
 POP
 PC
@@ -108604,6 +108636,11 @@ PXweDAauqqr
 PZbDY
 Pulsar
 Ponts
+Picott
+Pixologic
+Preetham
+Parker
+Photographic
 ContextMenuManager
 ClashVerge
 Clash
@@ -114919,6 +114956,8 @@ Charatan
 Compressing
 Chou
 CNRS
+Colbert
+Crewdson
 ImTip
 IMAP
 ID
@@ -120871,6 +120910,7 @@ Inverting
 Installer
 Improvement
 Installation
+Irwin
 qq
 qyi
 quad
@@ -132312,6 +132352,10 @@ priori
 playroom
 postprocessed
 precomputed
+pulsating
+paraboloid
+prefiltered
+planner
 nodesCatch
 nobr
 navy
@@ -142774,6 +142818,7 @@ billion
 bodies
 bandwidthTest
 backgrounds
+biclustering
 fe
 front
 fill
@@ -154097,6 +154142,7 @@ dEAP
 dTgeSJD
 deviceQuery
 dukemon
+dice
 TFvYZOKeHL
 TAB
 TeX
@@ -160069,6 +160115,7 @@ Tanks
 Temples
 Treehill
 Temple
+Technician
 io
 ipad
 it
@@ -166219,6 +166266,8 @@ imagery
 imap
 icomma
 iRHSR
+invariance
+isocube
 shift
 svg
 sf
@@ -172740,6 +172789,7 @@ superiority
 slam
 surrounding
 splat
+statistic
 local
 list
 left
@@ -178032,6 +178082,7 @@ lbnQAQ
 lAGg
 lyuD
 libnvvp
+lightcuts
 YAML
 You
 YEBAYGhURFRofHx
@@ -188489,6 +188540,7 @@ humans
 holistic
 hEoRDhtDWdA
 hmGgXq
+honeycombs
 rgb
 right
 rm
@@ -194356,6 +194408,10 @@ relighting
 relightable
 reprojects
 reconstructions
+runner
+replan
+reinforcement
+reward
 XXXXXX
 XXX
 XML
@@ -205113,6 +205169,8 @@ Hexplane
 Humannerf
 Hilsmann
 HAOVy
+Habel
+Hunter
 Bbb
 Bear
 Base
@@ -210487,6 +210545,9 @@ Barthel
 Bonopera
 BakedSDF
 BibTeX
+Bingham
+Boyd
+Backpropagate
 Fraktur
 Frame
 Foo
@@ -222909,6 +222970,9 @@ Eagles
 Esul
 Ecole
 Eiffel
+Equipment
+Electrical
+Expansion
 xmlns
 xyz
 xy
@@ -238547,6 +238611,9 @@ Domae
 DsixYlgVN
 DrJohnson
 DeepBlending
+Driscoll
+Debevec
+DeepMind
 LNK
 Log
 Linux
@@ -244246,6 +244313,9 @@ Langsplat
 LwhOpcWxTjeUunYqOmqd
 Lsmir
 LIGM
+Lecocq
+Levenberg
+Luksch
 Getx
 GetX
 GetName
@@ -250688,6 +250758,15 @@ Guan
 GJBLBZDJBs
 Grimshaw
 Gustave
+Gershun
+Gereitz
+Gautron
+Ghosh
+Goanda
+Grace
+Gregory
+Goal
+GOAP
 NULL
 Native
 NormalMap
@@ -256239,6 +256318,7 @@ NrquXxeLRQAAwzAYj
 NeRFMeshing
 NVCUDA
 NVCUDASAMPLES
+Nelder
 ZooAnima
 ZooAnimal
 ZTest
@@ -261934,6 +262014,7 @@ Zhai
 Zong
 ZhTiRJgqIoVBRFIoric
 ZpSSn
+Zernike
 Quote
 Quiet
 Quick
@@ -278440,6 +278521,7 @@ Kulkarni
 KGgoAAAANSUhEUgAAAAsAAAAOCAYAAAD
 KxWAXAL
 Kellogg
+Krivanek
 key
 kSC
 keaXj
@@ -289073,6 +289155,7 @@ zmi
 zkvM
 zCUa
 zjwfZ
+zonal
 jpg
 just
 juLeSXlIAVEiJIzRbMP
