@@ -5037,6 +5037,7 @@ overcome
 observational
 organizing
 octahedral
+ordinate
 OneDrive
 Obsidian
 Office
@@ -17301,6 +17302,7 @@ checkpoint
 collisions
 concentration
 cuculori
+chart
 github
 grey
 green
@@ -22549,6 +22551,9 @@ gaze
 gaussians
 generalizable
 goniorereflectometer
+gathering
+gutter
+gracefully
 typora
 todo
 tooltip
@@ -33923,6 +33928,7 @@ multiscale
 masks
 mlWJ
 meridian
+monochrome
 windows
 win
 width
@@ -49973,6 +49979,7 @@ emsp
 extractors
 eghlil
 exploitation
+equality
 VPN
 Verge
 VS
@@ -66212,6 +66219,7 @@ Adapt
 Astronaut
 ASG
 AlphaStar
+Arikan
 URL
 Utools
 Users
@@ -71825,6 +71833,7 @@ Upadhyay
 Ultra
 Univ
 Updates
+Uludag
 api
 ac
 app
@@ -77361,6 +77370,7 @@ aXRoIFRoZSBHSU
 aTqe
 aptitude
 arccosine
+accessibility
 Roaming
 RegWorkshop
 Release
@@ -90116,6 +90126,8 @@ Mead
 McAuley
 McAllister
 MCTS
+Malmer
+McLaren
 Windows
 Win
 World
@@ -102596,6 +102608,14 @@ Stoke
 SRBF
 Seidel
 Scheuermann
+Stewart
+Swoboda
+Shanmugam
+SSDF
+Shopf
+Stefanov
+Sugden
+Silvennoinen
 Programs
 POP
 PC
@@ -108641,6 +108661,7 @@ Pixologic
 Preetham
 Parker
 Photographic
+Pirates
 ContextMenuManager
 ClashVerge
 Clash
@@ -114958,6 +114979,13 @@ Chou
 CNRS
 Colbert
 Crewdson
+Covariance
+Caribbean
+Crassin
+Cupisz
+Cichocki
+Codex
+Compendium
 ImTip
 IMAP
 ID
@@ -142819,6 +142847,7 @@ bodies
 bandwidthTest
 backgrounds
 biclustering
+bent
 fe
 front
 fill
@@ -148152,6 +148181,7 @@ fPZNCKFapUn
 fJZlqWlUonKsvwWwD
 fBwB
 fWrb
+frustration
 dd
 dcc
 data
@@ -160116,6 +160146,7 @@ Temples
 Treehill
 Temple
 Technician
+Timonen
 io
 ipad
 it
@@ -166268,6 +166299,7 @@ icomma
 iRHSR
 invariance
 isocube
+imperfect
 shift
 svg
 sf
@@ -172790,6 +172822,10 @@ slam
 surrounding
 splat
 statistic
+squares
+seam
+splatted
+spatiotemporal
 local
 list
 left
@@ -205171,6 +205207,8 @@ Hilsmann
 HAOVy
 Habel
 Hunter
+Hoberock
+Hooker
 Bbb
 Bear
 Base
@@ -210548,6 +210586,8 @@ BibTeX
 Bingham
 Boyd
 Backpropagate
+Birn
+Bunnell
 Fraktur
 Frame
 Foo
@@ -216773,6 +216813,8 @@ FYHFwv
 FVVVvz
 FweG
 Flowers
+Filion
+Ferguson
 Element
 Entity
 Enity
@@ -238614,6 +238656,8 @@ DeepBlending
 Driscoll
 Debevec
 DeepMind
+Dust
+Dutre
 LNK
 Log
 Linux
@@ -244316,6 +244360,12 @@ LIGM
 Lecocq
 Levenberg
 Luksch
+LSDE
+LSDSSE
+Langer
+Loos
+LDPRT
+Lehtinen
 Getx
 GetX
 GetName
@@ -250767,6 +250817,11 @@ Grace
 Gregory
 Goal
 GOAP
+Garawany
+Gilabert
+Geomerics
+Greger
+Grenier
 NULL
 Native
 NormalMap
@@ -256319,6 +256374,7 @@ NeRFMeshing
 NVCUDA
 NVCUDASAMPLES
 Nelder
+Narkowicz
 ZooAnima
 ZooAnimal
 ZTest
@@ -262015,6 +262071,7 @@ Zong
 ZhTiRJgqIoVBRFIoric
 ZpSSn
 Zernike
+Zhukov
 Quote
 Quiet
 Quick
@@ -273201,6 +273258,8 @@ Jain
 Jena
 Johari
 JlYXRlZCB
+Jeremy
+Jendersie
 Ke
 KjpKWmp
 KYW
@@ -278522,6 +278581,9 @@ KGgoAAAANSUhEUgAAAAsAAAAOCAYAAAD
 KxWAXAL
 Kellogg
 Krivanek
+Kontkanen
+Klehm
+Kristensen
 key
 kSC
 keaXj
