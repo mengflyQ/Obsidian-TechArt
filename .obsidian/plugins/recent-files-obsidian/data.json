@@ -1,12 +1,20 @@
 {
   "recentFiles": [
     {
-      "basename": "3DGS相关数学",
-      "path": "AI/论文/3DGS/3DGS相关数学.md"
-    },
-    {
       "basename": "总结",
       "path": "AI/论文/3DGS/论文/01 3DGS起源/总结.md"
+    },
+    {
+      "basename": "《用于实时辐射场渲染的3D高斯泼溅》",
+      "path": "AI/论文/3DGS/论文/01 3DGS起源/《用于实时辐射场渲染的3D高斯泼溅》.md"
+    },
+    {
+      "basename": "代码解析",
+      "path": "AI/论文/3DGS/论文/01 3DGS起源/代码解析.md"
+    },
+    {
+      "basename": "3DGS相关数学",
+      "path": "AI/论文/3DGS/3DGS相关数学.md"
     },
     {
       "basename": "05 环境光照IBL",
@@ -15,10 +23,6 @@
     {
       "basename": "概率论与数理统计",
       "path": "Math/概率论/概率论与数理统计.md"
-    },
-    {
-      "basename": "《用于实时辐射场渲染的3D高斯泼溅》",
-      "path": "AI/论文/3DGS/论文/01 3DGS起源/《用于实时辐射场渲染的3D高斯泼溅》.md"
     },
     {
       "basename": "实时渲染高级特性开发",
@@ -111,14 +115,6 @@
     {
       "basename": "04-Rendering on Game Engine - Bo's Blog",
       "path": "图形学/4 书籍/GAMES系列/104现代游戏引擎：从入门到实践/2 渲染系统/04-Rendering on Game Engine - Bo's Blog.md"
-    },
-    {
-      "basename": "配置",
-      "path": "AI/论文/3DGS/论文/01 3DGS起源/配置.md"
-    },
-    {
-      "basename": "代码解析",
-      "path": "AI/论文/3DGS/论文/01 3DGS起源/代码解析.md"
     },
     {
       "basename": "未命名",
