@@ -5,16 +5,20 @@
       "path": "AI/论文/3DGS/论文/01 3DGS起源/总结.md"
     },
     {
+      "basename": "学术名词",
+      "path": "AI/论文/知识库/学术名词.md"
+    },
+    {
       "basename": "《用于实时辐射场渲染的3D高斯泼溅》",
       "path": "AI/论文/3DGS/论文/01 3DGS起源/《用于实时辐射场渲染的3D高斯泼溅》.md"
     },
     {
-      "basename": "代码解析",
-      "path": "AI/论文/3DGS/论文/01 3DGS起源/代码解析.md"
-    },
-    {
       "basename": "3DGS相关数学",
       "path": "AI/论文/3DGS/3DGS相关数学.md"
+    },
+    {
+      "basename": "代码解析",
+      "path": "AI/论文/3DGS/论文/01 3DGS起源/代码解析.md"
     },
     {
       "basename": "05 环境光照IBL",
@@ -55,10 +59,6 @@
     {
       "basename": "Chapter 10 Local Illumination 局部光照",
       "path": "图形学/4 书籍/RTR4社区版/Chapter 10 Local Illumination 局部光照.md"
-    },
-    {
-      "basename": "学术名词",
-      "path": "AI/论文/知识库/学术名词.md"
     },
     {
       "basename": "PBRT3",
