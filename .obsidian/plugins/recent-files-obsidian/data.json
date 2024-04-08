@@ -1,16 +1,28 @@
 {
   "recentFiles": [
     {
-      "basename": "学术名词",
-      "path": "AI/论文/知识库/学术名词.md"
+      "basename": "《Gaussian Frosting》",
+      "path": "AI/论文/3DGS/论文/03 Gaussian Frosting/《Gaussian Frosting》.md"
     },
     {
-      "basename": "《用于实时辐射场渲染的3D高斯泼溅》",
-      "path": "AI/论文/3DGS/论文/01 3DGS起源/《用于实时辐射场渲染的3D高斯泼溅》.md"
+      "basename": "《SuGaR》",
+      "path": "AI/论文/3DGS/论文/02 SuGaR/《SuGaR》.md"
+    },
+    {
+      "basename": "《3D Gaussian Splatting》",
+      "path": "AI/论文/3DGS/论文/01 3DGS起源/《3D Gaussian Splatting》.md"
     },
     {
       "basename": "总结",
       "path": "AI/论文/3DGS/论文/01 3DGS起源/总结.md"
+    },
+    {
+      "basename": "运行",
+      "path": "AI/论文/3DGS/论文/02 SuGaR/运行.md"
+    },
+    {
+      "basename": "学术名词",
+      "path": "AI/论文/知识库/学术名词.md"
     },
     {
       "basename": "3DGS相关数学",
@@ -113,20 +125,8 @@
       "path": "图形学/4 书籍/GAMES系列/104现代游戏引擎：从入门到实践/2 渲染系统/04-Rendering on Game Engine - Bo's Blog.md"
     },
     {
-      "basename": "未命名",
-      "path": "AI/论文/3DGS/论文/03 Gaussian Frosting/未命名.md"
-    },
-    {
       "basename": "三维高斯泼溅调查",
       "path": "AI/论文/3DGS/综述/三维高斯泼溅调查.md"
-    },
-    {
-      "basename": "运行",
-      "path": "AI/论文/3DGS/论文/02 SuGaR/运行.md"
-    },
-    {
-      "basename": "《SuGaR：曲面对齐的高斯泼溅》",
-      "path": "AI/论文/3DGS/论文/02 SuGaR/《SuGaR：曲面对齐的高斯泼溅》.md"
     },
     {
       "basename": "Anaconda配置",
