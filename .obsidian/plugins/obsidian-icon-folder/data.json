@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": "#bfbfbf",
     "recentlyUsedIcons": [
+      "LiPaperclip",
+      "SiArxiv",
+      "TiArticle",
       "SiAirbnb",
-      "TiPhotoAi",
-      "IbStar",
-      "SiBlender",
-      "TiGraph"
+      "TiPhotoAi"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -41,5 +41,6 @@
   "zip/留学": "TiSchool",
   "DCC/02 Blender": "SiBlender",
   "虚幻引擎": "SiUnrealengine",
-  "AI": "SiAirbnb"
+  "AI": "SiAirbnb",
+  "论文": "LiPaperclip"
 }

@@ -49981,6 +49981,7 @@ extractors
 eghlil
 exploitation
 equality
+enforces
 VPN
 Verge
 VS
@@ -132389,6 +132390,7 @@ paraboloid
 prefiltered
 planner
 parameterize
+prismatic
 nodesCatch
 nobr
 navy
@@ -148190,6 +148192,7 @@ fBwB
 fWrb
 frustration
 fuzzier
+floater
 dd
 dcc
 data
@@ -172836,6 +172839,7 @@ seam
 splatted
 spatiotemporal
 supplementary
+stability
 local
 list
 left
@@ -194460,6 +194464,7 @@ reinforcement
 reward
 rigging
 restricts
+rescaling
 XXXXXX
 XXX
 XML
@@ -238674,6 +238679,7 @@ Debevec
 DeepMind
 Dust
 Dutre
+Deforming
 LNK
 Log
 Linux
@@ -256391,6 +256397,7 @@ NVCUDA
 NVCUDASAMPLES
 Nelder
 Narkowicz
+NeRFSynthetic
 ZooAnima
 ZooAnimal
 ZTest
