@@ -9,6 +9,18 @@
       "path": "AI/论文/3DGS/论文/02 SuGaR/《SuGaR》.md"
     },
     {
+      "basename": "3DGS相关数学",
+      "path": "AI/论文/3DGS/3DGS相关数学.md"
+    },
+    {
+      "basename": "灵感",
+      "path": "AI/论文/灵感.md"
+    },
+    {
+      "basename": "方向",
+      "path": "AI/论文/方向.md"
+    },
+    {
       "basename": "《3D Gaussian Splatting》",
       "path": "AI/论文/3DGS/论文/01 3DGS起源/《3D Gaussian Splatting》.md"
     },
@@ -23,10 +35,6 @@
     {
       "basename": "学术名词",
       "path": "AI/论文/知识库/学术名词.md"
-    },
-    {
-      "basename": "3DGS相关数学",
-      "path": "AI/论文/3DGS/3DGS相关数学.md"
     },
     {
       "basename": "05 环境光照IBL",

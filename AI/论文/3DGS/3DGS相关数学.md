@@ -28,7 +28,6 @@ positive semi-definite 半正定
 
 **协方差矩阵是半正定的**
 
-
 # 3D Gaussian
 
 ## 1D 高斯
