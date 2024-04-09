@@ -1,6 +1,22 @@
 {
   "recentFiles": [
     {
+      "basename": "《GaussianEditor》",
+      "path": "论文/3DGS/三维重建/04 GaussianEditor/《GaussianEditor》.md"
+    },
+    {
+      "basename": "《3D Gaussian Splatting》",
+      "path": "论文/3DGS/三维重建/01 3DGS起源/《3D Gaussian Splatting》.md"
+    },
+    {
+      "basename": "《SuGaR》",
+      "path": "论文/3DGS/三维重建/02 SuGaR/《SuGaR》.md"
+    },
+    {
+      "basename": "《Gaussian Frosting》",
+      "path": "论文/3DGS/三维重建/03 Gaussian Frosting/《Gaussian Frosting》.md"
+    },
+    {
       "basename": "3DGS相关数学",
       "path": "论文/3DGS/3DGS相关数学.md"
     },
@@ -9,20 +25,8 @@
       "path": "论文/3DGS/3DGS理论.md"
     },
     {
-      "basename": "《SuGaR》",
-      "path": "论文/3DGS/三维重建/02 SuGaR/《SuGaR》.md"
-    },
-    {
       "basename": "运行",
       "path": "论文/3DGS/三维重建/02 SuGaR/运行.md"
-    },
-    {
-      "basename": "《3D Gaussian Splatting》",
-      "path": "论文/3DGS/三维重建/01 3DGS起源/《3D Gaussian Splatting》.md"
-    },
-    {
-      "basename": "《Gaussian Frosting》",
-      "path": "论文/3DGS/三维重建/03 Gaussian Frosting/《Gaussian Frosting》.md"
     },
     {
       "basename": "05 环境光照IBL",
