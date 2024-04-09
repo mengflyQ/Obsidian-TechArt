@@ -1,160 +1,204 @@
 {
   "recentFiles": [
     {
-      "basename": "《GaussianEditor》",
-      "path": "论文/3DGS/三维重建/04 GaussianEditor/《GaussianEditor》.md"
+      "basename": "6 Effective Modern C++",
+      "path": "编程/1 C++/6 Effective Modern C++.md"
     },
     {
-      "basename": "《3D Gaussian Splatting》",
-      "path": "论文/3DGS/三维重建/01 3DGS起源/《3D Gaussian Splatting》.md"
+      "basename": "6 Effective Modern C++笔记",
+      "path": "编程/1 C++/6 Effective Modern C++笔记.md"
     },
     {
-      "basename": "《SuGaR》",
-      "path": "论文/3DGS/三维重建/02 SuGaR/《SuGaR》.md"
+      "basename": "1 C++ Primer",
+      "path": "编程/1 C++/1 C++ Primer.md"
     },
     {
-      "basename": "《Gaussian Frosting》",
-      "path": "论文/3DGS/三维重建/03 Gaussian Frosting/《Gaussian Frosting》.md"
+      "basename": "工具流",
+      "path": "Tools/工具流.md"
     },
     {
-      "basename": "3DGS相关数学",
-      "path": "论文/3DGS/3DGS相关数学.md"
+      "basename": "01 C++八股",
+      "path": "编程/7 校招/01 C++八股.md"
     },
     {
-      "basename": "3DGS理论",
-      "path": "论文/3DGS/3DGS理论.md"
+      "basename": "3 模板",
+      "path": "编程/1 C++/3 模板.md"
     },
     {
-      "basename": "运行",
-      "path": "论文/3DGS/三维重建/02 SuGaR/运行.md"
+      "basename": "5 Effective C++",
+      "path": "编程/1 C++/5 Effective C++.md"
     },
     {
-      "basename": "05 环境光照IBL",
-      "path": "图形学/3 全局光照GI/05 环境光照IBL.md"
+      "basename": "simpread-一篇文章学完 Effective C++：条款 & 实践",
+      "path": "编程/1 C++/simpread-一篇文章学完 Effective C++：条款 & 实践.md"
     },
     {
-      "basename": "概率论与数理统计",
-      "path": "Math/概率论/概率论与数理统计.md"
+      "basename": "插件流",
+      "path": "Tools/Obsidian/插件流.md"
     },
     {
-      "basename": "实时渲染高级特性开发",
-      "path": "引擎Unity3D/收藏夹/实时渲染高级特性开发.md"
+      "basename": "Lua Primer",
+      "path": "虚幻引擎/02 UE++/热更新/Lua Primer.md"
     },
     {
-      "basename": "Chapter 11 Global Illumination 全局光照",
-      "path": "图形学/4 书籍/RTR4社区版/Chapter 11 Global Illumination 全局光照.md"
+      "basename": "代码大全2",
+      "path": "编程/1 C++/代码大全2.md"
     },
     {
-      "basename": "02 空间变换",
-      "path": "图形学/0 3D数学/公式推导/02 空间变换.md"
+      "basename": "3 LeetCode刷题笔记",
+      "path": "编程/2 算法/3 LeetCode刷题笔记.md"
     },
     {
-      "basename": "线性代数基础",
-      "path": "Math/线性代数/线性代数基础.md"
+      "basename": "TODO",
+      "path": "编程/1 C++/TODO.md"
     },
     {
-      "basename": "矩阵论",
-      "path": "Math/线性代数/矩阵论.md"
+      "basename": "README",
+      "path": "README.md"
     },
     {
-      "basename": "Chapter 10 Local Illumination 局部光照",
-      "path": "图形学/4 书籍/RTR4社区版/Chapter 10 Local Illumination 局部光照.md"
+      "basename": "1 数据结构",
+      "path": "编程/2 算法/1 数据结构.md"
     },
     {
-      "basename": "PBRT3",
-      "path": "图形学/4 书籍/PBRT/PBRT3.md"
+      "basename": "05 面经",
+      "path": "编程/7 校招/05 面经.md"
     },
     {
-      "basename": "14 工业界主流方法",
-      "path": "图形学/4 书籍/GAMES系列/202高质量实时渲染/14 工业界主流方法.md"
+      "basename": "06 算法",
+      "path": "编程/7 校招/06 算法.md"
     },
     {
-      "basename": "13 实时光追2",
-      "path": "图形学/4 书籍/GAMES系列/202高质量实时渲染/13 实时光追2.md"
+      "basename": "04 计网",
+      "path": "编程/7 校招/04 计网.md"
     },
     {
-      "basename": "12 实时光追1",
-      "path": "图形学/4 书籍/GAMES系列/202高质量实时渲染/12 实时光追1.md"
+      "basename": "03 操作系统",
+      "path": "编程/7 校招/03 操作系统.md"
     },
     {
-      "basename": "GAMES104 课程笔记 17-Advanced Artificial Intelligence - Bo's Blog",
-      "path": "图形学/4 书籍/GAMES系列/104现代游戏引擎：从入门到实践/7 GamePlay/GAMES104 课程笔记 17-Advanced Artificial Intelligence - Bo's Blog.md"
+      "basename": "02 引擎八股",
+      "path": "编程/7 校招/02 引擎八股.md"
     },
     {
-      "basename": "GAMES104 课程笔记 15-Gameplay Complexity and Building Blocks - Bo's Blog",
-      "path": "图形学/4 书籍/GAMES系列/104现代游戏引擎：从入门到实践/7 GamePlay/GAMES104 课程笔记 15-Gameplay Complexity and Building Blocks - Bo's Blog.md"
+      "basename": "1 GamePlay精粹",
+      "path": "虚幻引擎/02 UE++/1 GamePlay精粹.md"
     },
     {
-      "basename": "GAMES104 课程笔记 13-Foundation of Tool Chains - Bo's Blog",
-      "path": "图形学/4 书籍/GAMES系列/104现代游戏引擎：从入门到实践/6 工具链/GAMES104 课程笔记 13-Foundation of Tool Chains - Bo's Blog.md"
+      "basename": "2 STL标准库",
+      "path": "编程/1 C++/2 STL标准库.md"
     },
     {
-      "basename": "GAMES104 课程笔记 12-Effects - Bo's Blog",
-      "path": "图形学/4 书籍/GAMES系列/104现代游戏引擎：从入门到实践/5 粒子和音效系统/GAMES104 课程笔记 12-Effects - Bo's Blog.md"
+      "basename": "1 UE网络精粹",
+      "path": "虚幻引擎/06 网络/1 UE网络精粹.md"
     },
     {
-      "basename": "GAMES104 课程笔记 11-Applications in Physics System - Bo's Blog",
-      "path": "图形学/4 书籍/GAMES系列/104现代游戏引擎：从入门到实践/4 物理系统/GAMES104 课程笔记 11-Applications in Physics System - Bo's Blog.md"
+      "basename": "5 指针",
+      "path": "虚幻引擎/02 UE++/5 指针.md"
     },
     {
-      "basename": "GAMES104 课程笔记 10-Basics Concepts in Physics System - Bo's Blog",
-      "path": "图形学/4 书籍/GAMES系列/104现代游戏引擎：从入门到实践/4 物理系统/GAMES104 课程笔记 10-Basics Concepts in Physics System - Bo's Blog.md"
+      "basename": "4 委托",
+      "path": "虚幻引擎/02 UE++/4 委托.md"
     },
     {
-      "basename": "GAMES104 课程笔记 09-Advanced Animation Technology - Bo's Blog",
-      "path": "图形学/4 书籍/GAMES系列/104现代游戏引擎：从入门到实践/3 动画系统/GAMES104 课程笔记 09-Advanced Animation Technology - Bo's Blog.md"
+      "basename": "3 容器",
+      "path": "虚幻引擎/02 UE++/3 容器.md"
     },
     {
-      "basename": "GAMES104 课程笔记 08-Basics of Animation Technology - Bo's Blog",
-      "path": "图形学/4 书籍/GAMES系列/104现代游戏引擎：从入门到实践/3 动画系统/GAMES104 课程笔记 08-Basics of Animation Technology - Bo's Blog.md"
+      "basename": "2 类型",
+      "path": "虚幻引擎/02 UE++/2 类型.md"
     },
     {
-      "basename": "05-Lighting_ Materials and Shaders - Bo's Blog",
-      "path": "图形学/4 书籍/GAMES系列/104现代游戏引擎：从入门到实践/2 渲染系统/05-Lighting_ Materials and Shaders - Bo's Blog.md"
+      "basename": "0 蓝图精粹",
+      "path": "虚幻引擎/02 UE++/0 蓝图精粹.md"
     },
     {
-      "basename": "04-Rendering on Game Engine - Bo's Blog",
-      "path": "图形学/4 书籍/GAMES系列/104现代游戏引擎：从入门到实践/2 渲染系统/04-Rendering on Game Engine - Bo's Blog.md"
+      "basename": "GASRPG 笔记",
+      "path": "虚幻引擎/03 Gameplay/GAS/GASRPG 笔记.md"
     },
     {
-      "basename": "Anaconda配置",
-      "path": "AI/环境配置/Anaconda配置.md"
+      "basename": "GAS精粹",
+      "path": "虚幻引擎/03 Gameplay/GAS/GAS精粹.md"
     },
     {
-      "basename": "模型参数解析",
-      "path": "AI/机器学习/模型参数解析.md"
+      "basename": "1 Gameplay架构",
+      "path": "虚幻引擎/03 Gameplay/《insider UE》/1 Gameplay架构.md"
     },
     {
-      "basename": "cuda环境转换",
-      "path": "AI/环境配置/cuda环境转换.md"
+      "basename": "MVC",
+      "path": "编程/3 设计模式/MVC.md"
     },
     {
-      "basename": "01 体积渲染入门",
-      "path": "图形学/7 体渲染/01 体积渲染入门.md"
+      "basename": "工厂模式",
+      "path": "编程/3 设计模式/工厂模式.md"
     },
     {
-      "basename": "07 混合和剔除",
-      "path": "图形学/1 图形系统/07 混合和剔除.md"
+      "basename": "单例模式总结",
+      "path": "编程/3 设计模式/单例模式总结.md"
     },
     {
-      "basename": "作业",
-      "path": "AI/作业/【todo】云计算/作业.md"
+      "basename": "08 八：并行与并发",
+      "path": "虚幻引擎/03 Gameplay/《大象无形》/08 八：并行与并发.md"
     },
     {
-      "basename": "作业",
-      "path": "AI/作业/【todo】研究写作/作业.md"
+      "basename": "11 十一：UObject (二)",
+      "path": "虚幻引擎/03 Gameplay/《大象无形》/11 十一：UObject (二).md"
     },
     {
-      "basename": "作业",
-      "path": "AI/作业/【todo】人工智能/作业.md"
+      "basename": "10 十：UObject (一)",
+      "path": "虚幻引擎/03 Gameplay/《大象无形》/10 十：UObject (一).md"
     },
     {
-      "basename": "神经网络报告",
-      "path": "AI/作业/机器学习/神经网络作业/神经网络报告.md"
+      "basename": "12 十二：垃圾回收",
+      "path": "虚幻引擎/03 Gameplay/《大象无形》/12 十二：垃圾回收.md"
     },
     {
-      "basename": "《鱼书》",
-      "path": "AI/深度学习/《鱼书》.md"
+      "basename": "01 虚幻类",
+      "path": "虚幻引擎/03 Gameplay/《大象无形》/01 虚幻类.md"
+    },
+    {
+      "basename": "03 UBT与UHT",
+      "path": "虚幻引擎/03 Gameplay/《大象无形》/03 UBT与UHT.md"
+    },
+    {
+      "basename": "13 十三：渲染系统（一）",
+      "path": "虚幻引擎/03 Gameplay/《大象无形》/13 十三：渲染系统（一）.md"
+    },
+    {
+      "basename": "14 十四：渲染系统（二）",
+      "path": "虚幻引擎/03 Gameplay/《大象无形》/14 十四：渲染系统（二）.md"
+    },
+    {
+      "basename": "7 现代C++",
+      "path": "编程/1 C++/7 现代C++.md"
+    },
+    {
+      "basename": "4 多线程编程",
+      "path": "编程/1 C++/4 多线程编程.md"
+    },
+    {
+      "basename": "C++ 中虚函数、虚继承内存模型",
+      "path": "zBuffer/C++ 中虚函数、虚继承内存模型.md"
+    },
+    {
+      "basename": "ARPG笔记",
+      "path": "虚幻引擎/03 Gameplay/ARPG/ARPG笔记.md"
+    },
+    {
+      "basename": "git入门",
+      "path": "Tools/Git/git入门.md"
+    },
+    {
+      "basename": "UE4 C++ 实用技巧 （持续更新）",
+      "path": "zBuffer/UE4 C++ 实用技巧 （持续更新）.md"
+    },
+    {
+      "basename": "6 游戏算法",
+      "path": "编程/2 算法/6 游戏算法.md"
+    },
+    {
+      "basename": "VSCode",
+      "path": "编程/4 IDE/VSCode.md"
     }
   ],
   "omittedPaths": [],

@@ -6,11 +6,11 @@
     "emojiStyle": "native",
     "iconColor": "#bfbfbf",
     "recentlyUsedIcons": [
-      "LiPaperclip",
-      "SiArxiv",
-      "TiArticle",
-      "SiAirbnb",
-      "TiPhotoAi"
+      "IbStar",
+      "SiBlender",
+      "TiGraph",
+      "🖼",
+      "FabDelicious"
     ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
@@ -25,7 +25,9 @@
     "iconInTitleEnabled": false,
     "iconInFrontmatterEnabled": false,
     "iconsInNotesEnabled": true,
-    "iconIdentifier": ":"
+    "iconIdentifier": ":",
+    "iconsInLinksEnabled": true,
+    "debugMode": false
   },
   "Tools": "SiObsidian",
   "编程": "SiVisualstudio",
@@ -40,7 +42,5 @@
   "zip/AI": "SiPython",
   "zip/留学": "TiSchool",
   "DCC/02 Blender": "SiBlender",
-  "虚幻引擎": "SiUnrealengine",
-  "AI": "SiAirbnb",
-  "论文": "LiPaperclip"
+  "虚幻引擎": "SiUnrealengine"
 }

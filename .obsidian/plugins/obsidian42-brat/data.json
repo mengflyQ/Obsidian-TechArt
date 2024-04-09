@@ -1,5 +1,6 @@
 {
   "pluginList": [
+    "Yaozhuwa/AttachFlow",
     "Otto-J/sync-to-xlog",
     "eightHundreds/obsidian-kity-mind"
   ],

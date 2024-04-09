@@ -2206,7 +2206,7 @@ var DEFAULT_SETTINGS = {
   externalReferenceUpdateOnLoad: false,
   processedCodeblocksWhitelist: WHITELIST_CODEBLOCKS,
   redirectLanguages: {},
-  version: "1.1.5"
+  version: "1.1.7"
 };
 function convertSettings(settings) {
   if (typeof (settings == null ? void 0 : settings.version) === "undefined")
@@ -2264,8 +2264,7 @@ var settingsUpdaters = {
   "1.1.1": settingsPreserve,
   "1.1.2": settingsPreserve,
   "1.1.3": settingsPreserve,
-  "1.1.4": settingsPreserve,
-  "1.1.5": (settings) => settingsVersionUpdate(settings, (theme) => {
+  "1.1.4": (settings) => settingsVersionUpdate(settings, (theme) => {
     theme.settings.header.externalReference = structuredClone(THEME_DEFAULT_SETTINGS.header.externalReference);
     theme.colours.light.header.externalReference = structuredClone(THEME_FALLBACK_COLOURS.header.externalReference);
     theme.colours.dark.header.externalReference = structuredClone(THEME_FALLBACK_COLOURS.header.externalReference);
@@ -2273,7 +2272,9 @@ var settingsUpdaters = {
   }, (settings2) => {
     settings2.externalReferenceUpdateOnLoad = false;
     return settings2;
-  })
+  }),
+  "1.1.5": settingsPreserve,
+  "1.1.6": settingsPreserve
 };
 var FOLD_PLACEHOLDER = "Folded Code";
 var PARAMETERS = ["title", "fold", "ln", "wrap", "unwrap", "ignore"];
