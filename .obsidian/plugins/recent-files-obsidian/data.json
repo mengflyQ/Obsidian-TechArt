@@ -1,16 +1,24 @@
 {
   "recentFiles": [
     {
+      "basename": "《GaussianEditor》",
+      "path": "论文/3DGS/场景编辑/01 GaussianEditor/《GaussianEditor》.md"
+    },
+    {
+      "basename": "《DreamGaussian》",
+      "path": "论文/3DGS/三维重建/04 DreamGaussian/《DreamGaussian》.md"
+    },
+    {
+      "basename": "《Gaussian Frosting》",
+      "path": "论文/3DGS/三维重建/03 Gaussian Frosting/《Gaussian Frosting》.md"
+    },
+    {
       "basename": "6 Effective Modern C++",
       "path": "编程/1 C++/6 Effective Modern C++.md"
     },
     {
       "basename": "6 Effective Modern C++笔记",
       "path": "编程/1 C++/6 Effective Modern C++笔记.md"
-    },
-    {
-      "basename": "1 C++ Primer",
-      "path": "编程/1 C++/1 C++ Primer.md"
     },
     {
       "basename": "工具流",
@@ -191,14 +199,6 @@
     {
       "basename": "UE4 C++ 实用技巧 （持续更新）",
       "path": "zBuffer/UE4 C++ 实用技巧 （持续更新）.md"
-    },
-    {
-      "basename": "6 游戏算法",
-      "path": "编程/2 算法/6 游戏算法.md"
-    },
-    {
-      "basename": "VSCode",
-      "path": "编程/4 IDE/VSCode.md"
     }
   ],
   "omittedPaths": [],
