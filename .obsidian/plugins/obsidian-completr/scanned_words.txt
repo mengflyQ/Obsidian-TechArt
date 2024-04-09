@@ -10543,6 +10543,7 @@ OVERACCENT
 Overbeck
 Olga
 ODEs
+OneR
 codeup
 clash
 ctrl
@@ -16359,6 +16360,12 @@ cachedValue
 cachedValid
 cacheValue
 cells
+classifier
+criterion
+colsample
+catboost
+categorical
+cloudcommunity
 github
 grey
 green
@@ -26566,6 +26573,7 @@ teach
 translates
 toUType
 targetVal
+tencent
 markdown
 matter
 mod
@@ -32057,6 +32065,7 @@ magicValue
 makeLogEntry
 masks
 misalignment
+methodology
 windows
 win
 width
@@ -36866,6 +36875,7 @@ wordBreak
 wordSet
 wherein
 weakptr
+winners
 utools
 url
 unresolved
@@ -47190,6 +47200,12 @@ escaping
 extras
 expr
 expensiveComputation
+ensemble
+experiments
+estimators
+estimator
+eval
+eNet
 VPN
 Verge
 VS
@@ -52020,6 +52036,8 @@ Vogiatzis
 VTable
 VirtualFunction
 Visited
+VotingClassifier
+VotingRegressor
 verge
 vPdIt
 vertical
@@ -56631,6 +56649,7 @@ vfptr
 validPath
 vals
 valsGivingZero
+voting
 AA
 AppData
 AIRDyuVH
@@ -62445,6 +62464,11 @@ Altlantic
 AltlanticVisited
 AttachFlow
 Antoine
+AdaBoost
+AdaBoostRegressor
+AdaBoostClassifier
+Aggregating
+ApplicantIncome
 URL
 Utools
 Users
@@ -72973,6 +72997,8 @@ authenticateUser
 audited
 atomics
 augment
+aggregating
+argmax
 Roaming
 RegWorkshop
 Release
@@ -78892,6 +78918,8 @@ ROOT
 Rose
 RetType
 RootsType
+RandomForestClassifier
+RandomForestRegressor
 Microsoft
 Menu
 MicaForEveryone
@@ -85088,6 +85116,8 @@ MuxType
 MyAlloc
 MyAllocList
 MyAllocLIst
+Moodle
+Male
 Windows
 Win
 World
@@ -96947,6 +96977,9 @@ SuGaR
 Shells
 Shelly
 StyleGAN
+StackingRegressor
+StackingClassifier
+StratifiedKFold
 Programs
 POP
 PC
@@ -102681,6 +102714,7 @@ ParmaType
 PtrType
 Polynomial
 Prompts
+Pandas
 ContextMenuManager
 ClashVerge
 Clash
@@ -108657,6 +108691,12 @@ ConstIterT
 CacheValid
 Controllable
 Contracting
+CrowdFlower
+CatBoost
+CoapplicantIncome
+Credit
+CatBoostClassifier
+CatBoostRegressor
 ImTip
 IMAP
 ID
@@ -114311,6 +114351,7 @@ Incorporation
 Instruct
 InstructNerf
 InstructPix
+IMDB
 qq
 qyi
 quad
@@ -125164,6 +125205,7 @@ processPointer
 prompt
 pruning
 prismatic
+proba
 nodesCatch
 nobr
 navy
@@ -130036,6 +130078,7 @@ nextY
 numEnclaves
 newValue
 numConds
+nthread
 bf
 bc
 black
@@ -135050,6 +135093,10 @@ brighter
 backlighting
 bandwidthTest
 baseToExp
+bagging
+boosting
+bootstrapping
+bytree
 fe
 front
 fill
@@ -140077,6 +140124,9 @@ findRecord
 findAndInsert
 fuzzier
 floater
+finalpred
+folds
+fillna
 dd
 dcc
 data
@@ -145744,6 +145794,8 @@ doSomeWork
 doWork
 doSomething
 distanceFromOrigin
+dummies
+dtypes
 TFvYZOKeHL
 TAB
 TeX
@@ -157225,6 +157277,10 @@ isLucky
 insertVal
 inpainting
 intersections
+iloc
+importing
+inplace
+importances
 shift
 svg
 sf
@@ -163446,6 +163502,8 @@ spw
 setX
 setY
 skeletons
+scikit
+subsample
 local
 list
 left
@@ -168451,6 +168509,7 @@ latitude
 libnvvp
 localObject
 lockAndCall
+lightgbm
 YAML
 You
 YEBAYGhURFRofHx
@@ -178317,6 +178376,7 @@ heard
 hasIsland
 hasEdge
 highPriority
+holdout
 rgb
 right
 rm
@@ -183897,6 +183957,8 @@ rootsVals
 rigging
 regularized
 rescaling
+rref
+rmse
 XXXXXX
 XXX
 XML
@@ -188676,6 +188738,10 @@ XMS
 XkDUU
 Xstart
 Xend
+XGBM
+XGBoost
+XGBClassifier
+XGBRegressor
 HTML
 HasPtr
 Hello
@@ -194027,6 +194093,7 @@ Hopefully
 Henyey
 Hansen
 Hazy
+Hadoop
 Bbb
 Bear
 Base
@@ -199085,6 +199152,12 @@ Barron
 Backward
 Briggs
 Buzz
+BaggingRegressor
+BaggingClassifier
+Bagging
+Bootstrap
+Boosting
+Bootstrapping
 Fraktur
 Frame
 Foo
@@ -210873,6 +210946,10 @@ Electrons
 Enough
 Exercises
 EditNeRF
+Ensemble
+Expected
+Explorationin
+Employed
 xmlns
 xyz
 xy
@@ -215575,6 +215652,8 @@ xrightarrow
 xFFFFFFFF
 xVal
 xValue
+xgboost
+xgBst
 yellow
 your
 you
@@ -225587,6 +225666,10 @@ Deform
 DataType
 Dreamfusion
 Deforming
+DreamGaussian
+DecisionTreeClassifier
+DataFrame
+DecisionTreeRegressor
 LNK
 Log
 Linux
@@ -230970,6 +231053,7 @@ Lutz
 ListenForEvent
 Leetcode
 Lorenz
+LightGBM
 Getx
 GetX
 GetName
@@ -237120,6 +237204,9 @@ GENERATEDBODY
 Greenstein
 GaussianEditor
 Guidance
+Generative
+GradientBoostingClassifier
+GradientBoostingRegressor
 NULL
 Native
 NormalMap
@@ -242353,6 +242440,7 @@ NVCUDA
 NVCUDASAMPLES
 NeRFSynthetic
 Nada
+Naive
 ZooAnima
 ZooAnimal
 ZTest
@@ -263377,6 +263465,8 @@ Knapitsch
 Kyaw
 Keil
 Kaan
+KaTeX
+KNeighborsClassifier
 key
 kSC
 keaXj
@@ -268431,6 +268521,7 @@ kxYkZ
 kCqi
 killing
 keyVals
+kaggle
 zoom
 zw
 zaG
@@ -278686,6 +278777,7 @@ jtsG
 jkHe
 jumpFloorII
 journey
+jobs
 ÄjZU
 ÄJ
 Ät

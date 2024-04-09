@@ -1,12 +1,32 @@
 {
   "recentFiles": [
     {
-      "basename": "《GaussianEditor》",
-      "path": "论文/3DGS/场景编辑/01 GaussianEditor/《GaussianEditor》.md"
+      "basename": "集成深度学习的综述",
+      "path": "AI/作业/【todo】人工智能/集成深度学习的综述.md"
+    },
+    {
+      "basename": "作业",
+      "path": "AI/作业/【todo】人工智能/作业.md"
+    },
+    {
+      "basename": "【机器学习】集成模型 _ 集成学习：多个模型相结合实现更好的预测 - 腾讯云开发者社区 - 腾讯云",
+      "path": "zBuffer/【机器学习】集成模型 _ 集成学习：多个模型相结合实现更好的预测 - 腾讯云开发者社区 - 腾讯云.md"
+    },
+    {
+      "basename": "作业",
+      "path": "AI/作业/【todo】研究写作/作业.md"
+    },
+    {
+      "basename": "作业",
+      "path": "AI/作业/【todo】云计算/作业.md"
     },
     {
       "basename": "《DreamGaussian》",
       "path": "论文/3DGS/三维重建/04 DreamGaussian/《DreamGaussian》.md"
+    },
+    {
+      "basename": "《GaussianEditor》",
+      "path": "论文/3DGS/场景编辑/01 GaussianEditor/《GaussianEditor》.md"
     },
     {
       "basename": "《Gaussian Frosting》",
@@ -179,26 +199,6 @@
     {
       "basename": "7 现代C++",
       "path": "编程/1 C++/7 现代C++.md"
-    },
-    {
-      "basename": "4 多线程编程",
-      "path": "编程/1 C++/4 多线程编程.md"
-    },
-    {
-      "basename": "C++ 中虚函数、虚继承内存模型",
-      "path": "zBuffer/C++ 中虚函数、虚继承内存模型.md"
-    },
-    {
-      "basename": "ARPG笔记",
-      "path": "虚幻引擎/03 Gameplay/ARPG/ARPG笔记.md"
-    },
-    {
-      "basename": "git入门",
-      "path": "Tools/Git/git入门.md"
-    },
-    {
-      "basename": "UE4 C++ 实用技巧 （持续更新）",
-      "path": "zBuffer/UE4 C++ 实用技巧 （持续更新）.md"
     }
   ],
   "omittedPaths": [],
