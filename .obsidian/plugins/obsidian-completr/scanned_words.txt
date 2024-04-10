@@ -32070,6 +32070,7 @@ makeLogEntry
 masks
 misalignment
 methodology
+motions
 windows
 win
 width
@@ -36880,6 +36881,7 @@ wordSet
 wherein
 weakptr
 winners
+weighting
 utools
 url
 unresolved
@@ -47211,6 +47213,7 @@ estimators
 estimator
 eval
 eNet
+extraction
 VPN
 Verge
 VS
@@ -62489,6 +62492,8 @@ Aljabri
 ASTD
 ArSenTD
 Abdulnabi
+APPLICATION
+AREAS
 URL
 Utools
 Users
@@ -78945,6 +78950,8 @@ Rokach
 Reduces
 Rodriguez
 Rane
+Replica
+RMSE
 Microsoft
 Menu
 MicaForEveryone
@@ -85147,6 +85154,8 @@ Montgomery
 Monteiro
 Mohammadi
 Mohammed
+MoCap
+MipNeRF
 Windows
 Win
 World
@@ -97027,6 +97036,10 @@ Sharma
 Silva
 Saleena
 Shahbaz
+Simultaneous
+SplaTAM
+Shap
+SMPL
 Programs
 POP
 PC
@@ -102770,6 +102783,13 @@ Prusa
 Perikos
 Penagos
 Pasupulety
+Patches
+Plenoxels
+Photo
+Pretrained
+Priors
+Perturbation
+Pertb
 ContextMenuManager
 ClashVerge
 Clash
@@ -108755,6 +108775,7 @@ CatBoostRegressor
 Concei
 Computationally
 Covid
+CoGS
 ImTip
 IMAP
 ID
@@ -125267,6 +125288,8 @@ prismatic
 proba
 polarities
 predecessors
+priori
+perturbation
 nodesCatch
 nobr
 navy
@@ -130140,6 +130163,7 @@ numEnclaves
 newValue
 numConds
 nthread
+nuScences
 bf
 bc
 black
@@ -145859,6 +145883,7 @@ distanceFromOrigin
 dummies
 dtypes
 difficulty
+distillation
 TFvYZOKeHL
 TAB
 TeX
@@ -151514,6 +151539,9 @@ Tasci
 Tuysuzoglu
 Tsutsumi
 Tsou
+TASKS
+Treehill
+Temple
 io
 ipad
 it
@@ -163574,6 +163602,8 @@ skeletons
 scikit
 subsample
 sentiment
+splatting
+scoring
 local
 list
 left
@@ -184032,6 +184062,7 @@ rescaling
 rref
 rmse
 robustness
+reprojects
 XXXXXX
 XXX
 XML
@@ -194174,6 +194205,7 @@ Huang
 Haumahu
 Handling
 Hatzilygeroudis
+HUGS
 Bbb
 Bear
 Base
@@ -199239,6 +199271,8 @@ Bootstrap
 Boosting
 Bootstrapping
 Bhatia
+Bridging
+BakedSDF
 Fraktur
 Frame
 Foo
@@ -205158,6 +205192,7 @@ FindGreatestSumOfSubArray
 FuncType
 Frosting
 Fersini
+Flowers
 Element
 Entity
 Enity
@@ -225757,6 +225792,12 @@ DataFrame
 DecisionTreeRegressor
 Delgado
 Disadvantage
+Driving
+DrivingGaussian
+DeepBlending
+Distillation
+DreamFusion
+DMTET
 LNK
 Log
 Linux
@@ -231144,6 +231185,7 @@ LightGBM
 Lakshminarayanan
 Latif
 Laith
+Localization
 Getx
 GetX
 GetName
@@ -237298,6 +237340,11 @@ Generative
 GradientBoostingClassifier
 GradientBoostingRegressor
 Guddeti
+GaussianDreamer
+GauFRe
+GART
+GSGEN
+Grow
 NULL
 Native
 NormalMap
@@ -242533,6 +242580,8 @@ NeRFSynthetic
 Nada
 Naive
 Nabil
+NeRFMeshing
+Noisy
 ZooAnima
 ZooAnimal
 ZTest

@@ -1,16 +1,48 @@
 {
   "recentFiles": [
     {
+      "basename": "《GaussianDreamer》",
+      "path": "论文/3DGS/从Text生成/05 GaussianDreamer/《GaussianDreamer》.md"
+    },
+    {
+      "basename": "《DreamGaussian》",
+      "path": "论文/3DGS/从Text生成/04 DreamGaussian/《DreamGaussian》.md"
+    },
+    {
+      "basename": "《SuGaR》",
+      "path": "论文/3DGS/三维重建/02 SuGaR/《SuGaR》.md"
+    },
+    {
+      "basename": "《Gaussian Frosting》",
+      "path": "论文/3DGS/三维重建/03 Gaussian Frosting/《Gaussian Frosting》.md"
+    },
+    {
+      "basename": "三维高斯泼溅调查",
+      "path": "论文/3DGS/综述/三维高斯泼溅调查.md"
+    },
+    {
+      "basename": "diffusion models",
+      "path": "论文/3DGS/3DGS相关知识/diffusion models.md"
+    },
+    {
+      "basename": "3DGS相关数学",
+      "path": "论文/3DGS/3DGS相关知识/3DGS相关数学.md"
+    },
+    {
+      "basename": "3DGS理论",
+      "path": "论文/3DGS/3DGS相关知识/3DGS理论.md"
+    },
+    {
       "basename": "作业",
       "path": "AI/作业/【todo】人工智能/作业.md"
     },
     {
-      "basename": "集成深度学习的综述",
-      "path": "AI/作业/【todo】人工智能/集成深度学习的综述.md"
-    },
-    {
       "basename": "基于元集成深度学习的情感分析的增强方法",
       "path": "AI/作业/【todo】人工智能/基于元集成深度学习的情感分析的增强方法.md"
+    },
+    {
+      "basename": "集成深度学习的综述",
+      "path": "AI/作业/【todo】人工智能/集成深度学习的综述.md"
     },
     {
       "basename": "【机器学习】集成模型 _ 集成学习：多个模型相结合实现更好的预测 - 腾讯云开发者社区 - 腾讯云",
@@ -25,16 +57,8 @@
       "path": "AI/作业/【todo】云计算/作业.md"
     },
     {
-      "basename": "《DreamGaussian》",
-      "path": "论文/3DGS/三维重建/04 DreamGaussian/《DreamGaussian》.md"
-    },
-    {
       "basename": "《GaussianEditor》",
       "path": "论文/3DGS/场景编辑/01 GaussianEditor/《GaussianEditor》.md"
-    },
-    {
-      "basename": "《Gaussian Frosting》",
-      "path": "论文/3DGS/三维重建/03 Gaussian Frosting/《Gaussian Frosting》.md"
     },
     {
       "basename": "6 Effective Modern C++",
@@ -175,30 +199,6 @@
     {
       "basename": "11 十一：UObject (二)",
       "path": "虚幻引擎/03 Gameplay/《大象无形》/11 十一：UObject (二).md"
-    },
-    {
-      "basename": "10 十：UObject (一)",
-      "path": "虚幻引擎/03 Gameplay/《大象无形》/10 十：UObject (一).md"
-    },
-    {
-      "basename": "12 十二：垃圾回收",
-      "path": "虚幻引擎/03 Gameplay/《大象无形》/12 十二：垃圾回收.md"
-    },
-    {
-      "basename": "01 虚幻类",
-      "path": "虚幻引擎/03 Gameplay/《大象无形》/01 虚幻类.md"
-    },
-    {
-      "basename": "03 UBT与UHT",
-      "path": "虚幻引擎/03 Gameplay/《大象无形》/03 UBT与UHT.md"
-    },
-    {
-      "basename": "13 十三：渲染系统（一）",
-      "path": "虚幻引擎/03 Gameplay/《大象无形》/13 十三：渲染系统（一）.md"
-    },
-    {
-      "basename": "14 十四：渲染系统（二）",
-      "path": "虚幻引擎/03 Gameplay/《大象无形》/14 十四：渲染系统（二）.md"
     }
   ],
   "omittedPaths": [],
