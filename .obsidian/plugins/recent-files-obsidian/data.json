@@ -1,14 +1,6 @@
 {
   "recentFiles": [
     {
-      "basename": "运行",
-      "path": "论文/3DGS/三维重建/02 SuGaR/运行.md"
-    },
-    {
-      "basename": "总结",
-      "path": "论文/3DGS/三维重建/01 3DGS起源/总结.md"
-    },
-    {
       "basename": "Anaconda配置",
       "path": "AI/环境配置/Anaconda配置.md"
     },
@@ -17,12 +9,24 @@
       "path": "AI/作业/【todo】人工智能/作业.md"
     },
     {
-      "basename": "《GaussianDreamer》",
-      "path": "论文/3DGS/从Text生成/05 GaussianDreamer/《GaussianDreamer》.md"
+      "basename": "Jupyter",
+      "path": "AI/环境配置/Jupyter.md"
+    },
+    {
+      "basename": "运行",
+      "path": "论文/3DGS/三维重建/02 SuGaR/运行.md"
     },
     {
       "basename": "《DreamGaussian》",
       "path": "论文/3DGS/从Text生成/04 DreamGaussian/《DreamGaussian》.md"
+    },
+    {
+      "basename": "总结",
+      "path": "论文/3DGS/三维重建/01 3DGS起源/总结.md"
+    },
+    {
+      "basename": "《GaussianDreamer》",
+      "path": "论文/3DGS/从Text生成/05 GaussianDreamer/《GaussianDreamer》.md"
     },
     {
       "basename": "《SuGaR》",
@@ -195,10 +199,6 @@
     {
       "basename": "MVC",
       "path": "编程/3 设计模式/MVC.md"
-    },
-    {
-      "basename": "工厂模式",
-      "path": "编程/3 设计模式/工厂模式.md"
     }
   ],
   "omittedPaths": [],
