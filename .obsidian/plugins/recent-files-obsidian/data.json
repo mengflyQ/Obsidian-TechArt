@@ -1,6 +1,22 @@
 {
   "recentFiles": [
     {
+      "basename": "运行",
+      "path": "论文/3DGS/三维重建/02 SuGaR/运行.md"
+    },
+    {
+      "basename": "总结",
+      "path": "论文/3DGS/三维重建/01 3DGS起源/总结.md"
+    },
+    {
+      "basename": "Anaconda配置",
+      "path": "AI/环境配置/Anaconda配置.md"
+    },
+    {
+      "basename": "作业",
+      "path": "AI/作业/【todo】人工智能/作业.md"
+    },
+    {
       "basename": "《GaussianDreamer》",
       "path": "论文/3DGS/从Text生成/05 GaussianDreamer/《GaussianDreamer》.md"
     },
@@ -31,10 +47,6 @@
     {
       "basename": "3DGS理论",
       "path": "论文/3DGS/3DGS相关知识/3DGS理论.md"
-    },
-    {
-      "basename": "作业",
-      "path": "AI/作业/【todo】人工智能/作业.md"
     },
     {
       "basename": "基于元集成深度学习的情感分析的增强方法",
@@ -187,18 +199,6 @@
     {
       "basename": "工厂模式",
       "path": "编程/3 设计模式/工厂模式.md"
-    },
-    {
-      "basename": "单例模式总结",
-      "path": "编程/3 设计模式/单例模式总结.md"
-    },
-    {
-      "basename": "08 八：并行与并发",
-      "path": "虚幻引擎/03 Gameplay/《大象无形》/08 八：并行与并发.md"
-    },
-    {
-      "basename": "11 十一：UObject (二)",
-      "path": "虚幻引擎/03 Gameplay/《大象无形》/11 十一：UObject (二).md"
     }
   ],
   "omittedPaths": [],

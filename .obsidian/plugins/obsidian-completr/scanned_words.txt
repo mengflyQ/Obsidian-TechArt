@@ -36882,6 +36882,7 @@ wherein
 weakptr
 winners
 weighting
+warm
 utools
 url
 unresolved
@@ -78952,6 +78953,7 @@ Rodriguez
 Rane
 Replica
 RMSE
+Radix
 Microsoft
 Menu
 MicaForEveryone
@@ -85156,6 +85158,7 @@ Mohammadi
 Mohammed
 MoCap
 MipNeRF
+Merrill
 Windows
 Win
 World
@@ -102790,6 +102793,7 @@ Pretrained
 Priors
 Perturbation
 Pertb
+Pruning
 ContextMenuManager
 ClashVerge
 Clash
@@ -225798,6 +225802,7 @@ DeepBlending
 Distillation
 DreamFusion
 DMTET
+Densification
 LNK
 Log
 Linux
@@ -231186,6 +231191,7 @@ Lakshminarayanan
 Latif
 Laith
 Localization
+Lassner
 Getx
 GetX
 GetName
@@ -237345,6 +237351,7 @@ GauFRe
 GART
 GSGEN
 Grow
+Grimshaw
 NULL
 Native
 NormalMap
@@ -247992,6 +247999,7 @@ ZwMS
 ZAGA
 Zhou
 Zelnik
+Zollhofer
 Quote
 Quiet
 Quick
