@@ -5,6 +5,10 @@
       "path": "论文/3DGS/从Text生成/05 GaussianDreamer/《GaussianDreamer》.md"
     },
     {
+      "basename": "《Gaussian Frosting》",
+      "path": "论文/3DGS/三维重建/03 Gaussian Frosting/《Gaussian Frosting》.md"
+    },
+    {
       "basename": "《DreamGaussian》",
       "path": "论文/3DGS/从Text生成/04 DreamGaussian/《DreamGaussian》.md"
     },
@@ -35,10 +39,6 @@
     {
       "basename": "《SuGaR》",
       "path": "论文/3DGS/三维重建/02 SuGaR/《SuGaR》.md"
-    },
-    {
-      "basename": "《Gaussian Frosting》",
-      "path": "论文/3DGS/三维重建/03 Gaussian Frosting/《Gaussian Frosting》.md"
     },
     {
       "basename": "三维高斯泼溅调查",
