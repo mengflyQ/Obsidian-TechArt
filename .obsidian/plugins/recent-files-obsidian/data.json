@@ -1,16 +1,12 @@
 {
   "recentFiles": [
     {
-      "basename": "Anaconda配置",
-      "path": "AI/环境配置/Anaconda配置.md"
-    },
-    {
       "basename": "作业",
       "path": "AI/作业/【todo】人工智能/作业.md"
     },
     {
-      "basename": "Jupyter",
-      "path": "AI/环境配置/Jupyter.md"
+      "basename": "【A 情感文本分类实战】2024 Pytorch+Bert、Roberta+TextCNN、BiLstm、Lstm 等实现 IMDB 情感文本分类完整项目（项目已开源）_roberta 文本分类 - CSDN 博客",
+      "path": "zBuffer/【A 情感文本分类实战】2024 Pytorch+Bert、Roberta+TextCNN、BiLstm、Lstm 等实现 IMDB 情感文本分类完整项目（项目已开源）_roberta 文本分类 - CSDN 博客.md"
     },
     {
       "basename": "运行",
@@ -19,6 +15,14 @@
     {
       "basename": "《DreamGaussian》",
       "path": "论文/3DGS/从Text生成/04 DreamGaussian/《DreamGaussian》.md"
+    },
+    {
+      "basename": "Anaconda配置",
+      "path": "AI/环境配置/Anaconda配置.md"
+    },
+    {
+      "basename": "Jupyter",
+      "path": "AI/环境配置/Jupyter.md"
     },
     {
       "basename": "总结",
@@ -195,10 +199,6 @@
     {
       "basename": "1 Gameplay架构",
       "path": "虚幻引擎/03 Gameplay/《insider UE》/1 Gameplay架构.md"
-    },
-    {
-      "basename": "MVC",
-      "path": "编程/3 设计模式/MVC.md"
     }
   ],
   "omittedPaths": [],
