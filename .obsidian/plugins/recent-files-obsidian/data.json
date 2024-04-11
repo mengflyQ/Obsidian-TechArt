@@ -1,20 +1,24 @@
 {
   "recentFiles": [
     {
-      "basename": "作业",
-      "path": "AI/作业/【todo】人工智能/作业.md"
+      "basename": "《GaussianDreamer》",
+      "path": "论文/3DGS/从Text生成/05 GaussianDreamer/《GaussianDreamer》.md"
+    },
+    {
+      "basename": "《DreamGaussian》",
+      "path": "论文/3DGS/从Text生成/04 DreamGaussian/《DreamGaussian》.md"
     },
     {
       "basename": "【A 情感文本分类实战】2024 Pytorch+Bert、Roberta+TextCNN、BiLstm、Lstm 等实现 IMDB 情感文本分类完整项目（项目已开源）_roberta 文本分类 - CSDN 博客",
       "path": "zBuffer/【A 情感文本分类实战】2024 Pytorch+Bert、Roberta+TextCNN、BiLstm、Lstm 等实现 IMDB 情感文本分类完整项目（项目已开源）_roberta 文本分类 - CSDN 博客.md"
     },
     {
-      "basename": "运行",
-      "path": "论文/3DGS/三维重建/02 SuGaR/运行.md"
+      "basename": "作业",
+      "path": "AI/作业/【todo】人工智能/作业.md"
     },
     {
-      "basename": "《DreamGaussian》",
-      "path": "论文/3DGS/从Text生成/04 DreamGaussian/《DreamGaussian》.md"
+      "basename": "运行",
+      "path": "论文/3DGS/三维重建/02 SuGaR/运行.md"
     },
     {
       "basename": "Anaconda配置",
@@ -27,10 +31,6 @@
     {
       "basename": "总结",
       "path": "论文/3DGS/三维重建/01 3DGS起源/总结.md"
-    },
-    {
-      "basename": "《GaussianDreamer》",
-      "path": "论文/3DGS/从Text生成/05 GaussianDreamer/《GaussianDreamer》.md"
     },
     {
       "basename": "《SuGaR》",
