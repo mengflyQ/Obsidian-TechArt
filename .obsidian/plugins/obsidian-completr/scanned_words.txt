@@ -26580,6 +26580,7 @@ toUType
 targetVal
 tencent
 tqdm
+timestep
 markdown
 matter
 mod
@@ -73034,6 +73035,7 @@ augment
 aggregating
 argmax
 adapts
+archive
 Roaming
 RegWorkshop
 Release
@@ -78963,6 +78965,7 @@ Replica
 RMSE
 Radix
 Roberta
+Rombach
 Microsoft
 Menu
 MicaForEveryone
@@ -85172,6 +85175,11 @@ MyDataset
 ModuleList
 Mymodel
 Müller
+Meng
+Mohammad
+Michel
+Metzer
+Melas
 Windows
 Win
 World
@@ -97058,6 +97066,8 @@ Shap
 SMPL
 Shazeer
 SIBR
+Saharia
+Stable
 Programs
 POP
 PC
@@ -102813,6 +102823,8 @@ Parmar
 Prompt
 Pulsar
 ProlificDreamer
+Poole
+Pathak
 ContextMenuManager
 ClashVerge
 Clash
@@ -108803,6 +108815,8 @@ Contrastive
 CapsuleNet
 Chaurasia
 Chou
+Chan
+Cline
 ImTip
 IMAP
 ID
@@ -151581,6 +151595,8 @@ Tokenizer
 TexCNN
 Tewari
 TPUv
+Tsalicoglou
+Trevithick
 io
 ipad
 it
@@ -225860,6 +225876,10 @@ Doha
 DrJohnson
 DreamAvatar
 DreamWaltz
+Deitke
+Duggal
+Dreamtime
+DirectML
 LNK
 Log
 Linux
@@ -231251,6 +231271,9 @@ Localization
 Lassner
 Lstm
 Linguistics
+Luiten
+Lorraine
+Lorensen
 Getx
 GetX
 GetName
@@ -237413,6 +237436,7 @@ Grow
 Grimshaw
 Gomez
 Goesele
+Gupta
 NULL
 Native
 NormalMap
@@ -242650,6 +242674,8 @@ Naive
 Nabil
 NeRFMeshing
 Noisy
+Nichol
+Ntavelis
 ZooAnima
 ZooAnimal
 ZTest
@@ -248062,6 +248088,8 @@ Zhou
 Zelnik
 Zollhofer
 Zwicker
+Zheng
+Zhuang
 Quote
 Quiet
 Quick
@@ -258660,6 +258688,7 @@ Jitendra
 Jaesik
 Jiatao
 Jittering
+Jain
 Ke
 KjpKWmp
 KYW
@@ -263687,6 +263716,8 @@ Kora
 Kanakaraj
 Kerbl
 Kopanas
+Khalid
+Kyriazi
 key
 kSC
 keaXj
@@ -273774,6 +273805,7 @@ zAL
 zvn
 zXIm
 zillion
+zlibwapi
 jpg
 just
 juLeSXlIAVEiJIzRbMP
