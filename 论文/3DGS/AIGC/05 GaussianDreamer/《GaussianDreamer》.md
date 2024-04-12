@@ -42,7 +42,7 @@ GaussianDreamer: 通过桥接 2D 和 3D Diffusion Model，实现从 Text-to-3D�
 - 基于粗糙的 3D 实例，初始化了一组 3D 高斯。我们引入了噪点生长和颜色扰动两种操作，以补充初始化的高斯，以进一步丰富 3D 实例。
 - 然后，通过得分蒸馏采样[50]（Score Distillation Sampling，SDS）损失（loss），3D 高斯可以通过与 2D Diffusion Model 的交互进行改进和优化。由于来自 3D Diffusion Model 和 3D GS 本身的几何先验，训练过程可以在很短的时间内完成。
 
-**生成的 3D 资产可以被实时渲染，而无需转化为Mesh等结构。**
+**生成的 3D 资产可以被实时渲染，而无需转化为Mesh等结构。（该方法没有进一步生成Mesh）**
 
 我们的贡献可以总结如下：
 1. 我们提出了一种名为 GaussianDreamer 的 Text-to-3D 的方法，通过高斯分离桥接 3D 和 2D Diffusion Model ，既享受 3D 的一致性又具有丰富的生成细节。
@@ -165,4 +165,43 @@ $$
 ## 3.4 使用 2D Diffusion Model 进行优化
 为了丰富细节并提高 3D 资产的质量，我们在使用 3D Diffusion Model priors 进行初始化后，对 3D 高斯模型 $\theta_b$ 进行优化，采用 2D Diffusion Model $F_{2D}$ 。我们利用 SDS（得分蒸馏采样）损失来优化 3D 高斯模型。
 
-首先，我们使用 3D 高斯飞溅方法[24]来获得渲染图像 𝐱=�​(��) 。在这里， � 表示飞溅渲染方法如同公式 3。然后，我们使用公式 1 来计算用于更新高斯参数 �� 的梯度，使用 2D Diffusion Model �2​� 。在使用 2D Diffusion Model �2​� 进行短期优化后，最终生成的 3D 实例 �� 在 3D Diffusion Model 的基础上实现了高质量和保真度 �3​� 。
+首先，我们使用 3D GS 方法[24]来获得渲染图像 $x=g(\theta_i)$ 。在这里， $g$ 表示  [[论文/3DGS/三维重建/01 3DGS起源/总结#渲染公式|3DGS渲染公式]]。
+
+然后，我们利用[[#3.1.1 DreamFusion|公式 1]] 计算梯度，以便用 2D Diffusion Model $F_{2D}$   更新高斯参数  $\theta_i$ 。
+
+**在使用 2D Diffusion Model  $F_{2D}$ 进行短期优化后，最终生成的 3D 实例 $\theta_f$ 在 3D Diffusion Model  $F_{3D}$ 提供的 3D 一致性的基础上实现了高质量和保真度。**
+
+
+# 4 实验
+
+- 首先介绍了第 4.1 节的实现细节和第 4.2 节的定量比较。
+- 在第 4.3 节中，我们展示了我们方法的可视化结果，并将其与其他方法进行了比较。
+- 在第 4.4 节中，我们进行了一系列消融实验来验证我们方法的有效性。
+- 最后，我们讨论了我们方法的局限性。
+
+略
+
+![[Pasted image 20240412110937.png]]
+>图 4：我们的方法和 DreamFusion [50]、Magic3D [31]、Fantasia3D [6] 和 ProlificDreamer [77] 的定性比较。这里我们参考他们的论文所报告的 GPU 时间。DreamFusion 使用 TPUv4 进行测量，Magic3D 使用 A100 进行测量，Fantasia3D 使用 RTX 3090 进行测量，我们的方法使用 RTX 3090 进行测量。
+
+
+![[Pasted image 20240412111116.png]]
+>图 5：由我们的 GaussianDreamer 生成的更多样本。每个样本显示了两个视图。
+
+![[Pasted image 20240412111133.png]] 
+>图 6：使用地面进行生成的结果。
+
+![[Pasted image 20240412111215.png]]
+>图 7：我们的方法与 DreamFusion [50]，DreamAvatar [5]，DreamWaltz [18]和 AvatarVerse [86]的定性比较。
+
+
+![[Pasted image 20240412111241.png]] 
+>图 8. 我们的 GaussianDreamer 使用 SMPL 的不同姿势初始化生成的更多 3D 头像[38]。在这里，SMPL 的不同姿势是通过 text-to-motion diffusion model生成的。
+
+
+# 5 结论
+我们提出了一种快速的text-to-3D 方法 GaussianDreamer，通过 GS 表示法将 3D 和 2D Diffusion Model 的能力结合起来。GaussianDreamer 能够生成详细和逼真的几何和外观，同时保持 3D 的一致性。
+
+3D Diffusion Model 先验和来自 3D 高斯的几何先验有效地促进了收敛速度。每个样本可以在一个 GPU 上在 15 分钟内生成。
+
+我们相信桥接 3D 和 2D Diffusion Model 的方法可能是有效生成 3D 资产的一个有前途的方向。

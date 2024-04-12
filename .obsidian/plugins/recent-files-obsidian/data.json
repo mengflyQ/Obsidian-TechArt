@@ -2,15 +2,23 @@
   "recentFiles": [
     {
       "basename": "《GaussianDreamer》",
-      "path": "论文/3DGS/从Text生成/05 GaussianDreamer/《GaussianDreamer》.md"
+      "path": "论文/3DGS/AIGC/05 GaussianDreamer/《GaussianDreamer》.md"
+    },
+    {
+      "basename": "《DreamGaussian》",
+      "path": "论文/3DGS/AIGC/04 DreamGaussian/《DreamGaussian》.md"
+    },
+    {
+      "basename": "总结",
+      "path": "论文/3DGS/三维重建/01 3DGS起源/总结.md"
+    },
+    {
+      "basename": "《3D Gaussian Splatting》",
+      "path": "论文/3DGS/三维重建/01 3DGS起源/《3D Gaussian Splatting》.md"
     },
     {
       "basename": "《Gaussian Frosting》",
       "path": "论文/3DGS/三维重建/03 Gaussian Frosting/《Gaussian Frosting》.md"
-    },
-    {
-      "basename": "《DreamGaussian》",
-      "path": "论文/3DGS/从Text生成/04 DreamGaussian/《DreamGaussian》.md"
     },
     {
       "basename": "【A 情感文本分类实战】2024 Pytorch+Bert、Roberta+TextCNN、BiLstm、Lstm 等实现 IMDB 情感文本分类完整项目（项目已开源）_roberta 文本分类 - CSDN 博客",
@@ -31,10 +39,6 @@
     {
       "basename": "Jupyter",
       "path": "AI/环境配置/Jupyter.md"
-    },
-    {
-      "basename": "总结",
-      "path": "论文/3DGS/三维重建/01 3DGS起源/总结.md"
     },
     {
       "basename": "《SuGaR》",
@@ -195,10 +199,6 @@
     {
       "basename": "GAS精粹",
       "path": "虚幻引擎/03 Gameplay/GAS/GAS精粹.md"
-    },
-    {
-      "basename": "1 Gameplay架构",
-      "path": "虚幻引擎/03 Gameplay/《insider UE》/1 Gameplay架构.md"
     }
   ],
   "omittedPaths": [],
