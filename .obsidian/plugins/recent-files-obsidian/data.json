@@ -1,12 +1,16 @@
 {
   "recentFiles": [
     {
+      "basename": "Anaconda配置",
+      "path": "AI/环境配置/Anaconda配置.md"
+    },
+    {
       "basename": "tensorflow-gpu",
       "path": "AI/环境配置/tensorflow-gpu.md"
     },
     {
-      "basename": "Anaconda配置",
-      "path": "AI/环境配置/Anaconda配置.md"
+      "basename": "报错",
+      "path": "AI/环境配置/报错.md"
     },
     {
       "basename": "cuda环境转换",
@@ -195,10 +199,6 @@
     {
       "basename": "1 UE网络精粹",
       "path": "虚幻引擎/06 网络/1 UE网络精粹.md"
-    },
-    {
-      "basename": "5 指针",
-      "path": "虚幻引擎/02 UE++/5 指针.md"
     }
   ],
   "omittedPaths": [],
