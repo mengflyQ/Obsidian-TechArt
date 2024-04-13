@@ -1,12 +1,20 @@
 {
   "recentFiles": [
     {
+      "basename": "tensorflow-gpu",
+      "path": "AI/环境配置/tensorflow-gpu.md"
+    },
+    {
       "basename": "Anaconda配置",
       "path": "AI/环境配置/Anaconda配置.md"
     },
     {
-      "basename": "tensorflow-gpu",
-      "path": "AI/环境配置/tensorflow-gpu.md"
+      "basename": "cuda环境转换",
+      "path": "AI/环境配置/cuda环境转换.md"
+    },
+    {
+      "basename": "pip",
+      "path": "AI/环境配置/pip.md"
     },
     {
       "basename": "作业",
@@ -39,10 +47,6 @@
     {
       "basename": "【tensorflow_gpu 安装】",
       "path": "zBuffer/【tensorflow_gpu 安装】.md"
-    },
-    {
-      "basename": "cuda环境转换",
-      "path": "AI/环境配置/cuda环境转换.md"
     },
     {
       "basename": "未命名",
@@ -195,10 +199,6 @@
     {
       "basename": "5 指针",
       "path": "虚幻引擎/02 UE++/5 指针.md"
-    },
-    {
-      "basename": "4 委托",
-      "path": "虚幻引擎/02 UE++/4 委托.md"
     }
   ],
   "omittedPaths": [],
