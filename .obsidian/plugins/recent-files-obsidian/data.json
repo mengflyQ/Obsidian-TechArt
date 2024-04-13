@@ -1,6 +1,18 @@
 {
   "recentFiles": [
     {
+      "basename": "集成深度学习的综述",
+      "path": "AI/作业/【todo】人工智能/集成深度学习的综述.md"
+    },
+    {
+      "basename": "Python基础",
+      "path": "AI/Python/Python基础.md"
+    },
+    {
+      "basename": "作业",
+      "path": "AI/作业/【todo】人工智能/作业.md"
+    },
+    {
       "basename": "Anaconda配置",
       "path": "AI/环境配置/Anaconda配置.md"
     },
@@ -21,14 +33,6 @@
       "path": "AI/环境配置/pip.md"
     },
     {
-      "basename": "作业",
-      "path": "AI/作业/【todo】人工智能/作业.md"
-    },
-    {
-      "basename": "集成深度学习的综述",
-      "path": "AI/作业/【todo】人工智能/集成深度学习的综述.md"
-    },
-    {
       "basename": "基于元集成深度学习的情感分析的增强方法",
       "path": "AI/作业/【todo】人工智能/基于元集成深度学习的情感分析的增强方法.md"
     },
@@ -39,10 +43,6 @@
     {
       "basename": "【A 情感文本分类实战】2024 Pytorch+Bert、Roberta+TextCNN、BiLstm、Lstm 等实现 IMDB 情感文本分类完整项目（项目已开源）_roberta 文本分类 - CSDN 博客",
       "path": "zBuffer/【A 情感文本分类实战】2024 Pytorch+Bert、Roberta+TextCNN、BiLstm、Lstm 等实现 IMDB 情感文本分类完整项目（项目已开源）_roberta 文本分类 - CSDN 博客.md"
-    },
-    {
-      "basename": "Python基础",
-      "path": "AI/Python/Python基础.md"
     },
     {
       "basename": "Jupyter",
