@@ -1,12 +1,12 @@
 {
   "recentFiles": [
     {
-      "basename": "tensorflow-gpu",
-      "path": "AI/环境配置/tensorflow-gpu.md"
-    },
-    {
       "basename": "Anaconda配置",
       "path": "AI/环境配置/Anaconda配置.md"
+    },
+    {
+      "basename": "tensorflow-gpu",
+      "path": "AI/环境配置/tensorflow-gpu.md"
     },
     {
       "basename": "作业",
