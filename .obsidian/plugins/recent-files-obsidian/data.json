@@ -1,16 +1,20 @@
 {
   "recentFiles": [
     {
+      "basename": "基于元集成深度学习的情感分析的增强方法",
+      "path": "AI/作业/【todo】人工智能/基于元集成深度学习的情感分析的增强方法.md"
+    },
+    {
       "basename": "集成深度学习的综述",
       "path": "AI/作业/【todo】人工智能/集成深度学习的综述.md"
     },
     {
-      "basename": "Python基础",
-      "path": "AI/Python/Python基础.md"
-    },
-    {
       "basename": "作业",
       "path": "AI/作业/【todo】人工智能/作业.md"
+    },
+    {
+      "basename": "Python基础",
+      "path": "AI/Python/Python基础.md"
     },
     {
       "basename": "Anaconda配置",
@@ -31,10 +35,6 @@
     {
       "basename": "pip",
       "path": "AI/环境配置/pip.md"
-    },
-    {
-      "basename": "基于元集成深度学习的情感分析的增强方法",
-      "path": "AI/作业/【todo】人工智能/基于元集成深度学习的情感分析的增强方法.md"
     },
     {
       "basename": "【机器学习】集成模型 _ 集成学习：多个模型相结合实现更好的预测 - 腾讯云开发者社区 - 腾讯云",
