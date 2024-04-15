@@ -38,7 +38,9 @@
     "03 表格样式",
     "04 状态栏淡出",
     "05 quiet-outline插件配置",
-    "08 callout分栏"
+    "08 callout分栏",
+    "17 自动隐藏属性",
+    "10 悬浮标签页标题栏"
   ],
   "accentColor": "#804bfb",
   "nativeMenus": false,

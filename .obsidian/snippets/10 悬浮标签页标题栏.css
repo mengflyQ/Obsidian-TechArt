@@ -13,10 +13,10 @@
     border:none;
     position:fixed;
     top:0px;
-    left:0px;   /* 设置位置 */
+    left:-10px;   /* 设置位置 */
     /* right:0px; */
     /* right: calc(var(--scrollbar-size) + 8px); */
-    padding: 5px 5px;
+    padding: 1px 1px;
     justify-content:end;
     border-radius: 8px;
     /* border:1px solid hsla(var(--base-h), var(--base-s), var(--base-l), 1); */

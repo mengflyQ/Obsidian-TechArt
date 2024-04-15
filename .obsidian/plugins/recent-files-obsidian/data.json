@@ -1,8 +1,16 @@
 {
   "recentFiles": [
     {
-      "basename": "未命名",
-      "path": "论文/3DGS/三维重建/04 2DGS/未命名.md"
+      "basename": "《2DGS》",
+      "path": "论文/3DGS/三维重建/04 2DGS/《2DGS》.md"
+    },
+    {
+      "basename": "模型参数解析",
+      "path": "AI/机器学习/模型参数解析.md"
+    },
+    {
+      "basename": "diffusion models",
+      "path": "论文/3DGS/3DGS相关知识/diffusion models.md"
     },
     {
       "basename": "0 蓝图精粹",
@@ -191,14 +199,6 @@
     {
       "basename": "git入门",
       "path": "Tools/Git/git入门.md"
-    },
-    {
-      "basename": "UE4 C++ 实用技巧 （持续更新）",
-      "path": "zBuffer/UE4 C++ 实用技巧 （持续更新）.md"
-    },
-    {
-      "basename": "6 游戏算法",
-      "path": "编程/2 算法/6 游戏算法.md"
     }
   ],
   "omittedPaths": [],
