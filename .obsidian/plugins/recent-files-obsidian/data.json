@@ -1,6 +1,34 @@
 {
   "recentFiles": [
     {
+      "basename": "模型参数解析",
+      "path": "AI/机器学习/模型参数解析.md"
+    },
+    {
+      "basename": "Python基础",
+      "path": "AI/Python/Python基础.md"
+    },
+    {
+      "basename": "运行",
+      "path": "论文/3DGS/三维重建/02 SuGaR/运行.md"
+    },
+    {
+      "basename": "总结",
+      "path": "论文/3DGS/三维重建/01 3DGS起源/总结.md"
+    },
+    {
+      "basename": "《2DGS》",
+      "path": "论文/3DGS/三维重建/04 2DGS/《2DGS》.md"
+    },
+    {
+      "basename": "作业",
+      "path": "AI/作业/【todo】云计算/作业.md"
+    },
+    {
+      "basename": "作业",
+      "path": "AI/作业/【todo】研究写作/作业.md"
+    },
+    {
       "basename": "基于元集成深度学习的情感分析的增强方法",
       "path": "AI/作业/【todo】人工智能/基于元集成深度学习的情感分析的增强方法.md"
     },
@@ -13,16 +41,8 @@
       "path": "AI/作业/【todo】人工智能/作业.md"
     },
     {
-      "basename": "模型参数解析",
-      "path": "AI/机器学习/模型参数解析.md"
-    },
-    {
       "basename": "【机器学习】集成模型 _ 集成学习：多个模型相结合实现更好的预测 - 腾讯云开发者社区 - 腾讯云",
       "path": "AI/作业/【todo】人工智能/【机器学习】集成模型 _ 集成学习：多个模型相结合实现更好的预测 - 腾讯云开发者社区 - 腾讯云.md"
-    },
-    {
-      "basename": "《2DGS》",
-      "path": "论文/3DGS/三维重建/04 2DGS/《2DGS》.md"
     },
     {
       "basename": "diffusion models",
@@ -179,26 +199,6 @@
     {
       "basename": "12 十二：垃圾回收",
       "path": "虚幻引擎/03 Gameplay/《大象无形》/12 十二：垃圾回收.md"
-    },
-    {
-      "basename": "01 虚幻类",
-      "path": "虚幻引擎/03 Gameplay/《大象无形》/01 虚幻类.md"
-    },
-    {
-      "basename": "03 UBT与UHT",
-      "path": "虚幻引擎/03 Gameplay/《大象无形》/03 UBT与UHT.md"
-    },
-    {
-      "basename": "13 十三：渲染系统（一）",
-      "path": "虚幻引擎/03 Gameplay/《大象无形》/13 十三：渲染系统（一）.md"
-    },
-    {
-      "basename": "14 十四：渲染系统（二）",
-      "path": "虚幻引擎/03 Gameplay/《大象无形》/14 十四：渲染系统（二）.md"
-    },
-    {
-      "basename": "7 现代C++",
-      "path": "编程/1 C++/7 现代C++.md"
     }
   ],
   "omittedPaths": [],
