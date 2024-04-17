@@ -1,12 +1,16 @@
 {
   "recentFiles": [
     {
-      "basename": "模型参数解析",
-      "path": "AI/机器学习/模型参数解析.md"
-    },
-    {
       "basename": "Python基础",
       "path": "AI/Python/Python基础.md"
+    },
+    {
+      "basename": "集成深度学习的综述",
+      "path": "AI/作业/【todo】人工智能/集成深度学习的综述.md"
+    },
+    {
+      "basename": "模型参数解析",
+      "path": "AI/机器学习/模型参数解析.md"
     },
     {
       "basename": "运行",
@@ -31,10 +35,6 @@
     {
       "basename": "基于元集成深度学习的情感分析的增强方法",
       "path": "AI/作业/【todo】人工智能/基于元集成深度学习的情感分析的增强方法.md"
-    },
-    {
-      "basename": "集成深度学习的综述",
-      "path": "AI/作业/【todo】人工智能/集成深度学习的综述.md"
     },
     {
       "basename": "作业",
