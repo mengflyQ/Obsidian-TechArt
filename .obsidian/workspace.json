@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AI/作业/【todo】云计算/作业.md",
+                "file": "论文/3DGS/三维重建/01 3DGS起源/《3D Gaussian Splatting》.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
@@ -100,7 +100,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "AI/作业/【todo】云计算/作业.md"
+                "file": "论文/3DGS/三维重建/01 3DGS起源/《3D Gaussian Splatting》.md"
               }
             }
           },
@@ -133,7 +133,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "AI/作业/【todo】云计算/作业.md"
+                "file": "论文/3DGS/三维重建/01 3DGS起源/《3D Gaussian Splatting》.md"
               }
             }
           }
@@ -209,7 +209,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "AI/作业/【todo】云计算/作业.md",
+                "file": "论文/3DGS/三维重建/01 3DGS起源/《3D Gaussian Splatting》.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -226,7 +226,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "AI/作业/【todo】云计算/作业.md",
+                "file": "论文/3DGS/三维重建/01 3DGS起源/《3D Gaussian Splatting》.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -255,12 +255,12 @@
   },
   "active": "e4c3c960202aee3d",
   "lastOpenFiles": [
+    "AI/作业/【todo】云计算/作业.md",
     "AI/作业/【todo】云计算/assets/Pasted image 20240418202814.png",
     "AI/作业/【todo】云计算/assets",
     "AI/作业/【todo】云计算/docker.md",
     "AI/作业/【todo】云计算/simpread-只要一小时，零基础入门 Docker - 知乎.md",
     "AI/作业/【todo】云计算/simpread-Docker 入门教程 - 阮一峰的网络日志.md",
-    "AI/作业/【todo】云计算/作业.md",
     "AI/环境配置/tensorflow-gpu.md",
     "AI/机器学习/模型参数解析.md",
     "AI/作业/人工智能/作业.md",
@@ -292,7 +292,6 @@
     "AI/环境配置/assets/46666a50b815d39308ada83f8f26682a_MD5.jpg",
     "AI/环境配置/assets/f75e951bfd502fbd3c62279140370d03_MD5.jpg",
     "论文/3DGS/AIGC/04 DreamGaussian/assets/Pasted image 20240412155310.png",
-    "论文/3DGS/AIGC/04 DreamGaussian/assets/Pasted image 20240412144325.png",
     "论文/3DGS/三维重建/04 2DGS",
     "论文/3DGS/AIGC",
     "论文/3DGS/3DGS相关知识",
