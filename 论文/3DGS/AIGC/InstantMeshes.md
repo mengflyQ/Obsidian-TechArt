@@ -1,0 +1,2 @@
+[[2404.07191] InstantMesh: Efficient 3D Mesh Generation from a Single Image with Sparse-view Large Reconstruction Models (arxiv.org)]( https://arxiv.org/abs/2404.07191 )
+[TencentARC/InstantMesh: InstantMesh: Efficient 3D Mesh Generation from a Single Image with Sparse-view Large Reconstruction Models (github.com)](https://github.com/TencentARC/InstantMesh)
