@@ -1,0 +1,1 @@
+3dv:[3D Gaussian Splatting Tutorial - 3DV 2024 (youtube.com)](https://www.youtube.com/watch?v=X5KrYh7xcHk) 资料：[3D Gaussian Splatting (3dgstutorial.github.io)](https://3dgstutorial.github.io/) [International Conference on 3D Vision 2024 - International Conference on 3D Vision 2024 (3dvconf.github.io)](https://3dvconf.github.io/2024/)
