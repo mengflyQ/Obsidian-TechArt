@@ -165,7 +165,7 @@ $$
 ## 3.4 使用 2D Diffusion Model 进行优化
 为了丰富细节并提高 3D 资产的质量，我们在使用 3D Diffusion Model priors 进行初始化后，对 3D 高斯模型 $\theta_b$ 进行优化，采用 2D Diffusion Model $F_{2D}$ 。我们利用 SDS（得分蒸馏采样）损失来优化 3D 高斯模型。
 
-首先，我们使用 3D GS 方法[24]来获得渲染图像 $x=g(\theta_i)$ 。在这里， $g$ 表示  [[论文/3DGS/Mesh提取/01 3DGS起源/总结#渲染公式|3DGS渲染公式]]。
+首先，我们使用 3D GS 方法[24]来获得渲染图像 $x=g(\theta_i)$ 。在这里， $g$ 表示  [[论文/3DGS/03 Mesh提取/01 3DGS起源/总结#渲染公式|3DGS渲染公式]]。
 
 然后，我们利用[[#3.1.1 DreamFusion|公式 1]] 计算梯度，以便用 2D Diffusion Model $F_{2D}$   更新高斯参数  $\theta_i$ 。
 
