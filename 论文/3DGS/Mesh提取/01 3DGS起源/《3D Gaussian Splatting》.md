@@ -21,7 +21,6 @@ banner: "[[Pasted image 20240403220617.png]]"
 >**Keywords:** novel view synthesis, radiance fields, 3D gaussians, real-time rendering  
 >**关键词：** 新视图合成、辐射场、3D高斯、实时渲染
 
-
 # 1 引言
 Mesh 和点云是最常见的三维场景表示法，因为它们是显式的，非常适合基于 GPU/CUDA 的快速光栅化。相比之下，最新的神经辐照场（NeRF）方法建立在连续场景表示法的基础上，通常使用体积光线步进法优化多层感知器（MLP），对捕捉到的场景进行新视角合成。
 
@@ -183,7 +182,6 @@ $$\mathcal{L}=(1-\lambda)\mathcal{L}_1+\lambda\mathcal{L}_{D-SSIM} \tag{7}$$
 
 然后，我们使用**单个快速 GPU Radix 排序** (Merrill and Grimshaw, [2010](#bib.bib31)) 根据这些键对高斯进行排序。需要注意的是，没有额外的按像素排序的点，混合是基于这种初始排序执行的。因此，我们的 $\alpha$ 混合在某些配置中可能是近似的。不过，当 splats 的大小接近单个像素时，这些近似值就可以忽略不计了。我们发现，这种选择大大提高了训练和渲染性能，而不会在聚合场景中产生明显的人工痕迹。
 
-After sorting Gaussians, we produce a list for each tile by identifying the first and last depth-sorted entry that splats to a given tile. For rasterization, we launch one thread block for each tile. 
 在对高斯进行排序后，我们会通过识别第一个和最后一个深度排序的条目来为每个 tile 生成一个列表，这些条目会泼溅到给定的 tile 上。在光栅化过程中，我们为每个 tile 启动一个线程块（thread block）。
 对高斯进行排序后，我们通过识别第一个和最后一个映射到给定图块的深度排序条目来为每个图块生成一个列表
 在对高斯进行排序后，我们为每个瓦片生成一个列表，方法是找出第一个和最后一个深度排序的条目，并将其拼接到给定的瓦片上

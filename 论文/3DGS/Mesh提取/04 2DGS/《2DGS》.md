@@ -8,7 +8,6 @@
 
 我们证明，我们的可微分渲染器可以实现无噪声和详细的几何重建，同时保持有竞争力的外观质量、快速训练速度和实时渲染。我们的代码将公开发布。
 
-
 关键词：novel view synthesis, radiance fields, surface splatting, surface reconstruction  
 
 ![[Pasted image 20240415143029.png]]
