@@ -2,7 +2,7 @@ Dynamic Gaussians Mesh: Consistent Mesh Reconstruction from Monocular Videos
 动态高斯Mesh：从单目视频中重建一致的Mesh
 # 摘要
 
-现代 3D 引擎和图形管线需要Mesh作为内存高效的表示形式，这样才能高效地进行渲染、几何处理、纹理编辑和许多其他下游操作。然而，要从单目视觉观测中获得结构和细节方面的高质量Mesh仍然非常困难。对于动态场景和物体来说，这个问题变得更具挑战性。  为此，我们引入了**动态高斯Mesh（DG-Mesh）**，这是一个在单目视频的基础上重建高保真且时间一致的Mesh的框架。  我们的工作利用 3D GS技术的最新进展，从视频中构建出具有时间一致性的Mesh序列。  在此表示法的基础上，DG-Mesh 从高斯点中恢复出高质量的Mesh，并能随着时间的推移跟踪Mesh顶点，从而实现动态对象的纹理编辑等应用。  **我们引入了高斯Mesh锚定（Anchoring）**，该技术鼓励均匀分布的高斯，通过Mesh引导的高斯密集化和剪枝，实现更好的Mesh重建。  通过在规范(canonical)和锚定(Anchoring)之间应用周期一致性变形，我们可以将锚定高斯投影回规范空间，并在所有时间范围内优化高斯。  在对不同数据集进行评估时，DG-Mesh 的Mesh重建和渲染效果明显优于基线。
+现代 3D 引擎和图形管线需要Mesh作为内存高效的表示形式，这样才能高效地进行渲染、几何处 理、纹理编辑和许多其他下游操作。然而，要从单目视觉观测中获得结构和细节方面的高质量Mesh仍然非常困难。对于动态场景和物体来说，这个问题变得更具挑战性。为此，我们引入了**动态高斯Mesh（DG-Mesh）**，这是一个在单目视频的基础上重建高保真且时间一致的Mesh的框架。我们的工作利用 3D GS技术的最新进展，从视频中构建出具有时间一致性的Mesh序列。在此表示法的基础上，DG-Mesh 从高斯点中恢复出高质量的Mesh，并能随着时间的推移跟踪Mesh顶点，从而实现动态对象的纹理编辑等应用。  **我们引入了高斯Mesh锚定（Anchoring）**，该技术鼓励均匀分布的高斯，通过Mesh引导的高斯密集化和剪枝，实现更好的Mesh重建。通过在规范(canonical)和锚定(Anchoring)之间应用周期一致性变形，我们可以将锚定高斯投影回规范空间，并在所有时间范围内优化高斯。在对不同数据集进行评估时，DG-Mesh 的Mesh重建和渲染效果明显优于基线。
 
 canonical space：[在三维重建中，什么是canonical space？ - 知乎 (zhihu.com)](https://www.zhihu.com/question/556578310)
 Keywords: Dynamic Scene Reconstruction Surface Reconstruction Neural Rendering  
